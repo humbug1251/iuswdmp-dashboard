@@ -475,10 +475,12 @@
       cards.push(metricCard('Static Points', points(c.static.done), 'points', points(c.static.planned), 'points', c.static.pct, '#6d5aa8'));
     }
 
-    if (c.lidar && c.lidar.unit === 'sq km') {
-      cards.push(metricCard('LiDAR Survey', sqkm(c.lidar.done), 'sq km', sqkm(c.lidar.planned), 'sq km', c.lidar.pct, '#0e7490'));
-    } else if (c.lidar) {
-      cards.push(metricCard('LiDAR Survey', 'Not started', '', null, '', 0, '#0e7490', 'Status'));
+    if (city.lidarCard !== false) {
+      if (c.lidar && c.lidar.unit === 'sq km') {
+        cards.push(metricCard('LiDAR Survey', sqkm(c.lidar.done), 'sq km', sqkm(c.lidar.planned), 'sq km', c.lidar.pct, '#0e7490'));
+      } else if (c.lidar) {
+        cards.push(metricCard('LiDAR Survey', 'Not started', '', null, '', 0, '#0e7490', 'Status'));
+      }
     }
 
     if (c.road) {

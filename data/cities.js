@@ -497,6 +497,7 @@ window.DASHBOARD = {
       ],
       "gcpAvailable": false,
       "blocksAvailable": false,
+      "lidarCard": false,
       "layersAvailable": true,
       "layerKey": "meerut",
       "overall": 47.9
@@ -612,6 +613,7 @@ window.DASHBOARD = {
       "overall": 37.6,
       "gcpAvailable": false,
       "blocksAvailable": false,
+      "lidarCard": false,
       "layersAvailable": true,
       "layerKey": "ghaziabad"
     }
