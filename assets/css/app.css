@@ -495,8 +495,8 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  gap: 18px;
-  min-height: 122px;
+  gap: 10px;
+  min-height: 178px;
   padding: 14px 15px 14px;
   overflow: hidden;
   border: 1px solid var(--line);
@@ -555,6 +555,46 @@ p {
   line-height: 1.08;
   letter-spacing: -0.035em;
   color: var(--ink);
+}
+
+.simple-card-stats {
+  display: grid;
+  gap: 8px;
+  padding-top: 9px;
+  border-top: 1px solid var(--line);
+}
+
+.simple-stat {
+  display: grid;
+  gap: 1px;
+}
+
+.simple-stat-label {
+  font-family: var(--font-mono);
+  font-size: 7.5px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.simple-stat-value {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: -0.03em;
+  color: var(--ink);
+  white-space: nowrap;
+}
+
+.simple-stat-value small {
+  margin-left: 1px;
+  font-family: var(--font-mono);
+  font-size: 8.5px;
+  font-weight: 500;
+  letter-spacing: 0;
+  color: var(--muted);
 }
 
 /* Coverage map */
@@ -3840,7 +3880,7 @@ p {
 
   .city-card-simple {
     flex-basis: 164px;
-    min-height: 128px;
+    min-height: 172px;
   }
 
   .coverage-section {
