@@ -674,7 +674,7 @@
         ${data.ortho
           ? layerRow('ortho', 'Ortho Image', `${formatNumber(data.ortho.resolution_m, 2)} m/px · ortho`, 'raster', '#8b5cf6', 'ORTHO', true)
           : ''}
-        ${layerRow('drains', 'Drains Surveyed', `${formatNumber(stats.drainsKm, 1)} km · ${formatNumber(counts.drains, 0)} segments`, 'line', '#0057ff', '', counts.drains > 0)}
+        ${layerRow('drains', 'Drains Surveyed', `${formatNumber(counts.drains, 0)} segments`, 'line', '#0057ff', '', counts.drains > 0)}
         ${counts.drains && data.drainClassification !== false ? `<div class="layer-sublegend" aria-label="Drain hierarchy colours">
           ${drainClasses.has('Primary') ? '<span><i class="line-key line-primary"></i>Primary</span>' : ''}
           ${drainClasses.has('Secondary') ? '<span><i class="line-key line-secondary"></i>Secondary</span>' : ''}
