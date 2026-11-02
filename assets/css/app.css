@@ -496,7 +496,7 @@ p {
   flex-direction: column;
   justify-content: space-between;
   gap: 10px;
-  min-height: 178px;
+  min-height: 156px;
   padding: 14px 15px 14px;
   overflow: hidden;
   border: 1px solid var(--line);
@@ -2373,6 +2373,32 @@ p {
   color: var(--ink-2);
 }
 
+.metric-team {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.metric-team span {
+  display: block;
+  margin-bottom: 2px;
+  font-family: var(--font-mono);
+  font-size: 7.5px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.metric-team b {
+  font-family: var(--font-mono);
+  font-size: 21px;
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: -0.04em;
+  color: var(--ink);
+}
+
 .progress-list {
   display: flex;
   flex-direction: column;
@@ -3880,7 +3906,7 @@ p {
 
   .city-card-simple {
     flex-basis: 164px;
-    min-height: 172px;
+    min-height: 148px;
   }
 
   .coverage-section {

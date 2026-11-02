@@ -4,7 +4,7 @@ window.DASHBOARD = {
     "project": "Survey, Collection of Data, Preparation of Integrated Urban Storm Water Drainage Master Plan (IUSWDMP)",
     "shortProject": "IUSWDMP Progress",
     "state": "Uttar Pradesh",
-    "generated": "2026-10-30",
+    "generated": "2026-11-02",
     "latestReport": "23–29 Oct 2026",
     "latestReportDate": "2026-10-29",
     "overallMethod": "Simple average of the available component percentages: primary drain, road survey, GCP or static points where reported, and LiDAR. Secondary/tertiary components are excluded where a target has not been notified.",
@@ -42,6 +42,11 @@ window.DASHBOARD = {
         "unit": "sq km"
       },
       "outfalls": 3,
+      "surveyTeam": {
+        "base": 1,
+        "rovers": 3,
+        "members": 6
+      },
       "components": {
         "primary": {
           "done": 58.5,
@@ -177,6 +182,11 @@ window.DASHBOARD = {
         "unit": "sq km"
       },
       "outfalls": 30,
+      "surveyTeam": {
+        "base": 2,
+        "rovers": 4,
+        "members": 6
+      },
       "components": {
         "primary": {
           "done": 28.7,
@@ -291,6 +301,11 @@ window.DASHBOARD = {
         "unit": "sq km"
       },
       "outfalls": 6,
+      "surveyTeam": {
+        "base": 3,
+        "rovers": 4,
+        "members": 7
+      },
       "components": {
         "primary": {
           "done": 26.22,
@@ -369,6 +384,12 @@ window.DASHBOARD = {
         "unit": "sq km"
       },
       "outfalls": 5,
+      "surveyTeam": {
+        "base": 1,
+        "rovers": 4,
+        "members": 8,
+        "teams": 4
+      },
       "components": {
         "primary": {
           "done": 113.23,
@@ -450,6 +471,11 @@ window.DASHBOARD = {
         "unit": "sq km"
       },
       "outfalls": 6,
+      "surveyTeam": {
+        "base": 1,
+        "rovers": 6,
+        "members": null
+      },
       "components": {
         "primary": {
           "done": 69.53,
@@ -522,6 +548,11 @@ window.DASHBOARD = {
         "unit": "sq km"
       },
       "outfalls": 4,
+      "surveyTeam": {
+        "base": 3,
+        "rovers": 4,
+        "members": 4
+      },
       "components": {
         "primary": {
           "done": 104.3,
