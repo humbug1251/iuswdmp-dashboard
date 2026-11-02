@@ -273,7 +273,8 @@ window.DASHBOARD = {
         "The WPR reports 266.8 km of secondary/tertiary drains; the supplied KML is a partial classified network of 192.8 km.",
         "LiDAR acquisition covered 54.825 sq km; 1.63 sq km is excluded as Army/Jail restricted area and processing is in progress.",
         "Static points and TBM locations come from SP+TBM Locations.kml; the four TBM points are separate from the five static points.",
-        "The drone-block KML contains 28 polygons including a Jail area; the Jail polygon is excluded, leaving 27 survey blocks."
+        "The drone-block KML contains 28 polygons including a Jail area; the Jail polygon is excluded, leaving 27 survey blocks.",
+        "The ortho overlay is generated from ORI.tif at 1.9 m resolution and masked to the outer boundary."
       ],
       "gcpAvailable": true,
       "blocksAvailable": true,
