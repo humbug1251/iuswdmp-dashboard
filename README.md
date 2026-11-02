@@ -67,14 +67,14 @@ The newer 30 Oct combined Firozabad master SHP is not used on the map: it contai
 | Outer boundary | Real — KML, 56.46 sq km |
 | Ward boundary | Real — 60 wards from `60_Wards_New_Ward_Boundary.kml` |
 | Buffer boundary | Not supplied |
-| Drains surveyed | Real — `DIGITIZATION(DRAIN PATH) 30.10.26.kml`, 1,387 source features / 1,545 line segments, 167.2 km |
+| Drains surveyed | Real — `Digitized Drain Path Classified_1.kml`, 1,657 source features / 1,815 mapped line segments, 192.8 km |
 | GCP marked | Real — 77 KML points |
 | TBM | Real — 4 points from `SP+TBM Locations.kml` |
 | Static points | Real — 5 points from `SP+TBM Locations.kml` |
 | Drone survey blocks | Real — 27 survey blocks; the Jail polygon is excluded |
 | Ortho image | Not supplied for Shahjahanpur |
 
-The drain KML carries only `Primary`, `S`, `T`, `S/T` and `E` type codes. `S/T` is shown as secondary, and `E` is shown as unclassified. The WPR reports 28.7 km primary, 266.8 km secondary/tertiary, 200 / 740 km roads, 77 GCPs, 5 static points, 54.825 sq km LiDAR acquisition (processing in progress), 30 outfalls and a 56.24 sq km RFP area (40.1 sq km ward KML). The supplied drain KML is a partial network, so its 167.2 km total is below the WPR secondary/tertiary figure.
+The classified drain KML carries `Primary`, `S`, `T`, `S/T` and `E` type codes. `S/T` is shown as secondary, and `E` is shown as unclassified. Mapped totals are **31.6 km primary**, **51.6 km secondary**, **109.0 km tertiary** and **0.5 km unclassified**. The WPR reports 28.7 km primary, 266.8 km secondary/tertiary, 200 / 740 km roads, 77 GCPs, 5 static points, 54.825 sq km LiDAR acquisition (processing in progress), 30 outfalls and a 56.24 sq km RFP area (40.1 sq km ward KML). The supplied drain KML is a partial network, so its 192.8 km total is below the WPR secondary/tertiary figure.
 
 ### Saharanpur layers
 

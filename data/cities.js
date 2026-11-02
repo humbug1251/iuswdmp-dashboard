@@ -269,8 +269,8 @@ window.DASHBOARD = {
         "Source WPR: Weekly Report_ UP_Shahajanpur_22-29nd Oct.docx (reporting period 23–29 Oct 2026).",
         "City area is 56.24 sq km as per the RFP and 40.1 sq km as per the ward KML; the supplied outer boundary measures 56.46 sq km.",
         "The WPR reports 77 GCPs completed and 5 static points completed.",
-        "The drain KML contains 1,387 source features / 1,545 line segments; primary geometry is 31.6 km while the WPR reports 28.7 km completed across 29 of 30 drains.",
-        "The WPR reports 266.8 km of secondary/tertiary drains; the supplied KML is a partial network of 167.2 km.",
+        "The classified drain KML contains 1,657 source features / 1,815 mapped line segments and 192.8 km; primary geometry is 31.6 km, secondary 51.6 km, tertiary 109.0 km and 0.5 km unclassified.",
+        "The WPR reports 266.8 km of secondary/tertiary drains; the supplied KML is a partial classified network of 192.8 km.",
         "LiDAR acquisition covered 54.825 sq km; 1.63 sq km is excluded as Army/Jail restricted area and processing is in progress.",
         "Static points and TBM locations come from SP+TBM Locations.kml; the four TBM points are separate from the five static points.",
         "The drone-block KML contains 28 polygons including a Jail area; the Jail polygon is excluded, leaving 27 survey blocks."
