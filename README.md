@@ -58,6 +58,8 @@ All Firozabad layers now come from the supplied survey data.
 
 WPR figures (23–29 Oct 2026): primary 58.5 km, secondary 6.635 km, tertiary 122.15 km, road 197.515 / 758 km, GCP 86 / 86, static 5 / 5 and LiDAR 35.5 sq km.
 
+The newer 30 Oct combined Firozabad master SHP is not used on the map: it contains 4,926 records with 742 duplicate geometries and extensive unclassified layers. The clean 22 Oct primary/secondary/tertiary hierarchy files remain in use.
+
 ### Shahjahanpur layers
 
 | Layer | Status |
@@ -115,14 +117,14 @@ The mapped drain lengths are **109.4 km primary**, **71.3 km secondary** and **4
 | Outer boundary | Real — SHP, 143.84 sq km |
 | Ward boundary | Real — 90 wards from `MEERUT_WARD _BOUNDARY_new.shp` |
 | Buffer boundary | Real — `Meerut_Survey Boundary.shp`, 188.82 sq km |
-| Drains surveyed | Real — primary, secondary and tertiary SHP up to 22 Oct, 378 segments, 134.5 km |
+| Drains surveyed | Real — primary and secondary/tertiary SHP up to 29 Oct; 536 mapped segments, 180.7 km |
 | TBM | 23 points parsed from `TBM.kmz` |
 | Static points | 10 points parsed from `TBM.kmz` |
 | GCP marked | Not reported for Meerut |
 | Drone survey blocks | Not required for Meerut |
 | Ortho image | Not supplied for Meerut |
 
-WPR figures: primary 69.53 / 80 km, secondary + tertiary 111.18 km, road 112.62 / 2,458 km, static 10 / 10, LiDAR not started, outfalls 6. No GCP points or drone blocks are reported for Meerut; LiDAR is planned with a helicopter-mounted system. The primary-drain layer contains 16 alignments, and secondary/tertiary drains are combined in the supplied SHP.
+WPR figures: primary 69.53 / 80 km, secondary + tertiary 111.18 km, road 112.62 / 2,458 km, static 10 / 10, LiDAR not started, outfalls 6. No GCP points or drone blocks are reported for Meerut; LiDAR is planned with a helicopter-mounted system. The primary layer contains 16 alignments and 69.6 km; the 29 Oct secondary/tertiary SHP has 189 secondary, 64 tertiary and 267 unclassified segments (65.1 km).
 
 ### Ghaziabad layers
 
@@ -131,14 +133,14 @@ WPR figures: primary 69.53 / 80 km, secondary + tertiary 111.18 km, road 112.62 
 | Outer boundary | Real — SHP, 170.97 sq km |
 | Ward boundary | Real — 100 wards from `GZD_Wards_100.shp` |
 | Buffer boundary | Not supplied |
-| Drains surveyed | Real — 24 Oct compilation SHP, 2,920 segments, 91.4 km |
+| Drains surveyed | Real — 29 Oct KMZ, 3,095 mapped segments, 102.6 km |
 | TBM | Real — 22 points from `Ghaziabad_Most_22_TBMs.csv`; TBM 6 is a CAD/grid point, the rest are RTK fixes |
 | Static points | Real — six points from `Static Points_GZB.shp`, elevations from `GAZIABAD Main Control Points.csv`; `Static Point 8.kmz` contains ST08 |
 | GCP marked | Not reported for Ghaziabad |
 | Drone survey blocks | Not required for Ghaziabad |
 | Ortho image | Not supplied for Ghaziabad |
 
-The drain SHP contains **1,245 primary**, **903 tertiary** and **772 unclassified** segments. Unclassified segments are shown in grey because the `DRAIN_CLAS` field is blank for them. WPR figures: primary 104.3 / 223 km, secondary + tertiary 26.62 km, road 130.9 / 3,450 km, static 6 / 6, LiDAR not started, outfalls 4. The SHP total (91.4 km) is lower than the WPR surveyed total because the compilation is a partial 24 Oct extract.
+The 29 Oct KMZ contains **3,121 source features / 102.6 km**. Hierarchy was matched from the 24 Oct SHP by drain name: **1,245 primary**, **903 tertiary** and **947 unclassified** mapped segments. Unmatched/new segments are shown in grey. WPR figures: primary 104.3 / 223 km, secondary + tertiary 26.62 km, road 130.9 / 3,450 km, static 6 / 6, LiDAR not started, outfalls 4. The KMZ total remains below the WPR surveyed total because the network compilation is partial.
 
 The static-point CSV also contains an older ST3 record; the six-point SHP and the WPR set use **ST01, ST02, ST05, ST06, ST07 and ST08**.
 

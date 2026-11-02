@@ -518,7 +518,7 @@ window.DASHBOARD = {
         "No GCP data is reported for Meerut.",
         "No drone flight blocks are required; LiDAR is planned with a helicopter-mounted system and is not started.",
         "TBM and static points are taken from the supplied TBM.kmz.",
-        "The primary drain layer contains 16 alignments; secondary/tertiary drains are combined in the supplied SHP.",
+        "The primary drain layer contains 16 alignments; the 29 Oct secondary/tertiary SHP has 189 secondary, 64 tertiary and 267 unclassified segments.",
         "Outfalls identified: 6."
       ],
       "gcpAvailable": false,
@@ -634,7 +634,7 @@ window.DASHBOARD = {
         "Outfalls identified: Shahberi, Raj Nagar Extension, Hindon Ghat and Hindon cut to Yamuna.",
         "WPR cumulative survey: primary 104.3 km, road 130.9 km, secondary/tertiary 26.62 km.",
         "The supplied outer boundary and 100-ward SHP are used for the map; no buffer or AOI layer was supplied.",
-        "Drains are the 24 Oct compilation SHP. Of 2,920 mapped segments, 772 have no hierarchy class and are shown as unclassified.",
+        "Drains are the 29 Oct KMZ (3,121 features, 102.6 km). Names matched to the 24 Oct SHP for hierarchy; unmatched/new segments are shown as unclassified.",
         "Static points are mapped from the supplied six-point SHP, with elevations from the main control-point CSV. The KMZ contains Static Point 8 only and is included in the SHP.",
         "TBM layer contains 22 benchmarks from Ghaziabad_Most_22_TBMs.csv; TBM 6 is a CAD/grid point and the rest are RTK fixes.",
         "No drone-block or ortho layers were supplied.",
