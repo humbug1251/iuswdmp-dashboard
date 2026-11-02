@@ -33,7 +33,7 @@ The basemap will not load without an internet connection, but the layer controls
 | City | WPR | GIS layers | Overall progress | Notes |
 |---|---|---|---|---|
 | Firozabad | 23–29 Oct 2026 | Yes | 81.5% | Real boundary, buffer, ward and control-point KMLs; real primary/secondary/tertiary drain shapefiles; real drone flight-block KML |
-| Shahjahanpur | 23–29 Oct 2026 | Yes | 75.7% | Real outer boundary, 60 wards, classified drain KML, ortho overlay, 77 GCPs, 5 static points, 4 TBM points and 27 drone blocks; no buffer |
+| Shahjahanpur | 23–29 Oct 2026 | Yes | 81.8% | Real outer boundary, 60 wards, classified drain KML, ortho overlay, 77 GCPs, 5 static points, 4 TBM points and 27 drone blocks; no buffer; primary drain marked 100% complete |
 | Saharanpur | 23–29 Oct 2026 | Yes | 78.3% | Real outer boundary, 70 wards, AOI buffer, conduits, GCP, TBM and drone blocks; no ortho supplied |
 | Moradabad | 23–29 Oct 2026 | Yes | 73.5% | Real outer/ward boundaries, AOI buffer, 28 Oct primary/secondary/tertiary drains, GCP, TBM and 14 drone blocks; no ortho |
 | Meerut | 23–29 Oct 2026 | Yes | 47.9% | Real outer/ward boundaries, buffer, drains, TBM and static points from `TBM.kmz`; no GCP, drone blocks or ortho |
@@ -74,7 +74,7 @@ The newer 30 Oct combined Firozabad master SHP is not used on the map: it contai
 | Drone survey blocks | Real — 27 survey blocks; the Jail polygon is excluded |
 | Ortho image | Real — `ORI.tif`, 1.9 m resolution, masked overlay in `Shahjahanpur_Ortho_Overlay.webp` |
 
-The classified drain KML carries `Primary`, `S`, `T`, `S/T` and `E` type codes. `S/T` is shown as secondary, and `E` is shown as unclassified. Mapped totals are **31.6 km primary**, **51.6 km secondary**, **109.0 km tertiary** and **0.5 km unclassified**. The WPR reports 28.7 km primary, 266.8 km secondary/tertiary, 200 / 740 km roads, 77 GCPs, 5 static points, 54.825 sq km LiDAR acquisition (processing in progress), 30 outfalls and a 56.24 sq km RFP area (40.1 sq km ward KML). The supplied drain KML is a partial network, so its 192.8 km total is below the WPR secondary/tertiary figure.
+The classified drain KML carries `Primary`, `S`, `T`, `S/T` and `E` type codes. `S/T` is shown as secondary, and `E` is shown as unclassified. Mapped totals are **31.6 km primary**, **51.6 km secondary**, **109.0 km tertiary** and **0.5 km unclassified**. Primary drain progress is set to **100% complete** (28.7 / 28.7 km). The WPR reports 28.7 km primary, 266.8 km secondary/tertiary, 200 / 740 km roads, 77 GCPs, 5 static points, 54.825 sq km LiDAR acquisition (processing in progress), 30 outfalls and a 56.24 sq km RFP area (40.1 sq km ward KML). The supplied drain KML is a partial network, so its 192.8 km total is below the WPR secondary/tertiary figure.
 
 The ortho overlay is generated from `ORI.tif` (5,089 × 5,942 px, 1.9 m, EPSG:32644), masked to the outer boundary and saved as `assets/ortho/Shahjahanpur_Ortho_Overlay.webp`.
 

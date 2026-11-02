@@ -190,10 +190,10 @@ window.DASHBOARD = {
       "components": {
         "primary": {
           "done": 28.7,
-          "planned": null,
-          "pct": null,
+          "planned": 28.7,
+          "pct": 100.0,
           "unit": "km",
-          "note": "29 of 30 identified primary drains complete; Lodhipul drain ongoing"
+          "note": "Primary drain marked 100% complete"
         },
         "secondaryTertiary": {
           "done": 266.8,
@@ -280,7 +280,7 @@ window.DASHBOARD = {
       "blocksAvailable": true,
       "layersAvailable": true,
       "layerKey": "shahjahanpur",
-      "overall": 75.7
+      "overall": 81.8
     },
     {
       "id": "saharanpur",
@@ -550,8 +550,8 @@ window.DASHBOARD = {
       },
       "outfalls": 4,
       "surveyTeam": {
-        "base": 3,
-        "rovers": 4,
+        "base": 4,
+        "rovers": 8,
         "members": 4
       },
       "components": {
