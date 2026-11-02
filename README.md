@@ -49,7 +49,7 @@ The basemap will not load without an internet connection, but the layer controls
 | Buffer boundary | Real — from `FIROZABAD BUFFER_AREA (42.6 Sq.kms).kml` |
 | GCP points | Real - 85 unique identifiable point geometries from `GCP_Firozabad(86_Points).kml` (WPR reports 86 completed) |
 | TBM points | Real - 2 benchmark points from the same KML |
-| Drains surveyed | Real - primary, secondary and tertiary drain shapefiles up to 22 Oct 2026; 4,352 segments, 227.7 km |
+| Drains surveyed | Real - `Digitized_drains_till_29th_October.kml`; 3,954 mapped segments, 212.4 km |
 | Ward boundary | Real - 70 ward polygons from `Firozabad_70Wardwise_Map.kml` |
 | Drone survey blocks | Real - 10 drone flight blocks from `Drone_Flight_Blocks_Firozabad.kml` |
 | Ortho image | Real - downscaled orthomosaic mask overlaid on the city boundary |
@@ -58,7 +58,7 @@ All Firozabad layers now come from the supplied survey data.
 
 WPR figures (23–29 Oct 2026): primary 58.5 km, secondary 6.635 km, tertiary 122.15 km, road 197.515 / 758 km, GCP 86 / 86, static 5 / 5 and LiDAR 35.5 sq km.
 
-The newer 30 Oct combined Firozabad master SHP is not used on the map: it contains 4,926 records with 742 duplicate geometries and extensive unclassified layers. The clean 22 Oct primary/secondary/tertiary hierarchy files remain in use.
+The map now uses the 29 Oct classified KML. It contains 3,966 complete source features before its truncated final placemark; 3,954 line segments and 212.4 km are mapped. Thirty-three segments (2.5 km) remain unclassified.
 
 ### Shahjahanpur layers
 
@@ -218,7 +218,7 @@ The Firozabad builder currently generates:
 
 - `outer`, `buffer` — from KML polygons
 - `gcp`, `tbm` - from the control-point KML
-- `drains` - primary, secondary and tertiary drain shapefiles up to 22 Oct 2026
+- `drains` - classified KML up to 29 Oct 2026
 - `wards` - real ward polygons from `Firozabad_70Wardwise_Map.kml`
 - `blocks` - real drone flight blocks from `Drone_Flight_Blocks_Firozabad.kml`
 
@@ -282,7 +282,7 @@ The components are primary drain, road survey, GCP marking where reported (other
 
 - GCP: 85 unique identifiable point geometries in the KML; the WPR reports 86 GCPs completed.
 - TBM: 2 benchmark points.
-- Drains: 4,352 segments from the primary, secondary and tertiary drain shapefiles, 227.7 km total.
+- Drains: 3,954 mapped segments from the 29 Oct classified KML, 212.4 km total.
 - Wards: 70 ward polygons from `Firozabad_70Wardwise_Map.kml`. The source labels two polygons as Ward 43 and omits Ward 42; the larger 0.889 sq km polygon was relabelled Ward 42 Ram Nagar, matching the WPR, to complete the 1–70 sequence.
 - LiDAR blocks: 10 drone flight blocks from the supplied KML.
 

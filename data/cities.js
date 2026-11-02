@@ -151,6 +151,7 @@ window.DASHBOARD = {
         "Overall progress is the simple average of primary drains, road survey, GCP marking and LiDAR acquisition percentages.",
         "The primary-drain target (40.7 km) is tentative and based on OSM; the surveyed length includes extensions to outfalls.",
         "Secondary and tertiary drain targets have not been notified, so only completed lengths are shown. The latest cumulative lengths are 6.635 km secondary and 122.15 km tertiary.",
+        "Map drains use the 29 Oct classified KML: 3,966 complete source features, of which 3,954 line segments and 212.4 km are mapped; 33 segments (2.5 km) are unclassified. The source KML is truncated at its final placemark, so the last complete feature set is used.",
         "The road target is 758 km in the latest detail table; the summary table states 740 km.",
         "Ward-boundary verification by Nagar Nigam is pending.",
         "The supplied 70-ward KML labels two polygons as Ward 43 and omits Ward 42; the larger 0.889 sq km polygon was relabelled Ward 42 Ram Nagar, matching the WPR, to complete the 1–70 sequence.",
