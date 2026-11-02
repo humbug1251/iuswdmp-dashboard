@@ -316,11 +316,22 @@
   }
 
   function cityCard(city, index) {
+    const components = city.components || {};
+    const primary = Number(components.primary && components.primary.done) || 0;
+    const secondary = Number(components.secondary && components.secondary.done) || 0;
+    const tertiary = Number(components.tertiary && components.tertiary.done) || 0;
+    const combined = Number(components.secondaryTertiary && components.secondaryTertiary.done) || 0;
+    const separated = secondary + tertiary;
+    const drains = primary + (separated > 0 ? separated : combined);
     const team = city.surveyTeam || {};
     return `<a class="city-card-simple" href="#/city/${escapeHtml(city.id)}" data-reveal style="--delay:${index * 45}ms" aria-label="Open ${escapeHtml(city.name)} dashboard">
       <span class="simple-card-arrow">${icon('arrow')}</span>
       <span class="simple-card-name">${escapeHtml(city.name)}</span>
       <span class="simple-card-stats">
+        <span class="simple-stat">
+          <span class="simple-stat-label">Drains Surveyed</span>
+          <span class="simple-stat-value">${formatNumber(drains, 1)}<small> km</small></span>
+        </span>
         <span class="simple-stat">
           <span class="simple-stat-label">Rover Units</span>
           <span class="simple-stat-value">${formatNumber(team.rovers, 0)}<small> units</small></span>

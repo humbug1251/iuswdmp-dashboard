@@ -496,7 +496,7 @@ p {
   flex-direction: column;
   justify-content: space-between;
   gap: 10px;
-  min-height: 156px;
+  min-height: 178px;
   padding: 14px 15px 14px;
   overflow: hidden;
   border: 1px solid var(--line);
@@ -3906,7 +3906,7 @@ p {
 
   .city-card-simple {
     flex-basis: 164px;
-    min-height: 148px;
+    min-height: 172px;
   }
 
   .coverage-section {
