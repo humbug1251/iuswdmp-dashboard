@@ -458,14 +458,17 @@
       cards.push(metricCard('Primary Drain', km(c.primary.done), 'km', km(c.primary.planned), 'km', c.primary.pct, '#0057ff'));
     }
 
-    if (c.secondary && c.secondary.done != null) {
-      cards.push(metricCard('Secondary Drain', km(c.secondary.done), 'km', km(c.secondary.planned), 'km', c.secondary.pct, '#ff7a00'));
-    }
-    if (c.tertiary && c.tertiary.done != null) {
-      cards.push(metricCard('Tertiary Drain', km(c.tertiary.done), 'km', km(c.tertiary.planned), 'km', c.tertiary.pct, '#ff2d95'));
-    }
-    if (c.secondaryTertiary && c.secondaryTertiary.done != null) {
-      cards.push(metricCard('Secondary &amp; Tertiary', km(c.secondaryTertiary.done), 'km', km(c.secondaryTertiary.planned), 'km', c.secondaryTertiary.pct, '#ff7a00'));
+    const secondaryDone = c.secondary && c.secondary.done != null ? Number(c.secondary.done) : null;
+    const tertiaryDone = c.tertiary && c.tertiary.done != null ? Number(c.tertiary.done) : null;
+    const combinedDone = c.secondaryTertiary && c.secondaryTertiary.done != null
+      ? Number(c.secondaryTertiary.done)
+      : null;
+
+    if (secondaryDone != null || tertiaryDone != null) {
+      const total = (secondaryDone || 0) + (tertiaryDone || 0);
+      cards.push(metricCard('Secondary &amp; Tertiary', km(total), 'km', null, '', null, '#ff7a00'));
+    } else if (combinedDone != null) {
+      cards.push(metricCard('Secondary &amp; Tertiary', km(combinedDone), 'km', null, '', null, '#ff7a00'));
     }
 
     if (c.road) {
