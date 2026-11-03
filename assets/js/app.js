@@ -1072,8 +1072,13 @@
       }
       input.checked = state.map.hasLayer(group);
       input.addEventListener('change', () => {
-        if (input.checked) group.addTo(state.map);
-        else state.map.removeLayer(group);
+        if (input.checked) {
+          group.addTo(state.map);
+          if (key === 'drains' && state.layers && state.layers.fitFullExtent) fitMap(true);
+        } else {
+          state.map.removeLayer(group);
+          if (key === 'drains' && state.layers && state.layers.fitFullExtent) fitMap(false);
+        }
       });
     });
   }
@@ -1118,15 +1123,14 @@
     marker.bindPopup(`<div class="map-popup"><span class="popup-kicker">City</span><h4>${escapeHtml(city.name)}</h4><p class="popup-note">Boundary and survey GIS layers are awaited.</p></div>`);
   }
 
-  function fitMap() {
+  function fitMap(fullExtent = false) {
     if (!state.map || !state.currentCity) return;
     const desktop = window.matchMedia('(min-width: 1201px)').matches;
     let bounds = state.layers && state.layers.bounds;
 
-    // The initial view is boundary-first: fit the outer boundary rather than
-    // the full drain/control-point extent, so the city reads clearly.
+    // Open boundary-first; when the full drain extent is requested, fit it.
     const outer = state.layers && state.layers.layers && state.layers.layers.outer;
-    if (outer && outer.features && outer.features.length) {
+    if (!fullExtent && outer && outer.features && outer.features.length) {
       bounds = L.geoJSON(outer).getBounds();
     }
 
