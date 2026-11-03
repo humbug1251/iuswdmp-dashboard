@@ -490,6 +490,10 @@
       }
     }
 
+    if (city.aerialSurvey) {
+      cards.push(statusCard('Aerial Survey', city.aerialSurvey.status, '#0e7490'));
+    }
+
     if (city.surveyTeam) {
       cards.push(surveyTeamCard(city.surveyTeam));
     }
@@ -516,6 +520,15 @@
           <b>${escapeHtml(target)}${targetUnit ? `<small>${escapeHtml(targetUnit)}</small>` : ''}</b>
         </div>` : ''}
       </div>
+    </div>`;
+  }
+
+  function statusCard(label, value, color) {
+    return `<div class="metric-card" style="--accent:${color}">
+      <div class="metric-card-head">
+        <span class="metric-card-title"><i></i>${label}</span>
+      </div>
+      <div class="metric-card-status">${escapeHtml(value)}</div>
     </div>`;
   }
 
