@@ -663,6 +663,8 @@
     const wardSample = layers.wards.features.length > 0 && layers.wards.features.every((feature) => feature.properties.sample);
     const drainClasses = new Set((layers.drains.features || []).map((feature) => feature.properties.hierarchy));
     const wardFormat = data.wardSource === 'SHP' ? 'SHP' : 'KML';
+    const gcpProgress = city.components && city.components.gcp ? city.components.gcp.done : null;
+    const gcpCount = gcpProgress != null ? gcpProgress : counts.gcp;
 
     el.layersBody.innerHTML = `
       ${basicInfoMarkup(city, counts.wards, wardSample)}
@@ -685,7 +687,7 @@
           ${drainClasses.has('Natural Stream') ? '<span><i class="line-key line-natural"></i>Natural Stream</span>' : ''}
           ${drainClasses.has('Unclassified') ? '<span><i class="line-key line-unclassified"></i>Unclassified</span>' : ''}
         </div>` : ''}
-        ${counts.gcp > 0 ? layerRow('gcp', 'GCP Marked', `${formatNumber(counts.gcp, 0)} points`, 'dot', '#d94f70', '', true) : ''}
+        ${counts.gcp > 0 ? layerRow('gcp', 'GCP Marked', `${formatNumber(gcpCount, 0)} points`, 'dot', '#d94f70', '', true) : ''}
         ${counts.tbm > 0 ? layerRow('tbm', 'TBM', `${formatNumber(counts.tbm, 0)} benchmark${counts.tbm === 1 ? '' : 's'}`, 'diamond', '#6d5aa8', '', true) : ''}
         ${counts.static > 0 ? layerRow('static', 'Static Points', `${formatNumber(counts.static, 0)} points`, 'dot', '#14b8a6', '', true) : ''}
         ${counts.blocks > 0 ? layerRow('blocks', 'Drone Survey Blocks', `${formatNumber(counts.blocks, 0)} blocks`, 'poly', '#00c2ff', '', true) : ''}
