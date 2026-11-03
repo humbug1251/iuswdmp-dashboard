@@ -958,7 +958,7 @@
           return { color: '#0e9f6e', weight: 1.7, opacity: 0.9, lineCap: 'round', lineJoin: 'round' };
         }
         if (hierarchy === 'Unclassified') {
-          return { color: '#8a9299', weight: 1.2, opacity: 0.65, lineCap: 'round', lineJoin: 'round' };
+          return { color: '#dc2626', weight: 1.8, opacity: 0.9, lineCap: 'round', lineJoin: 'round' };
         }
         return { color: '#ff2d95', weight: 1.4, opacity: 0.8, lineCap: 'round', lineJoin: 'round' };
       },
