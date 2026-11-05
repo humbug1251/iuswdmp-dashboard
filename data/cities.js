@@ -4,7 +4,7 @@ window.DASHBOARD = {
     "project": "Survey, Collection of Data, Preparation of Integrated Urban Storm Water Drainage Master Plan (IUSWDMP)",
     "shortProject": "IUSWDMP Progress",
     "state": "Uttar Pradesh",
-    "generated": "2026-11-03",
+    "generated": "2026-11-05",
     "latestReport": "23–29 Oct 2026",
     "latestReportDate": "2026-10-29",
     "overallMethod": "Simple average of the available component percentages: primary drain, road survey, GCP or static points where reported, and LiDAR. Secondary/tertiary components are excluded where a target has not been notified.",
@@ -555,7 +555,7 @@ window.DASHBOARD = {
       "outfalls": 4,
       "surveyTeam": {
         "base": 4,
-        "rovers": 8,
+        "rovers": 11,
         "members": 4
       },
       "aerialSurvey": {
