@@ -18,7 +18,7 @@ window.DASHBOARD = {
       "Meerut GIS layers are derived from the supplied boundaries, wards, drains and TBM.kmz; no GCP points or drone blocks are reported.",
       "Ghaziabad GIS layers are derived from the supplied outer boundary, 100-ward SHP, 24 Oct drain compilation, six-point static SHP and 22-point TBM CSV; no buffer or drone-block layers were supplied.",
       "Shahjahanpur GIS layers are derived from the supplied boundary, 60-ward KML, drain KML, GCP KML, SP+TBM KML and drone-block KML.",
-      "Progress numbers are taken from the latest available weekly progress reports: Firozabad and Saharanpur 30 Oct–5 Nov 2026, and the other cities 23–29 Oct 2026."
+      "Progress numbers are taken from the latest available weekly progress reports: Firozabad, Shahjahanpur and Saharanpur 30 Oct–5 Nov 2026, and the other cities 23–29 Oct 2026."
     ]
   },
   "cities": [
@@ -174,15 +174,15 @@ window.DASHBOARD = {
       ],
       "status": "reporting",
       "statusLabel": "Reporting",
-      "reportPeriod": "23–29 Oct 2026",
-      "reportIssued": "2026-10-30",
-      "reportDate": "2026-10-29",
+      "reportPeriod": "30 Oct–5 Nov 2026",
+      "reportIssued": "2026-11-06",
+      "reportDate": "2026-11-05",
       "area": {
         "rfp": 56.24,
         "kml": 56.46,
         "unit": "sq km"
       },
-      "outfalls": 30,
+      "outfalls": 31,
       "surveyTeam": {
         "base": 2,
         "rovers": 4,
@@ -190,23 +190,23 @@ window.DASHBOARD = {
       },
       "components": {
         "primary": {
-          "done": 28.7,
-          "planned": 28.7,
+          "done": 29.1,
+          "planned": 29.1,
           "pct": 100.0,
           "unit": "km",
           "note": "Primary drain marked 100% complete"
         },
         "secondaryTertiary": {
-          "done": 266.8,
+          "done": 341.5,
           "planned": null,
           "pct": null,
           "unit": "km",
           "note": "Combined secondary and tertiary drains; target not notified"
         },
         "road": {
-          "done": 200,
+          "done": 322,
           "planned": 740,
-          "pct": 27.0,
+          "pct": 43.5,
           "unit": "km"
         },
         "gcp": {
@@ -256,7 +256,7 @@ window.DASHBOARD = {
           "status": "done"
         },
         {
-          "date": "29 Oct 2026",
+          "date": "05 Nov 2026",
           "label": "Latest reporting period closed",
           "status": "done"
         },
@@ -267,11 +267,11 @@ window.DASHBOARD = {
         }
       ],
       "notes": [
-        "Source WPR: Weekly Report_ UP_Shahajanpur_22-29nd Oct.docx (reporting period 23–29 Oct 2026).",
+        "Source WPR: Weekly Report_ UP_Shahajanpur_30 Oct to 5th Nov.docx (reporting period 30 Oct–5 Nov 2026).",
         "City area is 56.24 sq km as per the RFP and 40.1 sq km as per the ward KML; the supplied outer boundary measures 56.46 sq km.",
-        "The WPR reports 77 GCPs completed and 5 static points completed.",
-        "The classified drain KML contains 1,657 source features / 1,815 mapped line segments and 192.8 km; primary geometry is 31.6 km, secondary 51.6 km, tertiary 109.0 km and 0.5 km unclassified.",
-        "The WPR reports 266.8 km of secondary/tertiary drains; the supplied KML is a partial classified network of 192.8 km.",
+        "WPR cumulative survey: primary 29.1 km, secondary/tertiary 341.5 km, road 322 km, GCP 77 / 77, static 5 / 5.",
+        "The classified drain KML contains 3,761 source features and 326.06 km; primary 26.27 km, secondary 35.93 km, tertiary 263.86 km.",
+        "The WPR reports 341.5 km of secondary/tertiary drains; the supplied KML is a partial classified network of 326.1 km.",
         "LiDAR acquisition covered 54.825 sq km; 1.63 sq km is excluded as Army/Jail restricted area and processing is in progress.",
         "Static points and TBM locations come from SP+TBM Locations.kml; the four TBM points are separate from the five static points.",
         "The drone-block KML contains 28 polygons including a Jail area; the Jail polygon is excluded, leaving 27 survey blocks.",
@@ -281,7 +281,7 @@ window.DASHBOARD = {
       "blocksAvailable": true,
       "layersAvailable": true,
       "layerKey": "shahjahanpur",
-      "overall": 81.8
+      "overall": 85.9
     },
     {
       "id": "saharanpur",
