@@ -5,8 +5,8 @@ window.DASHBOARD = {
     "shortProject": "IUSWDMP Progress",
     "state": "Uttar Pradesh",
     "generated": "2026-11-06",
-    "latestReport": "23–29 Oct 2026",
-    "latestReportDate": "2026-10-29",
+    "latestReport": "30 Oct–5 Nov 2026",
+    "latestReportDate": "2026-11-05",
     "overallMethod": "Simple average of the available component percentages: primary drain, road survey, GCP or static points where reported, and LiDAR. Secondary/tertiary components are excluded where a target has not been notified.",
     "basemaps": "OSM Streets and Esri World Imagery",
     "dataNotes": [
@@ -18,7 +18,7 @@ window.DASHBOARD = {
       "Meerut GIS layers are derived from the supplied boundaries, wards, drains and TBM.kmz; no GCP points or drone blocks are reported.",
       "Ghaziabad GIS layers are derived from the supplied outer boundary, 100-ward SHP, 24 Oct drain compilation, six-point static SHP and 22-point TBM CSV; no buffer or drone-block layers were supplied.",
       "Shahjahanpur GIS layers are derived from the supplied boundary, 60-ward KML, drain KML, GCP KML, SP+TBM KML and drone-block KML.",
-      "Progress numbers are taken from the latest weekly progress reports for 23–29 Oct 2026."
+      "Progress numbers are taken from the latest available weekly progress reports: Firozabad 30 Oct–5 Nov 2026 and the other cities 23–29 Oct 2026."
     ]
   },
   "cities": [
@@ -33,9 +33,9 @@ window.DASHBOARD = {
       ],
       "status": "reporting",
       "statusLabel": "Reporting",
-      "reportPeriod": "23–29 Oct 2026",
-      "reportIssued": "2026-10-30",
-      "reportDate": "2026-10-29",
+      "reportPeriod": "30 Oct–5 Nov 2026",
+      "reportIssued": "2026-11-06",
+      "reportDate": "2026-11-05",
       "area": {
         "rfp": 35.49,
         "kml": 35.08,
@@ -56,21 +56,21 @@ window.DASHBOARD = {
           "note": "58.5 km surveyed; target 40.7 km (extended to outfalls)"
         },
         "secondary": {
-          "done": 6.635,
+          "done": 7.624,
           "planned": null,
           "pct": null,
           "unit": "km"
         },
         "tertiary": {
-          "done": 122.15,
+          "done": 164.661,
           "planned": null,
           "pct": null,
           "unit": "km"
         },
         "road": {
-          "done": 197.515,
+          "done": 241.015,
           "planned": 758,
-          "pct": 26.1,
+          "pct": 31.8,
           "unit": "km",
           "note": "Target 758 km per detail table; summary states 740 km"
         },
@@ -131,7 +131,7 @@ window.DASHBOARD = {
           "status": "done"
         },
         {
-          "date": "29 Oct 2026",
+          "date": "05 Nov 2026",
           "label": "Latest reporting period closed",
           "status": "done"
         },
@@ -147,11 +147,11 @@ window.DASHBOARD = {
         }
       ],
       "notes": [
-        "Source WPR: Firozbad_WPR_23Oct_29Oct.docx (reporting period 23–29 Oct 2026).",
+        "Source WPR: Firozbad_WPR_30Oct_5Nov.docx (reporting period 30 Oct–5 Nov 2026).",
         "Overall progress is the simple average of primary drains, road survey, GCP marking and LiDAR acquisition percentages.",
         "The primary-drain target (40.7 km) is tentative and based on OSM; the surveyed length includes extensions to outfalls.",
-        "Secondary and tertiary drain targets have not been notified, so only completed lengths are shown. The latest cumulative lengths are 6.635 km secondary and 122.15 km tertiary.",
-        "Map drains use the complete 29 Oct classified KML: 4,926 source features, of which 4,914 line segments and 283.6 km are mapped; 526 segments (53.1 km) are unclassified.",
+        "Secondary and tertiary drain targets have not been notified, so only completed lengths are shown. The latest cumulative lengths are 7.624 km secondary and 164.661 km tertiary.",
+        "Map drains use the 5 Nov primary, secondary and tertiary SHPs: 5,428 mapped segments and 350.0 km (primary 109.2 km, secondary 8.4 km, tertiary 232.3 km).",
         "The road target is 758 km in the latest detail table; the summary table states 740 km.",
         "Ward-boundary verification by Nagar Nigam is pending.",
         "The supplied 70-ward KML labels two polygons as Ward 43 and omits Ward 42; the larger 0.889 sq km polygon was relabelled Ward 42 Ram Nagar, matching the WPR, to complete the 1–70 sequence.",
@@ -159,7 +159,7 @@ window.DASHBOARD = {
         "The two TBM points lie outside the Nagar Nigam outer boundary in the supplied KML; the initial map extent includes them so the TBM layer is visible.",
         "Ward boundaries, drains and drone flight blocks are real survey layers."
       ],
-      "overall": 81.5,
+      "overall": 83.0,
       "layersAvailable": true,
       "layerKey": "firozabad"
     },

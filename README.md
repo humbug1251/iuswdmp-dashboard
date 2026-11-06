@@ -32,7 +32,7 @@ The basemap will not load without an internet connection, but the layer controls
 
 | City | WPR | GIS layers | Overall progress | Notes |
 |---|---|---|---|---|
-| Firozabad | 23–29 Oct 2026 | Yes | 81.5% | Real boundary, buffer, ward and control-point KMLs; real primary/secondary/tertiary drain shapefiles; real drone flight-block KML |
+| Firozabad | 30 Oct–5 Nov 2026 | Yes | 83.0% | Real boundary, buffer, ward and control-point KMLs; real primary/secondary/tertiary drain shapefiles; real drone flight-block KML |
 | Shahjahanpur | 23–29 Oct 2026 | Yes | 81.8% | Real outer boundary, 60 wards, classified drain KML, ortho overlay, 77 GCPs, 5 static points, 4 TBM points and 27 drone blocks; no buffer; primary drain marked 100% complete |
 | Saharanpur | 23–29 Oct 2026 | Yes | 78.3% | Real outer boundary, 70 wards, AOI buffer, conduits, GCP, TBM and drone blocks; no ortho supplied |
 | Moradabad | 23–29 Oct 2026 | Yes | 73.5% | Real outer/ward boundaries, AOI buffer, 28 Oct primary/secondary/tertiary drains, GCP, TBM and 14 drone blocks; no ortho |
@@ -49,16 +49,16 @@ The basemap will not load without an internet connection, but the layer controls
 | Buffer boundary | Real — from `FIROZABAD BUFFER_AREA (42.6 Sq.kms).kml` |
 | GCP points | Real - 85 unique identifiable point geometries from `GCP_Firozabad(86_Points).kml` (WPR reports 86 completed) |
 | TBM points | Real - 2 benchmark points from the same KML |
-| Drains surveyed | Real - complete `Digitized_drains_till_29th_October_complete.kml`; 4,914 mapped segments, 283.6 km |
+| Drains surveyed | Real — 5 Nov primary/secondary/tertiary SHPs; 5,428 mapped segments, 350.0 km |
 | Ward boundary | Real - 70 ward polygons from `Firozabad_70Wardwise_Map.kml` |
 | Drone survey blocks | Real - 10 drone flight blocks from `Drone_Flight_Blocks_Firozabad.kml` |
 | Ortho image | Real - downscaled orthomosaic mask overlaid on the city boundary |
 
 All Firozabad layers now come from the supplied survey data.
 
-WPR figures (23–29 Oct 2026): primary 58.5 km, secondary 6.635 km, tertiary 122.15 km, road 197.515 / 758 km, GCP 86 / 86, static 5 / 5 and LiDAR 35.5 sq km.
+WPR figures (30 Oct–5 Nov 2026): primary 58.5 km, secondary 7.624 km, tertiary 164.661 km, road 241.015 / 758 km, GCP 86 / 86, static 5 / 5 and LiDAR 35.5 sq km.
 
-The map now uses the complete 29 Oct classified KML. It contains 4,926 source features; 4,914 line segments and 283.6 km are mapped. A total of 526 segments (53.1 km) remain unclassified.
+The map now uses the 5 Nov primary, secondary and tertiary SHPs: **5,428 mapped segments / 350.0 km**, with primary 109.2 km, secondary 8.4 km and tertiary 232.3 km. These map totals are higher than the WPR component totals because the SHPs include all digitized and outfall-extension geometry.
 
 ### Shahjahanpur layers
 
@@ -282,7 +282,7 @@ The components are primary drain, road survey, GCP marking where reported (other
 
 - GCP: 85 unique identifiable point geometries in the KML; the WPR reports 86 GCPs completed.
 - TBM: 2 benchmark points.
-- Drains: 4,914 mapped segments from the complete 29 Oct classified KML, 283.6 km total.
+- Drains: 5,428 mapped segments from the 5 Nov SHPs, 350.0 km total.
 - Wards: 70 ward polygons from `Firozabad_70Wardwise_Map.kml`. The source labels two polygons as Ward 43 and omits Ward 42; the larger 0.889 sq km polygon was relabelled Ward 42 Ram Nagar, matching the WPR, to complete the 1–70 sequence.
 - LiDAR blocks: 10 drone flight blocks from the supplied KML.
 
@@ -317,7 +317,7 @@ For best results, use a desktop viewport of 1280 px or wider. Below 1200 px the 
 - Firozabad control points: `Incoming Data/Firozabad/GCP's and Static Points/GCP_Firozabad(86_Points).kml`
 - Firozabad drone flight blocks: `Incoming Data/Firozabad/Drone_Survey_Flight_Blocks/Drone_Flight_Blocks_Firozabad.kml`
 - Firozabad drain shapefiles: `Incoming Data/Firozabad/Survey_Data_Digitized_Till_now/`
-- Firozabad WPR: `Incoming Data/UP_IUSWDMP_WPR_30102026/Firozbad_WPR_23Oct_29Oct.docx`
+- Firozabad WPR: `Incoming Data/Firozabad/WPR/Firozbad_WPR_30Oct_5Nov.docx`
 - Saharanpur WPR: `Incoming Data/UP_IUSWDMP_WPR_30102026/SRE_WPR_Submission_23_to_29_Oct_2026.docx`
 - Saharanpur layers: `Incoming Data/Saharanpur/`
 - Saharanpur TBM points: `Incoming Data/Saharanpur/TBM_SHP_KML/SAHARANPUR_TBM.csv`; elevations from `TBM_KML.kml`
