@@ -445,7 +445,7 @@ window.DASHBOARD = {
         "Drains are the separate 5 Nov primary, secondary and tertiary SHPs: 1,112 source segments, mapped after cleaning.",
         "The WPR reports 57.63 km of actual invert/desilting on primary drains.",
         "The GCP KML contains 202 unique points; the WPR reports 206 GCPs completed.",
-        "Three TBM points were extracted from the 27 Oct survey CSV.",
+        "The TBM layer uses 40 geotagged locations from TBM_photos.kml; the three points nearest the 27 Oct survey benchmarks carry the CSV elevations (TBM1 209.96 m, TBM2 209.97 m, MRDST1 194.73 m).",
         "The AOI KML is used as the buffer boundary.",
         "LiDAR area is 100 sq km, 14 blocks; data processing is in progress."
       ],

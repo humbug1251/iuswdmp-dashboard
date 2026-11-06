@@ -104,11 +104,13 @@ The 6 Nov drain SHP contains **498 primary**, **5,228 secondary**, **280 natural
 | Buffer boundary | Real — AOI KML, 100.39 sq km |
 | Drains surveyed | Real — 5 Nov primary/secondary/tertiary SHPs; 1,100 mapped segments, 247.9 km |
 | GCP marked | Real — 202 unique KML points (WPR reports 206) |
-| TBM | 3 benchmarks extracted from the 27 Oct survey CSV |
+| TBM | 40 geotagged locations from `TBM_photos.kml`; 3 carry elevations from the 27 Oct survey CSV (TBM1 209.96 m, TBM2 209.97 m, MRDST1 194.73 m) |
 | Drone survey blocks | Real — 14 block KMLs |
 | Ortho image | Not supplied for Moradabad |
 
 WPR figures: primary 135.18 / 140 km, secondary 67.27 km, tertiary 51.90 km, road 165.66 / 1,155 km, GCP 206 / 206, static 10 / 10, LiDAR 100 sq km.
+
+The TBM layer uses the 40 geotagged photo locations in `TBM_photos.kml`. Only three points have elevations, matched from the 27 Oct survey CSV; the remaining 37 are location-only.
 
 The mapped drain lengths are **129.9 km primary**, **71.3 km secondary** and **46.6 km tertiary**. The 1,112 source segments become 1,100 mapped segments after dropping sub-2 m geometry. Primary and tertiary mapped lengths differ from the WPR totals because the 5 Nov hierarchy layers are a separate compilation.
 
