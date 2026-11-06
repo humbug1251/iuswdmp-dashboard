@@ -36,7 +36,7 @@ The basemap will not load without an internet connection, but the layer controls
 | Shahjahanpur | 30 Oct–5 Nov 2026 | Yes | 85.9% | Real outer boundary, 60 wards, classified drain KML, ortho overlay, 77 GCPs, 5 static points, 4 TBM points and 27 drone blocks; no buffer; primary drain marked 100% complete |
 | Saharanpur | 30 Oct–5 Nov 2026 | Yes | 78.1% | Real outer boundary, 70 wards, AOI buffer, 6 Nov conduits, GCP, TBM and drone blocks; no ortho supplied |
 | Moradabad | 30 Oct–6 Nov 2026 | Yes | 77.7% | Real outer/ward boundaries, AOI buffer, 5 Nov primary/secondary/tertiary drains, GCP, TBM and 14 drone blocks; no ortho |
-| Meerut | 23–29 Oct 2026 | Yes | 47.9% | Real outer/ward boundaries, buffer, drains, TBM and static points from `TBM.kmz`; no GCP, drone blocks or ortho |
+| Meerut | 30 Oct–5 Nov 2026 | Yes | 50.0% | Real outer/ward boundaries, buffer, 5 Nov primary/secondary drains, TBM and static points from `TBM.kmz`; no GCP, drone blocks or ortho |
 | Ghaziabad | 23–29 Oct 2026 | Yes | 37.6% | Real outer boundary, 100 wards, 24 Oct drains, 22 TBM points and six static points; no buffer, drone-block or ortho layers |
 
 > The official spelling **Shahjahanpur** is used (the source folder is also `Shahjahanpur`).
@@ -119,14 +119,14 @@ The mapped drain lengths are **129.9 km primary**, **71.3 km secondary** and **4
 | Outer boundary | Real — SHP, 143.84 sq km |
 | Ward boundary | Real — 90 wards from `MEERUT_WARD _BOUNDARY_new.shp` |
 | Buffer boundary | Real — `Meerut_Survey Boundary.shp`, 188.82 sq km |
-| Drains surveyed | Real — primary and secondary/tertiary SHP up to 29 Oct; 536 mapped segments, 180.7 km |
+| Drains surveyed | Real — 5 Nov primary and secondary SHPs; 1,001 mapped segments, 298.3 km |
 | TBM | 23 points parsed from `TBM.kmz` |
 | Static points | 10 points parsed from `TBM.kmz` |
 | GCP marked | Not reported for Meerut |
 | Drone survey blocks | Not required for Meerut |
 | Ortho image | Not supplied for Meerut |
 
-WPR figures: primary 69.53 / 80 km, secondary + tertiary 111.18 km, road 112.62 / 2,458 km, static 10 / 10, LiDAR not started, outfalls 6. No GCP points or drone blocks are reported for Meerut; LiDAR is planned with a helicopter-mounted system. The primary layer contains 16 alignments and 69.6 km; the 29 Oct secondary/tertiary SHP has 189 secondary, 64 tertiary and 267 unclassified segments (65.1 km).
+WPR figures: primary 74.66 / 80 km (93.3%; the mapped alignment total is 85.59 km), secondary + tertiary 228.72 km, road 162.6 / 2,458 km, static 10 / 10, LiDAR not started, outfalls 4. No GCP points or drone blocks are reported for Meerut; LiDAR is planned with a helicopter-mounted system. The primary layer contains 20 alignments and 74.7 km; the 5 Nov secondary/tertiary SHP has 189 secondary, 64 tertiary and 728 mapped unclassified segments (177.5 km).
 
 ### Ghaziabad layers
 
@@ -323,7 +323,7 @@ For best results, use a desktop viewport of 1280 px or wider. Below 1200 px the 
 - Saharanpur TBM points: `Incoming Data/Saharanpur/TBM_SHP_KML/SAHARANPUR_TBM.csv`; elevations from `TBM_KML.kml`
 - Moradabad WPR: `Incoming Data/Moradabad/WPRs/Moradabad_WPR_30_10_2026to6_11_2026.pdf`
 - Moradabad layers: `Incoming Data/Moradabad/`
-- Meerut WPR: `Incoming Data/UP_IUSWDMP_WPR_30102026/Meerut_Weekly_Progress_Report_23to 29 Oct.docx`
+- Meerut WPR: `Incoming Data/Meerut/WPRs/Meerut_WPR_30 Oct to 05 Nov_06112026.pdf`
 - Meerut layers and TBM/static points: `Incoming Data/Meerut/`, `Incoming Data/Meerut/TBM_KML/TBM.kmz`
 - Ghaziabad WPR: `Incoming Data/UP_IUSWDMP_WPR_30102026/Ghaziabad_WPR_20261030.docx`
 - Ghaziabad layers: `Incoming Data/Ghaziabad/Boundary Shapefiles/`, `Incoming Data/Ghaziabad/Digitized Drains/`

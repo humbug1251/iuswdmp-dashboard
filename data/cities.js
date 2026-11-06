@@ -18,7 +18,7 @@ window.DASHBOARD = {
       "Meerut GIS layers are derived from the supplied boundaries, wards, drains and TBM.kmz; no GCP points or drone blocks are reported.",
       "Ghaziabad GIS layers are derived from the supplied outer boundary, 100-ward SHP, 24 Oct drain compilation, six-point static SHP and 22-point TBM CSV; no buffer or drone-block layers were supplied.",
       "Shahjahanpur GIS layers are derived from the supplied boundary, 60-ward KML, drain KML, GCP KML, SP+TBM KML and drone-block KML.",
-      "Progress numbers are taken from the latest available weekly progress reports: Firozabad, Shahjahanpur and Saharanpur 30 Oct–5 Nov 2026, Moradabad 30 Oct–6 Nov 2026, and Meerut/Ghaziabad 23–29 Oct 2026."
+      "Progress numbers are taken from the latest available weekly progress reports: Firozabad, Shahjahanpur, Saharanpur and Meerut 30 Oct-5 Nov 2026, Moradabad 30 Oct-6 Nov 2026, and Ghaziabad 23-29 Oct 2026."
     ]
   },
   "cities": [
@@ -464,18 +464,18 @@ window.DASHBOARD = {
       ],
       "status": "reporting",
       "statusLabel": "Reporting",
-      "reportPeriod": "23–29 Oct 2026",
-      "reportIssued": "2026-10-30",
-      "reportDate": "2026-10-29",
+      "reportPeriod": "30 Oct–5 Nov 2026",
+      "reportIssued": "2026-11-06",
+      "reportDate": "2026-11-05",
       "area": {
         "rfp": 141.94,
         "kml": 143.83,
         "unit": "sq km"
       },
-      "outfalls": 6,
+      "outfalls": 4,
       "surveyTeam": {
         "base": 1,
-        "rovers": 6,
+        "rovers": 4,
         "members": null
       },
       "aerialSurvey": {
@@ -483,13 +483,13 @@ window.DASHBOARD = {
       },
       "components": {
         "primary": {
-          "done": 69.53,
+          "done": 74.66,
           "planned": 80,
-          "pct": 86.9,
+          "pct": 93.3,
           "unit": "km"
         },
         "secondaryTertiary": {
-          "done": 111.18,
+          "done": 228.72,
           "planned": null,
           "pct": null,
           "unit": "km",
@@ -509,29 +509,31 @@ window.DASHBOARD = {
           "note": "Helicopter-mounted LiDAR; agency finalisation under process"
         },
         "road": {
-          "done": 112.62,
+          "done": 162.6,
           "planned": 2458,
-          "pct": 4.6,
+          "pct": 6.6,
           "unit": "km"
         }
       },
       "milestones": [],
       "notes": [
-        "Source WPR: Meerut_Weekly_Progress_Report_23to 29 Oct.docx (reporting period 23–29 Oct 2026).",
+        "Source WPR: Meerut_WPR_30 Oct to 05 Nov_06112026.pdf (reporting period 30 Oct–5 Nov 2026).",
         "City area is 141.94 sq km as per the RFP and 143.83 sq km as per the KML.",
-        "WPR cumulative survey: primary 69.53 km, secondary/tertiary 111.18 km, road 112.62 km, static 10 / 10.",
+        "WPR cumulative survey: primary 74.66 km with invert of 85.59 km alignment, secondary/tertiary 228.72 km, road 162.6 km, static 10 / 10.",
+        "Primary progress is shown against the 80 km tentative OSM plan; the mapped primary network with alignment only is 85.59 km.",
+        "DGPS deployment was 1 base and 6 rovers on 30–31 Oct and 1 base and 4 rovers for the rest of the week.",
         "No GCP data is reported for Meerut.",
         "No drone flight blocks are required; LiDAR is planned with a helicopter-mounted system and is not started.",
         "TBM and static points are taken from the supplied TBM.kmz.",
-        "The primary drain layer contains 16 alignments; the 29 Oct secondary/tertiary SHP has 189 secondary, 64 tertiary and 267 unclassified segments.",
-        "Outfalls identified: 6."
+        "The 5 Nov primary layer contains 20 alignments and 74.7 km; the secondary/tertiary SHP has 189 secondary, 64 tertiary and 730 unclassified segments.",
+        "Outfalls identified: 4."
       ],
       "gcpAvailable": false,
       "blocksAvailable": false,
       "lidarCard": false,
       "layersAvailable": true,
       "layerKey": "meerut",
-      "overall": 47.9
+      "overall": 50.0
     },
     {
       "id": "ghaziabad",
