@@ -5,8 +5,8 @@ window.DASHBOARD = {
     "shortProject": "IUSWDMP Progress",
     "state": "Uttar Pradesh",
     "generated": "2026-11-06",
-    "latestReport": "30 Oct–5 Nov 2026",
-    "latestReportDate": "2026-11-05",
+    "latestReport": "30 Oct–6 Nov 2026",
+    "latestReportDate": "2026-11-06",
     "overallMethod": "Simple average of the available component percentages: primary drain, road survey, GCP or static points where reported, and LiDAR. Secondary/tertiary components are excluded where a target has not been notified.",
     "basemaps": "OSM Streets and Esri World Imagery",
     "dataNotes": [
@@ -18,7 +18,7 @@ window.DASHBOARD = {
       "Meerut GIS layers are derived from the supplied boundaries, wards, drains and TBM.kmz; no GCP points or drone blocks are reported.",
       "Ghaziabad GIS layers are derived from the supplied outer boundary, 100-ward SHP, 24 Oct drain compilation, six-point static SHP and 22-point TBM CSV; no buffer or drone-block layers were supplied.",
       "Shahjahanpur GIS layers are derived from the supplied boundary, 60-ward KML, drain KML, GCP KML, SP+TBM KML and drone-block KML.",
-      "Progress numbers are taken from the latest available weekly progress reports: Firozabad, Shahjahanpur and Saharanpur 30 Oct–5 Nov 2026, and the other cities 23–29 Oct 2026."
+      "Progress numbers are taken from the latest available weekly progress reports: Firozabad, Shahjahanpur and Saharanpur 30 Oct–5 Nov 2026, Moradabad 30 Oct–6 Nov 2026, and Meerut/Ghaziabad 23–29 Oct 2026."
     ]
   },
   "cities": [
@@ -377,9 +377,9 @@ window.DASHBOARD = {
       ],
       "status": "reporting",
       "statusLabel": "Reporting",
-      "reportPeriod": "23–29 Oct 2026",
-      "reportIssued": "2026-10-30",
-      "reportDate": "2026-10-29",
+      "reportPeriod": "30 Oct–6 Nov 2026",
+      "reportIssued": "2026-11-06",
+      "reportDate": "2026-11-06",
       "area": {
         "rfp": 85.2,
         "kml": 64.52,
@@ -394,9 +394,9 @@ window.DASHBOARD = {
       },
       "components": {
         "primary": {
-          "done": 113.23,
+          "done": 135.18,
           "planned": 140,
-          "pct": 80.9,
+          "pct": 96.6,
           "unit": "km"
         },
         "secondary": {
@@ -406,15 +406,15 @@ window.DASHBOARD = {
           "unit": "km"
         },
         "tertiary": {
-          "done": 50.35,
+          "done": 51.9,
           "planned": null,
           "pct": null,
           "unit": "km"
         },
         "road": {
-          "done": 149.98,
+          "done": 165.66,
           "planned": 1155,
-          "pct": 13.0,
+          "pct": 14.3,
           "unit": "km"
         },
         "gcp": {
@@ -439,11 +439,11 @@ window.DASHBOARD = {
       },
       "milestones": [],
       "notes": [
-        "Source WPR: Moradabad_WPR_23_10_2026to29_10_2026.docx (reporting period 23–29 Oct 2026).",
+        "Source WPR: Moradabad_WPR_30_10_2026to6_11_2026.pdf (reporting period 30 Oct–6 Nov 2026).",
         "City area is 85.2 sq km as per the RFP and 64.52 sq km as per the Nagar Nigam KML.",
-        "WPR cumulative survey: primary 113.23 km, secondary 67.27 km, tertiary 50.35 km, road 149.98 km, GCP 206 / 206, static 10 / 10.",
-        "Drains are the separate primary, secondary and tertiary SHPs dated up to 28 Oct: 1,046 source segments, with 1,034 mapped segments and 225.7 km after cleaning.",
-        "Primary mapped length is 109.4 km, secondary 71.3 km and tertiary 45.1 km; the WPR hierarchy totals differ because the 28 Oct SHPs are a separate compilation.",
+        "WPR cumulative survey: primary 135.18 km, secondary 67.27 km, tertiary 51.90 km, road 165.66 km, GCP 206 / 206, static 10 / 10.",
+        "Drains are the separate 5 Nov primary, secondary and tertiary SHPs: 1,112 source segments, mapped after cleaning.",
+        "The WPR reports 57.63 km of actual invert/desilting on primary drains.",
         "The GCP KML contains 202 unique points; the WPR reports 206 GCPs completed.",
         "Three TBM points were extracted from the 27 Oct survey CSV.",
         "The AOI KML is used as the buffer boundary.",
@@ -451,7 +451,7 @@ window.DASHBOARD = {
       ],
       "layersAvailable": true,
       "layerKey": "moradabad",
-      "overall": 73.5
+      "overall": 77.7
     },
     {
       "id": "meerut",

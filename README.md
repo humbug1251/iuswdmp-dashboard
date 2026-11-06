@@ -35,7 +35,7 @@ The basemap will not load without an internet connection, but the layer controls
 | Firozabad | 30 Oct–5 Nov 2026 | Yes | 83.0% | Real boundary, buffer, ward and control-point KMLs; real primary/secondary/tertiary drain shapefiles; real drone flight-block KML |
 | Shahjahanpur | 30 Oct–5 Nov 2026 | Yes | 85.9% | Real outer boundary, 60 wards, classified drain KML, ortho overlay, 77 GCPs, 5 static points, 4 TBM points and 27 drone blocks; no buffer; primary drain marked 100% complete |
 | Saharanpur | 30 Oct–5 Nov 2026 | Yes | 78.1% | Real outer boundary, 70 wards, AOI buffer, 6 Nov conduits, GCP, TBM and drone blocks; no ortho supplied |
-| Moradabad | 23–29 Oct 2026 | Yes | 73.5% | Real outer/ward boundaries, AOI buffer, 28 Oct primary/secondary/tertiary drains, GCP, TBM and 14 drone blocks; no ortho |
+| Moradabad | 30 Oct–6 Nov 2026 | Yes | 77.7% | Real outer/ward boundaries, AOI buffer, 5 Nov primary/secondary/tertiary drains, GCP, TBM and 14 drone blocks; no ortho |
 | Meerut | 23–29 Oct 2026 | Yes | 47.9% | Real outer/ward boundaries, buffer, drains, TBM and static points from `TBM.kmz`; no GCP, drone blocks or ortho |
 | Ghaziabad | 23–29 Oct 2026 | Yes | 37.6% | Real outer boundary, 100 wards, 24 Oct drains, 22 TBM points and six static points; no buffer, drone-block or ortho layers |
 
@@ -102,15 +102,15 @@ The 6 Nov drain SHP contains **498 primary**, **5,228 secondary**, **280 natural
 | Outer boundary | Real — KML, 64.43 sq km |
 | Ward boundary | Real — 70 labelled ward polygons from the administrative KML |
 | Buffer boundary | Real — AOI KML, 100.39 sq km |
-| Drains surveyed | Real — separate primary, secondary and tertiary SHPs up to 28 Oct; 1,034 mapped segments, 225.7 km |
+| Drains surveyed | Real — 5 Nov primary/secondary/tertiary SHPs; 1,100 mapped segments, 247.9 km |
 | GCP marked | Real — 202 unique KML points (WPR reports 206) |
 | TBM | 3 benchmarks extracted from the 27 Oct survey CSV |
 | Drone survey blocks | Real — 14 block KMLs |
 | Ortho image | Not supplied for Moradabad |
 
-WPR figures: primary 113.23 / 140 km, secondary 67.27 km, tertiary 50.35 km, road 149.98 / 1,155 km, GCP 206 / 206, static 10 / 10, LiDAR 100 sq km.
+WPR figures: primary 135.18 / 140 km, secondary 67.27 km, tertiary 51.90 km, road 165.66 / 1,155 km, GCP 206 / 206, static 10 / 10, LiDAR 100 sq km.
 
-The mapped drain lengths are **109.4 km primary**, **71.3 km secondary** and **45.1 km tertiary**. The 1,046 source segments become 1,034 mapped segments after dropping sub-2 m geometry. Primary and tertiary mapped lengths differ from the WPR totals because the 28 Oct hierarchy layers are a separate compilation.
+The mapped drain lengths are **129.9 km primary**, **71.3 km secondary** and **46.6 km tertiary**. The 1,112 source segments become 1,100 mapped segments after dropping sub-2 m geometry. Primary and tertiary mapped lengths differ from the WPR totals because the 5 Nov hierarchy layers are a separate compilation.
 
 ### Meerut layers
 
@@ -321,7 +321,7 @@ For best results, use a desktop viewport of 1280 px or wider. Below 1200 px the 
 - Saharanpur WPR: `Incoming Data/Saharanpur/WPR/SRE_WPR_Submission_30_Oct_to_05_Nov_2026.docx`
 - Saharanpur layers: `Incoming Data/Saharanpur/`
 - Saharanpur TBM points: `Incoming Data/Saharanpur/TBM_SHP_KML/SAHARANPUR_TBM.csv`; elevations from `TBM_KML.kml`
-- Moradabad WPR: `Incoming Data/UP_IUSWDMP_WPR_30102026/Moradabad_WPR_23_10_2026to29_10_2026.docx`
+- Moradabad WPR: `Incoming Data/Moradabad/WPRs/Moradabad_WPR_30_10_2026to6_11_2026.pdf`
 - Moradabad layers: `Incoming Data/Moradabad/`
 - Meerut WPR: `Incoming Data/UP_IUSWDMP_WPR_30102026/Meerut_Weekly_Progress_Report_23to 29 Oct.docx`
 - Meerut layers and TBM/static points: `Incoming Data/Meerut/`, `Incoming Data/Meerut/TBM_KML/TBM.kmz`
