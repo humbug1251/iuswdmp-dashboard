@@ -16,9 +16,9 @@ window.DASHBOARD = {
       "Saharanpur GIS layers are derived from the supplied outer boundary, ward KML, AOI, drone blocks, conduits, GCP and TBM files.",
       "Moradabad GIS layers are derived from the supplied outer boundary, ward label KML, AOI, drains, GCP, TBM and drone block files.",
       "Meerut GIS layers are derived from the supplied boundaries, wards, drains and TBM.kmz; no GCP points or drone blocks are reported.",
-      "Ghaziabad GIS layers are derived from the supplied outer boundary, 100-ward SHP, 24 Oct drain compilation, six-point static SHP and 22-point TBM CSV; no buffer or drone-block layers were supplied.",
+      "Ghaziabad GIS layers are derived from the supplied outer boundary, 100-ward SHP, 29 Oct drain KMZ with the 5 Nov weekly SHP, six-point static SHP and 22-point TBM CSV; no buffer or drone-block layers were supplied.",
       "Shahjahanpur GIS layers are derived from the supplied boundary, 60-ward KML, drain KML, GCP KML, SP+TBM KML and drone-block KML.",
-      "Progress numbers are taken from the latest available weekly progress reports: Firozabad, Shahjahanpur, Saharanpur and Meerut 30 Oct-5 Nov 2026, Moradabad 30 Oct-6 Nov 2026, and Ghaziabad 23-29 Oct 2026."
+      "Progress numbers are taken from the latest available weekly progress reports: Firozabad, Shahjahanpur, Saharanpur, Meerut and Ghaziabad 30 Oct-5 Nov 2026, and Moradabad 30 Oct-6 Nov 2026."
     ]
   },
   "cities": [
@@ -546,9 +546,9 @@ window.DASHBOARD = {
       ],
       "status": "reporting",
       "statusLabel": "Reporting",
-      "reportPeriod": "23–29 Oct 2026",
-      "reportIssued": "2026-10-30",
-      "reportDate": "2026-10-29",
+      "reportPeriod": "30 Oct–5 Nov 2026",
+      "reportIssued": "2026-11-06",
+      "reportDate": "2026-11-05",
       "area": {
         "rfp": 225,
         "kml": 170.97,
@@ -558,18 +558,18 @@ window.DASHBOARD = {
       "surveyTeam": {
         "base": 4,
         "rovers": 11,
-        "members": 4
+        "members": 15
       },
       "aerialSurvey": {
         "status": "Permission awaited"
       },
       "components": {
         "primary": {
-          "done": 104.3,
+          "done": 160.5,
           "planned": 223,
-          "pct": 46.8,
+          "pct": 72.0,
           "unit": "km",
-          "note": "104.3 km surveyed for alignment; 68.1 km with invert levels"
+          "note": "160.5 km cumulative; 56.2 km surveyed this week"
         },
         "secondary": {
           "done": null,
@@ -584,16 +584,16 @@ window.DASHBOARD = {
           "unit": "km"
         },
         "secondaryTertiary": {
-          "done": 26.62,
+          "done": 72.52,
           "planned": null,
           "pct": null,
           "unit": "km",
           "note": "Combined secondary + tertiary length; target not notified"
         },
         "road": {
-          "done": 130.9,
+          "done": 206.4,
           "planned": 3450,
-          "pct": 3.8,
+          "pct": 6.0,
           "unit": "km"
         },
         "static": {
@@ -627,7 +627,7 @@ window.DASHBOARD = {
           "status": "done"
         },
         {
-          "date": "29 Oct 2026",
+          "date": "05 Nov 2026",
           "label": "Latest reporting period closed",
           "status": "done"
         },
@@ -638,20 +638,22 @@ window.DASHBOARD = {
         }
       ],
       "notes": [
-        "Source WPR: Ghaziabad_WPR_20261030.docx (reporting period 23–29 Oct 2026).",
+        "Source WPR: Ghaziabad_WPR_20261106 2.pdf (reporting period 30 Oct–5 Nov 2026; the cover heading says 30 Oct–6 Nov).",
         "Overall progress is the simple average of the available component percentages (primary drains, road survey, static points and LiDAR).",
         "City area is 225 sq km as per the RFP and 170.97 sq km as per the supplied outer boundary.",
         "Outfalls identified: Shahberi, Raj Nagar Extension, Hindon Ghat and Hindon cut to Yamuna.",
-        "WPR cumulative survey: primary 104.3 km, road 130.9 km, secondary/tertiary 26.62 km.",
+        "WPR cumulative survey: primary 160.5 km, road 206.4 km, secondary/tertiary 72.52 km, static 6 / 6.",
+        "The WPR road row shows 104.3 km as the previous-week length, apparently copied from the primary row; the reported cumulative is 206.4 km.",
+        "The WPR secondary/tertiary page reports 72.52 km; a later table says 75.52 km, but 26.62 + 45.9 = 72.52 km.",
+        "Drains combine the 29 Oct KMZ (3,121 features / 102.6 km) with the 30 Oct–5 Nov SHP (123 segments / 102.2 km); the new segments are unclassified.",
         "The supplied outer boundary and 100-ward SHP are used for the map; no buffer or AOI layer was supplied.",
-        "Drains are the 29 Oct KMZ (3,121 features, 102.6 km). Names matched to the 24 Oct SHP for hierarchy; unmatched/new segments are shown as unclassified.",
         "Static points are mapped from the supplied six-point SHP, with elevations from the main control-point CSV. The KMZ contains Static Point 8 only and is included in the SHP.",
         "TBM layer contains 22 benchmarks from Ghaziabad_Most_22_TBMs.csv; TBM 6 is a CAD/grid point and the rest are RTK fixes.",
         "No drone-block or ortho layers were supplied.",
         "About 80% of the city area is in a red zone, restricting drone operations; LiDAR is planned with a helicopter-mounted system.",
         "Secondary/tertiary target has not been notified; only the combined completed length is reported."
       ],
-      "overall": 37.6,
+      "overall": 44.5,
       "gcpAvailable": false,
       "blocksAvailable": false,
       "lidarCard": false,
