@@ -358,7 +358,7 @@ window.DASHBOARD = {
         "The map drains layer is the 6 Nov conduit SHP; primary drain geometry is 14.6 km while the WPR reports 26.22 km completed.",
         "The drain SHP contains 498 primary, 4,749 secondary, 275 natural-stream and 116 unclassified source segments; 5,550 segments and 187.0 km remain after cleaning.",
         "The GCP KML contains 182 placemarks; 181 unique name-and-location points are mapped, matching the WPR total of 182 completed GCPs within one point.",
-        "The TBM shapefile contains repeated observations; the map layer shows one averaged point per TBM name.",
+        "The TBM KML contains 180 repeated observations; the map layer shows 18 averaged points, one per TBM name.",
         "The WPR reports a combined secondary and tertiary length of 171.18 km; no separate target was notified.",
         "The AOI KML is used as the buffer boundary."
       ],
