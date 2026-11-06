@@ -87,7 +87,7 @@ The ortho overlay is generated from `ORI.tif` (5,089 × 5,942 px, 1.9 m, EPSG:32
 | Buffer boundary | Real — `AOI.kml`, 100.2 sq km |
 | Drains surveyed | Real — `Conduits_as_on_06_Oct.shp`, 5,550 mapped segments, 187.0 km |
 | GCP marked | Real — 181 mapped points from 182 KML placemarks (WPR reports 182 completed) |
-| TBM | `TBM_KML.kml` — 180 observations cleaned to **18 averaged TBM points** |
+| TBM | `SAHARANPUR_TBM.csv` — **42 points** (40 unique labels; TBM1 and TBM3 repeat); elevations from `TBM_KML.kml` where matched |
 | Drone survey blocks | Real — 14 merged flight-plan polygons |
 | Ortho image | Not supplied for Saharanpur |
 
@@ -320,7 +320,7 @@ For best results, use a desktop viewport of 1280 px or wider. Below 1200 px the 
 - Firozabad WPR: `Incoming Data/UP_IUSWDMP_WPR_30102026/Firozbad_WPR_23Oct_29Oct.docx`
 - Saharanpur WPR: `Incoming Data/UP_IUSWDMP_WPR_30102026/SRE_WPR_Submission_23_to_29_Oct_2026.docx`
 - Saharanpur layers: `Incoming Data/Saharanpur/`
-- Saharanpur TBM points: `Incoming Data/Saharanpur/TBM_SHP_KML/TBM_KML.kml`
+- Saharanpur TBM points: `Incoming Data/Saharanpur/TBM_SHP_KML/SAHARANPUR_TBM.csv`; elevations from `TBM_KML.kml`
 - Moradabad WPR: `Incoming Data/UP_IUSWDMP_WPR_30102026/Moradabad_WPR_23_10_2026to29_10_2026.docx`
 - Moradabad layers: `Incoming Data/Moradabad/`
 - Meerut WPR: `Incoming Data/UP_IUSWDMP_WPR_30102026/Meerut_Weekly_Progress_Report_23to 29 Oct.docx`
