@@ -85,7 +85,7 @@ The ortho overlay is generated from `ORI.tif` (5,089 × 5,942 px, 1.9 m, EPSG:32
 | Outer boundary | Real — SHP, 80.58 sq km |
 | Ward boundary | Real — 70 wards from `Saharanpur_Wards.kml` |
 | Buffer boundary | Real — `AOI.kml`, 100.2 sq km |
-| Drains surveyed | Real — conduit SHP, 3,620 mapped segments, 123.9 km |
+| Drains surveyed | Real — `Conduits_as_on_06_Oct.shp`, 5,550 mapped segments, 187.0 km |
 | GCP marked | Real — 181 mapped points from 182 KML placemarks (WPR reports 182 completed) |
 | TBM | Cleaned from repeated observations — 18 averaged TBM points |
 | Drone survey blocks | Real — 14 merged flight-plan polygons |
@@ -93,7 +93,7 @@ The ortho overlay is generated from `ORI.tif` (5,089 × 5,942 px, 1.9 m, EPSG:32
 
 The WPR reports 26.22 km primary drains, 171.18 km secondary + tertiary, 170.68 / 1,298.41 km roads, 182 GCPs, 5 static points and 90 sq km LiDAR coverage.
 
-The drain SHP uses four classes: **472 primary**, **2,215 secondary**, **275 natural-stream** and **713 unclassified** segments. Natural streams are shown in green and blanks in grey; only actual tertiary drains would use pink, and this SHP has none. The map primary geometry is 13.82 km against the WPR’s 26.22 km, and 3,620 segments remain after dropping sub-2 m geometry.
+The 6 Nov drain SHP contains **498 primary**, **4,749 secondary**, **275 natural-stream** and **116 unclassified** source segments. After cleaning, **5,550 segments / 187.0 km** are mapped: primary 14.6 km, secondary 146.1 km, natural streams 22.4 km and unclassified 3.9 km. Natural streams are shown in green and blanks in grey; only actual tertiary drains would use pink, and this SHP has none. The map primary geometry remains below the WPR’s 26.22 km.
 
 ### Moradabad layers
 
