@@ -18,7 +18,7 @@ window.DASHBOARD = {
       "Meerut GIS layers are derived from the supplied boundaries, wards, drains and TBM.kmz; no GCP points or drone blocks are reported.",
       "Ghaziabad GIS layers are derived from the supplied outer boundary, 100-ward SHP, 24 Oct drain compilation, six-point static SHP and 22-point TBM CSV; no buffer or drone-block layers were supplied.",
       "Shahjahanpur GIS layers are derived from the supplied boundary, 60-ward KML, drain KML, GCP KML, SP+TBM KML and drone-block KML.",
-      "Progress numbers are taken from the latest available weekly progress reports: Firozabad 30 Oct–5 Nov 2026 and the other cities 23–29 Oct 2026."
+      "Progress numbers are taken from the latest available weekly progress reports: Firozabad and Saharanpur 30 Oct–5 Nov 2026, and the other cities 23–29 Oct 2026."
     ]
   },
   "cities": [
@@ -294,9 +294,9 @@ window.DASHBOARD = {
       ],
       "status": "reporting",
       "statusLabel": "Reporting",
-      "reportPeriod": "23–29 Oct 2026",
-      "reportIssued": "2026-10-30",
-      "reportDate": "2026-10-29",
+      "reportPeriod": "30 Oct–5 Nov 2026",
+      "reportIssued": "2026-11-06",
+      "reportDate": "2026-11-05",
       "area": {
         "rfp": 73.7,
         "kml": 80.544,
@@ -310,23 +310,23 @@ window.DASHBOARD = {
       },
       "components": {
         "primary": {
-          "done": 26.22,
-          "planned": 26.22,
+          "done": 14.58,
+          "planned": 14.58,
           "pct": 100.0,
           "unit": "km",
           "note": "Primary drains completed as per the WPR"
         },
         "secondaryTertiary": {
-          "done": 171.18,
+          "done": 159.91,
           "planned": null,
           "pct": null,
           "unit": "km",
           "note": "Combined secondary and tertiary drains; target not notified"
         },
         "road": {
-          "done": 170.68,
+          "done": 159.91,
           "planned": 1298.41,
-          "pct": 13.1,
+          "pct": 12.3,
           "unit": "km"
         },
         "gcp": {
@@ -351,20 +351,20 @@ window.DASHBOARD = {
       },
       "milestones": [],
       "notes": [
-        "Source WPR: SRE_WPR_Submission_23_to_29_Oct_2026.docx (reporting period 23–29 Oct 2026).",
+        "Source WPR: SRE_WPR_Submission_30_Oct_to_05_Nov_2026.docx (reporting period 30 Oct–5 Nov 2026).",
         "City area is 73.7 sq km as per the RFP and 80.544 sq km as per the WPR KML.",
-        "WPR cumulative survey: secondary/tertiary 171.18 km, road 170.68 km, GCP 182 / 182, static 5 / 5.",
+        "WPR cumulative survey: primary 14.58 km, secondary/tertiary 159.91 km, road 159.91 km, GCP 182 / 182, static 5 / 5, river 22.38 km.",
         "LiDAR acquisition covered 90 sq km; a 10 sq km jail area is excluded as a restricted area.",
-        "The map drains layer is the 6 Nov conduit SHP; primary drain geometry is 14.6 km while the WPR reports 26.22 km completed.",
-        "The drain SHP contains 498 primary, 4,749 secondary, 275 natural-stream and 116 unclassified source segments; 5,550 segments and 187.0 km remain after cleaning.",
+        "The map drains layer is the 6 Nov conduit SHP; primary geometry is 14.6 km, matching the WPR's 14.58 km completed.",
+        "The 6 Nov SHP contains 498 primary, 5,228 secondary, 280 natural-stream and 10 unclassified source segments; 6,016 source segments and 197.19 km.",
         "The GCP KML contains 182 placemarks; 181 unique name-and-location points are mapped, matching the WPR total of 182 completed GCPs within one point.",
         "The TBM CSV contains 42 rows and 40 unique labels (TBM1 and TBM3 repeat). All 42 CSV points are mapped; matching elevations come from TBM_KML.kml.",
-        "The WPR reports a combined secondary and tertiary length of 171.18 km; no separate target was notified.",
+        "The WPR reports a combined secondary and tertiary length of 159.91 km; no separate target was notified.",
         "The AOI KML is used as the buffer boundary."
       ],
       "layersAvailable": true,
       "layerKey": "saharanpur",
-      "overall": 78.3
+      "overall": 78.1
     },
     {
       "id": "moradabad",

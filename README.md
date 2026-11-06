@@ -34,7 +34,7 @@ The basemap will not load without an internet connection, but the layer controls
 |---|---|---|---|---|
 | Firozabad | 30 Oct–5 Nov 2026 | Yes | 83.0% | Real boundary, buffer, ward and control-point KMLs; real primary/secondary/tertiary drain shapefiles; real drone flight-block KML |
 | Shahjahanpur | 23–29 Oct 2026 | Yes | 81.8% | Real outer boundary, 60 wards, classified drain KML, ortho overlay, 77 GCPs, 5 static points, 4 TBM points and 27 drone blocks; no buffer; primary drain marked 100% complete |
-| Saharanpur | 23–29 Oct 2026 | Yes | 78.3% | Real outer boundary, 70 wards, AOI buffer, conduits, GCP, TBM and drone blocks; no ortho supplied |
+| Saharanpur | 30 Oct–5 Nov 2026 | Yes | 78.1% | Real outer boundary, 70 wards, AOI buffer, 6 Nov conduits, GCP, TBM and drone blocks; no ortho supplied |
 | Moradabad | 23–29 Oct 2026 | Yes | 73.5% | Real outer/ward boundaries, AOI buffer, 28 Oct primary/secondary/tertiary drains, GCP, TBM and 14 drone blocks; no ortho |
 | Meerut | 23–29 Oct 2026 | Yes | 47.9% | Real outer/ward boundaries, buffer, drains, TBM and static points from `TBM.kmz`; no GCP, drone blocks or ortho |
 | Ghaziabad | 23–29 Oct 2026 | Yes | 37.6% | Real outer boundary, 100 wards, 24 Oct drains, 22 TBM points and six static points; no buffer, drone-block or ortho layers |
@@ -85,15 +85,15 @@ The ortho overlay is generated from `ORI.tif` (5,089 × 5,942 px, 1.9 m, EPSG:32
 | Outer boundary | Real — SHP, 80.58 sq km |
 | Ward boundary | Real — 70 wards from `Saharanpur_Wards.kml` |
 | Buffer boundary | Real — `AOI.kml`, 100.2 sq km |
-| Drains surveyed | Real — `Conduits_as_on_06_Oct.shp`, 5,550 mapped segments, 187.0 km |
+| Drains surveyed | Real — `Conduits_till_06_Nov.shp`, 5,922 mapped segments, 197.0 km |
 | GCP marked | Real — 181 mapped points from 182 KML placemarks (WPR reports 182 completed) |
 | TBM | `SAHARANPUR_TBM.csv` — **42 points** (40 unique labels; TBM1 and TBM3 repeat); elevations from `TBM_KML.kml` where matched |
 | Drone survey blocks | Real — 14 merged flight-plan polygons |
 | Ortho image | Not supplied for Saharanpur |
 
-The WPR reports 26.22 km primary drains, 171.18 km secondary + tertiary, 170.68 / 1,298.41 km roads, 182 GCPs, 5 static points and 90 sq km LiDAR coverage.
+The WPR reports 14.58 km primary drains, 159.91 km secondary + tertiary, 159.91 / 1,298.41 km roads, 182 GCPs, 5 static points, 22.38 km river survey and 90 sq km LiDAR coverage.
 
-The 6 Nov drain SHP contains **498 primary**, **4,749 secondary**, **275 natural-stream** and **116 unclassified** source segments. After cleaning, **5,550 segments / 187.0 km** are mapped: primary 14.6 km, secondary 146.1 km, natural streams 22.4 km and unclassified 3.9 km. Natural streams are shown in green and blanks in grey; only actual tertiary drains would use pink, and this SHP has none. The map primary geometry remains below the WPR’s 26.22 km.
+The 6 Nov drain SHP contains **498 primary**, **5,228 secondary**, **280 natural-stream** and **10 unclassified** source segments. After cleaning, **5,922 segments / 197.0 km** are mapped: primary 14.6 km, secondary 159.4 km, natural streams 22.7 km and unclassified 0.2 km. Natural streams are shown in green and blanks in grey; only actual tertiary drains would use pink, and this SHP has none. The map primary geometry now matches the WPR’s 14.58 km.
 
 ### Moradabad layers
 
@@ -318,7 +318,7 @@ For best results, use a desktop viewport of 1280 px or wider. Below 1200 px the 
 - Firozabad drone flight blocks: `Incoming Data/Firozabad/Drone_Survey_Flight_Blocks/Drone_Flight_Blocks_Firozabad.kml`
 - Firozabad drain shapefiles: `Incoming Data/Firozabad/Survey_Data_Digitized_Till_now/`
 - Firozabad WPR: `Incoming Data/Firozabad/WPR/Firozbad_WPR_30Oct_5Nov.docx`
-- Saharanpur WPR: `Incoming Data/UP_IUSWDMP_WPR_30102026/SRE_WPR_Submission_23_to_29_Oct_2026.docx`
+- Saharanpur WPR: `Incoming Data/Saharanpur/WPR/SRE_WPR_Submission_30_Oct_to_05_Nov_2026.docx`
 - Saharanpur layers: `Incoming Data/Saharanpur/`
 - Saharanpur TBM points: `Incoming Data/Saharanpur/TBM_SHP_KML/SAHARANPUR_TBM.csv`; elevations from `TBM_KML.kml`
 - Moradabad WPR: `Incoming Data/UP_IUSWDMP_WPR_30102026/Moradabad_WPR_23_10_2026to29_10_2026.docx`
