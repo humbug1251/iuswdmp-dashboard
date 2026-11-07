@@ -1093,8 +1093,15 @@
             <dl>${rowHtml}</dl>
           </div>`, {
             maxWidth: 260,
-            autoPanPaddingTopLeft: [360, 80],
-            autoPanPaddingBottomRight: [420, 80]
+            keepInView: true,
+            autoPanPaddingTopLeft: [380, 110],
+            autoPanPaddingBottomRight: [430, 110]
+          });
+          layer.on('popupopen', () => {
+            const popup = layer.getPopup();
+            const popupEl = popup && popup.getElement();
+            const img = popupEl && popupEl.querySelector('img');
+            if (img) img.addEventListener('load', () => popup.update(), { once: true });
           });
         }
       });
