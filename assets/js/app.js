@@ -31,6 +31,7 @@
     gcp: false,
     tbm: false,
     static: false,
+    photos: false,
     blocks: false,
     wards: false,
     outer: true,
@@ -666,6 +667,7 @@
       gcp: (layers.gcp.features || []).length,
       tbm: (layers.tbm.features || []).length,
       static: (layers.static && layers.static.features ? layers.static.features : []).length,
+      photos: (layers.photos && layers.photos.features ? layers.photos.features : []).length,
       blocks: (layers.blocks.features || []).length,
       wards: (layers.wards.features || []).length,
       outer: (layers.outer.features || []).length,
@@ -703,6 +705,7 @@
         ${counts.gcp > 0 ? layerRow('gcp', 'GCP Marked', `${formatNumber(gcpCount, 0)} points`, 'dot', '#d94f70', '', true) : ''}
         ${counts.tbm > 0 ? layerRow('tbm', 'TBM', `${formatNumber(counts.tbm, 0)} benchmark${counts.tbm === 1 ? '' : 's'}`, 'diamond', '#6d5aa8', '', true) : ''}
         ${counts.static > 0 ? layerRow('static', 'Static Points', `${formatNumber(counts.static, 0)} points`, 'dot', '#14b8a6', '', true) : ''}
+        ${counts.photos > 0 ? layerRow('photos', 'Survey Photos', `${formatNumber(counts.photos, 0)} photos`, 'dot', '#e11d48', '', true) : ''}
         ${counts.blocks > 0 ? layerRow('blocks', 'Drone Survey Blocks', `${formatNumber(counts.blocks, 0)} blocks`, 'poly', '#00c2ff', '', true) : ''}
       </div>`;
 
@@ -1057,8 +1060,49 @@
       });
     }
 
+    let photos = null;
+    if (layers.photos && layers.photos.features.length) {
+      photos = L.geoJSON(layers.photos, {
+        pane: 'pointsPane',
+        pointToLayer: (feature, latlng) => L.circleMarker(latlng, {
+          radius: 4.6,
+          color: '#9f1239',
+          weight: 1.2,
+          fillColor: '#fb7185',
+          fillOpacity: 0.9,
+          className: 'photo-point',
+          pane: 'pointsPane'
+        }),
+        onEachFeature: (feature, layer) => {
+          const props = feature.properties;
+          layer.bindTooltip(`${props.name} · ${props.date}`, {
+            direction: 'top',
+            offset: [0, -7],
+            className: 'map-tip'
+          });
+          const rows = [
+            ['Date', props.date],
+            ['Source', props.source]
+          ];
+          if (props.flag) rows.push(['Check', props.flag]);
+          const rowHtml = rows.map(([term, value]) => `<div><dt>${escapeHtml(term)}</dt><dd>${escapeHtml(value)}</dd></div>`).join('');
+          layer.bindPopup(`<div class="map-popup photo-popup">
+            <span class="popup-kicker">Survey photo</span>
+            <h4>${escapeHtml(props.name)}</h4>
+            <img src="${escapeHtml(props.photo)}" alt="${escapeHtml(props.name)}" loading="lazy">
+            <dl>${rowHtml}</dl>
+          </div>`, {
+            maxWidth: 260,
+            autoPanPaddingTopLeft: [360, 80],
+            autoPanPaddingBottomRight: [420, 80]
+          });
+        }
+      });
+    }
+
     state.layerGroups = { buffer, outer, wards: wardsGroup, blocks, drains, gcp, tbm };
     if (staticPoints) state.layerGroups.static = staticPoints;
+    if (photos) state.layerGroups.photos = photos;
     if (data.ortho) {
       const ortho = L.imageOverlay(data.ortho.url, data.ortho.bounds, {
         pane: 'orthoPane',

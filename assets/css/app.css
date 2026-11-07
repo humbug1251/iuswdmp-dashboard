@@ -3061,6 +3061,21 @@ p {
   max-width: 260px;
 }
 
+.photo-popup {
+  min-width: 220px;
+  max-width: 260px;
+}
+
+.photo-popup img {
+  display: block;
+  width: 100%;
+  max-height: 300px;
+  object-fit: contain;
+  margin: 4px 0 8px;
+  border-radius: 10px;
+  background: #f4f1ea;
+}
+
 .popup-kicker {
   font-family: var(--font-mono);
   font-size: 7px;
