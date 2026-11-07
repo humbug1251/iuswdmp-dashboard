@@ -52,6 +52,7 @@ The basemap will not load without an internet connection, but the layer controls
 | Drains surveyed | Real — 5 Nov primary/secondary/tertiary SHPs; 5,428 mapped segments, 350.0 km |
 | Ward boundary | Real - 70 ward polygons from `Firozabad_70Wardwise_Map.kml` |
 | Drone survey blocks | Real - 10 drone flight blocks from `Drone_Flight_Blocks_Firozabad.kml` |
+| Survey photos | Real - 1,079 compressed photos from `Firozabad_Survey_Photos.kmz`; 111 photos were unrecoverable because the source KMZ is truncated |
 | Ortho image | Real - downscaled orthomosaic mask overlaid on the city boundary |
 
 All Firozabad layers now come from the supplied survey data.
@@ -59,6 +60,8 @@ All Firozabad layers now come from the supplied survey data.
 WPR figures (30 Oct–5 Nov 2026): primary 58.5 km, secondary 7.624 km, tertiary 164.661 km, road 241.015 / 758 km, GCP 86 / 86, static 5 / 5 and LiDAR 35.5 sq km.
 
 The map now uses the 5 Nov primary, secondary and tertiary SHPs: **5,428 mapped segments / 350.0 km**, with primary 109.2 km, secondary 8.4 km and tertiary 232.3 km. These map totals are higher than the WPR component totals because the SHPs include all digitized and outfall-extension geometry.
+
+The photo layer contains **1,079 recovered geotagged survey photos**. The supplied KMZ is missing its ZIP central directory and the final 111 images, so those 111 photos could not be extracted; re-exporting a complete KMZ would allow the layer to be completed.
 
 ### Shahjahanpur layers
 
