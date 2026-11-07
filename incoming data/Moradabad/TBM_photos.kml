@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+  <name>TBM site photos</name>
+  <visibility>1</visibility>
+  <open>1</open>
+  <description><![CDATA[40 geotagged photographs. Coordinates were read from the location stamp on each photo. 0 location(s) inherited from an identical duplicate. 0 photo(s) had no usable location and are listed in the CSV report.]]></description>
+  <LookAt>
+    <longitude>78.728447</longitude>
+    <latitude>28.830278</latitude>
+    <altitude>0</altitude><heading>0</heading><tilt>0</tilt>
+    <range>12000</range>
+  </LookAt>
+  <Style id="pin-2026-03-11">
+    <IconStyle>
+      <scale>1.1</scale>
+      <Icon><href>https://maps.google.com/mapfiles/kml/pushpin/red-pushpin.png</href></Icon>
+    </IconStyle>
+    <LabelStyle><scale>0.8</scale></LabelStyle>
+    <BalloonStyle><text>$[description]</text></BalloonStyle>
+  </Style>
+  <Style id="pin-2026-04-11">
+    <IconStyle>
+      <scale>1.1</scale>
+      <Icon><href>https://maps.google.com/mapfiles/kml/pushpin/orange-pushpin.png</href></Icon>
+    </IconStyle>
+    <LabelStyle><scale>0.8</scale></LabelStyle>
+    <BalloonStyle><text>$[description]</text></BalloonStyle>
+  </Style>
+  <Style id="pin-2026-05-11">
+    <IconStyle>
+      <scale>1.1</scale>
+      <Icon><href>https://maps.google.com/mapfiles/kml/pushpin/yellow-pushpin.png</href></Icon>
+    </IconStyle>
+    <LabelStyle><scale>0.8</scale></LabelStyle>
+    <BalloonStyle><text>$[description]</text></BalloonStyle>
+  </Style>
+  <Style id="pin-check">
+    <IconStyle><scale>1.2</scale>
+      <Icon><href>https://maps.google.com/mapfiles/kml/pushpin/pink-pushpin.png</href></Icon>
+    </IconStyle>
+    <LabelStyle><scale>0.8</scale></LabelStyle>
+    <BalloonStyle><text>$[description]</text></BalloonStyle>
+  </Style>
+  <Folder>
+    <name>11 Mar 2026 - 3 photos</name>
+    <visibility>1</visibility>
+    <open>1</open>
+    <Placemark>
+      <name>WhatsApp Image 2026-11-03 at 5.07.36 PM 16:40</name>
+      <visibility>1</visibility>
+      <description><![CDATA[<img src="WhatsApp Image 2026-11-03 at 5.07.36 PM.jpeg" width="480"/><br/><b>WhatsApp Image 2026-11-03 at 5.07.36 PM.jpeg</b><br/>11 Mar 2026, 4:40 PM<br/>Lat 28.811742&deg; Long 78.771004&deg;<br/>Source: stamp<br/><a href="https://www.google.com/maps?q=28.811742,78.771004">Open in Google Maps</a>]]></description>
+      <styleUrl>#pin-2026-03-11</styleUrl>
+      <Point><coordinates>78.771004,28.811742,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>WhatsApp Image 2026-11-03 at 5.07.35 PM (1) 16:49</name>
+      <visibility>1</visibility>
+      <description><![CDATA[<img src="WhatsApp Image 2026-11-03 at 5.07.35 PM (1).jpeg" width="480"/><br/><b>WhatsApp Image 2026-11-03 at 5.07.35 PM (1).jpeg</b><br/>11 Mar 2026, 4:49 PM<br/>Lat 28.809486&deg; Long 78.776118&deg;<br/>Source: stamp<br/><a href="https://www.google.com/maps?q=28.809486,78.776118">Open in Google Maps</a>]]></description>
+      <styleUrl>#pin-2026-03-11</styleUrl>
+      <Point><coordinates>78.776118,28.809486,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>WhatsApp Image 2026-11-03 at 5.07.35 PM 17:04</name>
+      <visibility>1</visibility>
+      <description><![CDATA[<img src="WhatsApp Image 2026-11-03 at 5.07.35 PM.jpeg" width="480"/><br/><b>WhatsApp Image 2026-11-03 at 5.07.35 PM.jpeg</b><br/>11 Mar 2026, 5:04 PM<br/>Lat 28.801305&deg; Long 78.766258&deg;<br/>Source: stamp<br/><a href="https://www.google.com/maps?q=28.801305,78.766258">Open in Google Maps</a>]]></description>
+      <styleUrl>#pin-2026-03-11</styleUrl>
+      <Point><coordinates>78.766258,28.801305,0</coordinates></Point>
+    </Placemark>
+  </Folder>
+  <Folder>
+    <name>11 Apr 2026 - 6 photos</name>
+    <visibility>1</visibility>
+    <open>0</open>
+    <Placemark>
+      <name>WhatsApp Image 2026-11-04 at 5.42.11 PM (1) 11:20</name>
+      <visibility>1</visibility>
+      <description><![CDATA[<img src="WhatsApp Image 2026-11-04 at 5.42.11 PM (1).jpeg" width="480"/><br/><b>WhatsApp Image 2026-11-04 at 5.42.11 PM (1).jpeg</b><br/>11 Apr 2026, 11:20 AM<br/>Lat 28.827018&deg; Long 78.718712&deg;<br/>Source: GPS Map Camera<br/><a href="https://www.google.com/maps?q=28.827018,78.718712">Open in Google Maps</a>]]></description>
+      <styleUrl>#pin-2026-04-11</styleUrl>
+      <Point><coordinates>78.718712,28.827018,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>WhatsApp Image 2026-11-04 at 5.42.11 PM (2) 11:33</name>
+      <visibility>1</visibility>
+      <description><![CDATA[<img src="WhatsApp Image 2026-11-04 at 5.42.11 PM (2).jpeg" width="480"/><br/><b>WhatsApp Image 2026-11-04 at 5.42.11 PM (2).jpeg</b><br/>11 Apr 2026, 11:33 AM<br/>Lat 28.827310&deg; Long 78.721955&deg;<br/>Source: stamp<br/><a href="https://www.google.com/maps?q=28.827310,78.721955">Open in Google Maps</a>]]></description>
+      <styleUrl>#pin-2026-04-11</styleUrl>
+      <Point><coordinates>78.721955,28.827310,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>WhatsApp Image 2026-11-04 at 5.42.11 PM 11:40</name>
+      <visibility>1</visibility>
+      <description><![CDATA[<img src="WhatsApp Image 2026-11-04 at 5.42.11 PM.jpeg" width="480"/><br/><b>WhatsApp Image 2026-11-04 at 5.42.11 PM.jpeg</b><br/>11 Apr 2026, 11:40 AM<br/>Lat 28.827755&deg; Long 78.723748&deg;<br/>Source: stamp<br/><a href="https://www.google.com/maps?q=28.827755,78.723748">Open in Google Maps</a>]]></description>
+      <styleUrl>#pin-2026-04-11</styleUrl>
+      <Point><coordinates>78.723748,28.827755,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>WhatsApp Image 2026-11-04 at 5.42.10 PM (2) 16:35</name>
+      <visibility>1</visibility>
+      <description><![CDATA[<img src="WhatsApp Image 2026-11-04 at 5.42.10 PM (2).jpeg" width="480"/><br/><b>WhatsApp Image 2026-11-04 at 5.42.10 PM (2).jpeg</b><br/>11 Apr 2026, 4:35 PM<br/>Lat 28.826905&deg; Long 78.721446&deg;<br/>Source: stamp<br/><a href="https://www.google.com/maps?q=28.826905,78.721446">Open in Google Maps</a>]]></description>
+      <styleUrl>#pin-2026-04-11</styleUrl>
+      <Point><coordinates>78.721446,28.826905,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>WhatsApp Image 2026-11-04 at 5.42.10 PM (1) 17:04</name>
+      <visibility>1</visibility>
+      <description><![CDATA[<img src="WhatsApp Image 2026-11-04 at 5.42.10 PM (1).jpeg" width="480"/><br/><b>WhatsApp Image 2026-11-04 at 5.42.10 PM (1).jpeg</b><br/>11 Apr 2026, 5:04 PM<br/>Lat 28.826905&deg; Long 78.721446&deg;<br/>Source: stamp<br/><a href="https://www.google.com/maps?q=28.826905,78.721446">Open in Google Maps</a>]]></description>
+      <styleUrl>#pin-2026-04-11</styleUrl>
+      <Point><coordinates>78.721446,28.826905,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>WhatsApp Image 2026-11-04 at 5.42.10 PM 23:58</name>
+      <visibility>1</visibility>
+      <description><![CDATA[<img src="WhatsApp Image 2026-11-04 at 5.42.10 PM.jpeg" width="480"/><br/><b>WhatsApp Image 2026-11-04 at 5.42.10 PM.jpeg</b><br/>11 Apr 2026, 11:58 PM<br/>Lat 28.828519&deg; Long 78.727016&deg;<br/>Source: GPS Map Camera<br/><a href="https://www.google.com/maps?q=28.828519,78.727016">Open in Google Maps</a>]]></description>
+      <styleUrl>#pin-2026-04-11</styleUrl>
+      <Point><coordinates>78.727016,28.828519,0</coordinates></Point>
+    </Placemark>
+  </Folder>
+  <Folder>
+    <name>11 May 2026 - 31 photos</name>
+    <visibility>1</visibility>
+    <open>0</open>
+    <Placemark>
+      <name>WhatsApp Image 2026-11-04 at 5.42.09 PM (1) 00:03</name>
+      <visibility>1</visibility>
+      <description><![CDATA[<img src="WhatsApp Image 2026-11-04 at 5.42.09 PM (1).jpeg" width="480"/><br/><b>WhatsApp Image 2026-11-04 at 5.42.09 PM (1).jpeg</b><br/>11 May 2026, 12:03 AM<br/>Lat 28.828072&deg; Long 78.726773&deg;<br/>Source: stamp<br/><a href="https://www.google.com/maps?q=28.828072,78.726773">Open in Google Maps</a>]]></description>
+      <styleUrl>#pin-2026-05-11</styleUrl>
+      <Point><coordinates>78.726773,28.828072,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>WhatsApp Image 2026-11-04 at 5.42.09 PM 00:10</name>
+      <visibility>1</visibility>
+      <description><![CDATA[<img src="WhatsApp Image 2026-11-04 at 5.42.09 PM.jpeg" width="480"/><br/><b>WhatsApp Image 2026-11-04 at 5.42.09 PM.jpeg</b><br/>11 May 2026, 12:10 AM<br/>Lat 28.829414&deg; Long 78.733061&deg;<br/>Source: stamp<br/><a href="https://www.google.com/maps?q=28.829414,78.733061">Open in Google Maps</a>]]></description>
+      <styleUrl>#pin-2026-05-11</styleUrl>
+      <Point><coordinates>78.733061,28.829414,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>WhatsApp Image 2026-11-04 at 5.42.08 PM (2) 00:13</name>
+      <visibility>1</visibility>
+      <description><![CDATA[<img src="WhatsApp Image 2026-11-04 at 5.42.08 PM (2).jpeg" width="480"/><br/><b>WhatsApp Image 2026-11-04 at 5.42.08 PM (2).jpeg</b><br/>11 May 2026, 12:13 AM<br/>Lat 28.830300&deg; Long 78.736204&deg;<br/>Source: stamp<br/><a href="https://www.google.com/maps?q=28.830300,78.736204">Open in Google Maps</a>]]></description>
+      <styleUrl>#pin-2026-05-11</styleUrl>
+      <Point><coordinates>78.736204,28.830300,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>WhatsApp Image 2026-11-05 at 5.03.35 PM (2) 10:49</name>
+      <visibility>1</visibility>
+      <description><![CDATA[<img src="WhatsApp Image 2026-11-05 at 5.03.35 PM (2).jpeg" width="480"/><br/><b>WhatsApp Image 2026-11-05 at 5.03.35 PM (2).jpeg</b><br/>11 May 2026, 10:49 AM<br/>Lat 28.828447&deg; Long 78.726929&deg;<br/>Source: stamp<br/><a href="https://www.google.com/maps?q=28.828447,78.726929">Open in Google Maps</a>]]></description>
+      <styleUrl>#pin-2026-05-11</styleUrl>
+      <Point><coordinates>78.726929,28.828447,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>WhatsApp Image 2026-11-05 at 5.03.35 PM (1) 10:57</name>
+      <visibility>1</visibility>
+      <description><![CDATA[<img src="WhatsApp Image 2026-11-05 at 5.03.35 PM (1).jpeg" width="480"/><br/><b>WhatsApp Image 2026-11-05 at 5.03.35 PM (1).jpeg</b><br/>11 May 2026, 10:57 AM<br/>Lat 28.828049&deg; Long 78.726682&deg;<br/>Source: stamp<br/><a href="https://www.google.com/maps?q=28.828049,78.726682">Open in Google Maps</a>]]></description>
+      <styleUrl>#pin-2026-05-11</styleUrl>
+      <Point><coordinates>78.726682,28.828049,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>WhatsApp Image 2026-11-05 at 5.03.35 PM 11:06</name>
+      <visibility>1</visibility>
+      <description><![CDATA[<img src="WhatsApp Image 2026-11-05 at 5.03.35 PM.jpeg" width="480"/><br/><b>WhatsApp Image 2026-11-05 at 5.03.35 PM.jpeg</b><br/>11 May 2026, 11:06 AM<br/>Lat 28.829950&deg; Long 78.724477&deg;<br/>Source: GPS Map Camera<br/><a href="https://www.google.com/maps?q=28.829950,78.724477">Open in Google Maps</a>]]></description>
+      <styleUrl>#pin-2026-05-11</styleUrl>
+      <Point><coordinates>78.724477,28.829950,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>WhatsApp Image 2026-11-05 at 5.03.34 PM (2) 11:13</name>
+      <visibility>1</visibility>
+      <description><![CDATA[<img src="WhatsApp Image 2026-11-05 at 5.03.34 PM (2).jpeg" width="480"/><br/><b>WhatsApp Image 2026-11-05 at 5.03.34 PM (2).jpeg</b><br/>11 May 2026, 11:13 AM<br/>Lat 28.830255&deg; Long 78.726757&deg;<br/>Source: stamp<br/><a href="https://www.google.com/maps?q=28.830255,78.726757">Open in Google Maps</a>]]></description>
+      <styleUrl>#pin-2026-05-11</styleUrl>
+      <Point><coordinates>78.726757,28.830255,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>WhatsApp Image 2026-11-05 at 5.03.34 PM (1) 11:49</name>
+      <visibility>1</visibility>
+      <description><![CDATA[<img src="WhatsApp Image 2026-11-05 at 5.03.34 PM (1).jpeg" width="480"/><br/><b>WhatsApp Image 2026-11-05 at 5.03.34 PM (1).jpeg</b><br/>11 May 2026, 11:49 AM<br/>Lat 28.834046&deg; Long 78.723551&deg;<br/>Source: stamp<br/><a href="https://www.google.com/maps?q=28.834046,78.723551">Open in Google Maps</a>]]></description>
+      <styleUrl>#pin-2026-05-11</styleUrl>
+      <Point><coordinates>78.723551,28.834046,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>WhatsApp Image 2026-11-05 at 5.03.34 PM 11:55</name>
+      <visibility>1</visibility>
+      <description><![CDATA[<img src="WhatsApp Image 2026-11-05 at 5.03.34 PM.jpeg" width="480"/><br/><b>WhatsApp Image 2026-11-05 at 5.03.34 PM.jpeg</b><br/>11 May 2026, 11:55 AM<br/>Lat 28.835498&deg; Long 78.722155&deg;<br/>Source: stamp<br/><a href="https://www.google.com/maps?q=28.835498,78.722155">Open in Google Maps</a>]]></description>
+      <styleUrl>#pin-2026-05-11</styleUrl>
+      <Point><coordinates>78.722155,28.835498,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>WhatsApp Image 2026-11-05 at 5.03.33 PM (1) 12:03</name>
+      <visibility>1</visibility>
+      <description><![CDATA[<img src="WhatsApp Image 2026-11-05 at 5.03.33 PM (1).jpeg" width="480"/><br/><b>WhatsApp Image 2026-11-05 at 5.03.33 PM (1).jpeg</b><br/>11 May 2026, 12:03 PM<br/>Lat 28.836636&deg; Long 78.724228&deg;<br/>Source: stamp<br/><a href="https://www.google.com/maps?q=28.836636,78.724228">Open in Google Maps</a>]]></description>
+      <styleUrl>#pin-2026-05-11</styleUrl>
+      <Point><coordinates>78.724228,28.836636,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>WhatsApp Image 2026-11-05 at 5.03.33 PM 12:20</name>
+      <visibility>1</visibility>
+      <description><![CDATA[<img src="WhatsApp Image 2026-11-05 at 5.03.33 PM.jpeg" width="480"/><br/><b>WhatsApp Image 2026-11-05 at 5.03.33 PM.jpeg</b><br/>11 May 2026, 12:20 PM<br/>Lat 28.837141&deg; Long 78.727823&deg;<br/>Source: stamp<br/><a href="https://www.google.com/maps?q=28.837141,78.727823">Open in Google Maps</a>]]></description>
+      <styleUrl>#pin-2026-05-11</styleUrl>
+      <Point><coordinates>78.727823,28.837141,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>WhatsApp Image 2026-11-05 at 5.03.32 PM (2) 12:54</name>
+      <visibility>1</visibility>
+      <description><![CDATA[<img src="WhatsApp Image 2026-11-05 at 5.03.32 PM (2).jpeg" width="480"/><br/><b>WhatsApp Image 2026-11-05 at 5.03.32 PM (2).jpeg</b><br/>11 May 2026, 12:54 PM<br/>Lat 28.837738&deg; Long 78.732596&deg;<br/>Source: stamp<br/><a href="https://www.google.com/maps?q=28.837738,78.732596">Open in Google Maps</a>]]></description>
+      <styleUrl>#pin-2026-05-11</styleUrl>
+      <Point><coordinates>78.732596,28.837738,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>WhatsApp Image 2026-11-05 at 5.03.32 PM (1) 13:01</name>
+      <visibility>1</visibility>
+      <description><![CDATA[<img src="WhatsApp Image 2026-11-05 at 5.03.32 PM (1).jpeg" width="480"/><br/><b>WhatsApp Image 2026-11-05 at 5.03.32 PM (1).jpeg</b><br/>11 May 2026, 1:01 PM<br/>Lat 28.836381&deg; Long 78.734669&deg;<br/>Source: stamp<br/><a href="https://www.google.com/maps?q=28.836381,78.734669">Open in Google Maps</a>]]></description>
+      <styleUrl>#pin-2026-05-11</styleUrl>
+      <Point><coordinates>78.734669,28.836381,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>WhatsApp Image 2026-11-05 at 5.03.32 PM 13:09</name>
+      <visibility>1</visibility>
+      <description><![CDATA[<img src="WhatsApp Image 2026-11-05 at 5.03.32 PM.jpeg" width="480"/><br/><b>WhatsApp Image 2026-11-05 at 5.03.32 PM.jpeg</b><br/>11 May 2026, 1:09 PM<br/>Lat 28.837118&deg; Long 78.733518&deg;<br/>Source: GPS Map Camera<br/><a href="https://www.google.com/maps?q=28.837118,78.733518">Open in Google Maps</a>]]></description>
+      <styleUrl>#pin-2026-05-11</styleUrl>
+      <Point><coordinates>78.733518,28.837118,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>WhatsApp Image 2026-11-05 at 5.03.31 PM (2) 13:15</name>
+      <visibility>1</visibility>
+      <description><![CDATA[<img src="WhatsApp Image 2026-11-05 at 5.03.31 PM (2).jpeg" width="480"/><br/><b>WhatsApp Image 2026-11-05 at 5.03.31 PM (2).jpeg</b><br/>11 May 2026, 1:15 PM<br/>Lat 28.837257&deg; Long 78.731406&deg;<br/>Source: stamp<br/><a href="https://www.google.com/maps?q=28.837257,78.731406">Open in Google Maps</a>]]></description>
+      <styleUrl>#pin-2026-05-11</styleUrl>
+      <Point><coordinates>78.731406,28.837257,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>WhatsApp Image 2026-11-05 at 5.03.31 PM (1) 13:39</name>
+      <visibility>1</visibility>
+      <description><![CDATA[<img src="WhatsApp Image 2026-11-05 at 5.03.31 PM (1).jpeg" width="480"/><br/><b>WhatsApp Image 2026-11-05 at 5.03.31 PM (1).jpeg</b><br/>11 May 2026, 1:39 PM<br/>Lat 28.836724&deg; Long 78.727958&deg;<br/>Source: stamp<br/><a href="https://www.google.com/maps?q=28.836724,78.727958">Open in Google Maps</a>]]></description>
+      <styleUrl>#pin-2026-05-11</styleUrl>
+      <Point><coordinates>78.727958,28.836724,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>WhatsApp Image 2026-11-05 at 5.03.31 PM 13:50</name>
+      <visibility>1</visibility>
+      <description><![CDATA[<img src="WhatsApp Image 2026-11-05 at 5.03.31 PM.jpeg" width="480"/><br/><b>WhatsApp Image 2026-11-05 at 5.03.31 PM.jpeg</b><br/>11 May 2026, 1:50 PM<br/>Lat 28.836689&deg; Long 78.726988&deg;<br/>Source: stamp<br/><a href="https://www.google.com/maps?q=28.836689,78.726988">Open in Google Maps</a>]]></description>
+      <styleUrl>#pin-2026-05-11</styleUrl>
+      <Point><coordinates>78.726988,28.836689,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>WhatsApp Image 2026-11-05 at 5.03.30 PM (1) 13:54</name>
+      <visibility>1</visibility>
+      <description><![CDATA[<img src="WhatsApp Image 2026-11-05 at 5.03.30 PM (1).jpeg" width="480"/><br/><b>WhatsApp Image 2026-11-05 at 5.03.30 PM (1).jpeg</b><br/>11 May 2026, 1:54 PM<br/>Lat 28.835563&deg; Long 78.723204&deg;<br/>Source: stamp<br/><a href="https://www.google.com/maps?q=28.835563,78.723204">Open in Google Maps</a>]]></description>
+      <styleUrl>#pin-2026-05-11</styleUrl>
+      <Point><coordinates>78.723204,28.835563,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>WhatsApp Image 2026-11-05 at 5.03.30 PM 14:01</name>
+      <visibility>1</visibility>
+      <description><![CDATA[<img src="WhatsApp Image 2026-11-05 at 5.03.30 PM.jpeg" width="480"/><br/><b>WhatsApp Image 2026-11-05 at 5.03.30 PM.jpeg</b><br/>11 May 2026, 2:01 PM<br/>Lat 28.834286&deg; Long 78.727942&deg;<br/>Source: GPS Map Camera<br/><a href="https://www.google.com/maps?q=28.834286,78.727942">Open in Google Maps</a>]]></description>
+      <styleUrl>#pin-2026-05-11</styleUrl>
+      <Point><coordinates>78.727942,28.834286,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>WhatsApp Image 2026-11-04 at 5.42.08 PM (1) 14:56</name>
+      <visibility>1</visibility>
+      <description><![CDATA[<img src="WhatsApp Image 2026-11-04 at 5.42.08 PM (1).jpeg" width="480"/><br/><b>WhatsApp Image 2026-11-04 at 5.42.08 PM (1).jpeg</b><br/>11 May 2026, 2:56 PM<br/>Lat 28.831075&deg; Long 78.740404&deg;<br/>Source: stamp<br/><a href="https://www.google.com/maps?q=28.831075,78.740404">Open in Google Maps</a>]]></description>
+      <styleUrl>#pin-2026-05-11</styleUrl>
+      <Point><coordinates>78.740404,28.831075,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>WhatsApp Image 2026-11-04 at 5.42.07 PM (1) 15:00</name>
+      <visibility>1</visibility>
+      <description><![CDATA[<img src="WhatsApp Image 2026-11-04 at 5.42.07 PM (1).jpeg" width="480"/><br/><b>WhatsApp Image 2026-11-04 at 5.42.07 PM (1).jpeg</b><br/>11 May 2026, 3:00 PM<br/>Lat 28.831075&deg; Long 78.740404&deg;<br/>Source: GPS Map Camera<br/><a href="https://www.google.com/maps?q=28.831075,78.740404">Open in Google Maps</a>]]></description>
+      <styleUrl>#pin-2026-05-11</styleUrl>
+      <Point><coordinates>78.740404,28.831075,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>WhatsApp Image 2026-11-04 at 5.42.08 PM 15:00</name>
+      <visibility>1</visibility>
+      <description><![CDATA[<img src="WhatsApp Image 2026-11-04 at 5.42.08 PM.jpeg" width="480"/><br/><b>WhatsApp Image 2026-11-04 at 5.42.08 PM.jpeg</b><br/>11 May 2026, 3:00 PM<br/>Lat 28.831075&deg; Long 78.740404&deg;<br/>Source: stamp<br/><a href="https://www.google.com/maps?q=28.831075,78.740404">Open in Google Maps</a>]]></description>
+      <styleUrl>#pin-2026-05-11</styleUrl>
+      <Point><coordinates>78.740404,28.831075,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>WhatsApp Image 2026-11-04 at 5.42.07 PM 15:06</name>
+      <visibility>1</visibility>
+      <description><![CDATA[<img src="WhatsApp Image 2026-11-04 at 5.42.07 PM.jpeg" width="480"/><br/><b>WhatsApp Image 2026-11-04 at 5.42.07 PM.jpeg</b><br/>11 May 2026, 3:06 PM<br/>Lat 28.831132&deg; Long 78.741487&deg;<br/>Source: stamp<br/><a href="https://www.google.com/maps?q=28.831132,78.741487">Open in Google Maps</a>]]></description>
+      <styleUrl>#pin-2026-05-11</styleUrl>
+      <Point><coordinates>78.741487,28.831132,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>WhatsApp Image 2026-11-04 at 5.42.06 PM (1) 15:11</name>
+      <visibility>1</visibility>
+      <description><![CDATA[<img src="WhatsApp Image 2026-11-04 at 5.42.06 PM (1).jpeg" width="480"/><br/><b>WhatsApp Image 2026-11-04 at 5.42.06 PM (1).jpeg</b><br/>11 May 2026, 3:11 PM<br/>Lat 28.830706&deg; Long 78.739228&deg;<br/>Source: GPS Map Camera<br/><a href="https://www.google.com/maps?q=28.830706,78.739228">Open in Google Maps</a>]]></description>
+      <styleUrl>#pin-2026-05-11</styleUrl>
+      <Point><coordinates>78.739228,28.830706,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>WhatsApp Image 2026-11-04 at 5.42.06 PM (2) 15:11</name>
+      <visibility>1</visibility>
+      <description><![CDATA[<img src="WhatsApp Image 2026-11-04 at 5.42.06 PM (2).jpeg" width="480"/><br/><b>WhatsApp Image 2026-11-04 at 5.42.06 PM (2).jpeg</b><br/>11 May 2026, 3:11 PM<br/>Lat 28.830706&deg; Long 78.739228&deg;<br/>Source: stamp<br/><a href="https://www.google.com/maps?q=28.830706,78.739228">Open in Google Maps</a>]]></description>
+      <styleUrl>#pin-2026-05-11</styleUrl>
+      <Point><coordinates>78.739228,28.830706,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>WhatsApp Image 2026-11-04 at 5.42.06 PM 15:15</name>
+      <visibility>1</visibility>
+      <description><![CDATA[<img src="WhatsApp Image 2026-11-04 at 5.42.06 PM.jpeg" width="480"/><br/><b>WhatsApp Image 2026-11-04 at 5.42.06 PM.jpeg</b><br/>11 May 2026, 3:15 PM<br/>Lat 28.830402&deg; Long 78.738233&deg;<br/>Source: GPS Map Camera<br/><a href="https://www.google.com/maps?q=28.830402,78.738233">Open in Google Maps</a>]]></description>
+      <styleUrl>#pin-2026-05-11</styleUrl>
+      <Point><coordinates>78.738233,28.830402,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>WhatsApp Image 2026-11-04 at 5.42.05 PM (2) 15:20</name>
+      <visibility>1</visibility>
+      <description><![CDATA[<img src="WhatsApp Image 2026-11-04 at 5.42.05 PM (2).jpeg" width="480"/><br/><b>WhatsApp Image 2026-11-04 at 5.42.05 PM (2).jpeg</b><br/>11 May 2026, 3:20 PM<br/>Lat 28.829369&deg; Long 78.733621&deg;<br/>Source: stamp<br/><a href="https://www.google.com/maps?q=28.829369,78.733621">Open in Google Maps</a>]]></description>
+      <styleUrl>#pin-2026-05-11</styleUrl>
+      <Point><coordinates>78.733621,28.829369,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>WhatsApp Image 2026-11-04 at 5.42.05 PM (1) 15:25</name>
+      <visibility>1</visibility>
+      <description><![CDATA[<img src="WhatsApp Image 2026-11-04 at 5.42.05 PM (1).jpeg" width="480"/><br/><b>WhatsApp Image 2026-11-04 at 5.42.05 PM (1).jpeg</b><br/>11 May 2026, 3:25 PM<br/>Lat 28.828346&deg; Long 78.728935&deg;<br/>Source: stamp<br/><a href="https://www.google.com/maps?q=28.828346,78.728935">Open in Google Maps</a>]]></description>
+      <styleUrl>#pin-2026-05-11</styleUrl>
+      <Point><coordinates>78.728935,28.828346,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>WhatsApp Image 2026-11-04 at 5.42.05 PM 15:31</name>
+      <visibility>1</visibility>
+      <description><![CDATA[<img src="WhatsApp Image 2026-11-04 at 5.42.05 PM.jpeg" width="480"/><br/><b>WhatsApp Image 2026-11-04 at 5.42.05 PM.jpeg</b><br/>11 May 2026, 3:31 PM<br/>Lat 28.828346&deg; Long 78.728935&deg;<br/>Source: stamp<br/><a href="https://www.google.com/maps?q=28.828346,78.728935">Open in Google Maps</a>]]></description>
+      <styleUrl>#pin-2026-05-11</styleUrl>
+      <Point><coordinates>78.728935,28.828346,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>WhatsApp Image 2026-11-04 at 5.42.04 PM 15:36</name>
+      <visibility>1</visibility>
+      <description><![CDATA[<img src="WhatsApp Image 2026-11-04 at 5.42.04 PM.jpeg" width="480"/><br/><b>WhatsApp Image 2026-11-04 at 5.42.04 PM.jpeg</b><br/>11 May 2026, 3:36 PM<br/>Lat 28.827801&deg; Long 78.723808&deg;<br/>Source: stamp<br/><a href="https://www.google.com/maps?q=28.827801,78.723808">Open in Google Maps</a>]]></description>
+      <styleUrl>#pin-2026-05-11</styleUrl>
+      <Point><coordinates>78.723808,28.827801,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>WhatsApp Image 2026-11-05 at 5.03.29 PM 16:22</name>
+      <visibility>1</visibility>
+      <description><![CDATA[<img src="WhatsApp Image 2026-11-05 at 5.03.29 PM.jpeg" width="480"/><br/><b>WhatsApp Image 2026-11-05 at 5.03.29 PM.jpeg</b><br/>11 May 2026, 4:22 PM<br/>Lat 28.818685&deg; Long 78.773941&deg;<br/>Source: stamp<br/><a href="https://www.google.com/maps?q=28.818685,78.773941">Open in Google Maps</a>]]></description>
+      <styleUrl>#pin-2026-05-11</styleUrl>
+      <Point><coordinates>78.773941,28.818685,0</coordinates></Point>
+    </Placemark>
+  </Folder>
+</Document>
+</kml>

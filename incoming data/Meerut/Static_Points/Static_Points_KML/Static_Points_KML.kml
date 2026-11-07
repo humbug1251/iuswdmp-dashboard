@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="static_points_1" id="static_points_1">
+	<SimpleField name="MEERATH ST" type="float"></SimpleField>
+	<SimpleField name="field_2" type="float"></SimpleField>
+	<SimpleField name="field_3" type="float"></SimpleField>
+	<SimpleField name="field_4" type="float"></SimpleField>
+	<SimpleField name="field_5" type="string"></SimpleField>
+</Schema>
+<Folder><name>static_points_1</name>
+  <Placemark id="static_points_1.1">
+	<ExtendedData><SchemaData schemaUrl="#static_points_1">
+		<SimpleData name="MEERATH ST">2</SimpleData>
+		<SimpleData name="field_2">768802.064600000157952</SimpleData>
+		<SimpleData name="field_3">3210580.555999999865890</SimpleData>
+		<SimpleData name="field_4">224.586500000000001</SimpleData>
+		<SimpleData name="field_5">TBM7-3(ST7)</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.7590769236701,28.9950912008169</coordinates></Point>
+  </Placemark>
+  <Placemark id="static_points_1.2">
+	<ExtendedData><SchemaData schemaUrl="#static_points_1">
+		<SimpleData name="MEERATH ST">3</SimpleData>
+		<SimpleData name="field_2">769505.877399999997579</SimpleData>
+		<SimpleData name="field_3">3214036.639999999664724</SimpleData>
+		<SimpleData name="field_4">233.818700000000007</SimpleData>
+		<SimpleData name="field_5">PBM-9Z (room)</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>0,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="static_points_1.3">
+	<ExtendedData><SchemaData schemaUrl="#static_points_1">
+		<SimpleData name="MEERATH ST">4</SimpleData>
+		<SimpleData name="field_2">762830.029800000018440</SimpleData>
+		<SimpleData name="field_3">3218317.788000000640750</SimpleData>
+		<SimpleData name="field_4">227.707500000000010</SimpleData>
+		<SimpleData name="field_5">ST04</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6996503310058,29.0660929624181</coordinates></Point>
+  </Placemark>
+  <Placemark id="static_points_1.4">
+	<ExtendedData><SchemaData schemaUrl="#static_points_1">
+		<SimpleData name="MEERATH ST">5</SimpleData>
+		<SimpleData name="field_2">762795.243900000001304</SimpleData>
+		<SimpleData name="field_3">3209283.274000000208616</SimpleData>
+		<SimpleData name="field_4">224.522600000000011</SimpleData>
+		<SimpleData name="field_5">ST05</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6971741726028,28.9846459753595</coordinates></Point>
+  </Placemark>
+  <Placemark id="static_points_1.5">
+	<ExtendedData><SchemaData schemaUrl="#static_points_1">
+		<SimpleData name="MEERATH ST">6</SimpleData>
+		<SimpleData name="field_2">765831.899399999994785</SimpleData>
+		<SimpleData name="field_3">3225536.728999999817461</SimpleData>
+		<SimpleData name="field_4">230.216499999999996</SimpleData>
+		<SimpleData name="field_5">ST06</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>0,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="static_points_1.6">
+	<ExtendedData><SchemaData schemaUrl="#static_points_1">
+		<SimpleData name="MEERATH ST">7</SimpleData>
+		<SimpleData name="field_2">757279.833199999993667</SimpleData>
+		<SimpleData name="field_3">3200875.737999999895692</SimpleData>
+		<SimpleData name="field_4">223.609000000000009</SimpleData>
+		<SimpleData name="field_5">ST01</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.638694263793,28.9099633666932</coordinates></Point>
+  </Placemark>
+  <Placemark id="static_points_1.7">
+	<ExtendedData><SchemaData schemaUrl="#static_points_1">
+		<SimpleData name="MEERATH ST">8</SimpleData>
+		<SimpleData name="field_2">769016.952300000004470</SimpleData>
+		<SimpleData name="field_3">3205217.595999999903142</SimpleData>
+		<SimpleData name="field_4">219.528099999999995</SimpleData>
+		<SimpleData name="field_5">ST03</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.75999633424,28.9466962050702</coordinates></Point>
+  </Placemark>
+  <Placemark id="static_points_1.8">
+	<ExtendedData><SchemaData schemaUrl="#static_points_1">
+		<SimpleData name="MEERATH ST">10</SimpleData>
+		<SimpleData name="field_2">788419.933700000052340</SimpleData>
+		<SimpleData name="field_3">3232005.526000000070781</SimpleData>
+		<SimpleData name="field_4">233.443999999999988</SimpleData>
+		<SimpleData name="field_5">ST07  (OOB)</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.9657593830901,29.1839283852773</coordinates></Point>
+  </Placemark>
+  <Placemark id="static_points_1.9">
+	<ExtendedData><SchemaData schemaUrl="#static_points_1">
+		<SimpleData name="MEERATH ST">11</SimpleData>
+		<SimpleData name="field_2">776690.855600000126287</SimpleData>
+		<SimpleData name="field_3">3219441.189999999944121</SimpleData>
+		<SimpleData name="field_4">228.813700000000011</SimpleData>
+		<SimpleData name="field_5">ST08 (OOB)</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>0,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="static_points_1.10">
+	<ExtendedData><SchemaData schemaUrl="#static_points_1">
+		<SimpleData name="MEERATH ST">12</SimpleData>
+		<SimpleData name="field_2">765806.923599999980070</SimpleData>
+		<SimpleData name="field_3">3204502.134999999776483</SimpleData>
+		<SimpleData name="field_4">223.176899999999989</SimpleData>
+		<SimpleData name="field_5">ST09</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.7269247784761,28.9409170045937</coordinates></Point>
+  </Placemark>
+  <Placemark id="static_points_1.11">
+	<ExtendedData><SchemaData schemaUrl="#static_points_1">
+		<SimpleData name="MEERATH ST">13</SimpleData>
+		<SimpleData name="field_2">758050.393599999952130</SimpleData>
+		<SimpleData name="field_3">3205289.308000000193715</SimpleData>
+		<SimpleData name="field_4">224.113900000000001</SimpleData>
+		<SimpleData name="field_5">ST10</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6476019564507,28.9496028253167</coordinates></Point>
+  </Placemark>
+  <Placemark id="static_points_1.12">
+	<ExtendedData><SchemaData schemaUrl="#static_points_1">
+		<SimpleData name="MEERATH ST">14</SimpleData>
+		<SimpleData name="field_2">760907.506300000008196</SimpleData>
+		<SimpleData name="field_3">3215110.163000000175089</SimpleData>
+		<SimpleData name="field_4">227.792599999999993</SimpleData>
+		<SimpleData name="field_5">ST11</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6791731049427,29.0375686601546</coordinates></Point>
+  </Placemark>
+  <Placemark id="static_points_1.13">
+	<ExtendedData><SchemaData schemaUrl="#static_points_1">
+		<SimpleData name="MEERATH ST">15</SimpleData>
+		<SimpleData name="field_2">757760.537400000030175</SimpleData>
+		<SimpleData name="field_3">3210919.924999999813735</SimpleData>
+		<SimpleData name="field_4">226.720799999999997</SimpleData>
+		<SimpleData name="field_5">ST02</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6459228108831,29.0004288835352</coordinates></Point>
+  </Placemark>
+  <Placemark id="static_points_1.14">
+	<ExtendedData><SchemaData schemaUrl="#static_points_1">
+		<SimpleData name="MEERATH ST">16</SimpleData>
+		<SimpleData name="field_2">764579.047900000005029</SimpleData>
+		<SimpleData name="field_3">3215047.504000000189990</SimpleData>
+		<SimpleData name="field_4">225.357300000000009</SimpleData>
+		<SimpleData name="field_5">MRTST-08</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.7168253653067,29.0362465947415</coordinates></Point>
+  </Placemark>
+</Folder>
+</Document></kml>

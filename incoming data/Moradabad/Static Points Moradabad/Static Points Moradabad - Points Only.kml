@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Static Points Moradabad</name>
+<Style id="pin"><IconStyle><scale>1.1</scale><Icon><href>http://maps.google.com/mapfiles/kml/pushpin/wht-pushpin.png</href></Icon><color>ff0000ff</color></IconStyle></Style>
+<Placemark>
+<name>MRD-ST-01</name>
+<styleUrl>#pin</styleUrl>
+<description>Lat 28.8300235, Long 78.7244640</description>
+<Point><coordinates>78.7244640,28.8300235,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>MRD-ST-06</name>
+<styleUrl>#pin</styleUrl>
+<description>Lat 28.8072950, Long 78.8045300</description>
+<Point><coordinates>78.8045300,28.8072950,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>MRD-ST-02</name>
+<styleUrl>#pin</styleUrl>
+<description>Lat 28.8849303, Long 78.7269717</description>
+<Point><coordinates>78.7269717,28.8849303,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>MRD-ST-03</name>
+<styleUrl>#pin</styleUrl>
+<description>Lat 28.8739137, Long 78.7594955</description>
+<Point><coordinates>78.7594955,28.8739137,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>MRD-ST-04</name>
+<styleUrl>#pin</styleUrl>
+<description>Lat 28.8373993, Long 78.7665890</description>
+<Point><coordinates>78.7665890,28.8373993,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>MRD-ST-05</name>
+<styleUrl>#pin</styleUrl>
+<description>Lat 28.7998450, Long 78.7615445</description>
+<Point><coordinates>78.7615445,28.7998450,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>MRD-ST-07</name>
+<styleUrl>#pin</styleUrl>
+<description>Lat 28.8171365, Long 78.7755555</description>
+<Point><coordinates>78.7755555,28.8171365,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>MRD-ST-08</name>
+<styleUrl>#pin</styleUrl>
+<description>Lat 28.8534880, Long 78.7661683</description>
+<Point><coordinates>78.7661683,28.8534880,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>MRD-ST-09</name>
+<styleUrl>#pin</styleUrl>
+<description>Lat 28.8564860, Long 78.7213610</description>
+<Point><coordinates>78.7213610,28.8564860,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>MRD-ST-10</name>
+<styleUrl>#pin</styleUrl>
+<description>Lat 28.8160717, Long 78.7441817</description>
+<Point><coordinates>78.7441817,28.8160717,0</coordinates></Point>
+</Placemark>
+</Document></kml>

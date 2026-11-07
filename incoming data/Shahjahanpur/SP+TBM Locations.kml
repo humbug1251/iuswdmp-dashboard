@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="SP_TBM_Locations" id="SP_TBM_Locations">
+	<SimpleField name="SHAHJANPUR STATIC POINTS CO-ORDINATES" type="int"></SimpleField>
+	<SimpleField name="field_2" type="float"></SimpleField>
+	<SimpleField name="field_3" type="float"></SimpleField>
+	<SimpleField name="field_4" type="float"></SimpleField>
+	<SimpleField name="field_5" type="string"></SimpleField>
+</Schema>
+<Folder><name>SP_TBM_Locations</name>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#SP_TBM_Locations">
+		<SimpleData name="SHAHJANPUR STATIC POINTS CO-ORDINATES">1</SimpleData>
+		<SimpleData name="field_2">394587.0631</SimpleData>
+		<SimpleData name="field_3">3089857.279</SimpleData>
+		<SimpleData name="field_4">157.7387</SimpleData>
+		<SimpleData name="field_5">SJPR ST-1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.9286177097518,27.9295257737095</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#SP_TBM_Locations">
+		<SimpleData name="SHAHJANPUR STATIC POINTS CO-ORDINATES">2</SimpleData>
+		<SimpleData name="field_2">391617.634</SimpleData>
+		<SimpleData name="field_3">3086263.853</SimpleData>
+		<SimpleData name="field_4">154.0447</SimpleData>
+		<SimpleData name="field_5">SJPR ST-2</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.8987705012205,27.896854385119</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#SP_TBM_Locations">
+		<SimpleData name="SHAHJANPUR STATIC POINTS CO-ORDINATES">3</SimpleData>
+		<SimpleData name="field_2">393207.1526</SimpleData>
+		<SimpleData name="field_3">3083514.362</SimpleData>
+		<SimpleData name="field_4">151.5473</SimpleData>
+		<SimpleData name="field_5">SJPR ST-3</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.9151659579999,27.8721660490212</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#SP_TBM_Locations">
+		<SimpleData name="SHAHJANPUR STATIC POINTS CO-ORDINATES">4</SimpleData>
+		<SimpleData name="field_2">390927.6573</SimpleData>
+		<SimpleData name="field_3">3081808.83</SimpleData>
+		<SimpleData name="field_4">149.0307</SimpleData>
+		<SimpleData name="field_5">SJPR ST-4</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.8921702101338,27.8565882095324</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#SP_TBM_Locations">
+		<SimpleData name="SHAHJANPUR STATIC POINTS CO-ORDINATES">5</SimpleData>
+		<SimpleData name="field_2">397244.9857</SimpleData>
+		<SimpleData name="field_3">3081375.664</SimpleData>
+		<SimpleData name="field_4">154.5606</SimpleData>
+		<SimpleData name="field_5">SJPR ST-5</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.9563627734397,27.853178756153</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#SP_TBM_Locations">
+		<SimpleData name="SHAHJANPUR STATIC POINTS CO-ORDINATES">6</SimpleData>
+		<SimpleData name="field_2">392667.007</SimpleData>
+		<SimpleData name="field_3">3084786.985</SimpleData>
+		<SimpleData name="field_4">153.6527</SimpleData>
+		<SimpleData name="field_5">TBM1P</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.9095647629811,27.8836092422325</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#SP_TBM_Locations">
+		<SimpleData name="SHAHJANPUR STATIC POINTS CO-ORDINATES">7</SimpleData>
+		<SimpleData name="field_2">392665.429</SimpleData>
+		<SimpleData name="field_3">3085125.304</SimpleData>
+		<SimpleData name="field_4">154.4337</SimpleData>
+		<SimpleData name="field_5">TBM2P</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.9095181392054,27.8866627173107</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#SP_TBM_Locations">
+		<SimpleData name="SHAHJANPUR STATIC POINTS CO-ORDINATES">8</SimpleData>
+		<SimpleData name="field_2">392273.05</SimpleData>
+		<SimpleData name="field_3">3085100.124</SimpleData>
+		<SimpleData name="field_4">154.9877</SimpleData>
+		<SimpleData name="field_5">TBM3P</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.9055345826223,27.8864038597885</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#SP_TBM_Locations">
+		<SimpleData name="SHAHJANPUR STATIC POINTS CO-ORDINATES">9</SimpleData>
+		<SimpleData name="field_2">391279.315</SimpleData>
+		<SimpleData name="field_3">3085690.868</SimpleData>
+		<SimpleData name="field_4">148.6187</SimpleData>
+		<SimpleData name="field_5">TBM6P</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.8953860078652,27.8916552584727</coordinates></Point>
+  </Placemark>
+</Folder>
+</Document></kml>

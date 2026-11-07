@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="firozabad_drone_survey_shapefile" id="firozabad_drone_survey_shapefile">
+	<SimpleField name="fid" type="float"></SimpleField>
+	<SimpleField name="id" type="string"></SimpleField>
+	<SimpleField name="descriptio" type="string"></SimpleField>
+	<SimpleField name="timestamp" type="string"></SimpleField>
+	<SimpleField name="begin" type="string"></SimpleField>
+	<SimpleField name="end" type="string"></SimpleField>
+	<SimpleField name="altitudeMo" type="string"></SimpleField>
+	<SimpleField name="tessellate" type="float"></SimpleField>
+	<SimpleField name="extrude" type="float"></SimpleField>
+	<SimpleField name="visibility" type="float"></SimpleField>
+	<SimpleField name="drawOrder" type="float"></SimpleField>
+	<SimpleField name="icon" type="string"></SimpleField>
+	<SimpleField name="layer" type="string"></SimpleField>
+	<SimpleField name="path" type="string"></SimpleField>
+</Schema>
+<Folder><name>firozabad_drone_survey_shapefile</name>
+  <Placemark id="firozabad_drone_survey_shapefile.1">
+	<name>AOI</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#firozabad_drone_survey_shapefile">
+		<SimpleData name="fid">1</SimpleData>
+		<SimpleData name="descriptio">Viewshed Coverage Area&lt;BR&gt;&lt;BR&gt;&lt;B&gt;PERIMETER&lt;/B&gt; = 29.528 km&lt;BR&gt;&lt;B&gt;ENCLOSED_AREA&lt;/B&gt; = 42.602 sq km</SimpleData>
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="layer">Firozabad_Drone_Survey — AOI</SimpleData>
+		<SimpleData name="path">C:/Users/vara prasad/OneDrive - CWD/CWD_Firozabad/Firozabad Files/Firoz_QGIS/Drone_Survey-Block_Map/Firozabad_Drone_Survey.gpkg|layername=AOI</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>78.438106787,27.146901614,0 78.436424621,27.146278613,0 78.436761128,27.145381204,0 78.436620752,27.145240832,0 78.437347905,27.144586374,0 78.436580297,27.14305123,0 78.436934668,27.142342456,0 78.436723729,27.140655244,0 78.435850647,27.139607575,0 78.435321727,27.138951729,0 78.433814632,27.137408349,0 78.433482159,27.136931818,0 78.433311161,27.136543202,0 78.431316051,27.133123107,0 78.429069045,27.132465453,0 78.421044663,27.133026216,0 78.420394542,27.132933343,0 78.420291892,27.132830694,0 78.41887237,27.131904925,0 78.417433266,27.131493754,0 78.415795814,27.131344896,0 78.413848145,27.131344896,0 78.411173023,27.131646321,0 78.409586864,27.13164632,0 78.407972257,27.13157612,0 78.406324973,27.131438844,0 78.405817629,27.131520674,0 78.405794008,27.131296325,0 78.40519054,27.129335191,0 78.404085453,27.127677613,0 78.403348305,27.12665697,0 78.402696519,27.126186243,0 78.402823656,27.125920399,0 78.403503771,27.124560104,0 78.402851157,27.122602395,0 78.401512238,27.121454764,0 78.39956575,27.121195234,0 78.397513124,27.121765411,0 78.397119874,27.121920329,0 78.396460473,27.121603815,0 78.394814734,27.121254721,0 78.392841511,27.120951146,0 78.391390904,27.121166053,0 78.390461823,27.121308987,0 78.389646645,27.121716578,0 78.389113518,27.121792739,0 78.388305617,27.121714554,0 78.386731806,27.121539682,0 78.384364645,27.122249824,0 78.383322005,27.124335014,0 78.384475938,27.126282362,0 78.384971254,27.127243897,0 78.379222919,27.130269312,0 78.377184232,27.131904318,0 78.376696293,27.131330279,0 78.374490954,27.131085251,0 78.374403442,27.131061385,0 78.374326049,27.131000285,0 78.373257638,27.129650731,0 78.371738399,27.129270926,0 78.367669224,27.128848143,0 78.365371448,27.130294884,0 78.36440536,27.131864732,0 78.363460529,27.134002927,0 78.363373318,27.137879867,0 78.363561426,27.140043681,0 78.363303396,27.14059941,0 78.362709641,27.1419056,0 78.363619267,27.143807642,0 78.363880454,27.144184925,0 78.363970443,27.14445491,0 78.364092304,27.14579571,0 78.364129293,27.148463252,0 78.364235504,27.150747931,0 78.363902454,27.150925555,0 78.360934907,27.152780262,0 78.358847126,27.153783993,0 78.357456013,27.154882224,0 78.356634392,27.156707962,0 78.356920449,27.158496077,0 78.357618467,27.160197588,0 78.358854177,27.163155955,0 78.362561812,27.172690391,0 78.363415096,27.174525032,0 78.365285064,27.177330012,0 78.369138008,27.175224372,0 78.370408335,27.174490799,0 78.372038842,27.173720483,0 78.372821449,27.173779919,0 78.37447963,27.173857044,0 78.375641302,27.173914175,0 78.37608186,27.173930801,0 78.376093109,27.173936095,0 78.376574787,27.174225102,0 78.377689573,27.17463048,0 78.378749313,27.174799077,0 78.380239405,27.175074169,0 78.381176722,27.17504488,0 78.382977054,27.176459467,0 78.38353354,27.176742962,0 78.383317826,27.177639796,0 78.382975505,27.178822265,0 78.383280714,27.180157688,0 78.383251686,27.180157233,0 78.383160172,27.180319917,0 78.383279428,27.182308276,0 78.384084938,27.18386381,0 78.384989619,27.185240542,0 78.385085228,27.185399896,0 78.385701441,27.187085512,0 78.386768807,27.189157518,0 78.389137441,27.189157529,0 78.390588074,27.188770693,0 78.391510074,27.188331644,0 78.391895564,27.188457671,0 78.393770181,27.188874255,0 78.396320612,27.189688222,0 78.398852188,27.190467167,0 78.400783585,27.190594234,0 78.402949337,27.190480249,0 78.40433258,27.190553698,0 78.404574191,27.190676551,0 78.405904582,27.19198034,0 78.410783869,27.192410836,0 78.411054467,27.188892077,0 78.411020386,27.18883755,0 78.412371735,27.18792054,0 78.416198531,27.185871672,0 78.416563699,27.18578536,0 78.417412501,27.185785359,0 78.419551738,27.185822242,0 78.420786137,27.185862058,0 78.421741179,27.185419481,0 78.421953867,27.185397093,0 78.424187129,27.185225286,0 78.424634768,27.182389862,0 78.423907866,27.181005349,0 78.423102864,27.179524778,0 78.423383087,27.179370367,0 78.426025079,27.178161306,0 78.427076259,27.176944125,0 78.427488908,27.175330907,0 78.42739135,27.173721815,0 78.4268182,27.168260168,0 78.427599852,27.1674785,0 78.428686662,27.166029379,0 78.429010637,27.164265302,0 78.42883324,27.16318136,0 78.429299993,27.163252387,0 78.4308788,27.162847566,0 78.431522609,27.162525661,0 78.432204843,27.162370607,0 78.434462155,27.161534547,0 78.434462098,27.159035314,0 78.433376647,27.157660444,0 78.431923128,27.15693369,0 78.431892488,27.156928033,0 78.432256222,27.155920706,0 78.432341893,27.154420864,0 78.431583316,27.152874606,0 78.43142693,27.152594769,0 78.43141601,27.152447392,0 78.431455908,27.152327689,0 78.431948244,27.151595476,0 78.432124119,27.151391148,0 78.432098986,27.15132706,0 78.432302436,27.15135836,0 78.434001333,27.150980829,0 78.435704841,27.150384595,0 78.438106787,27.146901614,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="firozabad_drone_survey_shapefile.2">
+	<name>FRD_1</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#firozabad_drone_survey_shapefile">
+		<SimpleData name="fid">1</SimpleData>
+		<SimpleData name="descriptio">Viewshed Coverage Area&lt;BR&gt;&lt;BR&gt;&lt;B&gt;PERIMETER&lt;/B&gt; = 29.528 km&lt;BR&gt;&lt;B&gt;ENCLOSED_AREA&lt;/B&gt; = 42.602 sq km</SimpleData>
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="layer">Firozabad_Drone_Survey — FRD_1</SimpleData>
+		<SimpleData name="path">C:/Users/vara prasad/OneDrive - CWD/CWD_Firozabad/Firozabad Files/Firoz_QGIS/Drone_Survey-Block_Map/Firozabad_Drone_Survey.gpkg|layername=FRD_1</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>78.383937025315,27.1769656126099,0 78.3947580443431,27.1548352062271,0 78.363303396,27.14059941,0 78.362709641,27.1419056,0 78.363619267,27.143807642,0 78.363880454,27.144184925,0 78.363970443,27.14445491,0 78.364092304,27.14579571,0 78.364129293,27.148463252,0 78.364235504,27.150747931,0 78.363902454,27.150925555,0 78.360934907,27.152780262,0 78.358847126,27.153783993,0 78.357456013,27.154882224,0 78.356634392,27.156707962,0 78.356920449,27.158496077,0 78.357618467,27.160197588,0 78.358854177,27.163155955,0 78.362561812,27.172690391,0 78.363415096,27.174525032,0 78.365285064,27.177330012,0 78.369138008,27.175224372,0 78.370408335,27.174490799,0 78.372038842,27.173720483,0 78.372821449,27.173779919,0 78.37447963,27.173857044,0 78.375641302,27.173914175,0 78.37608186,27.173930801,0 78.376093109,27.173936095,0 78.376574787,27.174225102,0 78.377689573,27.17463048,0 78.378749313,27.174799077,0 78.380239405,27.175074169,0 78.381176722,27.17504488,0 78.382977054,27.176459467,0 78.383937025315,27.1769656126099,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="firozabad_drone_survey_shapefile.3">
+	<name>FRD_2</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#firozabad_drone_survey_shapefile">
+		<SimpleData name="fid">1</SimpleData>
+		<SimpleData name="descriptio">Viewshed Coverage Area&lt;BR&gt;&lt;BR&gt;&lt;B&gt;PERIMETER&lt;/B&gt; = 29.528 km&lt;BR&gt;&lt;B&gt;ENCLOSED_AREA&lt;/B&gt; = 42.602 sq km</SimpleData>
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="layer">Firozabad_Drone_Survey — FRD_2</SimpleData>
+		<SimpleData name="path">C:/Users/vara prasad/OneDrive - CWD/CWD_Firozabad/Firozabad Files/Firoz_QGIS/Drone_Survey-Block_Map/Firozabad_Drone_Survey.gpkg|layername=FRD_2</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>78.3630405222823,27.1412221610081,0 78.3944841009372,27.1553980671037,0 78.4063572110734,27.1313913146584,0 78.4052282403136,27.1293491047283,0 78.404085453,27.127677613,0 78.403348305,27.12665697,0 78.402696519,27.126186243,0 78.402823656,27.125920399,0 78.403503771,27.124560104,0 78.402851157,27.122602395,0 78.401512238,27.121454764,0 78.39956575,27.121195234,0 78.397513124,27.121765411,0 78.397119874,27.121920329,0 78.396460473,27.121603815,0 78.394814734,27.121254721,0 78.392841511,27.120951146,0 78.391390904,27.121166053,0 78.390461823,27.121308987,0 78.389646645,27.121716578,0 78.389113518,27.121792739,0 78.388305617,27.121714554,0 78.386731806,27.121539682,0 78.384364645,27.122249824,0 78.383322005,27.124335014,0 78.384475938,27.126282362,0 78.384971254,27.127243897,0 78.379222919,27.130269312,0 78.377184232,27.131904318,0 78.376696293,27.131330279,0 78.374490954,27.131085251,0 78.374403442,27.131061385,0 78.374326049,27.131000285,0 78.373257638,27.129650731,0 78.371738399,27.129270926,0 78.367669224,27.128848143,0 78.365371448,27.130294884,0 78.36440536,27.131864732,0 78.363460529,27.134002927,0 78.363373318,27.137879867,0 78.363561426,27.140043681,0 78.363303396,27.14059941,0 78.3630405222823,27.1412221610081,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="firozabad_drone_survey_shapefile.4">
+	<name>FRD_3</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#firozabad_drone_survey_shapefile">
+		<SimpleData name="fid">1</SimpleData>
+		<SimpleData name="descriptio">Viewshed Coverage Area&lt;BR&gt;&lt;BR&gt;&lt;B&gt;PERIMETER&lt;/B&gt; = 29.528 km&lt;BR&gt;&lt;B&gt;ENCLOSED_AREA&lt;/B&gt; = 42.602 sq km</SimpleData>
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="layer">Firozabad_Drone_Survey — FRD_3</SimpleData>
+		<SimpleData name="path">C:/Users/vara prasad/OneDrive - CWD/CWD_Firozabad/Firozabad Files/Firoz_QGIS/Drone_Survey-Block_Map/Firozabad_Drone_Survey.gpkg|layername=FRD_3</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>78.4268182,27.168260168,0 78.3941688793949,27.1545969607688,0 78.3833291307013,27.1766463240319,0 78.3835275948175,27.1767538005867,0 78.383317826,27.177639796,0 78.382975505,27.178822265,0 78.383280714,27.180157688,0 78.383251686,27.180157233,0 78.383160172,27.180319917,0 78.383279428,27.182308276,0 78.384084938,27.18386381,0 78.384989619,27.185240542,0 78.385085228,27.185399896,0 78.385701441,27.187085512,0 78.386768807,27.189157518,0 78.389137441,27.189157529,0 78.390588074,27.188770693,0 78.391510074,27.188331644,0 78.391895564,27.188457671,0 78.393770181,27.188874255,0 78.396320612,27.189688222,0 78.398852188,27.190467167,0 78.400783585,27.190594234,0 78.402949337,27.190480249,0 78.40433258,27.190553698,0 78.404574191,27.190676551,0 78.405904582,27.19198034,0 78.410783869,27.192410836,0 78.411054467,27.188892077,0 78.411020386,27.18883755,0 78.412371735,27.18792054,0 78.416198531,27.185871672,0 78.416563699,27.18578536,0 78.417412501,27.185785359,0 78.419551738,27.185822242,0 78.420786137,27.185862058,0 78.421741179,27.185419481,0 78.421953867,27.185397093,0 78.424187129,27.185225286,0 78.424634768,27.182389862,0 78.423907866,27.181005349,0 78.423102864,27.179524778,0 78.423383087,27.179370367,0 78.426025079,27.178161306,0 78.427076259,27.176944125,0 78.427488908,27.175330907,0 78.42739135,27.173721815,0 78.4268182,27.168260168,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="firozabad_drone_survey_shapefile.5">
+	<name>FRD_3_1</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#firozabad_drone_survey_shapefile">
+		<SimpleData name="fid">1</SimpleData>
+		<SimpleData name="descriptio">Viewshed Coverage Area&lt;BR&gt;&lt;BR&gt;&lt;B&gt;PERIMETER&lt;/B&gt; = 29.528 km&lt;BR&gt;&lt;B&gt;ENCLOSED_AREA&lt;/B&gt; = 42.602 sq km</SimpleData>
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="layer">Firozabad_Drone_Survey — FRD_3_1</SimpleData>
+		<SimpleData name="path">C:/Users/vara prasad/OneDrive - CWD/CWD_Firozabad/Firozabad Files/Firoz_QGIS/Drone_Survey-Block_Map/Firozabad_Drone_Survey.gpkg|layername=FRD_3_1</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>78.423399247189,27.1793723708606,0 78.3885072945932,27.1661106745262,0 78.3833291307013,27.1766463240319,0 78.3835275948175,27.1767538005867,0 78.383317826,27.177639796,0 78.382975505,27.178822265,0 78.383280714,27.180157688,0 78.383251686,27.180157233,0 78.383160172,27.180319917,0 78.383279428,27.182308276,0 78.384084938,27.18386381,0 78.384989619,27.185240542,0 78.385085228,27.185399896,0 78.385701441,27.187085512,0 78.386768807,27.189157518,0 78.389137441,27.189157529,0 78.390588074,27.188770693,0 78.391510074,27.188331644,0 78.391895564,27.188457671,0 78.393770181,27.188874255,0 78.396320612,27.189688222,0 78.398852188,27.190467167,0 78.400783585,27.190594234,0 78.402949337,27.190480249,0 78.40433258,27.190553698,0 78.404574191,27.190676551,0 78.405904582,27.19198034,0 78.410783869,27.192410836,0 78.411054467,27.188892077,0 78.411020386,27.18883755,0 78.412371735,27.18792054,0 78.416198531,27.185871672,0 78.416563699,27.18578536,0 78.417412501,27.185785359,0 78.419551738,27.185822242,0 78.420786137,27.185862058,0 78.421741179,27.185419481,0 78.421953867,27.185397093,0 78.424187129,27.185225286,0 78.424634768,27.182389862,0 78.423907866,27.181005349,0 78.423102864,27.179524778,0 78.423399247189,27.1793723708606,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="firozabad_drone_survey_shapefile.6">
+	<name>FRD_3_2</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#firozabad_drone_survey_shapefile">
+		<SimpleData name="fid">1</SimpleData>
+		<SimpleData name="descriptio">Viewshed Coverage Area&lt;BR&gt;&lt;BR&gt;&lt;B&gt;PERIMETER&lt;/B&gt; = 29.528 km&lt;BR&gt;&lt;B&gt;ENCLOSED_AREA&lt;/B&gt; = 42.602 sq km</SimpleData>
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="layer">Firozabad_Drone_Survey — FRD_3_2</SimpleData>
+		<SimpleData name="path">C:/Users/vara prasad/OneDrive - CWD/CWD_Firozabad/Firozabad Files/Firoz_QGIS/Drone_Survey-Block_Map/Firozabad_Drone_Survey.gpkg|layername=FRD_3_2</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>78.4268182,27.168260168,0 78.4102924881353,27.1613349815825,0 78.4039663141644,27.1726974184565,0 78.4234355469209,27.1801654758996,0 78.423383087,27.179370367,0 78.426025079,27.178161306,0 78.427076259,27.176944125,0 78.427488908,27.175330907,0 78.42739135,27.173721815,0 78.4268182,27.168260168,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="firozabad_drone_survey_shapefile.7">
+	<name>FRD_3_3</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#firozabad_drone_survey_shapefile">
+		<SimpleData name="fid">1</SimpleData>
+		<SimpleData name="descriptio">Viewshed Coverage Area&lt;BR&gt;&lt;BR&gt;&lt;B&gt;PERIMETER&lt;/B&gt; = 29.528 km&lt;BR&gt;&lt;B&gt;ENCLOSED_AREA&lt;/B&gt; = 42.602 sq km</SimpleData>
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="layer">Firozabad_Drone_Survey — FRD_3_3</SimpleData>
+		<SimpleData name="path">C:/Users/vara prasad/OneDrive - CWD/CWD_Firozabad/Firozabad Files/Firoz_QGIS/Drone_Survey-Block_Map/Firozabad_Drone_Survey.gpkg|layername=FRD_3_3</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>78.4047321042894,27.1729877054903,0 78.4107806529074,27.1615383957499,0 78.3941688793949,27.1545969607688,0 78.3882321735961,27.1666742355003,0 78.4047321042894,27.1729877054903,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="firozabad_drone_survey_shapefile.8">
+	<name>FRD_4</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#firozabad_drone_survey_shapefile">
+		<SimpleData name="fid">1</SimpleData>
+		<SimpleData name="descriptio">Viewshed Coverage Area&lt;BR&gt;&lt;BR&gt;&lt;B&gt;PERIMETER&lt;/B&gt; = 29.528 km&lt;BR&gt;&lt;B&gt;ENCLOSED_AREA&lt;/B&gt; = 42.602 sq km</SimpleData>
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="layer">Firozabad_Drone_Survey — FRD_4</SimpleData>
+		<SimpleData name="path">C:/Users/vara prasad/OneDrive - CWD/CWD_Firozabad/Firozabad Files/Firoz_QGIS/Drone_Survey-Block_Map/Firozabad_Drone_Survey.gpkg|layername=FRD_4</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>78.438106787,27.146901614,0 78.436424621,27.146278613,0 78.436761128,27.145381204,0 78.436620752,27.145240832,0 78.437347905,27.144586374,0 78.436580297,27.14305123,0 78.436934668,27.142342456,0 78.436723729,27.140655244,0 78.435850647,27.139607575,0 78.435321727,27.138951729,0 78.433814632,27.137408349,0 78.433482159,27.136931818,0 78.433311161,27.136543202,0 78.431316051,27.133123107,0 78.429069045,27.132465453,0 78.421044663,27.133026216,0 78.420394542,27.132933343,0 78.420291892,27.132830694,0 78.41887237,27.131904925,0 78.417433266,27.131493754,0 78.415795814,27.131344896,0 78.413848145,27.131344896,0 78.411173023,27.131646321,0 78.409586864,27.13164632,0 78.407972257,27.13157612,0 78.406324973,27.131438844,0 78.4057917577593,27.1313155608798,0 78.393894355655,27.1551419490405,0 78.426908271202,27.1688725933909,0 78.4268182,27.168260168,0 78.427599852,27.1674785,0 78.428686662,27.166029379,0 78.429010637,27.164265302,0 78.42883324,27.16318136,0 78.429299993,27.163252387,0 78.4308788,27.162847566,0 78.431522609,27.162525661,0 78.432204843,27.162370607,0 78.434462155,27.161534547,0 78.434462098,27.159035314,0 78.433376647,27.157660444,0 78.431923128,27.15693369,0 78.431892488,27.156928033,0 78.432256222,27.155920706,0 78.432341893,27.154420864,0 78.431583316,27.152874606,0 78.43142693,27.152594769,0 78.43141601,27.152447392,0 78.431455908,27.152327689,0 78.431948244,27.151595476,0 78.432124119,27.151391148,0 78.432098986,27.15132706,0 78.432302436,27.15135836,0 78.434001333,27.150980829,0 78.435704841,27.150384595,0 78.438106787,27.146901614,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="firozabad_drone_survey_shapefile.9">
+	<name>FRD_4_1</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#firozabad_drone_survey_shapefile">
+		<SimpleData name="fid">1</SimpleData>
+		<SimpleData name="descriptio">Viewshed Coverage Area&lt;BR&gt;&lt;BR&gt;&lt;B&gt;PERIMETER&lt;/B&gt; = 29.528 km&lt;BR&gt;&lt;B&gt;ENCLOSED_AREA&lt;/B&gt; = 42.602 sq km</SimpleData>
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="layer">Firozabad_Drone_Survey — FRD_4_1</SimpleData>
+		<SimpleData name="path">C:/Users/vara prasad/OneDrive - CWD/CWD_Firozabad/Firozabad Files/Firoz_QGIS/Drone_Survey-Block_Map/Firozabad_Drone_Survey.gpkg|layername=FRD_4_1</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>78.4174933305237,27.150595359056,0 78.3999768416397,27.1430092518875,0 78.393894355655,27.1551419490405,0 78.410844764161,27.1622061603477,0 78.4174933305237,27.150595359056,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="firozabad_drone_survey_shapefile.10">
+	<name>FRD_4_2</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#firozabad_drone_survey_shapefile">
+		<SimpleData name="fid">1</SimpleData>
+		<SimpleData name="descriptio">Viewshed Coverage Area&lt;BR&gt;&lt;BR&gt;&lt;B&gt;PERIMETER&lt;/B&gt; = 29.528 km&lt;BR&gt;&lt;B&gt;ENCLOSED_AREA&lt;/B&gt; = 42.602 sq km</SimpleData>
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="layer">Firozabad_Drone_Survey — FRD_4_2</SimpleData>
+		<SimpleData name="path">C:/Users/vara prasad/OneDrive - CWD/CWD_Firozabad/Firozabad Files/Firoz_QGIS/Drone_Survey-Block_Map/Firozabad_Drone_Survey.gpkg|layername=FRD_4_2</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>78.4320943377063,27.156452686667,0 78.4168417069745,27.1502605563103,0 78.4101040470625,27.161905923465,0 78.426908271202,27.1688725933909,0 78.4268182,27.168260168,0 78.427599852,27.1674785,0 78.428686662,27.166029379,0 78.429010637,27.164265302,0 78.42883324,27.16318136,0 78.429299993,27.163252387,0 78.4308788,27.162847566,0 78.431522609,27.162525661,0 78.432204843,27.162370607,0 78.434462155,27.161534547,0 78.434462098,27.159035314,0 78.433376647,27.157660444,0 78.4318741818152,27.1569434879083,0 78.4320943377063,27.156452686667,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark id="firozabad_drone_survey_shapefile.11">
+	<name>FRD_4_3</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#firozabad_drone_survey_shapefile">
+		<SimpleData name="fid">1</SimpleData>
+		<SimpleData name="descriptio">Viewshed Coverage Area&lt;BR&gt;&lt;BR&gt;&lt;B&gt;PERIMETER&lt;/B&gt; = 29.528 km&lt;BR&gt;&lt;B&gt;ENCLOSED_AREA&lt;/B&gt; = 42.602 sq km</SimpleData>
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="layer">Firozabad_Drone_Survey — FRD_4_3</SimpleData>
+		<SimpleData name="path">C:/Users/vara prasad/OneDrive - CWD/CWD_Firozabad/Firozabad Files/Firoz_QGIS/Drone_Survey-Block_Map/Firozabad_Drone_Survey.gpkg|layername=FRD_4_3</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>78.438106787,27.146901614,0 78.436424621,27.146278613,0 78.436761128,27.145381204,0 78.436620752,27.145240832,0 78.437347905,27.144586374,0 78.436580297,27.14305123,0 78.436934668,27.142342456,0 78.436723729,27.140655244,0 78.435850647,27.139607575,0 78.435321727,27.138951729,0 78.433814632,27.137408349,0 78.433482159,27.136931818,0 78.433311161,27.136543202,0 78.431316051,27.133123107,0 78.429069045,27.132465453,0 78.421044663,27.133026216,0 78.420394542,27.132933343,0 78.420291892,27.132830694,0 78.41887237,27.131904925,0 78.417433266,27.131493754,0 78.415795814,27.131344896,0 78.413848145,27.131344896,0 78.411173023,27.131646321,0 78.409586864,27.13164632,0 78.407972257,27.13157612,0 78.406324973,27.131438844,0 78.4057917577593,27.1313155608798,0 78.399784665173,27.1433363136999,0 78.431892488,27.156928033,0 78.432256222,27.155920706,0 78.432341893,27.154420864,0 78.431583316,27.152874606,0 78.43142693,27.152594769,0 78.43141601,27.152447392,0 78.431455908,27.152327689,0 78.431948244,27.151595476,0 78.432124119,27.151391148,0 78.432098986,27.15132706,0 78.432302436,27.15135836,0 78.434001333,27.150980829,0 78.435704841,27.150384595,0 78.438106787,27.146901614,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder>
+</Document></kml>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>MRD_02.kml</name>
+	<Style id="area1">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>bf000000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="area10">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#area11</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#area1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="area11">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>bf000000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<description>Unknown Area Type</description>
+		<styleUrl>#area10</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						78.72059965699999,28.857218115,0 78.720099491,28.85737792600001,0 78.72238967616009,28.83612516851597,0 78.733037391,28.838857072,0 78.74492196,28.835285924,0 78.74530002088328,28.83566071580528,0 78.74493762225828,28.84916531663168,0 78.73940881006202,28.84938051387908,0 78.739139959,28.854272689,0 78.72853015600001,28.854000643,0 78.72059965699999,28.857218115,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+		<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.7.1327"></atom:link>
+	</Placemark>
+</Document>
+</kml>

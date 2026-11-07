@@ -1,0 +1,863 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>GCP Moradabad - CP Points</name>
+<description><![CDATA[CP (check point) points from DGPS survey CSVs (05-11 Oct 2026). Total 138 points. Marker colors by date:<br/>05 Oct 2026 - <span style="color:red">red</span><br/>06 Oct 2026 - <span style="color:blue">blue</span><br/>07 Oct 2026 - <span style="color:green">green</span><br/>08 Oct 2026 - <span style="color:orange">orange</span><br/>09 Oct 2026 - <span style="color:purple">purple</span><br/>10 Oct 2026 - <span style="color:cyan">cyan</span><br/>11 Oct 2026 - <span style="color:magenta">magenta</span>]]></description>
+<Style id="cp-20261005"><IconStyle><color>ff0000ff</color><scale>1.0</scale><Icon><href>http://maps.google.com/mapfiles/kml/pushpin/wht-pushpin.png</href></Icon></IconStyle><LabelStyle><scale>0</scale></LabelStyle></Style>
+<Style id="cp-20261006"><IconStyle><color>ffff0000</color><scale>1.0</scale><Icon><href>http://maps.google.com/mapfiles/kml/pushpin/wht-pushpin.png</href></Icon></IconStyle><LabelStyle><scale>0</scale></LabelStyle></Style>
+<Style id="cp-20261007"><IconStyle><color>ff00aa00</color><scale>1.0</scale><Icon><href>http://maps.google.com/mapfiles/kml/pushpin/wht-pushpin.png</href></Icon></IconStyle><LabelStyle><scale>0</scale></LabelStyle></Style>
+<Style id="cp-20261008"><IconStyle><color>ff00a5ff</color><scale>1.0</scale><Icon><href>http://maps.google.com/mapfiles/kml/pushpin/wht-pushpin.png</href></Icon></IconStyle><LabelStyle><scale>0</scale></LabelStyle></Style>
+<Style id="cp-20261009"><IconStyle><color>ff800080</color><scale>1.0</scale><Icon><href>http://maps.google.com/mapfiles/kml/pushpin/wht-pushpin.png</href></Icon></IconStyle><LabelStyle><scale>0</scale></LabelStyle></Style>
+<Style id="cp-20261010"><IconStyle><color>ffffff00</color><scale>1.0</scale><Icon><href>http://maps.google.com/mapfiles/kml/pushpin/wht-pushpin.png</href></Icon></IconStyle><LabelStyle><scale>0</scale></LabelStyle></Style>
+<Style id="cp-20261011"><IconStyle><color>ffff00ff</color><scale>1.0</scale><Icon><href>http://maps.google.com/mapfiles/kml/pushpin/wht-pushpin.png</href></Icon></IconStyle><LabelStyle><scale>0</scale></LabelStyle></Style>
+<LookAt><longitude>78.7520953</longitude><latitude>28.8391728</latitude><altitude>0</altitude><range>19528</range><tilt>0</tilt><heading>0</heading></LookAt>
+<Folder>
+<name>05 Oct 2026 (7 CP points) - red</name>
+<Placemark>
+<name>CP 12_05</name>
+<styleUrl>#cp-20261005</styleUrl>
+<description><![CDATA[Date: 05-Oct-2026<br/>Point: CP 12_05<br/>Lat: 28.8414360, Long: 78.7207055<br/>UTM 44N: 277627 E, 3192553 N<br/>Elevation: 195.155]]></description>
+<Point><coordinates>78.7207055,28.8414360,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>CP 13_05</name>
+<styleUrl>#cp-20261005</styleUrl>
+<description><![CDATA[Date: 05-Oct-2026<br/>Point: CP 13_05<br/>Lat: 28.8346703, Long: 78.7201823<br/>UTM 44N: 277562 E, 3191804 N<br/>Elevation: 195.968]]></description>
+<Point><coordinates>78.7201823,28.8346703,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>cp 18_07</name>
+<styleUrl>#cp-20261005</styleUrl>
+<description><![CDATA[Date: 05-Oct-2026<br/>Point: cp 18_07<br/>Lat: 28.8001472, Long: 78.7344268<br/>UTM 44N: 278879 E, 3187951 N<br/>Elevation: 194.884]]></description>
+<Point><coordinates>78.7344268,28.8001472,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>cp14-05</name>
+<styleUrl>#cp-20261005</styleUrl>
+<description><![CDATA[Date: 05-Oct-2026<br/>Point: cp14-05<br/>Lat: 28.8294101, Long: 78.7197026<br/>UTM 44N: 277504 E, 3191222 N<br/>Elevation: 195.605]]></description>
+<Point><coordinates>78.7197026,28.8294101,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>cp13-04</name>
+<styleUrl>#cp-20261005</styleUrl>
+<description><![CDATA[Date: 05-Oct-2026<br/>Point: cp13-04<br/>Lat: 28.8359203, Long: 78.7145944<br/>UTM 44N: 277019 E, 3191953 N<br/>Elevation: 196.028]]></description>
+<Point><coordinates>78.7145944,28.8359203,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>cp13-06</name>
+<styleUrl>#cp-20261005</styleUrl>
+<description><![CDATA[Date: 05-Oct-2026<br/>Point: cp13-06<br/>Lat: 28.8350990, Long: 78.7261812<br/>UTM 44N: 278148 E, 3191840 N<br/>Elevation: 194.567]]></description>
+<Point><coordinates>78.7261812,28.8350990,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>cp13-07</name>
+<styleUrl>#cp-20261005</styleUrl>
+<description><![CDATA[Date: 05-Oct-2026<br/>Point: cp13-07<br/>Lat: 28.8341559, Long: 78.7349873<br/>UTM 44N: 279006 E, 3191719 N<br/>Elevation: 194.536]]></description>
+<Point><coordinates>78.7349873,28.8341559,0</coordinates></Point>
+</Placemark>
+</Folder>
+<Folder>
+<name>06 Oct 2026 (14 CP points) - blue</name>
+<Placemark>
+<name>cp12-04</name>
+<styleUrl>#cp-20261006</styleUrl>
+<description><![CDATA[Date: 06-Oct-2026<br/>Point: cp12-04<br/>Lat: 28.8418381, Long: 78.7136455<br/>UTM 44N: 276939 E, 3192610 N<br/>Elevation: 196.283]]></description>
+<Point><coordinates>78.7136455,28.8418381,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>cp11-04</name>
+<styleUrl>#cp-20261006</styleUrl>
+<description><![CDATA[Date: 06-Oct-2026<br/>Point: cp11-04<br/>Lat: 28.8498752, Long: 78.7127201<br/>UTM 44N: 276866 E, 3193503 N<br/>Elevation: 196.887]]></description>
+<Point><coordinates>78.7127201,28.8498752,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>cp10-04</name>
+<styleUrl>#cp-20261006</styleUrl>
+<description><![CDATA[Date: 06-Oct-2026<br/>Point: cp10-04<br/>Lat: 28.8565873, Long: 78.7162548<br/>UTM 44N: 277225 E, 3194240 N<br/>Elevation: 196.519]]></description>
+<Point><coordinates>78.7162548,28.8565873,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>cp10-05</name>
+<styleUrl>#cp-20261006</styleUrl>
+<description><![CDATA[Date: 06-Oct-2026<br/>Point: cp10-05<br/>Lat: 28.8538710, Long: 78.7190372<br/>UTM 44N: 277491 E, 3193934 N<br/>Elevation: 196.32]]></description>
+<Point><coordinates>78.7190372,28.8538710,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>CP 12_03</name>
+<styleUrl>#cp-20261006</styleUrl>
+<description><![CDATA[Date: 06-Oct-2026<br/>Point: CP 12_03<br/>Lat: 28.8426433, Long: 78.7066105<br/>UTM 44N: 276254 E, 3192713 N<br/>Elevation: 196.329]]></description>
+<Point><coordinates>78.7066105,28.8426433,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>CP 11_5</name>
+<styleUrl>#cp-20261006</styleUrl>
+<description><![CDATA[Date: 06-Oct-2026<br/>Point: CP 11_5<br/>Lat: 28.8475678, Long: 78.7205376<br/>UTM 44N: 277624 E, 3193233 N<br/>Elevation: 196.649]]></description>
+<Point><coordinates>78.7205376,28.8475678,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>CP 75</name>
+<styleUrl>#cp-20261006</styleUrl>
+<description><![CDATA[Date: 06-Oct-2026<br/>Point: CP 75<br/>Lat: 28.8211700, Long: 78.7281770<br/>UTM 44N: 278313 E, 3190292 N<br/>Elevation: 195.457]]></description>
+<Point><coordinates>78.7281770,28.8211700,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>CP 74</name>
+<styleUrl>#cp-20261006</styleUrl>
+<description><![CDATA[Date: 06-Oct-2026<br/>Point: CP 74<br/>Lat: 28.8224269, Long: 78.7323502<br/>UTM 44N: 278723 E, 3190424 N<br/>Elevation: 194.434]]></description>
+<Point><coordinates>78.7323502,28.8224269,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>CP 82</name>
+<styleUrl>#cp-20261006</styleUrl>
+<description><![CDATA[Date: 06-Oct-2026<br/>Point: CP 82<br/>Lat: 28.8277762, Long: 78.7345621<br/>UTM 44N: 278951 E, 3191013 N<br/>Elevation: 194.44]]></description>
+<Point><coordinates>78.7345621,28.8277762,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>CP 81</name>
+<styleUrl>#cp-20261006</styleUrl>
+<description><![CDATA[Date: 06-Oct-2026<br/>Point: CP 81<br/>Lat: 28.8285769, Long: 78.7292556<br/>UTM 44N: 278434 E, 3191111 N<br/>Elevation: 194.901]]></description>
+<Point><coordinates>78.7292556,28.8285769,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Cp - 100</name>
+<styleUrl>#cp-20261006</styleUrl>
+<description><![CDATA[Date: 06-Oct-2026<br/>Point: Cp - 100<br/>Lat: 28.8345012, Long: 78.7423969<br/>UTM 44N: 279730 E, 3191744 N<br/>Elevation: 193.729]]></description>
+<Point><coordinates>78.7423969,28.8345012,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>MRD_CP-76</name>
+<styleUrl>#cp-20261006</styleUrl>
+<description><![CDATA[Date: 06-Oct-2026<br/>Point: MRD_CP-76<br/>Lat: 28.8228910, Long: 78.7232208<br/>UTM 44N: 277833 E, 3190493 N<br/>Elevation: 195.154]]></description>
+<Point><coordinates>78.7232208,28.8228910,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>MRD_CP-52</name>
+<styleUrl>#cp-20261006</styleUrl>
+<description><![CDATA[Date: 06-Oct-2026<br/>Point: MRD_CP-52<br/>Lat: 28.8154388, Long: 78.7276221<br/>UTM 44N: 278247 E, 3189658 N<br/>Elevation: 194.369]]></description>
+<Point><coordinates>78.7276221,28.8154388,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>MRD_CP-51</name>
+<styleUrl>#cp-20261006</styleUrl>
+<description><![CDATA[Date: 06-Oct-2026<br/>Point: MRD_CP-51<br/>Lat: 28.8129457, Long: 78.7205557<br/>UTM 44N: 277552 E, 3189395 N<br/>Elevation: 193.346]]></description>
+<Point><coordinates>78.7205557,28.8129457,0</coordinates></Point>
+</Placemark>
+</Folder>
+<Folder>
+<name>07 Oct 2026 (27 CP points) - green</name>
+<Placemark>
+<name>mrdcp-50</name>
+<styleUrl>#cp-20261007</styleUrl>
+<description><![CDATA[Date: 07-Oct-2026<br/>Point: mrdcp-50<br/>Lat: 28.8152305, Long: 78.7123880<br/>UTM 44N: 276760 E, 3189664 N<br/>Elevation: 193.738]]></description>
+<Point><coordinates>78.7123880,28.8152305,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>mrdcp-51</name>
+<styleUrl>#cp-20261007</styleUrl>
+<description><![CDATA[Date: 07-Oct-2026<br/>Point: mrdcp-51<br/>Lat: 28.8177300, Long: 78.7218013<br/>UTM 44N: 277684 E, 3189923 N<br/>Elevation: 194.139]]></description>
+<Point><coordinates>78.7218013,28.8177300,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>mrdcp53</name>
+<styleUrl>#cp-20261007</styleUrl>
+<description><![CDATA[Date: 07-Oct-2026<br/>Point: mrdcp53<br/>Lat: 28.8182433, Long: 78.7353980<br/>UTM 44N: 279012 E, 3189955 N<br/>Elevation: 193.662]]></description>
+<Point><coordinates>78.7353980,28.8182433,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>mrdcp73</name>
+<styleUrl>#cp-20261007</styleUrl>
+<description><![CDATA[Date: 07-Oct-2026<br/>Point: mrdcp73<br/>Lat: 28.8192737, Long: 78.7461034<br/>UTM 44N: 280059 E, 3190049 N<br/>Elevation: 193.745]]></description>
+<Point><coordinates>78.7461034,28.8192737,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>mrdcp84</name>
+<styleUrl>#cp-20261007</styleUrl>
+<description><![CDATA[Date: 07-Oct-2026<br/>Point: mrdcp84<br/>Lat: 28.8280892, Long: 78.7509504<br/>UTM 44N: 280551 E, 3191017 N<br/>Elevation: 194.067]]></description>
+<Point><coordinates>78.7509504,28.8280892,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>mrdcp85</name>
+<styleUrl>#cp-20261007</styleUrl>
+<description><![CDATA[Date: 07-Oct-2026<br/>Point: mrdcp85<br/>Lat: 28.8286943, Long: 78.7557229<br/>UTM 44N: 281018 E, 3191075 N<br/>Elevation: 193.05]]></description>
+<Point><coordinates>78.7557229,28.8286943,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>mrdcp86</name>
+<styleUrl>#cp-20261007</styleUrl>
+<description><![CDATA[Date: 07-Oct-2026<br/>Point: mrdcp86<br/>Lat: 28.8298580, Long: 78.7635433<br/>UTM 44N: 281784 E, 3191190 N<br/>Elevation: 192.824]]></description>
+<Point><coordinates>78.7635433,28.8298580,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>mrdcp97</name>
+<styleUrl>#cp-20261007</styleUrl>
+<description><![CDATA[Date: 07-Oct-2026<br/>Point: mrdcp97<br/>Lat: 28.8333300, Long: 78.7627275<br/>UTM 44N: 281711 E, 3191576 N<br/>Elevation: 193.885]]></description>
+<Point><coordinates>78.7627275,28.8333300,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>mrdcp98</name>
+<styleUrl>#cp-20261007</styleUrl>
+<description><![CDATA[Date: 07-Oct-2026<br/>Point: mrdcp98<br/>Lat: 28.8347015, Long: 78.7582988<br/>UTM 44N: 281282 E, 3191736 N<br/>Elevation: 193.651]]></description>
+<Point><coordinates>78.7582988,28.8347015,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>MRD_CP-105</name>
+<styleUrl>#cp-20261007</styleUrl>
+<description><![CDATA[Date: 07-Oct-2026<br/>Point: MRD_CP-105<br/>Lat: 28.8332897, Long: 78.7054391<br/>UTM 44N: 276120 E, 3191678 N<br/>Elevation: 194.912]]></description>
+<Point><coordinates>78.7054391,28.8332897,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>MRD_CP-78</name>
+<styleUrl>#cp-20261007</styleUrl>
+<description><![CDATA[Date: 07-Oct-2026<br/>Point: MRD_CP-78<br/>Lat: 28.8297436, Long: 78.7084126<br/>UTM 44N: 276403 E, 3191280 N<br/>Elevation: 197.615]]></description>
+<Point><coordinates>78.7084126,28.8297436,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>MRD_CP-79</name>
+<styleUrl>#cp-20261007</styleUrl>
+<description><![CDATA[Date: 07-Oct-2026<br/>Point: MRD_CP-79<br/>Lat: 28.8302361, Long: 78.7147490<br/>UTM 44N: 277022 E, 3191322 N<br/>Elevation: 193.899]]></description>
+<Point><coordinates>78.7147490,28.8302361,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>MRD_CP-104</name>
+<styleUrl>#cp-20261007</styleUrl>
+<description><![CDATA[Date: 07-Oct-2026<br/>Point: MRD_CP-104<br/>Lat: 28.8362799, Long: 78.7145897<br/>UTM 44N: 277019 E, 3191993 N<br/>Elevation: 196.168]]></description>
+<Point><coordinates>78.7145897,28.8362799,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>MRD_CP-103</name>
+<styleUrl>#cp-20261007</styleUrl>
+<description><![CDATA[Date: 07-Oct-2026<br/>Point: MRD_CP-103<br/>Lat: 28.8357048, Long: 78.7214165<br/>UTM 44N: 277685 E, 3191916 N<br/>Elevation: 194.42]]></description>
+<Point><coordinates>78.7214165,28.8357048,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>MRD_CP-80</name>
+<styleUrl>#cp-20261007</styleUrl>
+<description><![CDATA[Date: 07-Oct-2026<br/>Point: MRD_CP-80<br/>Lat: 28.8286457, Long: 78.7224515<br/>UTM 44N: 277771 E, 3191132 N<br/>Elevation: 195.355]]></description>
+<Point><coordinates>78.7224515,28.8286457,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>MRD_CP-77</name>
+<styleUrl>#cp-20261007</styleUrl>
+<description><![CDATA[Date: 07-Oct-2026<br/>Point: MRD_CP-77<br/>Lat: 28.8232204, Long: 78.7158950<br/>UTM 44N: 277119 E, 3190543 N<br/>Elevation: 194.543]]></description>
+<Point><coordinates>78.7158950,28.8232204,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>MRD_CP-102</name>
+<styleUrl>#cp-20261007</styleUrl>
+<description><![CDATA[Date: 07-Oct-2026<br/>Point: MRD_CP-102<br/>Lat: 28.8345335, Long: 78.7268614<br/>UTM 44N: 278213 E, 3191776 N<br/>Elevation: 194.599]]></description>
+<Point><coordinates>78.7268614,28.8345335,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>MRD_CP-129</name>
+<styleUrl>#cp-20261007</styleUrl>
+<description><![CDATA[Date: 07-Oct-2026<br/>Point: MRD_CP-129<br/>Lat: 28.8520310, Long: 78.7145987<br/>UTM 44N: 277054 E, 3193738 N<br/>Elevation: 196.847]]></description>
+<Point><coordinates>78.7145987,28.8520310,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>MRD_CP-149</name>
+<styleUrl>#cp-20261007</styleUrl>
+<description><![CDATA[Date: 07-Oct-2026<br/>Point: MRD_CP-149<br/>Lat: 28.8589505, Long: 78.7170264<br/>UTM 44N: 277306 E, 3194501 N<br/>Elevation: 196.396]]></description>
+<Point><coordinates>78.7170264,28.8589505,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>MRD_CP-148</name>
+<styleUrl>#cp-20261007</styleUrl>
+<description><![CDATA[Date: 07-Oct-2026<br/>Point: MRD_CP-148<br/>Lat: 28.8591594, Long: 78.7204038<br/>UTM 44N: 277636 E, 3194518 N<br/>Elevation: 195.58]]></description>
+<Point><coordinates>78.7204038,28.8591594,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>MRD_CP-130</name>
+<styleUrl>#cp-20261007</styleUrl>
+<description><![CDATA[Date: 07-Oct-2026<br/>Point: MRD_CP-130<br/>Lat: 28.8547135, Long: 78.7189919<br/>UTM 44N: 277488 E, 3194028 N<br/>Elevation: 196.862]]></description>
+<Point><coordinates>78.7189919,28.8547135,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>cp - 107</name>
+<styleUrl>#cp-20261007</styleUrl>
+<description><![CDATA[Date: 07-Oct-2026<br/>Point: cp - 107<br/>Lat: 28.8418010, Long: 78.7210235<br/>UTM 44N: 277659 E, 3192593 N<br/>Elevation: 195.24]]></description>
+<Point><coordinates>78.7210235,28.8418010,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>cp - 108</name>
+<styleUrl>#cp-20261007</styleUrl>
+<description><![CDATA[Date: 07-Oct-2026<br/>Point: cp - 108<br/>Lat: 28.8406615, Long: 78.7289923<br/>UTM 44N: 278434 E, 3192451 N<br/>Elevation: 194.467]]></description>
+<Point><coordinates>78.7289923,28.8406615,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>cp - 126</name>
+<styleUrl>#cp-20261007</styleUrl>
+<description><![CDATA[Date: 07-Oct-2026<br/>Point: cp - 126<br/>Lat: 28.8478696, Long: 78.7282476<br/>UTM 44N: 278377 E, 3193252 N<br/>Elevation: 195.821]]></description>
+<Point><coordinates>78.7282476,28.8478696,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>cp - 131</name>
+<styleUrl>#cp-20261007</styleUrl>
+<description><![CDATA[Date: 07-Oct-2026<br/>Point: cp - 131<br/>Lat: 28.8526102, Long: 78.7282228<br/>UTM 44N: 278385 E, 3193777 N<br/>Elevation: 195.722]]></description>
+<Point><coordinates>78.7282228,28.8526102,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>cp - 131</name>
+<styleUrl>#cp-20261007</styleUrl>
+<description><![CDATA[Date: 07-Oct-2026<br/>Point: cp - 131<br/>Lat: 28.8531392, Long: 78.7355176<br/>UTM 44N: 279098 E, 3193822 N<br/>Elevation: 194.691]]></description>
+<Point><coordinates>78.7355176,28.8531392,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>cp - 125</name>
+<styleUrl>#cp-20261007</styleUrl>
+<description><![CDATA[Date: 07-Oct-2026<br/>Point: cp - 125<br/>Lat: 28.8476025, Long: 78.7353634<br/>UTM 44N: 279071 E, 3193209 N<br/>Elevation: 195.602]]></description>
+<Point><coordinates>78.7353634,28.8476025,0</coordinates></Point>
+</Placemark>
+</Folder>
+<Folder>
+<name>08 Oct 2026 (28 CP points) - orange</name>
+<Placemark>
+<name>cp 33</name>
+<styleUrl>#cp-20261008</styleUrl>
+<description><![CDATA[Date: 08-Oct-2026<br/>Point: cp 33<br/>Lat: 28.8035925, Long: 78.8025979<br/>UTM 44N: 285541 E, 3188208 N<br/>Elevation: 191.831]]></description>
+<Point><coordinates>78.8025979,28.8035925,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>cp 34</name>
+<styleUrl>#cp-20261008</styleUrl>
+<description><![CDATA[Date: 08-Oct-2026<br/>Point: cp 34<br/>Lat: 28.7997266, Long: 78.8054803<br/>UTM 44N: 285815 E, 3187774 N<br/>Elevation: 191.761]]></description>
+<Point><coordinates>78.8054803,28.7997266,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>cp 37</name>
+<styleUrl>#cp-20261008</styleUrl>
+<description><![CDATA[Date: 08-Oct-2026<br/>Point: cp 37<br/>Lat: 28.8082393, Long: 78.8060697<br/>UTM 44N: 285890 E, 3188716 N<br/>Elevation: 198.452]]></description>
+<Point><coordinates>78.8060697,28.8082393,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>cp 39</name>
+<styleUrl>#cp-20261008</styleUrl>
+<description><![CDATA[Date: 08-Oct-2026<br/>Point: cp 39<br/>Lat: 28.8086124, Long: 78.7934824<br/>UTM 44N: 284662 E, 3188781 N<br/>Elevation: 191.849]]></description>
+<Point><coordinates>78.7934824,28.8086124,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>mrdcp6</name>
+<styleUrl>#cp-20261008</styleUrl>
+<description><![CDATA[Date: 08-Oct-2026<br/>Point: mrdcp6<br/>Lat: 28.7900959, Long: 78.7483246<br/>UTM 44N: 280215 E, 3186811 N<br/>Elevation: 193.926]]></description>
+<Point><coordinates>78.7483246,28.7900959,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>mrdcp5</name>
+<styleUrl>#cp-20261008</styleUrl>
+<description><![CDATA[Date: 08-Oct-2026<br/>Point: mrdcp5<br/>Lat: 28.7852165, Long: 78.7571828<br/>UTM 44N: 281069 E, 3186254 N<br/>Elevation: 191.886]]></description>
+<Point><coordinates>78.7571828,28.7852165,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>mrdcp2</name>
+<styleUrl>#cp-20261008</styleUrl>
+<description><![CDATA[Date: 08-Oct-2026<br/>Point: mrdcp2<br/>Lat: 28.7837921, Long: 78.7648136<br/>UTM 44N: 281812 E, 3186082 N<br/>Elevation: 191.257]]></description>
+<Point><coordinates>78.7648136,28.7837921,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>mrdcp1</name>
+<styleUrl>#cp-20261008</styleUrl>
+<description><![CDATA[Date: 08-Oct-2026<br/>Point: mrdcp1<br/>Lat: 28.7795598, Long: 78.7664431<br/>UTM 44N: 281962 E, 3185610 N<br/>Elevation: 190.859]]></description>
+<Point><coordinates>78.7664431,28.7795598,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>mrdcp7</name>
+<styleUrl>#cp-20261008</styleUrl>
+<description><![CDATA[Date: 08-Oct-2026<br/>Point: mrdcp7<br/>Lat: 28.7890622, Long: 78.7597918<br/>UTM 44N: 281332 E, 3186675 N<br/>Elevation: 192.051]]></description>
+<Point><coordinates>78.7597918,28.7890622,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>mrdcp8</name>
+<styleUrl>#cp-20261008</styleUrl>
+<description><![CDATA[Date: 08-Oct-2026<br/>Point: mrdcp8<br/>Lat: 28.7891459, Long: 78.7633844<br/>UTM 44N: 281683 E, 3186678 N<br/>Elevation: 191.683]]></description>
+<Point><coordinates>78.7633844,28.7891459,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>mrdcp19</name>
+<styleUrl>#cp-20261008</styleUrl>
+<description><![CDATA[Date: 08-Oct-2026<br/>Point: mrdcp19<br/>Lat: 28.7964424, Long: 78.7624252<br/>UTM 44N: 281605 E, 3187488 N<br/>Elevation: 193.893]]></description>
+<Point><coordinates>78.7624252,28.7964424,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>mrdcp28</name>
+<styleUrl>#cp-20261008</styleUrl>
+<description><![CDATA[Date: 08-Oct-2026<br/>Point: mrdcp28<br/>Lat: 28.8016261, Long: 78.7660065<br/>UTM 44N: 281965 E, 3188056 N<br/>Elevation: 192.202]]></description>
+<Point><coordinates>78.7660065,28.8016261,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>mrdcp42</name>
+<styleUrl>#cp-20261008</styleUrl>
+<description><![CDATA[Date: 08-Oct-2026<br/>Point: mrdcp42<br/>Lat: 28.8085937, Long: 78.7697127<br/>UTM 44N: 282342 E, 3188822 N<br/>Elevation: 192.511]]></description>
+<Point><coordinates>78.7697127,28.8085937,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>mrdcp58</name>
+<styleUrl>#cp-20261008</styleUrl>
+<description><![CDATA[Date: 08-Oct-2026<br/>Point: mrdcp58<br/>Lat: 28.8150644, Long: 78.7724890<br/>UTM 44N: 282626 E, 3189534 N<br/>Elevation: 192.448]]></description>
+<Point><coordinates>78.7724890,28.8150644,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>MRD_CP-109</name>
+<styleUrl>#cp-20261008</styleUrl>
+<description><![CDATA[Date: 08-Oct-2026<br/>Point: MRD_CP-109<br/>Lat: 28.8410151, Long: 78.7348685<br/>UTM 44N: 279009 E, 3192480 N<br/>Elevation: 195.023]]></description>
+<Point><coordinates>78.7348685,28.8410151,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>MRD_CP-110</name>
+<styleUrl>#cp-20261008</styleUrl>
+<description><![CDATA[Date: 08-Oct-2026<br/>Point: MRD_CP-110<br/>Lat: 28.8414061, Long: 78.7427880<br/>UTM 44N: 279782 E, 3192508 N<br/>Elevation: 194.359]]></description>
+<Point><coordinates>78.7427880,28.8414061,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>MRD_CP-99</name>
+<styleUrl>#cp-20261008</styleUrl>
+<description><![CDATA[Date: 08-Oct-2026<br/>Point: MRD_CP-99<br/>Lat: 28.8347538, Long: 78.7486707<br/>UTM 44N: 280342 E, 3191760 N<br/>Elevation: 194.25]]></description>
+<Point><coordinates>78.7486707,28.8347538,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>MRD_CP-111</name>
+<styleUrl>#cp-20261008</styleUrl>
+<description><![CDATA[Date: 08-Oct-2026<br/>Point: MRD_CP-111<br/>Lat: 28.8405427, Long: 78.7504347<br/>UTM 44N: 280527 E, 3192398 N<br/>Elevation: 193.971]]></description>
+<Point><coordinates>78.7504347,28.8405427,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>MRD_CP-124</name>
+<styleUrl>#cp-20261008</styleUrl>
+<description><![CDATA[Date: 08-Oct-2026<br/>Point: MRD_CP-124<br/>Lat: 28.8473836, Long: 78.7432943<br/>UTM 44N: 279844 E, 3193170 N<br/>Elevation: 193.994]]></description>
+<Point><coordinates>78.7432943,28.8473836,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>MRD_CP-123</name>
+<styleUrl>#cp-20261008</styleUrl>
+<description><![CDATA[Date: 08-Oct-2026<br/>Point: MRD_CP-123<br/>Lat: 28.8469942, Long: 78.7495534<br/>UTM 44N: 280454 E, 3193115 N<br/>Elevation: 194.476]]></description>
+<Point><coordinates>78.7495534,28.8469942,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>MRD_CP-122</name>
+<styleUrl>#cp-20261008</styleUrl>
+<description><![CDATA[Date: 08-Oct-2026<br/>Point: MRD_CP-122<br/>Lat: 28.8487719, Long: 78.7567492<br/>UTM 44N: 281160 E, 3193299 N<br/>Elevation: 197.827]]></description>
+<Point><coordinates>78.7567492,28.8487719,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>MRD_CP-114</name>
+<styleUrl>#cp-20261008</styleUrl>
+<description><![CDATA[Date: 08-Oct-2026<br/>Point: MRD_CP-114<br/>Lat: 28.8421419, Long: 78.7698252<br/>UTM 44N: 282422 E, 3192540 N<br/>Elevation: 199.175]]></description>
+<Point><coordinates>78.7698252,28.8421419,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>MRD_CP-112</name>
+<styleUrl>#cp-20261008</styleUrl>
+<description><![CDATA[Date: 08-Oct-2026<br/>Point: MRD_CP-112<br/>Lat: 28.8411907, Long: 78.7580268<br/>UTM 44N: 281269 E, 3192456 N<br/>Elevation: 195.394]]></description>
+<Point><coordinates>78.7580268,28.8411907,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>MRD_CP-113</name>
+<styleUrl>#cp-20261008</styleUrl>
+<description><![CDATA[Date: 08-Oct-2026<br/>Point: MRD_CP-113<br/>Lat: 28.8400808, Long: 78.7646085<br/>UTM 44N: 281909 E, 3192321 N<br/>Elevation: 200.518]]></description>
+<Point><coordinates>78.7646085,28.8400808,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>MRD_CP-121</name>
+<styleUrl>#cp-20261008</styleUrl>
+<description><![CDATA[Date: 08-Oct-2026<br/>Point: MRD_CP-121<br/>Lat: 28.8462065, Long: 78.7624950<br/>UTM 44N: 281715 E, 3193004 N<br/>Elevation: 200.122]]></description>
+<Point><coordinates>78.7624950,28.8462065,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>MRD_CP-136</name>
+<styleUrl>#cp-20261008</styleUrl>
+<description><![CDATA[Date: 08-Oct-2026<br/>Point: MRD_CP-136<br/>Lat: 28.8545585, Long: 78.7651003<br/>UTM 44N: 281987 E, 3193925 N<br/>Elevation: 200.117]]></description>
+<Point><coordinates>78.7651003,28.8545585,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>MRD_CP-120</name>
+<styleUrl>#cp-20261008</styleUrl>
+<description><![CDATA[Date: 08-Oct-2026<br/>Point: MRD_CP-120<br/>Lat: 28.8479688, Long: 78.7694889<br/>UTM 44N: 282402 E, 3193186 N<br/>Elevation: 197.904]]></description>
+<Point><coordinates>78.7694889,28.8479688,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>MRD_CP-135</name>
+<styleUrl>#cp-20261008</styleUrl>
+<description><![CDATA[Date: 08-Oct-2026<br/>Point: MRD_CP-135<br/>Lat: 28.8547193, Long: 78.7562170<br/>UTM 44N: 281121 E, 3193959 N<br/>Elevation: 199.976]]></description>
+<Point><coordinates>78.7562170,28.8547193,0</coordinates></Point>
+</Placemark>
+</Folder>
+<Folder>
+<name>09 Oct 2026 (14 CP points) - purple</name>
+<Placemark>
+<name>cp 60</name>
+<styleUrl>#cp-20261009</styleUrl>
+<description><![CDATA[Date: 09-Oct-2026<br/>Point: cp 60<br/>Lat: 28.8151501, Long: 78.7880561<br/>UTM 44N: 284146 E, 3189515 N<br/>Elevation: 192.199]]></description>
+<Point><coordinates>78.7880561,28.8151501,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>cp 31</name>
+<styleUrl>#cp-20261009</styleUrl>
+<description><![CDATA[Date: 09-Oct-2026<br/>Point: cp 31<br/>Lat: 28.8044022, Long: 78.7868996<br/>UTM 44N: 284011 E, 3188326 N<br/>Elevation: 191.181]]></description>
+<Point><coordinates>78.7868996,28.8044022,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>cp 40</name>
+<styleUrl>#cp-20261009</styleUrl>
+<description><![CDATA[Date: 09-Oct-2026<br/>Point: cp 40<br/>Lat: 28.8087966, Long: 78.7872283<br/>UTM 44N: 284052 E, 3188812 N<br/>Elevation: 191.076]]></description>
+<Point><coordinates>78.7872283,28.8087966,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>mrdcp9</name>
+<styleUrl>#cp-20261009</styleUrl>
+<description><![CDATA[Date: 09-Oct-2026<br/>Point: mrdcp9<br/>Lat: 28.7914482, Long: 78.7803233<br/>UTM 44N: 283342 E, 3186902 N<br/>Elevation: 195.546]]></description>
+<Point><coordinates>78.7803233,28.7914482,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>mrdcp16</name>
+<styleUrl>#cp-20261009</styleUrl>
+<description><![CDATA[Date: 09-Oct-2026<br/>Point: mrdcp16<br/>Lat: 28.7962438, Long: 78.7875933<br/>UTM 44N: 284062 E, 3187420 N<br/>Elevation: 194.867]]></description>
+<Point><coordinates>78.7875933,28.7962438,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>mrdcp15</name>
+<styleUrl>#cp-20261009</styleUrl>
+<description><![CDATA[Date: 09-Oct-2026<br/>Point: mrdcp15<br/>Lat: 28.7969767, Long: 78.7933017<br/>UTM 44N: 284620 E, 3187491 N<br/>Elevation: 190.991]]></description>
+<Point><coordinates>78.7933017,28.7969767,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>mrdcp12</name>
+<styleUrl>#cp-20261009</styleUrl>
+<description><![CDATA[Date: 09-Oct-2026<br/>Point: mrdcp12<br/>Lat: 28.7909809, Long: 78.7928007<br/>UTM 44N: 284559 E, 3186828 N<br/>Elevation: 190.105]]></description>
+<Point><coordinates>78.7928007,28.7909809,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>mrdcp11</name>
+<styleUrl>#cp-20261009</styleUrl>
+<description><![CDATA[Date: 09-Oct-2026<br/>Point: mrdcp11<br/>Lat: 28.7918779, Long: 78.7864177<br/>UTM 44N: 283938 E, 3186939 N<br/>Elevation: 190.632]]></description>
+<Point><coordinates>78.7864177,28.7918779,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>MRD_CP-143</name>
+<styleUrl>#cp-20261009</styleUrl>
+<description><![CDATA[Date: 09-Oct-2026<br/>Point: MRD_CP-143<br/>Lat: 28.8597449, Long: 78.7566141<br/>UTM 44N: 281170 E, 3194515 N<br/>Elevation: 200.996]]></description>
+<Point><coordinates>78.7566141,28.8597449,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>MRD_CP-158</name>
+<styleUrl>#cp-20261009</styleUrl>
+<description><![CDATA[Date: 09-Oct-2026<br/>Point: MRD_CP-158<br/>Lat: 28.8678246, Long: 78.7577629<br/>UTM 44N: 281299 E, 3195409 N<br/>Elevation: 194.741]]></description>
+<Point><coordinates>78.7577629,28.8678246,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>MRD_CP-157</name>
+<styleUrl>#cp-20261009</styleUrl>
+<description><![CDATA[Date: 09-Oct-2026<br/>Point: MRD_CP-157<br/>Lat: 28.8667063, Long: 78.7506756<br/>UTM 44N: 280605 E, 3195298 N<br/>Elevation: 194.9]]></description>
+<Point><coordinates>78.7506756,28.8667063,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>MRD_CP-164</name>
+<styleUrl>#cp-20261009</styleUrl>
+<description><![CDATA[Date: 09-Oct-2026<br/>Point: MRD_CP-164<br/>Lat: 28.8734432, Long: 78.7516450<br/>UTM 44N: 280714 E, 3196043 N<br/>Elevation: 195.547]]></description>
+<Point><coordinates>78.7516450,28.8734432,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>MRD_CP-165</name>
+<styleUrl>#cp-20261009</styleUrl>
+<description><![CDATA[Date: 09-Oct-2026<br/>Point: MRD_CP-165<br/>Lat: 28.8733467, Long: 78.7434785<br/>UTM 44N: 279917 E, 3196047 N<br/>Elevation: 200.761]]></description>
+<Point><coordinates>78.7434785,28.8733467,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>MRD_CP-165</name>
+<styleUrl>#cp-20261009</styleUrl>
+<description><![CDATA[Date: 09-Oct-2026<br/>Point: MRD_CP-165<br/>Lat: 28.8733467, Long: 78.7434786<br/>UTM 44N: 279917 E, 3196047 N<br/>Elevation: 200.769]]></description>
+<Point><coordinates>78.7434786,28.8733467,0</coordinates></Point>
+</Placemark>
+</Folder>
+<Folder>
+<name>10 Oct 2026 (31 CP points) - cyan</name>
+<Placemark>
+<name>mrdcp150</name>
+<styleUrl>#cp-20261010</styleUrl>
+<description><![CDATA[Date: 10-Oct-2026<br/>Point: mrdcp150<br/>Lat: 28.8599508, Long: 78.7055032<br/>UTM 44N: 276183 E, 3194633 N<br/>Elevation: 196.388]]></description>
+<Point><coordinates>78.7055032,28.8599508,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>mrdcp151</name>
+<styleUrl>#cp-20261010</styleUrl>
+<description><![CDATA[Date: 10-Oct-2026<br/>Point: mrdcp151<br/>Lat: 28.8662212, Long: 78.7069231<br/>UTM 44N: 276335 E, 3195326 N<br/>Elevation: 197.113]]></description>
+<Point><coordinates>78.7069231,28.8662212,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>mrdcp152</name>
+<styleUrl>#cp-20261010</styleUrl>
+<description><![CDATA[Date: 10-Oct-2026<br/>Point: mrdcp152<br/>Lat: 28.8685966, Long: 78.7131961<br/>UTM 44N: 276952 E, 3195577 N<br/>Elevation: 197.105]]></description>
+<Point><coordinates>78.7131961,28.8685966,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>mrdcp169</name>
+<styleUrl>#cp-20261010</styleUrl>
+<description><![CDATA[Date: 10-Oct-2026<br/>Point: mrdcp169<br/>Lat: 28.8740098, Long: 78.7123411<br/>UTM 44N: 276881 E, 3196179 N<br/>Elevation: 200.794]]></description>
+<Point><coordinates>78.7123411,28.8740098,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>mrdcp170</name>
+<styleUrl>#cp-20261010</styleUrl>
+<description><![CDATA[Date: 10-Oct-2026<br/>Point: mrdcp170<br/>Lat: 28.8740937, Long: 78.7060142<br/>UTM 44N: 276264 E, 3196200 N<br/>Elevation: 199.554]]></description>
+<Point><coordinates>78.7060142,28.8740937,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>mrdcp171</name>
+<styleUrl>#cp-20261010</styleUrl>
+<description><![CDATA[Date: 10-Oct-2026<br/>Point: mrdcp171<br/>Lat: 28.8751971, Long: 78.6981210<br/>UTM 44N: 275496 E, 3196337 N<br/>Elevation: 199.437]]></description>
+<Point><coordinates>78.6981210,28.8751971,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>mrdcp173</name>
+<styleUrl>#cp-20261010</styleUrl>
+<description><![CDATA[Date: 10-Oct-2026<br/>Point: mrdcp173<br/>Lat: 28.8778158, Long: 78.7021351<br/>UTM 44N: 275893 E, 3196620 N<br/>Elevation: 205.232]]></description>
+<Point><coordinates>78.7021351,28.8778158,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>mrdcp176</name>
+<styleUrl>#cp-20261010</styleUrl>
+<description><![CDATA[Date: 10-Oct-2026<br/>Point: mrdcp176<br/>Lat: 28.8819599, Long: 78.7214787<br/>UTM 44N: 277789 E, 3197043 N<br/>Elevation: 203.999]]></description>
+<Point><coordinates>78.7214787,28.8819599,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>mrdcp188</name>
+<styleUrl>#cp-20261010</styleUrl>
+<description><![CDATA[Date: 10-Oct-2026<br/>Point: mrdcp188<br/>Lat: 28.8847219, Long: 78.7221092<br/>UTM 44N: 277856 E, 3197348 N<br/>Elevation: 203.998]]></description>
+<Point><coordinates>78.7221092,28.8847219,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>mrdcp187</name>
+<styleUrl>#cp-20261010</styleUrl>
+<description><![CDATA[Date: 10-Oct-2026<br/>Point: mrdcp187<br/>Lat: 28.8850015, Long: 78.7269104<br/>UTM 44N: 278325 E, 3197370 N<br/>Elevation: 203.865]]></description>
+<Point><coordinates>78.7269104,28.8850015,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>mrdcp177</name>
+<styleUrl>#cp-20261010</styleUrl>
+<description><![CDATA[Date: 10-Oct-2026<br/>Point: mrdcp177<br/>Lat: 28.8790326, Long: 78.7288228<br/>UTM 44N: 278499 E, 3196705 N<br/>Elevation: 201.655]]></description>
+<Point><coordinates>78.7288228,28.8790326,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>cp 71</name>
+<styleUrl>#cp-20261010</styleUrl>
+<description><![CDATA[Date: 10-Oct-2026<br/>Point: cp 71<br/>Lat: 28.8214733, Long: 78.7568143<br/>UTM 44N: 281109 E, 3190273 N<br/>Elevation: 192.674]]></description>
+<Point><coordinates>78.7568143,28.8214733,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>cp 70</name>
+<styleUrl>#cp-20261010</styleUrl>
+<description><![CDATA[Date: 10-Oct-2026<br/>Point: cp 70<br/>Lat: 28.8209235, Long: 78.7637721<br/>UTM 44N: 281787 E, 3190199 N<br/>Elevation: 193.02]]></description>
+<Point><coordinates>78.7637721,28.8209235,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>cp 69</name>
+<styleUrl>#cp-20261010</styleUrl>
+<description><![CDATA[Date: 10-Oct-2026<br/>Point: cp 69<br/>Lat: 28.8226539, Long: 78.7716298<br/>UTM 44N: 282558 E, 3190377 N<br/>Elevation: 192.281]]></description>
+<Point><coordinates>78.7716298,28.8226539,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>cp 68</name>
+<styleUrl>#cp-20261010</styleUrl>
+<description><![CDATA[Date: 10-Oct-2026<br/>Point: cp 68<br/>Lat: 28.8223213, Long: 78.7799851<br/>UTM 44N: 283373 E, 3190324 N<br/>Elevation: 195.992]]></description>
+<Point><coordinates>78.7799851,28.8223213,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>cp 67</name>
+<styleUrl>#cp-20261010</styleUrl>
+<description><![CDATA[Date: 10-Oct-2026<br/>Point: cp 67<br/>Lat: 28.8210920, Long: 78.7880769<br/>UTM 44N: 284160 E, 3190174 N<br/>Elevation: 204.445]]></description>
+<Point><coordinates>78.7880769,28.8210920,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>cp 61</name>
+<styleUrl>#cp-20261010</styleUrl>
+<description><![CDATA[Date: 10-Oct-2026<br/>Point: cp 61<br/>Lat: 28.8165183, Long: 78.7942714<br/>UTM 44N: 284755 E, 3189655 N<br/>Elevation: 192.476]]></description>
+<Point><coordinates>78.7942714,28.8165183,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>cp 66</name>
+<styleUrl>#cp-20261010</styleUrl>
+<description><![CDATA[Date: 10-Oct-2026<br/>Point: cp 66<br/>Lat: 28.8204106, Long: 78.7925280<br/>UTM 44N: 284593 E, 3190090 N<br/>Elevation: 194.721]]></description>
+<Point><coordinates>78.7925280,28.8204106,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>cp 44</name>
+<styleUrl>#cp-20261010</styleUrl>
+<description><![CDATA[Date: 10-Oct-2026<br/>Point: cp 44<br/>Lat: 28.8094165, Long: 78.7568177<br/>UTM 44N: 281084 E, 3188937 N<br/>Elevation: 192.582]]></description>
+<Point><coordinates>78.7568177,28.8094165,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>cp 26</name>
+<styleUrl>#cp-20261010</styleUrl>
+<description><![CDATA[Date: 10-Oct-2026<br/>Point: cp 26<br/>Lat: 28.8053660, Long: 78.7504615<br/>UTM 44N: 280455 E, 3188499 N<br/>Elevation: 193.282]]></description>
+<Point><coordinates>78.7504615,28.8053660,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>cp 20</name>
+<styleUrl>#cp-20261010</styleUrl>
+<description><![CDATA[Date: 10-Oct-2026<br/>Point: cp 20<br/>Lat: 28.7974365, Long: 78.7564408<br/>UTM 44N: 281023 E, 3187610 N<br/>Elevation: 192.64]]></description>
+<Point><coordinates>78.7564408,28.7974365,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>MRD_CP-163</name>
+<styleUrl>#cp-20261010</styleUrl>
+<description><![CDATA[Date: 10-Oct-2026<br/>Point: MRD_CP-163<br/>Lat: 28.8736248, Long: 78.7583505<br/>UTM 44N: 281368 E, 3196050 N<br/>Elevation: 196.066]]></description>
+<Point><coordinates>78.7583505,28.8736248,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>MRD_CP-181</name>
+<styleUrl>#cp-20261010</styleUrl>
+<description><![CDATA[Date: 10-Oct-2026<br/>Point: MRD_CP-181<br/>Lat: 28.8787362, Long: 78.7575663<br/>UTM 44N: 281303 E, 3196618 N<br/>Elevation: 195.558]]></description>
+<Point><coordinates>78.7575663,28.8787362,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>MRD_CP-180</name>
+<styleUrl>#cp-20261010</styleUrl>
+<description><![CDATA[Date: 10-Oct-2026<br/>Point: MRD_CP-180<br/>Lat: 28.8798428, Long: 78.7500255<br/>UTM 44N: 280569 E, 3196755 N<br/>Elevation: 195.874]]></description>
+<Point><coordinates>78.7500255,28.8798428,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>MRD_CP-185</name>
+<styleUrl>#cp-20261010</styleUrl>
+<description><![CDATA[Date: 10-Oct-2026<br/>Point: MRD_CP-185<br/>Lat: 28.8858907, Long: 78.7418359<br/>UTM 44N: 279783 E, 3197440 N<br/>Elevation: 196.096]]></description>
+<Point><coordinates>78.7418359,28.8858907,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>MRD_CP-179</name>
+<styleUrl>#cp-20261010</styleUrl>
+<description><![CDATA[Date: 10-Oct-2026<br/>Point: MRD_CP-179<br/>Lat: 28.8790473, Long: 78.7419937<br/>UTM 44N: 279784 E, 3196682 N<br/>Elevation: 196.222]]></description>
+<Point><coordinates>78.7419937,28.8790473,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>MRD_CP-178</name>
+<styleUrl>#cp-20261010</styleUrl>
+<description><![CDATA[Date: 10-Oct-2026<br/>Point: MRD_CP-178<br/>Lat: 28.8790389, Long: 78.7353304<br/>UTM 44N: 279134 E, 3196693 N<br/>Elevation: 198.96]]></description>
+<Point><coordinates>78.7353304,28.8790389,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>MRD_CP-186</name>
+<styleUrl>#cp-20261010</styleUrl>
+<description><![CDATA[Date: 10-Oct-2026<br/>Point: MRD_CP-186<br/>Lat: 28.8864592, Long: 78.7348125<br/>UTM 44N: 279099 E, 3197517 N<br/>Elevation: 197.751]]></description>
+<Point><coordinates>78.7348125,28.8864592,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>MRD_CP-156</name>
+<styleUrl>#cp-20261010</styleUrl>
+<description><![CDATA[Date: 10-Oct-2026<br/>Point: MRD_CP-156<br/>Lat: 28.8666689, Long: 78.7437176<br/>UTM 44N: 279926 E, 3195306 N<br/>Elevation: 199.398]]></description>
+<Point><coordinates>78.7437176,28.8666689,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>MRD_CP-144</name>
+<styleUrl>#cp-20261010</styleUrl>
+<description><![CDATA[Date: 10-Oct-2026<br/>Point: MRD_CP-144<br/>Lat: 28.8613111, Long: 78.7512578<br/>UTM 44N: 280651 E, 3194699 N<br/>Elevation: 199.786]]></description>
+<Point><coordinates>78.7512578,28.8613111,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>MRD_CP-145</name>
+<styleUrl>#cp-20261010</styleUrl>
+<description><![CDATA[Date: 10-Oct-2026<br/>Point: MRD_CP-145<br/>Lat: 28.8592967, Long: 78.7420404<br/>UTM 44N: 279747 E, 3194492 N<br/>Elevation: 196.874]]></description>
+<Point><coordinates>78.7420404,28.8592967,0</coordinates></Point>
+</Placemark>
+</Folder>
+<Folder>
+<name>11 Oct 2026 (17 CP points) - magenta</name>
+<Placemark>
+<name>mrdcp28</name>
+<styleUrl>#cp-20261011</styleUrl>
+<description><![CDATA[Date: 11-Oct-2026<br/>Point: mrdcp28<br/>Lat: 28.8017890, Long: 78.7663110<br/>UTM 44N: 281995 E, 3188074 N<br/>Elevation: 192.123]]></description>
+<Point><coordinates>78.7663110,28.8017890,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>mrdcp30</name>
+<styleUrl>#cp-20261011</styleUrl>
+<description><![CDATA[Date: 11-Oct-2026<br/>Point: mrdcp30<br/>Lat: 28.8052672, Long: 78.7793451<br/>UTM 44N: 283275 E, 3188436 N<br/>Elevation: 191.648]]></description>
+<Point><coordinates>78.7793451,28.8052672,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>mrdcp29</name>
+<styleUrl>#cp-20261011</styleUrl>
+<description><![CDATA[Date: 11-Oct-2026<br/>Point: mrdcp29<br/>Lat: 28.8029898, Long: 78.7739478<br/>UTM 44N: 282743 E, 3188193 N<br/>Elevation: 192.2]]></description>
+<Point><coordinates>78.7739478,28.8029898,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>mrdcp59</name>
+<styleUrl>#cp-20261011</styleUrl>
+<description><![CDATA[Date: 11-Oct-2026<br/>Point: mrdcp59<br/>Lat: 28.8173687, Long: 78.7809666<br/>UTM 44N: 283458 E, 3189774 N<br/>Elevation: 191.875]]></description>
+<Point><coordinates>78.7809666,28.8173687,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>mrdcp68</name>
+<styleUrl>#cp-20261011</styleUrl>
+<description><![CDATA[Date: 11-Oct-2026<br/>Point: mrdcp68<br/>Lat: 28.8227954, Long: 78.7784373<br/>UTM 44N: 283223 E, 3190380 N<br/>Elevation: 195.457]]></description>
+<Point><coordinates>78.7784373,28.8227954,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>mrdcp67</name>
+<styleUrl>#cp-20261011</styleUrl>
+<description><![CDATA[Date: 11-Oct-2026<br/>Point: mrdcp67<br/>Lat: 28.8216757, Long: 78.7881522<br/>UTM 44N: 284169 E, 3190238 N<br/>Elevation: 194.85]]></description>
+<Point><coordinates>78.7881522,28.8216757,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>mrdcp66</name>
+<styleUrl>#cp-20261011</styleUrl>
+<description><![CDATA[Date: 11-Oct-2026<br/>Point: mrdcp66<br/>Lat: 28.8206840, Long: 78.7922114<br/>UTM 44N: 284563 E, 3190121 N<br/>Elevation: 195.35]]></description>
+<Point><coordinates>78.7922114,28.8206840,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>mrdcp65</name>
+<styleUrl>#cp-20261011</styleUrl>
+<description><![CDATA[Date: 11-Oct-2026<br/>Point: mrdcp65<br/>Lat: 28.8227390, Long: 78.7993117<br/>UTM 44N: 285260 E, 3190336 N<br/>Elevation: 199.827]]></description>
+<Point><coordinates>78.7993117,28.8227390,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>mrdcp61</name>
+<styleUrl>#cp-20261011</styleUrl>
+<description><![CDATA[Date: 11-Oct-2026<br/>Point: mrdcp61<br/>Lat: 28.8165957, Long: 78.7943826<br/>UTM 44N: 284766 E, 3189664 N<br/>Elevation: 192.595]]></description>
+<Point><coordinates>78.7943826,28.8165957,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>mrdcp62</name>
+<styleUrl>#cp-20261011</styleUrl>
+<description><![CDATA[Date: 11-Oct-2026<br/>Point: mrdcp62<br/>Lat: 28.8134833, Long: 78.8010813<br/>UTM 44N: 285414 E, 3189307 N<br/>Elevation: 191.484]]></description>
+<Point><coordinates>78.8010813,28.8134833,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>mrdcp90</name>
+<styleUrl>#cp-20261011</styleUrl>
+<description><![CDATA[Date: 11-Oct-2026<br/>Point: mrdcp90<br/>Lat: 28.8288130, Long: 78.7926450<br/>UTM 44N: 284622 E, 3191021 N<br/>Elevation: 198.969]]></description>
+<Point><coordinates>78.7926450,28.8288130,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>cp 195</name>
+<styleUrl>#cp-20261011</styleUrl>
+<description><![CDATA[Date: 11-Oct-2026<br/>Point: cp 195<br/>Lat: 28.8931458, Long: 78.7293523<br/>UTM 44N: 278581 E, 3198268 N<br/>Elevation: 202.172]]></description>
+<Point><coordinates>78.7293523,28.8931458,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>cp 199</name>
+<styleUrl>#cp-20261011</styleUrl>
+<description><![CDATA[Date: 11-Oct-2026<br/>Point: cp 199<br/>Lat: 28.8978867, Long: 78.7290718<br/>UTM 44N: 278564 E, 3198794 N<br/>Elevation: 203.561]]></description>
+<Point><coordinates>78.7290718,28.8978867,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>cp 198</name>
+<styleUrl>#cp-20261011</styleUrl>
+<description><![CDATA[Date: 11-Oct-2026<br/>Point: cp 198<br/>Lat: 28.8973498, Long: 78.7356421<br/>UTM 44N: 279203 E, 3198722 N<br/>Elevation: 202.28]]></description>
+<Point><coordinates>78.7356421,28.8973498,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>cp 197</name>
+<styleUrl>#cp-20261011</styleUrl>
+<description><![CDATA[Date: 11-Oct-2026<br/>Point: cp 197<br/>Lat: 28.8932509, Long: 78.7429228<br/>UTM 44N: 279905 E, 3198254 N<br/>Elevation: 201.558]]></description>
+<Point><coordinates>78.7429228,28.8932509,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>cp 196</name>
+<styleUrl>#cp-20261011</styleUrl>
+<description><![CDATA[Date: 11-Oct-2026<br/>Point: cp 196<br/>Lat: 28.8916311, Long: 78.7350199<br/>UTM 44N: 279130 E, 3198089 N<br/>Elevation: 198.648]]></description>
+<Point><coordinates>78.7350199,28.8916311,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>cp 200</name>
+<styleUrl>#cp-20261011</styleUrl>
+<description><![CDATA[Date: 11-Oct-2026<br/>Point: cp 200<br/>Lat: 28.8987858, Long: 78.7197359<br/>UTM 44N: 277655 E, 3198911 N<br/>Elevation: 207.602]]></description>
+<Point><coordinates>78.7197359,28.8987858,0</coordinates></Point>
+</Placemark>
+</Folder>
+</Document></kml>

@@ -1,0 +1,2179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document id="root_doc">
+	<name>All_Control Points_Firozabad.kml</name>
+	<open>1</open>
+	<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.7.1327"></atom:link>
+	<Schema name="Firozabad_Additional_GCPs_Corrected_WGS84" id="S_Firozabad_Additional_GCPs_Corrected_WGS84_SDDDDDD">
+		<SimpleField type="string" name="Name">
+			<displayName>&lt;b&gt;Name&lt;/b&gt;</displayName>
+		</SimpleField>
+		<SimpleField type="double" name="Latitude">
+			<displayName>&lt;b&gt;Latitude&lt;/b&gt;</displayName>
+		</SimpleField>
+		<SimpleField type="double" name="Longitude">
+			<displayName>&lt;b&gt;Longitude&lt;/b&gt;</displayName>
+		</SimpleField>
+		<SimpleField type="double" name="Easting_E">
+			<displayName>&lt;b&gt;Easting_E&lt;/b&gt;</displayName>
+		</SimpleField>
+		<SimpleField type="double" name="Northing_N">
+			<displayName>&lt;b&gt;Northing_N&lt;/b&gt;</displayName>
+		</SimpleField>
+		<SimpleField type="double" name="Z">
+			<displayName>&lt;b&gt;Z&lt;/b&gt;</displayName>
+		</SimpleField>
+		<SimpleField type="double" name="Additional_Value">
+			<displayName>&lt;b&gt;Additional_Value&lt;/b&gt;</displayName>
+		</SimpleField>
+	</Schema>
+	<Schema name="merged_control_points" id="merged_control_points">
+		<SimpleField type="float" name="BASE">
+		</SimpleField>
+		<SimpleField type="float" name="3003441.69">
+		</SimpleField>
+		<SimpleField type="float" name="246950.319">
+		</SimpleField>
+		<SimpleField type="float" name="170.4247">
+		</SimpleField>
+		<SimpleField type="string" name="27_07_49.1">
+		</SimpleField>
+		<SimpleField type="string" name="78_26_49.3">
+		</SimpleField>
+		<SimpleField type="float" name="112.0453">
+		</SimpleField>
+		<SimpleField type="string" name="TBM.1">
+		</SimpleField>
+		<SimpleField type="float" name="3003441._1">
+		</SimpleField>
+		<SimpleField type="float" name="246950.317">
+		</SimpleField>
+		<SimpleField type="float" name="170.4242">
+		</SimpleField>
+		<SimpleField type="string" name="27_07_49_1">
+		</SimpleField>
+		<SimpleField type="string" name="78_26_49_1">
+		</SimpleField>
+		<SimpleField type="float" name="112.0448">
+		</SimpleField>
+		<SimpleField type="string" name="layer">
+		</SimpleField>
+		<SimpleField type="string" name="path">
+		</SimpleField>
+	</Schema>
+	<Style id="hlightPointStyle">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>Name</b></td><td>$[Firozabad_Additional_GCPs_Corrected_WGS84/Name]</td></tr>
+  <tr><td><b>Latitude</b></td><td>$[Firozabad_Additional_GCPs_Corrected_WGS84/Latitude]</td></tr>
+  <tr><td><b>Longitude</b></td><td>$[Firozabad_Additional_GCPs_Corrected_WGS84/Longitude]</td></tr>
+  <tr><td><b>Easting_E</b></td><td>$[Firozabad_Additional_GCPs_Corrected_WGS84/Easting_E]</td></tr>
+  <tr><td><b>Northing_N</b></td><td>$[Firozabad_Additional_GCPs_Corrected_WGS84/Northing_N]</td></tr>
+  <tr><td><b>Z</b></td><td>$[Firozabad_Additional_GCPs_Corrected_WGS84/Z]</td></tr>
+  <tr><td><b>Additional_Value</b></td><td>$[Firozabad_Additional_GCPs_Corrected_WGS84/Additional_Value]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="normPointStyle">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>Name</b></td><td>$[Firozabad_Additional_GCPs_Corrected_WGS84/Name]</td></tr>
+  <tr><td><b>Latitude</b></td><td>$[Firozabad_Additional_GCPs_Corrected_WGS84/Latitude]</td></tr>
+  <tr><td><b>Longitude</b></td><td>$[Firozabad_Additional_GCPs_Corrected_WGS84/Longitude]</td></tr>
+  <tr><td><b>Easting_E</b></td><td>$[Firozabad_Additional_GCPs_Corrected_WGS84/Easting_E]</td></tr>
+  <tr><td><b>Northing_N</b></td><td>$[Firozabad_Additional_GCPs_Corrected_WGS84/Northing_N]</td></tr>
+  <tr><td><b>Z</b></td><td>$[Firozabad_Additional_GCPs_Corrected_WGS84/Z]</td></tr>
+  <tr><td><b>Additional_Value</b></td><td>$[Firozabad_Additional_GCPs_Corrected_WGS84/Additional_Value]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+	</Style>
+	<StyleMap id="pointStyleMap">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#normPointStyle</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#hlightPointStyle</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Folder>
+		<name>merged_control_points</name>
+		<open>1</open>
+		<Placemark id="merged_control_points.1">
+			<ExtendedData>
+				<SchemaData schemaUrl="#merged_control_points">
+					<SimpleData name="BASE">1</SimpleData>
+					<SimpleData name="3003441.69">3003444.078600000124425</SimpleData>
+					<SimpleData name="246950.319">246944.418899999989662</SimpleData>
+					<SimpleData name="170.4247">167.363100000000003</SimpleData>
+					<SimpleData name="27_07_49.1">27:07:49.23226</SimpleData>
+					<SimpleData name="78_26_49.3">78:26:49.10409</SimpleData>
+					<SimpleData name="112.0453">108.983900000000006</SimpleData>
+					<SimpleData name="TBM.1">TBM.1A</SimpleData>
+					<SimpleData name="layer">2026-09-20 Control Points_(FZD)_082642</SimpleData>
+					<SimpleData name="path">file:///D:/OneDrive/OneDrive%20-%20CWD/Uttara%20Pradesh_SWMM/Firozabad/Procesed%20Survey_Data/CSV/CSV/FIROZABAD%20CSV/2026-09-20%20CANTROL%20POINTS(FZD)_082642.csv?type=csv&amp;maxFields=10000&amp;detectTypes=yes&amp;xField=246950.3190&amp;yField=3003441.6916&amp;zField=170</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>78.4469733594033,27.13034229495,167.3631</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="merged_control_points.2">
+			<ExtendedData>
+				<SchemaData schemaUrl="#merged_control_points">
+					<SimpleData name="BASE">3</SimpleData>
+					<SimpleData name="3003441.69">3004140.559299999848008</SimpleData>
+					<SimpleData name="246950.319">245332.180499999987660</SimpleData>
+					<SimpleData name="170.4247">162.484199999999987</SimpleData>
+					<SimpleData name="27_07_49.1">27:08:10.77885</SimpleData>
+					<SimpleData name="78_26_49.3">78:25:50.07827</SimpleData>
+					<SimpleData name="112.0453">104.177400000000006</SimpleData>
+					<SimpleData name="TBM.1">FRD.CP-77</SimpleData>
+					<SimpleData name="layer">2026-09-20 Control Points_(FZD)_082642</SimpleData>
+					<SimpleData name="path">file:///D:/OneDrive/OneDrive%20-%20CWD/Uttara%20Pradesh_SWMM/Firozabad/Procesed%20Survey_Data/CSV/CSV/FIROZABAD%20CSV/2026-09-20%20CANTROL%20POINTS(FZD)_082642.csv?type=csv&amp;maxFields=10000&amp;detectTypes=yes&amp;xField=246950.3190&amp;yField=3003441.6916&amp;zField=170</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>78.4305772971405,27.1363274574733,162.4842</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="merged_control_points.3">
+			<ExtendedData>
+				<SchemaData schemaUrl="#merged_control_points">
+					<SimpleData name="BASE">4</SimpleData>
+					<SimpleData name="3003441.69">3004154.638499999884516</SimpleData>
+					<SimpleData name="246950.319">244448.948999999993248</SimpleData>
+					<SimpleData name="170.4247">164.750400000000013</SimpleData>
+					<SimpleData name="27_07_49.1">27:08:10.64799</SimpleData>
+					<SimpleData name="78_26_49.3">78:25:18.01367</SimpleData>
+					<SimpleData name="112.0453">106.479500000000002</SimpleData>
+					<SimpleData name="TBM.1">FRD.CP-76</SimpleData>
+					<SimpleData name="layer">2026-09-20 Control Points_(FZD)_082642</SimpleData>
+					<SimpleData name="path">file:///D:/OneDrive/OneDrive%20-%20CWD/Uttara%20Pradesh_SWMM/Firozabad/Procesed%20Survey_Data/CSV/CSV/FIROZABAD%20CSV/2026-09-20%20CANTROL%20POINTS(FZD)_082642.csv?type=csv&amp;maxFields=10000&amp;detectTypes=yes&amp;xField=246950.3190&amp;yField=3003441.6916&amp;zField=170</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>78.4216704646729,27.1362911079593,164.7504</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="merged_control_points.4">
+			<ExtendedData>
+				<SchemaData schemaUrl="#merged_control_points">
+					<SimpleData name="BASE">5</SimpleData>
+					<SimpleData name="3003441.69">3004221.110199999995530</SimpleData>
+					<SimpleData name="246950.319">243733.978600000002189</SimpleData>
+					<SimpleData name="170.4247">163.270600000000002</SimpleData>
+					<SimpleData name="27_07_49.1">27:08:12.32879</SimpleData>
+					<SimpleData name="78_26_49.3">78:24:52.01656</SimpleData>
+					<SimpleData name="112.0453">105.029399999999995</SimpleData>
+					<SimpleData name="TBM.1">FRD.CP-75</SimpleData>
+					<SimpleData name="layer">2026-09-20 Control Points_(FZD)_082642</SimpleData>
+					<SimpleData name="path">file:///D:/OneDrive/OneDrive%20-%20CWD/Uttara%20Pradesh_SWMM/Firozabad/Procesed%20Survey_Data/CSV/CSV/FIROZABAD%20CSV/2026-09-20%20CANTROL%20POINTS(FZD)_082642.csv?type=csv&amp;maxFields=10000&amp;detectTypes=yes&amp;xField=246950.3190&amp;yField=3003441.6916&amp;zField=170</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>78.41444904433141,27.1367579980457,163.2706</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="merged_control_points.5">
+			<ExtendedData>
+				<SchemaData schemaUrl="#merged_control_points">
+					<SimpleData name="BASE">6</SimpleData>
+					<SimpleData name="3003441.69">3004724.629000000189990</SimpleData>
+					<SimpleData name="246950.319">244968.840599999995902</SimpleData>
+					<SimpleData name="170.4247">164.143699999999995</SimpleData>
+					<SimpleData name="27_07_49.1">27:08:29.50159</SimpleData>
+					<SimpleData name="78_26_49.3">78:25:36.45742</SimpleData>
+					<SimpleData name="112.0453">105.857900000000001</SimpleData>
+					<SimpleData name="TBM.1">FRD.CP-60</SimpleData>
+					<SimpleData name="layer">2026-09-20 Control Points_(FZD)_082642</SimpleData>
+					<SimpleData name="path">file:///D:/OneDrive/OneDrive%20-%20CWD/Uttara%20Pradesh_SWMM/Firozabad/Procesed%20Survey_Data/CSV/CSV/FIROZABAD%20CSV/2026-09-20%20CANTROL%20POINTS(FZD)_082642.csv?type=csv&amp;maxFields=10000&amp;detectTypes=yes&amp;xField=246950.3190&amp;yField=3003441.6916&amp;zField=170</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>78.4267937283161,27.1415282199325,164.1437</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="merged_control_points.6">
+			<ExtendedData>
+				<SchemaData schemaUrl="#merged_control_points">
+					<SimpleData name="BASE">7</SimpleData>
+					<SimpleData name="3003441.69">3004732.326700000092387</SimpleData>
+					<SimpleData name="246950.319">245321.130299999989802</SimpleData>
+					<SimpleData name="170.4247">162.872000000000014</SimpleData>
+					<SimpleData name="27_07_49.1">27:08:29.98588</SimpleData>
+					<SimpleData name="78_26_49.3">78:25:49.23757</SimpleData>
+					<SimpleData name="112.0453">104.572000000000003</SimpleData>
+					<SimpleData name="TBM.1">FRD.CP-59</SimpleData>
+					<SimpleData name="layer">2026-09-20 Control Points_(FZD)_082642</SimpleData>
+					<SimpleData name="path">file:///D:/OneDrive/OneDrive%20-%20CWD/Uttara%20Pradesh_SWMM/Firozabad/Procesed%20Survey_Data/CSV/CSV/FIROZABAD%20CSV/2026-09-20%20CANTROL%20POINTS(FZD)_082642.csv?type=csv&amp;maxFields=10000&amp;detectTypes=yes&amp;xField=246950.3190&amp;yField=3003441.6916&amp;zField=170</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>78.4303437708962,27.1416627455061,162.872</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="merged_control_points.7">
+			<ExtendedData>
+				<SchemaData schemaUrl="#merged_control_points">
+					<SimpleData name="BASE">8</SimpleData>
+					<SimpleData name="3003441.69">3004871.874900000169873</SimpleData>
+					<SimpleData name="246950.319">244316.560200000007171</SimpleData>
+					<SimpleData name="170.4247">165.102699999999999</SimpleData>
+					<SimpleData name="27_07_49.1">27:08:33.84778</SimpleData>
+					<SimpleData name="78_26_49.3">78:25:12.67407</SimpleData>
+					<SimpleData name="112.0453">106.844899999999996</SimpleData>
+					<SimpleData name="TBM.1">FRD.CP-61</SimpleData>
+					<SimpleData name="layer">2026-09-20 Control Points_(FZD)_082642</SimpleData>
+					<SimpleData name="path">file:///D:/OneDrive/OneDrive%20-%20CWD/Uttara%20Pradesh_SWMM/Firozabad/Procesed%20Survey_Data/CSV/CSV/FIROZABAD%20CSV/2026-09-20%20CANTROL%20POINTS(FZD)_082642.csv?type=csv&amp;maxFields=10000&amp;detectTypes=yes&amp;xField=246950.3190&amp;yField=3003441.6916&amp;zField=170</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>78.4201872399142,27.142735495465,165.1027</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="merged_control_points.8">
+			<ExtendedData>
+				<SchemaData schemaUrl="#merged_control_points">
+					<SimpleData name="BASE">9</SimpleData>
+					<SimpleData name="3003441.69">3005583.788999999873340</SimpleData>
+					<SimpleData name="246950.319">245135.423500000004424</SimpleData>
+					<SimpleData name="170.4247">163.504099999999994</SimpleData>
+					<SimpleData name="27_07_49.1">27:08:57.50886</SimpleData>
+					<SimpleData name="78_26_49.3">78:25:41.86431</SimpleData>
+					<SimpleData name="112.0453">105.220799999999997</SimpleData>
+					<SimpleData name="TBM.1">FRD.CP-57</SimpleData>
+					<SimpleData name="layer">2026-09-20 Control Points_(FZD)_082642</SimpleData>
+					<SimpleData name="path">file:///D:/OneDrive/OneDrive%20-%20CWD/Uttara%20Pradesh_SWMM/Firozabad/Procesed%20Survey_Data/CSV/CSV/FIROZABAD%20CSV/2026-09-20%20CANTROL%20POINTS(FZD)_082642.csv?type=csv&amp;maxFields=10000&amp;detectTypes=yes&amp;xField=246950.3190&amp;yField=3003441.6916&amp;zField=170</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>78.4282956427287,27.1493080159053,163.5041</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="merged_control_points.9">
+			<ExtendedData>
+				<SchemaData schemaUrl="#merged_control_points">
+					<SimpleData name="BASE">10</SimpleData>
+					<SimpleData name="3003441.69">3005728.424000000581145</SimpleData>
+					<SimpleData name="246950.319">245583.986000000004424</SimpleData>
+					<SimpleData name="170.4247">163.508700000000005</SimpleData>
+					<SimpleData name="27_07_49.1">27:09:02.50333</SimpleData>
+					<SimpleData name="78_26_49.3">78:25:58.03802</SimpleData>
+					<SimpleData name="112.0453">105.208799999999997</SimpleData>
+					<SimpleData name="TBM.1">FRD.CP-58</SimpleData>
+					<SimpleData name="layer">2026-09-20 Control Points_(FZD)_082642</SimpleData>
+					<SimpleData name="path">file:///D:/OneDrive/OneDrive%20-%20CWD/Uttara%20Pradesh_SWMM/Firozabad/Procesed%20Survey_Data/CSV/CSV/FIROZABAD%20CSV/2026-09-20%20CANTROL%20POINTS(FZD)_082642.csv?type=csv&amp;maxFields=10000&amp;detectTypes=yes&amp;xField=246950.3190&amp;yField=3003441.6916&amp;zField=170</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>78.4327883394069,27.1506953681679,163.5087</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="merged_control_points.10">
+			<ExtendedData>
+				<SchemaData schemaUrl="#merged_control_points">
+					<SimpleData name="BASE">11</SimpleData>
+					<SimpleData name="3003441.69">3006397.631399999838322</SimpleData>
+					<SimpleData name="246950.319">245147.423399999999674</SimpleData>
+					<SimpleData name="170.4247">162.406200000000013</SimpleData>
+					<SimpleData name="27_07_49.1">27:09:23.94179</SimpleData>
+					<SimpleData name="78_26_49.3">78:25:41.69436</SimpleData>
+					<SimpleData name="112.0453">104.131200000000007</SimpleData>
+					<SimpleData name="TBM.1">FRD.CP-38</SimpleData>
+					<SimpleData name="layer">2026-09-20 Control Points_(FZD)_082642</SimpleData>
+					<SimpleData name="path">file:///D:/OneDrive/OneDrive%20-%20CWD/Uttara%20Pradesh_SWMM/Firozabad/Procesed%20Survey_Data/CSV/CSV/FIROZABAD%20CSV/2026-09-20%20CANTROL%20POINTS(FZD)_082642.csv?type=csv&amp;maxFields=10000&amp;detectTypes=yes&amp;xField=246950.3190&amp;yField=3003441.6916&amp;zField=170</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>78.42824843305461,27.1566504966807,162.4062</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="merged_control_points.11">
+			<ExtendedData>
+				<SchemaData schemaUrl="#merged_control_points">
+					<SimpleData name="BASE">12</SimpleData>
+					<SimpleData name="3003441.69">3006879.680900000035763</SimpleData>
+					<SimpleData name="246950.319">245105.854099999967730</SimpleData>
+					<SimpleData name="170.4247">163.058899999999994</SimpleData>
+					<SimpleData name="27_07_49.1">27:09:39.56594</SimpleData>
+					<SimpleData name="78_26_49.3">78:25:39.82664</SimpleData>
+					<SimpleData name="112.0453">104.790700000000001</SimpleData>
+					<SimpleData name="TBM.1">FRD.CP-37</SimpleData>
+					<SimpleData name="layer">2026-09-20 Control Points_(FZD)_082642</SimpleData>
+					<SimpleData name="path">file:///D:/OneDrive/OneDrive%20-%20CWD/Uttara%20Pradesh_SWMM/Firozabad/Procesed%20Survey_Data/CSV/CSV/FIROZABAD%20CSV/2026-09-20%20CANTROL%20POINTS(FZD)_082642.csv?type=csv&amp;maxFields=10000&amp;detectTypes=yes&amp;xField=246950.3190&amp;yField=3003441.6916&amp;zField=170</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>78.4277296224145,27.1609905378602,163.0589</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="merged_control_points.12">
+			<ExtendedData>
+				<SchemaData schemaUrl="#merged_control_points">
+					<SimpleData name="BASE">13</SimpleData>
+					<SimpleData name="3003441.69">3007399.592699999921024</SimpleData>
+					<SimpleData name="246950.319">245010.607199999969453</SimpleData>
+					<SimpleData name="170.4247">163.714599999999990</SimpleData>
+					<SimpleData name="27_07_49.1">27:09:56.38366</SimpleData>
+					<SimpleData name="78_26_49.3">78:25:35.98196</SimpleData>
+					<SimpleData name="112.0453">105.455900000000000</SimpleData>
+					<SimpleData name="TBM.1">FRD.CP-17</SimpleData>
+					<SimpleData name="layer">2026-09-20 Control Points_(FZD)_082642</SimpleData>
+					<SimpleData name="path">file:///D:/OneDrive/OneDrive%20-%20CWD/Uttara%20Pradesh_SWMM/Firozabad/Procesed%20Survey_Data/CSV/CSV/FIROZABAD%20CSV/2026-09-20%20CANTROL%20POINTS(FZD)_082642.csv?type=csv&amp;maxFields=10000&amp;detectTypes=yes&amp;xField=246950.3190&amp;yField=3003441.6916&amp;zField=170</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>78.42666165481479,27.1656621279913,163.7146</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="merged_control_points.13">
+			<ExtendedData>
+				<SchemaData schemaUrl="#merged_control_points">
+					<SimpleData name="BASE">14</SimpleData>
+					<SimpleData name="3003441.69">3006972.065500000026077</SimpleData>
+					<SimpleData name="246950.319">244258.850500000000466</SimpleData>
+					<SimpleData name="170.4247">164.684799999999996</SimpleData>
+					<SimpleData name="27_07_49.1">27:09:42.00064</SimpleData>
+					<SimpleData name="78_26_49.3">78:25:09.01163</SimpleData>
+					<SimpleData name="112.0453">106.452200000000005</SimpleData>
+					<SimpleData name="TBM.1">FRD.CP-36</SimpleData>
+					<SimpleData name="layer">2026-09-20 Control Points_(FZD)_082642</SimpleData>
+					<SimpleData name="path">file:///D:/OneDrive/OneDrive%20-%20CWD/Uttara%20Pradesh_SWMM/Firozabad/Procesed%20Survey_Data/CSV/CSV/FIROZABAD%20CSV/2026-09-20%20CANTROL%20POINTS(FZD)_082642.csv?type=csv&amp;maxFields=10000&amp;detectTypes=yes&amp;xField=246950.3190&amp;yField=3003441.6916&amp;zField=170</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>78.4191698960214,27.1616668453348,164.6848</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="merged_control_points.14">
+			<ExtendedData>
+				<SchemaData schemaUrl="#merged_control_points">
+					<SimpleData name="BASE">15</SimpleData>
+					<SimpleData name="3003441.69">3006980.543299999553710</SimpleData>
+					<SimpleData name="246950.319">243623.345999999990454</SimpleData>
+					<SimpleData name="170.4247">164.913499999999999</SimpleData>
+					<SimpleData name="27_07_49.1">27:09:41.85079</SimpleData>
+					<SimpleData name="78_26_49.3">78:24:45.93662</SimpleData>
+					<SimpleData name="112.0453">106.706900000000005</SimpleData>
+					<SimpleData name="TBM.1">FRD.CP-35</SimpleData>
+					<SimpleData name="layer">2026-09-20 Control Points_(FZD)_082642</SimpleData>
+					<SimpleData name="path">file:///D:/OneDrive/OneDrive%20-%20CWD/Uttara%20Pradesh_SWMM/Firozabad/Procesed%20Survey_Data/CSV/CSV/FIROZABAD%20CSV/2026-09-20%20CANTROL%20POINTS(FZD)_082642.csv?type=csv&amp;maxFields=10000&amp;detectTypes=yes&amp;xField=246950.3190&amp;yField=3003441.6916&amp;zField=170</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>78.412760172917,27.1616252209741,164.9135</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="merged_control_points.15">
+			<ExtendedData>
+				<SchemaData schemaUrl="#merged_control_points">
+					<SimpleData name="BASE">16</SimpleData>
+					<SimpleData name="3003441.69">3007552.498399999458343</SimpleData>
+					<SimpleData name="246950.319">243440.010799999989104</SimpleData>
+					<SimpleData name="170.4247">164.802600000000012</SimpleData>
+					<SimpleData name="27_07_49.1">27:10:00.29869</SimpleData>
+					<SimpleData name="78_26_49.3">78:24:38.85299</SimpleData>
+					<SimpleData name="112.0453">106.609700000000004</SimpleData>
+					<SimpleData name="TBM.1">FRD.CP-19</SimpleData>
+					<SimpleData name="layer">2026-09-20 Control Points_(FZD)_082642</SimpleData>
+					<SimpleData name="path">file:///D:/OneDrive/OneDrive%20-%20CWD/Uttara%20Pradesh_SWMM/Firozabad/Procesed%20Survey_Data/CSV/CSV/FIROZABAD%20CSV/2026-09-20%20CANTROL%20POINTS(FZD)_082642.csv?type=csv&amp;maxFields=10000&amp;detectTypes=yes&amp;xField=246950.3190&amp;yField=3003441.6916&amp;zField=170</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>78.4107924963498,27.1667496367658,164.8026</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="merged_control_points.16">
+			<ExtendedData>
+				<SchemaData schemaUrl="#merged_control_points">
+					<SimpleData name="BASE">17</SimpleData>
+					<SimpleData name="3003441.69">3007459.109999999869615</SimpleData>
+					<SimpleData name="246950.319">244354.918700000009267</SimpleData>
+					<SimpleData name="170.4247">163.842099999999988</SimpleData>
+					<SimpleData name="27_07_49.1">27:09:57.87871</SimpleData>
+					<SimpleData name="78_26_49.3">78:25:12.13519</SimpleData>
+					<SimpleData name="112.0453">105.610799999999998</SimpleData>
+					<SimpleData name="TBM.1">FRD.CP-18</SimpleData>
+					<SimpleData name="layer">2026-09-20 Control Points_(FZD)_082642</SimpleData>
+					<SimpleData name="path">file:///D:/OneDrive/OneDrive%20-%20CWD/Uttara%20Pradesh_SWMM/Firozabad/Procesed%20Survey_Data/CSV/CSV/FIROZABAD%20CSV/2026-09-20%20CANTROL%20POINTS(FZD)_082642.csv?type=csv&amp;maxFields=10000&amp;detectTypes=yes&amp;xField=246950.3190&amp;yField=3003441.6916&amp;zField=170</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>78.4200375538657,27.1660774203546,163.8421</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="merged_control_points.17">
+			<ExtendedData>
+				<SchemaData schemaUrl="#merged_control_points">
+					<SimpleData name="BASE">18</SimpleData>
+					<SimpleData name="3003441.69">3008428.344699999783188</SimpleData>
+					<SimpleData name="246950.319">244103.060100000002421</SimpleData>
+					<SimpleData name="170.4247">164.908099999999990</SimpleData>
+					<SimpleData name="27_07_49.1">27:10:29.18048</SimpleData>
+					<SimpleData name="78_26_49.3">78:25:02.26768</SimpleData>
+					<SimpleData name="112.0453">106.697599999999994</SimpleData>
+					<SimpleData name="TBM.1">FRD.CP-15</SimpleData>
+					<SimpleData name="layer">2026-09-20 Control Points_(FZD)_082642</SimpleData>
+					<SimpleData name="path">file:///D:/OneDrive/OneDrive%20-%20CWD/Uttara%20Pradesh_SWMM/Firozabad/Procesed%20Survey_Data/CSV/CSV/FIROZABAD%20CSV/2026-09-20%20CANTROL%20POINTS(FZD)_082642.csv?type=csv&amp;maxFields=10000&amp;detectTypes=yes&amp;xField=246950.3190&amp;yField=3003441.6916&amp;zField=170</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>78.41729657867801,27.1747723549665,164.9081</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="merged_control_points.18">
+			<ExtendedData>
+				<SchemaData schemaUrl="#merged_control_points">
+					<SimpleData name="BASE">19</SimpleData>
+					<SimpleData name="3003441.69">3008503.015600000042468</SimpleData>
+					<SimpleData name="246950.319">244733.682100000005448</SimpleData>
+					<SimpleData name="170.4247">164.411300000000011</SimpleData>
+					<SimpleData name="27_07_49.1">27:10:32.02628</SimpleData>
+					<SimpleData name="78_26_49.3">78:25:25.10618</SimpleData>
+					<SimpleData name="112.0453">106.175799999999995</SimpleData>
+					<SimpleData name="TBM.1">FRD.CP-16</SimpleData>
+					<SimpleData name="layer">2026-09-20 Control Points_(FZD)_082642</SimpleData>
+					<SimpleData name="path">file:///D:/OneDrive/OneDrive%20-%20CWD/Uttara%20Pradesh_SWMM/Firozabad/Procesed%20Survey_Data/CSV/CSV/FIROZABAD%20CSV/2026-09-20%20CANTROL%20POINTS(FZD)_082642.csv?type=csv&amp;maxFields=10000&amp;detectTypes=yes&amp;xField=246950.3190&amp;yField=3003441.6916&amp;zField=170</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>78.4236406037944,27.1755628548182,164.4113</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="merged_control_points.19">
+			<ExtendedData>
+				<SchemaData schemaUrl="#merged_control_points">
+					<SimpleData name="BASE">20</SimpleData>
+					<SimpleData name="3003441.69">3009023.342800000216812</SimpleData>
+					<SimpleData name="246950.319">244422.853700000036042</SimpleData>
+					<SimpleData name="170.4247">164.955700000000007</SimpleData>
+					<SimpleData name="27_07_49.1">27:10:48.71327</SimpleData>
+					<SimpleData name="78_26_49.3">78:25:13.43300</SimpleData>
+					<SimpleData name="112.0453">106.738600000000005</SimpleData>
+					<SimpleData name="TBM.1">FRD.CP-14</SimpleData>
+					<SimpleData name="layer">2026-09-20 Control Points_(FZD)_082642</SimpleData>
+					<SimpleData name="path">file:///D:/OneDrive/OneDrive%20-%20CWD/Uttara%20Pradesh_SWMM/Firozabad/Procesed%20Survey_Data/CSV/CSV/FIROZABAD%20CSV/2026-09-20%20CANTROL%20POINTS(FZD)_082642.csv?type=csv&amp;maxFields=10000&amp;detectTypes=yes&amp;xField=246950.3190&amp;yField=3003441.6916&amp;zField=170</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>78.42039805500031,27.1801981317967,164.9557</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="merged_control_points.20">
+			<ExtendedData>
+				<SchemaData schemaUrl="#merged_control_points">
+					<SimpleData name="BASE">21</SimpleData>
+					<SimpleData name="3003441.69">3010141.225699999835342</SimpleData>
+					<SimpleData name="246950.319">243156.115400000009686</SimpleData>
+					<SimpleData name="170.4247">164.689899999999994</SimpleData>
+					<SimpleData name="27_07_49.1">27:11:24.16092</SimpleData>
+					<SimpleData name="78_26_49.3">78:24:26.60362</SimpleData>
+					<SimpleData name="112.0453">106.536900000000003</SimpleData>
+					<SimpleData name="TBM.1">FRD.CP-01</SimpleData>
+					<SimpleData name="layer">2026-09-20 Control Points_(FZD)_082642</SimpleData>
+					<SimpleData name="path">file:///D:/OneDrive/OneDrive%20-%20CWD/Uttara%20Pradesh_SWMM/Firozabad/Procesed%20Survey_Data/CSV/CSV/FIROZABAD%20CSV/2026-09-20%20CANTROL%20POINTS(FZD)_082642.csv?type=csv&amp;maxFields=10000&amp;detectTypes=yes&amp;xField=246950.3190&amp;yField=3003441.6916&amp;zField=170</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>78.4073898937114,27.1900446996024,164.6899</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="merged_control_points.21">
+			<ExtendedData>
+				<SchemaData schemaUrl="#merged_control_points">
+					<SimpleData name="BASE">22</SimpleData>
+					<SimpleData name="3003441.69">3009651.486699999775738</SimpleData>
+					<SimpleData name="246950.319">243545.300699999992503</SimpleData>
+					<SimpleData name="170.4247">164.793599999999998</SimpleData>
+					<SimpleData name="27_07_49.1">27:11:08.52096</SimpleData>
+					<SimpleData name="78_26_49.3">78:24:41.10178</SimpleData>
+					<SimpleData name="112.0453">106.619299999999996</SimpleData>
+					<SimpleData name="TBM.1">FRD.CP-02</SimpleData>
+					<SimpleData name="layer">2026-09-20 Control Points_(FZD)_082642</SimpleData>
+					<SimpleData name="path">file:///D:/OneDrive/OneDrive%20-%20CWD/Uttara%20Pradesh_SWMM/Firozabad/Procesed%20Survey_Data/CSV/CSV/FIROZABAD%20CSV/2026-09-20%20CANTROL%20POINTS(FZD)_082642.csv?type=csv&amp;maxFields=10000&amp;detectTypes=yes&amp;xField=246950.3190&amp;yField=3003441.6916&amp;zField=170</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>78.41141716124589,27.1857002652549,164.7936</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="merged_control_points.22">
+			<ExtendedData>
+				<SchemaData schemaUrl="#merged_control_points">
+					<SimpleData name="BASE">23</SimpleData>
+					<SimpleData name="3003441.69">3009248.496499999891967</SimpleData>
+					<SimpleData name="246950.319">243528.790600000007544</SimpleData>
+					<SimpleData name="170.4247">164.287100000000009</SimpleData>
+					<SimpleData name="27_07_49.1">27:10:55.42528</SimpleData>
+					<SimpleData name="78_26_49.3">78:24:40.80456</SimpleData>
+					<SimpleData name="112.0453">106.109099999999998</SimpleData>
+					<SimpleData name="TBM.1">FRD.CP-13</SimpleData>
+					<SimpleData name="layer">2026-09-20 Control Points_(FZD)_082642</SimpleData>
+					<SimpleData name="path">file:///D:/OneDrive/OneDrive%20-%20CWD/Uttara%20Pradesh_SWMM/Firozabad/Procesed%20Survey_Data/CSV/CSV/FIROZABAD%20CSV/2026-09-20%20CANTROL%20POINTS(FZD)_082642.csv?type=csv&amp;maxFields=10000&amp;detectTypes=yes&amp;xField=246950.3190&amp;yField=3003441.6916&amp;zField=170</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>78.4113345986096,27.1820625777618,164.2871</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="merged_control_points.23">
+			<ExtendedData>
+				<SchemaData schemaUrl="#merged_control_points">
+					<SimpleData name="BASE">24</SimpleData>
+					<SimpleData name="3003441.69">3009093.982199999969453</SimpleData>
+					<SimpleData name="246950.319">242938.428500000009080</SimpleData>
+					<SimpleData name="170.4247">163.897600000000011</SimpleData>
+					<SimpleData name="27_07_49.1">27:10:50.01206</SimpleData>
+					<SimpleData name="78_26_49.3">78:24:19.48692</SimpleData>
+					<SimpleData name="112.0453">105.742099999999994</SimpleData>
+					<SimpleData name="TBM.1">FRD.CP-12</SimpleData>
+					<SimpleData name="layer">2026-09-20 Control Points_(FZD)_082642</SimpleData>
+					<SimpleData name="path">file:///D:/OneDrive/OneDrive%20-%20CWD/Uttara%20Pradesh_SWMM/Firozabad/Procesed%20Survey_Data/CSV/CSV/FIROZABAD%20CSV/2026-09-20%20CANTROL%20POINTS(FZD)_082642.csv?type=csv&amp;maxFields=10000&amp;detectTypes=yes&amp;xField=246950.3190&amp;yField=3003441.6916&amp;zField=170</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>78.40541303221239,27.1805589052981,163.8976</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="merged_control_points.24">
+			<ExtendedData>
+				<SchemaData schemaUrl="#merged_control_points">
+					<SimpleData name="BASE">25</SimpleData>
+					<SimpleData name="3003441.69">3008417.117999999783933</SimpleData>
+					<SimpleData name="246950.319">242914.799499999993714</SimpleData>
+					<SimpleData name="170.4247">164.088600000000014</SimpleData>
+					<SimpleData name="27_07_49.1">27:10:28.01930</SimpleData>
+					<SimpleData name="78_26_49.3">78:24:19.13770</SimpleData>
+					<SimpleData name="112.0453">105.926699999999997</SimpleData>
+					<SimpleData name="TBM.1">FRD.CP-11</SimpleData>
+					<SimpleData name="layer">2026-09-20 Control Points_(FZD)_082642</SimpleData>
+					<SimpleData name="path">file:///D:/OneDrive/OneDrive%20-%20CWD/Uttara%20Pradesh_SWMM/Firozabad/Procesed%20Survey_Data/CSV/CSV/FIROZABAD%20CSV/2026-09-20%20CANTROL%20POINTS(FZD)_082642.csv?type=csv&amp;maxFields=10000&amp;detectTypes=yes&amp;xField=246950.3190&amp;yField=3003441.6916&amp;zField=170</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>78.40531602681649,27.1744498069398,164.0886</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="merged_control_points.25">
+			<ExtendedData>
+				<SchemaData schemaUrl="#merged_control_points">
+					<SimpleData name="BASE">26</SimpleData>
+					<SimpleData name="3003441.69">3008433.442499999888241</SimpleData>
+					<SimpleData name="246950.319">242336.401500000007218</SimpleData>
+					<SimpleData name="170.4247">164.801099999999991</SimpleData>
+					<SimpleData name="27_07_49.1">27:10:28.16022</SimpleData>
+					<SimpleData name="78_26_49.3">78:23:58.12753</SimpleData>
+					<SimpleData name="112.0453">106.663100000000000</SimpleData>
+					<SimpleData name="TBM.1">FRD.CP-10</SimpleData>
+					<SimpleData name="layer">2026-09-20 Control Points_(FZD)_082642</SimpleData>
+					<SimpleData name="path">file:///D:/OneDrive/OneDrive%20-%20CWD/Uttara%20Pradesh_SWMM/Firozabad/Procesed%20Survey_Data/CSV/CSV/FIROZABAD%20CSV/2026-09-20%20CANTROL%20POINTS(FZD)_082642.csv?type=csv&amp;maxFields=10000&amp;detectTypes=yes&amp;xField=246950.3190&amp;yField=3003441.6916&amp;zField=170</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>78.3994798704525,27.174488951922,164.8011</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="merged_control_points.26">
+			<ExtendedData>
+				<SchemaData schemaUrl="#merged_control_points">
+					<SimpleData name="BASE">27</SimpleData>
+					<SimpleData name="3003441.69">3009165.167899999767542</SimpleData>
+					<SimpleData name="246950.319">242098.909400000004098</SimpleData>
+					<SimpleData name="170.4247">163.996800000000007</SimpleData>
+					<SimpleData name="27_07_49.1">27:10:51.75819</SimpleData>
+					<SimpleData name="78_26_49.3">78:23:48.95414</SimpleData>
+					<SimpleData name="112.0453">105.876599999999996</SimpleData>
+					<SimpleData name="TBM.1">FRD.CP-09</SimpleData>
+					<SimpleData name="layer">2026-09-20 Control Points_(FZD)_082642</SimpleData>
+					<SimpleData name="path">file:///D:/OneDrive/OneDrive%20-%20CWD/Uttara%20Pradesh_SWMM/Firozabad/Procesed%20Survey_Data/CSV/CSV/FIROZABAD%20CSV/2026-09-20%20CANTROL%20POINTS(FZD)_082642.csv?type=csv&amp;maxFields=10000&amp;detectTypes=yes&amp;xField=246950.3190&amp;yField=3003441.6916&amp;zField=170</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>78.396931705822,27.18104394134109,163.9968</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="merged_control_points.27">
+			<ExtendedData>
+				<SchemaData schemaUrl="#merged_control_points">
+					<SimpleData name="BASE">28</SimpleData>
+					<SimpleData name="3003441.69">3009830.160300000105053</SimpleData>
+					<SimpleData name="246950.319">242264.893899999995483</SimpleData>
+					<SimpleData name="170.4247">163.409899999999993</SimpleData>
+					<SimpleData name="27_07_49.1">27:11:13.46135</SimpleData>
+					<SimpleData name="78_26_49.3">78:23:54.47914</SimpleData>
+					<SimpleData name="112.0453">105.290199999999999</SimpleData>
+					<SimpleData name="TBM.1">FRD.CP-03</SimpleData>
+					<SimpleData name="layer">2026-09-20 Control Points_(FZD)_082642</SimpleData>
+					<SimpleData name="path">file:///D:/OneDrive/OneDrive%20-%20CWD/Uttara%20Pradesh_SWMM/Firozabad/Procesed%20Survey_Data/CSV/CSV/FIROZABAD%20CSV/2026-09-20%20CANTROL%20POINTS(FZD)_082642.csv?type=csv&amp;maxFields=10000&amp;detectTypes=yes&amp;xField=246950.3190&amp;yField=3003441.6916&amp;zField=170</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>78.3984664272875,27.1870725979526,163.4099</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="merged_control_points.28">
+			<ExtendedData>
+				<SchemaData schemaUrl="#merged_control_points">
+					<SimpleData name="BASE">29</SimpleData>
+					<SimpleData name="3003441.69">3009228.021699999924749</SimpleData>
+					<SimpleData name="246950.319">241496.768600000010338</SimpleData>
+					<SimpleData name="170.4247">164.258700000000005</SimpleData>
+					<SimpleData name="27_07_49.1">27:10:53.39244</SimpleData>
+					<SimpleData name="78_26_49.3">78:23:27.04569</SimpleData>
+					<SimpleData name="112.0453">106.164000000000001</SimpleData>
+					<SimpleData name="TBM.1">FRD.CP-05</SimpleData>
+					<SimpleData name="layer">2026-09-20 Control Points_(FZD)_082642</SimpleData>
+					<SimpleData name="path">file:///D:/OneDrive/OneDrive%20-%20CWD/Uttara%20Pradesh_SWMM/Firozabad/Procesed%20Survey_Data/CSV/CSV/FIROZABAD%20CSV/2026-09-20%20CANTROL%20POINTS(FZD)_082642.csv?type=csv&amp;maxFields=10000&amp;detectTypes=yes&amp;xField=246950.3190&amp;yField=3003441.6916&amp;zField=170</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>78.39084602381099,27.1814979010428,164.2587</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="merged_control_points.29">
+			<ExtendedData>
+				<SchemaData schemaUrl="#merged_control_points">
+					<SimpleData name="BASE">30</SimpleData>
+					<SimpleData name="3003441.69">3009130.040199999697506</SimpleData>
+					<SimpleData name="246950.319">240888.220899999985704</SimpleData>
+					<SimpleData name="170.4247">164.047200000000004</SimpleData>
+					<SimpleData name="27_07_49.1">27:10:49.79937</SimpleData>
+					<SimpleData name="78_26_49.3">78:23:05.02637</SimpleData>
+					<SimpleData name="112.0453">105.976500000000001</SimpleData>
+					<SimpleData name="TBM.1">FRD.CP-06</SimpleData>
+					<SimpleData name="layer">2026-09-20 Control Points_(FZD)_082642</SimpleData>
+					<SimpleData name="path">file:///D:/OneDrive/OneDrive%20-%20CWD/Uttara%20Pradesh_SWMM/Firozabad/Procesed%20Survey_Data/CSV/CSV/FIROZABAD%20CSV/2026-09-20%20CANTROL%20POINTS(FZD)_082642.csv?type=csv&amp;maxFields=10000&amp;detectTypes=yes&amp;xField=246950.3190&amp;yField=3003441.6916&amp;zField=170</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>78.3847295472069,27.1804998264114,164.0472</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="merged_control_points.30">
+			<ExtendedData>
+				<SchemaData schemaUrl="#merged_control_points">
+					<SimpleData name="BASE">31</SimpleData>
+					<SimpleData name="3003441.69">3008477.053100000135601</SimpleData>
+					<SimpleData name="246950.319">241029.017300000006799</SimpleData>
+					<SimpleData name="170.4247">163.631400000000014</SimpleData>
+					<SimpleData name="27_07_49.1">27:10:28.69344</SimpleData>
+					<SimpleData name="78_26_49.3">78:23:10.63228</SimpleData>
+					<SimpleData name="112.0453">105.547700000000006</SimpleData>
+					<SimpleData name="TBM.1">FRD.CP-07</SimpleData>
+					<SimpleData name="layer">2026-09-20 Control Points_(FZD)_082642</SimpleData>
+					<SimpleData name="path">file:///D:/OneDrive/OneDrive%20-%20CWD/Uttara%20Pradesh_SWMM/Firozabad/Procesed%20Survey_Data/CSV/CSV/FIROZABAD%20CSV/2026-09-20%20CANTROL%20POINTS(FZD)_082642.csv?type=csv&amp;maxFields=10000&amp;detectTypes=yes&amp;xField=246950.3190&amp;yField=3003441.6916&amp;zField=170</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>78.38628674463421,27.17463706635,163.6314</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="merged_control_points.31">
+			<ExtendedData>
+				<SchemaData schemaUrl="#merged_control_points">
+					<SimpleData name="BASE">32</SimpleData>
+					<SimpleData name="3003441.69">3008311.891299999784678</SimpleData>
+					<SimpleData name="246950.319">241458.512699999962933</SimpleData>
+					<SimpleData name="170.4247">163.751299999999986</SimpleData>
+					<SimpleData name="27_07_49.1">27:10:23.62141</SimpleData>
+					<SimpleData name="78_26_49.3">78:23:26.34913</SimpleData>
+					<SimpleData name="112.0453">105.648099999999999</SimpleData>
+					<SimpleData name="TBM.1">FRD.CP-08</SimpleData>
+					<SimpleData name="layer">2026-09-20 Control Points_(FZD)_082642</SimpleData>
+					<SimpleData name="path">file:///D:/OneDrive/OneDrive%20-%20CWD/Uttara%20Pradesh_SWMM/Firozabad/Procesed%20Survey_Data/CSV/CSV/FIROZABAD%20CSV/2026-09-20%20CANTROL%20POINTS(FZD)_082642.csv?type=csv&amp;maxFields=10000&amp;detectTypes=yes&amp;xField=246950.3190&amp;yField=3003441.6916&amp;zField=170</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>78.3906525348158,27.1732281687924,163.7513</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="merged_control_points.32">
+			<ExtendedData>
+				<SchemaData schemaUrl="#merged_control_points">
+					<SimpleData name="BASE">33</SimpleData>
+					<SimpleData name="3003441.69">3007778.896399999968708</SimpleData>
+					<SimpleData name="246950.319">241308.637300000002142</SimpleData>
+					<SimpleData name="170.4247">164.031599999999997</SimpleData>
+					<SimpleData name="27_07_49.1">27:10:06.21468</SimpleData>
+					<SimpleData name="78_26_49.3">78:23:21.31113</SimpleData>
+					<SimpleData name="112.0453">105.928700000000006</SimpleData>
+					<SimpleData name="TBM.1">FRD.CP-22</SimpleData>
+					<SimpleData name="layer">2026-09-20 Control Points_(FZD)_082642</SimpleData>
+					<SimpleData name="path">file:///D:/OneDrive/OneDrive%20-%20CWD/Uttara%20Pradesh_SWMM/Firozabad/Procesed%20Survey_Data/CSV/CSV/FIROZABAD%20CSV/2026-09-20%20CANTROL%20POINTS(FZD)_082642.csv?type=csv&amp;maxFields=10000&amp;detectTypes=yes&amp;xField=246950.3190&amp;yField=3003441.6916&amp;zField=170</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>78.3892530906944,27.1683929653724,164.0316</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="merged_control_points.33">
+			<ExtendedData>
+				<SchemaData schemaUrl="#merged_control_points">
+					<SimpleData name="BASE">34</SimpleData>
+					<SimpleData name="3003441.69">3007795.030900000128895</SimpleData>
+					<SimpleData name="246950.319">240662.122800000011921</SimpleData>
+					<SimpleData name="170.4247">164.188899999999990</SimpleData>
+					<SimpleData name="27_07_49.1">27:10:06.30094</SimpleData>
+					<SimpleData name="78_26_49.3">78:22:57.82974</SimpleData>
+					<SimpleData name="112.0453">106.112799999999993</SimpleData>
+					<SimpleData name="TBM.1">FRD.CP-24</SimpleData>
+					<SimpleData name="layer">2026-09-20 Control Points_(FZD)_082642</SimpleData>
+					<SimpleData name="path">file:///D:/OneDrive/OneDrive%20-%20CWD/Uttara%20Pradesh_SWMM/Firozabad/Procesed%20Survey_Data/CSV/CSV/FIROZABAD%20CSV/2026-09-20%20CANTROL%20POINTS(FZD)_082642.csv?type=csv&amp;maxFields=10000&amp;detectTypes=yes&amp;xField=246950.3190&amp;yField=3003441.6916&amp;zField=170</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>78.3827304832944,27.1684169282911,164.1889</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="merged_control_points.34">
+			<ExtendedData>
+				<SchemaData schemaUrl="#merged_control_points">
+					<SimpleData name="BASE">35</SimpleData>
+					<SimpleData name="3003441.69">3007979.375899999868125</SimpleData>
+					<SimpleData name="246950.319">239999.670699999987846</SimpleData>
+					<SimpleData name="170.4247">164.105300000000000</SimpleData>
+					<SimpleData name="27_07_49.1">27:10:11.83673</SimpleData>
+					<SimpleData name="78_26_49.3">78:22:33.64211</SimpleData>
+					<SimpleData name="112.0453">106.058499999999995</SimpleData>
+					<SimpleData name="TBM.1">FRD.CP-25</SimpleData>
+					<SimpleData name="layer">2026-09-20 Control Points_(FZD)_082642</SimpleData>
+					<SimpleData name="path">file:///D:/OneDrive/OneDrive%20-%20CWD/Uttara%20Pradesh_SWMM/Firozabad/Procesed%20Survey_Data/CSV/CSV/FIROZABAD%20CSV/2026-09-20%20CANTROL%20POINTS(FZD)_082642.csv?type=csv&amp;maxFields=10000&amp;detectTypes=yes&amp;xField=246950.3190&amp;yField=3003441.6916&amp;zField=170</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>78.3760116973135,27.1699546484258,164.1053</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="merged_control_points.35">
+			<ExtendedData>
+				<SchemaData schemaUrl="#merged_control_points">
+					<SimpleData name="BASE">36</SimpleData>
+					<SimpleData name="3003441.69">3008458.502399999648333</SimpleData>
+					<SimpleData name="246950.319">238924.561500000039814</SimpleData>
+					<SimpleData name="170.4247">165.154200000000003</SimpleData>
+					<SimpleData name="27_07_49.1">27:10:26.66083</SimpleData>
+					<SimpleData name="78_26_49.3">78:21:54.24893</SimpleData>
+					<SimpleData name="112.0453">107.161000000000001</SimpleData>
+					<SimpleData name="TBM.1">FRD.CP-27</SimpleData>
+					<SimpleData name="layer">2026-09-20 Control Points_(FZD)_082642</SimpleData>
+					<SimpleData name="path">file:///D:/OneDrive/OneDrive%20-%20CWD/Uttara%20Pradesh_SWMM/Firozabad/Procesed%20Survey_Data/CSV/CSV/FIROZABAD%20CSV/2026-09-20%20CANTROL%20POINTS(FZD)_082642.csv?type=csv&amp;maxFields=10000&amp;detectTypes=yes&amp;xField=246950.3190&amp;yField=3003441.6916&amp;zField=170</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>78.36506914819201,27.17407245460389,165.1542</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="merged_control_points.36">
+			<ExtendedData>
+				<SchemaData schemaUrl="#merged_control_points">
+					<SimpleData name="BASE">37</SimpleData>
+					<SimpleData name="3003441.69">3007749.718200000002980</SimpleData>
+					<SimpleData name="246950.319">239402.287099999986822</SimpleData>
+					<SimpleData name="170.4247">165.448299999999989</SimpleData>
+					<SimpleData name="27_07_49.1">27:10:03.97389</SimpleData>
+					<SimpleData name="78_26_49.3">78:22:12.13123</SimpleData>
+					<SimpleData name="112.0453">107.427499999999995</SimpleData>
+					<SimpleData name="TBM.1">FRD.CP-26</SimpleData>
+					<SimpleData name="layer">2026-09-20 Control Points_(FZD)_082642</SimpleData>
+					<SimpleData name="path">file:///D:/OneDrive/OneDrive%20-%20CWD/Uttara%20Pradesh_SWMM/Firozabad/Procesed%20Survey_Data/CSV/CSV/FIROZABAD%20CSV/2026-09-20%20CANTROL%20POINTS(FZD)_082642.csv?type=csv&amp;maxFields=10000&amp;detectTypes=yes&amp;xField=246950.3190&amp;yField=3003441.6916&amp;zField=170</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>78.3700364538532,27.167770525412,165.4483</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="merged_control_points.37">
+			<ExtendedData>
+				<SchemaData schemaUrl="#merged_control_points">
+					<SimpleData name="BASE">38</SimpleData>
+					<SimpleData name="3003441.69">3006897.464300000108778</SimpleData>
+					<SimpleData name="246950.319">238601.372800000011921</SimpleData>
+					<SimpleData name="170.4247">164.226200000000006</SimpleData>
+					<SimpleData name="27_07_49.1">27:09:35.75703</SimpleData>
+					<SimpleData name="78_26_49.3">78:21:43.70854</SimpleData>
+					<SimpleData name="112.0453">106.228999999999999</SimpleData>
+					<SimpleData name="TBM.1">FRD.CP-28</SimpleData>
+					<SimpleData name="layer">2026-09-20 Control Points_(FZD)_082642</SimpleData>
+					<SimpleData name="path">file:///D:/OneDrive/OneDrive%20-%20CWD/Uttara%20Pradesh_SWMM/Firozabad/Procesed%20Survey_Data/CSV/CSV/FIROZABAD%20CSV/2026-09-20%20CANTROL%20POINTS(FZD)_082642.csv?type=csv&amp;maxFields=10000&amp;detectTypes=yes&amp;xField=246950.3190&amp;yField=3003441.6916&amp;zField=170</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>78.3621412622367,27.1599325075176,164.2262</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="merged_control_points.38">
+			<ExtendedData>
+				<SchemaData schemaUrl="#merged_control_points">
+					<SimpleData name="BASE">40</SimpleData>
+					<SimpleData name="3003441.69">3006653.901699999812990</SimpleData>
+					<SimpleData name="246950.319">238512.377299999992829</SimpleData>
+					<SimpleData name="170.4247">163.502499999999998</SimpleData>
+					<SimpleData name="27_07_49.1">27:09:27.78836</SimpleData>
+					<SimpleData name="78_26_49.3">78:21:40.66420</SimpleData>
+					<SimpleData name="112.0453">105.506299999999996</SimpleData>
+					<SimpleData name="TBM.1">ERD.CP-48</SimpleData>
+					<SimpleData name="layer">2026-09-20 Control Points_(FZD)_082642</SimpleData>
+					<SimpleData name="path">file:///D:/OneDrive/OneDrive%20-%20CWD/Uttara%20Pradesh_SWMM/Firozabad/Procesed%20Survey_Data/CSV/CSV/FIROZABAD%20CSV/2026-09-20%20CANTROL%20POINTS(FZD)_082642.csv?type=csv&amp;maxFields=10000&amp;detectTypes=yes&amp;xField=246950.3190&amp;yField=3003441.6916&amp;zField=170</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>78.3612956109549,27.1577189875858,163.5025</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="merged_control_points.39">
+			<ExtendedData>
+				<SchemaData schemaUrl="#merged_control_points">
+					<SimpleData name="BASE">41</SimpleData>
+					<SimpleData name="3003441.69">3006472.875299999956042</SimpleData>
+					<SimpleData name="246950.319">239247.878600000025472</SimpleData>
+					<SimpleData name="170.4247">163.974899999999991</SimpleData>
+					<SimpleData name="27_07_49.1">27:09:22.41246</SimpleData>
+					<SimpleData name="78_26_49.3">78:22:07.49855</SimpleData>
+					<SimpleData name="112.0453">105.946299999999994</SimpleData>
+					<SimpleData name="TBM.1">ERD.CP-47</SimpleData>
+					<SimpleData name="layer">2026-09-20 Control Points_(FZD)_082642</SimpleData>
+					<SimpleData name="path">file:///D:/OneDrive/OneDrive%20-%20CWD/Uttara%20Pradesh_SWMM/Firozabad/Procesed%20Survey_Data/CSV/CSV/FIROZABAD%20CSV/2026-09-20%20CANTROL%20POINTS(FZD)_082642.csv?type=csv&amp;maxFields=10000&amp;detectTypes=yes&amp;xField=246950.3190&amp;yField=3003441.6916&amp;zField=170</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>78.3687495963532,27.1562256837913,163.9749</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="merged_control_points.40">
+			<ExtendedData>
+				<SchemaData schemaUrl="#merged_control_points">
+					<SimpleData name="BASE">42</SimpleData>
+					<SimpleData name="3003441.69">3007157.509399999864399</SimpleData>
+					<SimpleData name="246950.319">239426.820799999986775</SimpleData>
+					<SimpleData name="170.4247">164.567900000000009</SimpleData>
+					<SimpleData name="27_07_49.1">27:09:44.76287</SimpleData>
+					<SimpleData name="78_26_49.3">78:22:13.47259</SimpleData>
+					<SimpleData name="112.0453">106.539500000000004</SimpleData>
+					<SimpleData name="TBM.1">FRD.CP-29</SimpleData>
+					<SimpleData name="layer">2026-09-20 Control Points_(FZD)_082642</SimpleData>
+					<SimpleData name="path">file:///D:/OneDrive/OneDrive%20-%20CWD/Uttara%20Pradesh_SWMM/Firozabad/Procesed%20Survey_Data/CSV/CSV/FIROZABAD%20CSV/2026-09-20%20CANTROL%20POINTS(FZD)_082642.csv?type=csv&amp;maxFields=10000&amp;detectTypes=yes&amp;xField=246950.3190&amp;yField=3003441.6916&amp;zField=170</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>78.3704090521486,27.1624341318703,164.5679</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="merged_control_points.41">
+			<ExtendedData>
+				<SchemaData schemaUrl="#merged_control_points">
+					<SimpleData name="BASE">43</SimpleData>
+					<SimpleData name="3003441.69">3007124.061499999836087</SimpleData>
+					<SimpleData name="246950.319">239887.693100000004051</SimpleData>
+					<SimpleData name="170.4247">163.366800000000012</SimpleData>
+					<SimpleData name="27_07_49.1">27:09:43.99035</SimpleData>
+					<SimpleData name="78_26_49.3">78:22:30.22710</SimpleData>
+					<SimpleData name="112.0453">105.315100000000001</SimpleData>
+					<SimpleData name="TBM.1">FRD.CP-30</SimpleData>
+					<SimpleData name="layer">2026-09-20 Control Points_(FZD)_082642</SimpleData>
+					<SimpleData name="path">file:///D:/OneDrive/OneDrive%20-%20CWD/Uttara%20Pradesh_SWMM/Firozabad/Procesed%20Survey_Data/CSV/CSV/FIROZABAD%20CSV/2026-09-20%20CANTROL%20POINTS(FZD)_082642.csv?type=csv&amp;maxFields=10000&amp;detectTypes=yes&amp;xField=246950.3190&amp;yField=3003441.6916&amp;zField=170</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>78.37506308363611,27.1622195412918,163.3668</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="merged_control_points.42">
+			<ExtendedData>
+				<SchemaData schemaUrl="#merged_control_points">
+					<SimpleData name="BASE">44</SimpleData>
+					<SimpleData name="3003441.69">3007056.989399999845773</SimpleData>
+					<SimpleData name="246950.319">240583.062999999994645</SimpleData>
+					<SimpleData name="170.4247">164.529899999999998</SimpleData>
+					<SimpleData name="27_07_49.1">27:09:42.28454</SimpleData>
+					<SimpleData name="78_26_49.3">78:22:55.51907</SimpleData>
+					<SimpleData name="112.0453">106.448800000000006</SimpleData>
+					<SimpleData name="TBM.1">FRD.CP-31</SimpleData>
+					<SimpleData name="layer">2026-09-20 Control Points_(FZD)_082642</SimpleData>
+					<SimpleData name="path">file:///D:/OneDrive/OneDrive%20-%20CWD/Uttara%20Pradesh_SWMM/Firozabad/Procesed%20Survey_Data/CSV/CSV/FIROZABAD%20CSV/2026-09-20%20CANTROL%20POINTS(FZD)_082642.csv?type=csv&amp;maxFields=10000&amp;detectTypes=yes&amp;xField=246950.3190&amp;yField=3003441.6916&amp;zField=170</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>78.3820886317508,27.1617457055983,164.5299</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="merged_control_points.43">
+			<ExtendedData>
+				<SchemaData schemaUrl="#merged_control_points">
+					<SimpleData name="BASE">45</SimpleData>
+					<SimpleData name="3003441.69">3006238.452699999790639</SimpleData>
+					<SimpleData name="246950.319">240017.919700000027660</SimpleData>
+					<SimpleData name="170.4247">162.965699999999998</SimpleData>
+					<SimpleData name="27_07_49.1">27:09:15.32487</SimpleData>
+					<SimpleData name="78_26_49.3">78:22:35.62650</SimpleData>
+					<SimpleData name="112.0453">104.898799999999994</SimpleData>
+					<SimpleData name="TBM.1">FRD.CP-46</SimpleData>
+					<SimpleData name="layer">2026-09-20 Control Points_(FZD)_082642</SimpleData>
+					<SimpleData name="path">file:///D:/OneDrive/OneDrive%20-%20CWD/Uttara%20Pradesh_SWMM/Firozabad/Procesed%20Survey_Data/CSV/CSV/FIROZABAD%20CSV/2026-09-20%20CANTROL%20POINTS(FZD)_082642.csv?type=csv&amp;maxFields=10000&amp;detectTypes=yes&amp;xField=246950.3190&amp;yField=3003441.6916&amp;zField=170</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>78.3765629165126,27.1542569090125,162.9657</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="merged_control_points.44">
+			<ExtendedData>
+				<SchemaData schemaUrl="#merged_control_points">
+					<SimpleData name="BASE">46</SimpleData>
+					<SimpleData name="3003441.69">3005928.662800000049174</SimpleData>
+					<SimpleData name="246950.319">240017.081199999985984</SimpleData>
+					<SimpleData name="170.4247">165.140199999999993</SimpleData>
+					<SimpleData name="27_07_49.1">27:09:05.26604</SimpleData>
+					<SimpleData name="78_26_49.3">78:22:35.83119</SimpleData>
+					<SimpleData name="112.0453">107.069800000000001</SimpleData>
+					<SimpleData name="TBM.1">FRD.CP-50</SimpleData>
+					<SimpleData name="layer">2026-09-20 Control Points_(FZD)_082642</SimpleData>
+					<SimpleData name="path">file:///D:/OneDrive/OneDrive%20-%20CWD/Uttara%20Pradesh_SWMM/Firozabad/Procesed%20Survey_Data/CSV/CSV/FIROZABAD%20CSV/2026-09-20%20CANTROL%20POINTS(FZD)_082642.csv?type=csv&amp;maxFields=10000&amp;detectTypes=yes&amp;xField=246950.3190&amp;yField=3003441.6916&amp;zField=170</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>78.3766197734253,27.1514627876912,165.1402</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="merged_control_points.45">
+			<ExtendedData>
+				<SchemaData schemaUrl="#merged_control_points">
+					<SimpleData name="BASE">47</SimpleData>
+					<SimpleData name="3003441.69">3006116.015800000168383</SimpleData>
+					<SimpleData name="246950.319">240404.537899999995716</SimpleData>
+					<SimpleData name="170.4247">162.928799999999995</SimpleData>
+					<SimpleData name="27_07_49.1">27:09:11.61188</SimpleData>
+					<SimpleData name="78_26_49.3">78:22:49.75210</SimpleData>
+					<SimpleData name="112.0453">104.844600000000000</SimpleData>
+					<SimpleData name="TBM.1">FRD.CP-45</SimpleData>
+					<SimpleData name="layer">2026-09-20 Control Points_(FZD)_082642</SimpleData>
+					<SimpleData name="path">file:///D:/OneDrive/OneDrive%20-%20CWD/Uttara%20Pradesh_SWMM/Firozabad/Procesed%20Survey_Data/CSV/CSV/FIROZABAD%20CSV/2026-09-20%20CANTROL%20POINTS(FZD)_082642.csv?type=csv&amp;maxFields=10000&amp;detectTypes=yes&amp;xField=246950.3190&amp;yField=3003441.6916&amp;zField=170</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>78.38048669502901,27.153225522265,162.9288</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="merged_control_points.46">
+			<ExtendedData>
+				<SchemaData schemaUrl="#merged_control_points">
+					<SimpleData name="BASE">48</SimpleData>
+					<SimpleData name="3003441.69">3005539.114099999889731</SimpleData>
+					<SimpleData name="246950.319">241544.010399999970105</SimpleData>
+					<SimpleData name="170.4247">162.600599999999986</SimpleData>
+					<SimpleData name="27_07_49.1">27:08:53.65157</SimpleData>
+					<SimpleData name="78_26_49.3">78:23:31.54588</SimpleData>
+					<SimpleData name="112.0453">104.463200000000001</SimpleData>
+					<SimpleData name="TBM.1">FRD.CP-52</SimpleData>
+					<SimpleData name="layer">2026-09-20 Control Points_(FZD)_082642</SimpleData>
+					<SimpleData name="path">file:///D:/OneDrive/OneDrive%20-%20CWD/Uttara%20Pradesh_SWMM/Firozabad/Procesed%20Survey_Data/CSV/CSV/FIROZABAD%20CSV/2026-09-20%20CANTROL%20POINTS(FZD)_082642.csv?type=csv&amp;maxFields=10000&amp;detectTypes=yes&amp;xField=246950.3190&amp;yField=3003441.6916&amp;zField=170</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>78.3920960768026,27.1482365463525,162.6006</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="merged_control_points.47">
+			<ExtendedData>
+				<SchemaData schemaUrl="#merged_control_points">
+					<SimpleData name="BASE">49</SimpleData>
+					<SimpleData name="3003441.69">3005711.369099999777973</SimpleData>
+					<SimpleData name="246950.319">242139.352799999993294</SimpleData>
+					<SimpleData name="170.4247">162.871900000000011</SimpleData>
+					<SimpleData name="27_07_49.1">27:08:59.64573</SimpleData>
+					<SimpleData name="78_26_49.3">78:23:53.02409</SimpleData>
+					<SimpleData name="112.0453">104.712100000000007</SimpleData>
+					<SimpleData name="TBM.1">FRD.CP-53</SimpleData>
+					<SimpleData name="layer">2026-09-20 Control Points_(FZD)_082642</SimpleData>
+					<SimpleData name="path">file:///D:/OneDrive/OneDrive%20-%20CWD/Uttara%20Pradesh_SWMM/Firozabad/Procesed%20Survey_Data/CSV/CSV/FIROZABAD%20CSV/2026-09-20%20CANTROL%20POINTS(FZD)_082642.csv?type=csv&amp;maxFields=10000&amp;detectTypes=yes&amp;xField=246950.3190&amp;yField=3003441.6916&amp;zField=170</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>78.39806224798571,27.1499015905891,162.8719</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="merged_control_points.48">
+			<ExtendedData>
+				<SchemaData schemaUrl="#merged_control_points">
+					<SimpleData name="BASE">50</SimpleData>
+					<SimpleData name="3003441.69">3004894.872200000099838</SimpleData>
+					<SimpleData name="246950.319">243040.392400000011548</SimpleData>
+					<SimpleData name="170.4247">163.140700000000010</SimpleData>
+					<SimpleData name="27_07_49.1">27:08:33.74062</SimpleData>
+					<SimpleData name="78_26_49.3">78:24:26.34016</SimpleData>
+					<SimpleData name="112.0453">104.935100000000006</SimpleData>
+					<SimpleData name="TBM.1">FRD.CP-63</SimpleData>
+					<SimpleData name="layer">2026-09-20 Control Points_(FZD)_082642</SimpleData>
+					<SimpleData name="path">file:///D:/OneDrive/OneDrive%20-%20CWD/Uttara%20Pradesh_SWMM/Firozabad/Procesed%20Survey_Data/CSV/CSV/FIROZABAD%20CSV/2026-09-20%20CANTROL%20POINTS(FZD)_082642.csv?type=csv&amp;maxFields=10000&amp;detectTypes=yes&amp;xField=246950.3190&amp;yField=3003441.6916&amp;zField=170</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>78.40731671160739,27.1427057286713,163.1407</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="merged_control_points.49">
+			<ExtendedData>
+				<SchemaData schemaUrl="#merged_control_points">
+					<SimpleData name="BASE">51</SimpleData>
+					<SimpleData name="3003441.69">3005596.873300000093877</SimpleData>
+					<SimpleData name="246950.319">243020.455500000010943</SimpleData>
+					<SimpleData name="170.4247">163.159999999999997</SimpleData>
+					<SimpleData name="27_07_49.1">27:08:56.52042</SimpleData>
+					<SimpleData name="78_26_49.3">78:24:25.09013</SimpleData>
+					<SimpleData name="112.0453">104.962900000000005</SimpleData>
+					<SimpleData name="TBM.1">FRD.CP-54</SimpleData>
+					<SimpleData name="layer">2026-09-20 Control Points_(FZD)_082642</SimpleData>
+					<SimpleData name="path">file:///D:/OneDrive/OneDrive%20-%20CWD/Uttara%20Pradesh_SWMM/Firozabad/Procesed%20Survey_Data/CSV/CSV/FIROZABAD%20CSV/2026-09-20%20CANTROL%20POINTS(FZD)_082642.csv?type=csv&amp;maxFields=10000&amp;detectTypes=yes&amp;xField=246950.3190&amp;yField=3003441.6916&amp;zField=170</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>78.4069694805299,27.1490334497467,163.16</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="merged_control_points.50">
+			<ExtendedData>
+				<SchemaData schemaUrl="#merged_control_points">
+					<SimpleData name="BASE">52</SimpleData>
+					<SimpleData name="3003441.69">3004986.717100000008941</SimpleData>
+					<SimpleData name="246950.319">243432.590300000039861</SimpleData>
+					<SimpleData name="170.4247">164.609499999999997</SimpleData>
+					<SimpleData name="27_07_49.1">27:08:36.98560</SimpleData>
+					<SimpleData name="78_26_49.3">78:24:40.50563</SimpleData>
+					<SimpleData name="112.0453">106.388900000000007</SimpleData>
+					<SimpleData name="TBM.1">FRD.CP-62</SimpleData>
+					<SimpleData name="layer">2026-09-20 Control Points_(FZD)_082642</SimpleData>
+					<SimpleData name="path">file:///D:/OneDrive/OneDrive%20-%20CWD/Uttara%20Pradesh_SWMM/Firozabad/Procesed%20Survey_Data/CSV/CSV/FIROZABAD%20CSV/2026-09-20%20CANTROL%20POINTS(FZD)_082642.csv?type=csv&amp;maxFields=10000&amp;detectTypes=yes&amp;xField=246950.3190&amp;yField=3003441.6916&amp;zField=170</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>78.41125156214601,27.1436071103917,164.6095</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="merged_control_points.51">
+			<ExtendedData>
+				<SchemaData schemaUrl="#merged_control_points">
+					<SimpleData name="BASE">53</SimpleData>
+					<SimpleData name="3003441.69">3003441.694399999920279</SimpleData>
+					<SimpleData name="246950.319">246950.314099999988684</SimpleData>
+					<SimpleData name="170.4247">170.438400000000001</SimpleData>
+					<SimpleData name="27_07_49.1">27:07:49.15874</SimpleData>
+					<SimpleData name="78_26_49.3">78:26:49.31979</SimpleData>
+					<SimpleData name="112.0453">112.058999999999997</SimpleData>
+					<SimpleData name="TBM.1">TBM.1</SimpleData>
+					<SimpleData name="layer">2026-09-20 Control Points_(FZD)_082642</SimpleData>
+					<SimpleData name="path">file:///D:/OneDrive/OneDrive%20-%20CWD/Uttara%20Pradesh_SWMM/Firozabad/Procesed%20Survey_Data/CSV/CSV/FIROZABAD%20CSV/2026-09-20%20CANTROL%20POINTS(FZD)_082642.csv?type=csv&amp;maxFields=10000&amp;detectTypes=yes&amp;xField=246950.3190&amp;yField=3003441.6916&amp;zField=170</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>78.44703327585449,27.1303218719541,170.4384</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="merged_control_points.52">
+			<ExtendedData>
+				<SchemaData schemaUrl="#merged_control_points">
+					<SimpleData name="BASE">1</SimpleData>
+					<SimpleData name="TBM.1">FRD.CP-56</SimpleData>
+					<SimpleData name="3003441._1">3005579.948200000450015</SimpleData>
+					<SimpleData name="246950.317">244310.451299999986077</SimpleData>
+					<SimpleData name="170.4242">165.197300000000013</SimpleData>
+					<SimpleData name="27_07_49_1">27:08:56.83427</SimpleData>
+					<SimpleData name="78_26_49_1">78:25:11.92400</SimpleData>
+					<SimpleData name="112.0448">106.947500000000005</SimpleData>
+					<SimpleData name="layer">2026-09-21 Control Points(FZD)_csv__063434</SimpleData>
+					<SimpleData name="path">file:///D:/OneDrive/OneDrive%20-%20CWD/Uttara%20Pradesh_SWMM/Firozabad/Procesed%20Survey_Data/CSV/CSV/FIROZABAD%20CSV/2026-09-21%20CP%20POINTS(FZD)_csv__063434.csv?type=csv&amp;maxFields=10000&amp;detectTypes=yes&amp;xField=246950.3174&amp;yField=3003441.6912&amp;zField=170</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>78.419978889395,27.1491206303813,165.1973</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="merged_control_points.53">
+			<ExtendedData>
+				<SchemaData schemaUrl="#merged_control_points">
+					<SimpleData name="BASE">2</SimpleData>
+					<SimpleData name="TBM.1">FRD.CP-40</SimpleData>
+					<SimpleData name="3003441._1">3006230.159200000111014</SimpleData>
+					<SimpleData name="246950.317">244574.942700000014156</SimpleData>
+					<SimpleData name="170.4242">164.043599999999998</SimpleData>
+					<SimpleData name="27_07_49_1">27:09:18.12260</SimpleData>
+					<SimpleData name="78_26_49_1">78:25:21.03912</SimpleData>
+					<SimpleData name="112.0448">105.790000000000006</SimpleData>
+					<SimpleData name="layer">2026-09-21 Control Points(FZD)_csv__063434</SimpleData>
+					<SimpleData name="path">file:///D:/OneDrive/OneDrive%20-%20CWD/Uttara%20Pradesh_SWMM/Firozabad/Procesed%20Survey_Data/CSV/CSV/FIROZABAD%20CSV/2026-09-21%20CP%20POINTS(FZD)_csv__063434.csv?type=csv&amp;maxFields=10000&amp;detectTypes=yes&amp;xField=246950.3174&amp;yField=3003441.6912&amp;zField=170</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>78.4225108676717,27.1550340561033,164.0436</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="merged_control_points.54">
+			<ExtendedData>
+				<SchemaData schemaUrl="#merged_control_points">
+					<SimpleData name="BASE">3</SimpleData>
+					<SimpleData name="TBM.1">FRD.CP-41</SimpleData>
+					<SimpleData name="3003441._1">3006312.156799999997020</SimpleData>
+					<SimpleData name="246950.317">243798.924700000003213</SimpleData>
+					<SimpleData name="170.4242">165.514999999999986</SimpleData>
+					<SimpleData name="27_07_49_1">27:09:20.26652</SimpleData>
+					<SimpleData name="78_26_49_1">78:24:52.81013</SimpleData>
+					<SimpleData name="112.0448">107.293899999999994</SimpleData>
+					<SimpleData name="layer">2026-09-21 Control Points(FZD)_csv__063434</SimpleData>
+					<SimpleData name="path">file:///D:/OneDrive/OneDrive%20-%20CWD/Uttara%20Pradesh_SWMM/Firozabad/Procesed%20Survey_Data/CSV/CSV/FIROZABAD%20CSV/2026-09-21%20CP%20POINTS(FZD)_csv__063434.csv?type=csv&amp;maxFields=10000&amp;detectTypes=yes&amp;xField=246950.3174&amp;yField=3003441.6912&amp;zField=170</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>78.4146694820985,27.1556295889329,165.515</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="merged_control_points.55">
+			<ExtendedData>
+				<SchemaData schemaUrl="#merged_control_points">
+					<SimpleData name="BASE">4</SimpleData>
+					<SimpleData name="TBM.1">FRD.CP-55</SimpleData>
+					<SimpleData name="3003441._1">3005689.794100000057369</SimpleData>
+					<SimpleData name="246950.317">243745.170500000036554</SimpleData>
+					<SimpleData name="170.4242">165.089499999999987</SimpleData>
+					<SimpleData name="27_07_49_1">27:09:00.02305</SimpleData>
+					<SimpleData name="78_26_49_1">78:24:51.32456</SimpleData>
+					<SimpleData name="112.0448">106.863900000000001</SimpleData>
+					<SimpleData name="layer">2026-09-21 Control Points(FZD)_csv__063434</SimpleData>
+					<SimpleData name="path">file:///D:/OneDrive/OneDrive%20-%20CWD/Uttara%20Pradesh_SWMM/Firozabad/Procesed%20Survey_Data/CSV/CSV/FIROZABAD%20CSV/2026-09-21%20CP%20POINTS(FZD)_csv__063434.csv?type=csv&amp;maxFields=10000&amp;detectTypes=yes&amp;xField=246950.3174&amp;yField=3003441.6912&amp;zField=170</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>78.4142568225913,27.1500064031328,165.0895</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="merged_control_points.56">
+			<ExtendedData>
+				<SchemaData schemaUrl="#merged_control_points">
+					<SimpleData name="BASE">5</SimpleData>
+					<SimpleData name="TBM.1">FRD.CP-78</SimpleData>
+					<SimpleData name="3003441._1">3003746.128800000064075</SimpleData>
+					<SimpleData name="246950.317">243537.755700000008801</SimpleData>
+					<SimpleData name="170.4242">162.322699999999998</SimpleData>
+					<SimpleData name="27_07_49_1">27:07:56.77532</SimpleData>
+					<SimpleData name="78_26_49_1">78:24:45.25059</SimpleData>
+					<SimpleData name="112.0448">104.084299999999999</SimpleData>
+					<SimpleData name="layer">2026-09-21 Control Points(FZD)_csv__063434</SimpleData>
+					<SimpleData name="path">file:///D:/OneDrive/OneDrive%20-%20CWD/Uttara%20Pradesh_SWMM/Firozabad/Procesed%20Survey_Data/CSV/CSV/FIROZABAD%20CSV/2026-09-21%20CP%20POINTS(FZD)_csv__063434.csv?type=csv&amp;maxFields=10000&amp;detectTypes=yes&amp;xField=246950.3174&amp;yField=3003441.6912&amp;zField=170</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>78.4125696078713,27.1324375898995,162.3227</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="merged_control_points.57">
+			<ExtendedData>
+				<SchemaData schemaUrl="#merged_control_points">
+					<SimpleData name="BASE">6</SimpleData>
+					<SimpleData name="TBM.1">FRD.CP-74</SimpleData>
+					<SimpleData name="3003441._1">3004223.905100000090897</SimpleData>
+					<SimpleData name="246950.317">242777.850799999985611</SimpleData>
+					<SimpleData name="170.4242">161.317399999999992</SimpleData>
+					<SimpleData name="27_07_49_1">27:08:11.77893</SimpleData>
+					<SimpleData name="78_26_49_1">78:24:17.31514</SimpleData>
+					<SimpleData name="112.0448">103.115099999999998</SimpleData>
+					<SimpleData name="layer">2026-09-21 Control Points(FZD)_csv__063434</SimpleData>
+					<SimpleData name="path">file:///D:/OneDrive/OneDrive%20-%20CWD/Uttara%20Pradesh_SWMM/Firozabad/Procesed%20Survey_Data/CSV/CSV/FIROZABAD%20CSV/2026-09-21%20CP%20POINTS(FZD)_csv__063434.csv?type=csv&amp;maxFields=10000&amp;detectTypes=yes&amp;xField=246950.3174&amp;yField=3003441.6912&amp;zField=170</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>78.4048097613187,27.136605256906,161.3174</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="merged_control_points.58">
+			<ExtendedData>
+				<SchemaData schemaUrl="#merged_control_points">
+					<SimpleData name="BASE">7</SimpleData>
+					<SimpleData name="TBM.1">FRD.CP-79</SimpleData>
+					<SimpleData name="3003441._1">3003719.982299999799579</SimpleData>
+					<SimpleData name="246950.317">242604.770099999994272</SimpleData>
+					<SimpleData name="170.4242">159.484700000000004</SimpleData>
+					<SimpleData name="27_07_49_1">27:07:55.30093</SimpleData>
+					<SimpleData name="78_26_49_1">78:24:11.41211</SimpleData>
+					<SimpleData name="112.0448">101.283900000000003</SimpleData>
+					<SimpleData name="layer">2026-09-21 Control Points(FZD)_csv__063434</SimpleData>
+					<SimpleData name="path">file:///D:/OneDrive/OneDrive%20-%20CWD/Uttara%20Pradesh_SWMM/Firozabad/Procesed%20Survey_Data/CSV/CSV/FIROZABAD%20CSV/2026-09-21%20CP%20POINTS(FZD)_csv__063434.csv?type=csv&amp;maxFields=10000&amp;detectTypes=yes&amp;xField=246950.3174&amp;yField=3003441.6912&amp;zField=170</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>78.4031700294212,27.1320280373825,159.4847</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="merged_control_points.59">
+			<ExtendedData>
+				<SchemaData schemaUrl="#merged_control_points">
+					<SimpleData name="BASE">8</SimpleData>
+					<SimpleData name="TBM.1">FRD.CP-80</SimpleData>
+					<SimpleData name="3003441._1">3003653.811499999836087</SimpleData>
+					<SimpleData name="246950.317">242093.752600000007078</SimpleData>
+					<SimpleData name="170.4242">158.484399999999994</SimpleData>
+					<SimpleData name="27_07_49_1">27:07:52.80893</SimpleData>
+					<SimpleData name="78_26_49_1">78:23:52.91718</SimpleData>
+					<SimpleData name="112.0448">100.303700000000006</SimpleData>
+					<SimpleData name="layer">2026-09-21 Control Points(FZD)_csv__063434</SimpleData>
+					<SimpleData name="path">file:///D:/OneDrive/OneDrive%20-%20CWD/Uttara%20Pradesh_SWMM/Firozabad/Procesed%20Survey_Data/CSV/CSV/FIROZABAD%20CSV/2026-09-21%20CP%20POINTS(FZD)_csv__063434.csv?type=csv&amp;maxFields=10000&amp;detectTypes=yes&amp;xField=246950.3174&amp;yField=3003441.6912&amp;zField=170</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>78.3980325504173,27.1313358139178,158.4844</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="merged_control_points.60">
+			<ExtendedData>
+				<SchemaData schemaUrl="#merged_control_points">
+					<SimpleData name="BASE">9</SimpleData>
+					<SimpleData name="TBM.1">FRD.CP-86</SimpleData>
+					<SimpleData name="3003441._1">3002861.448299999814481</SimpleData>
+					<SimpleData name="246950.317">242197.254400000005262</SimpleData>
+					<SimpleData name="170.4242">160.971499999999992</SimpleData>
+					<SimpleData name="27_07_49_1">27:07:27.15153</SimpleData>
+					<SimpleData name="78_26_49_1">78:23:57.26877</SimpleData>
+					<SimpleData name="112.0448">102.762500000000003</SimpleData>
+					<SimpleData name="layer">2026-09-21 Control Points(FZD)_csv__063434</SimpleData>
+					<SimpleData name="path">file:///D:/OneDrive/OneDrive%20-%20CWD/Uttara%20Pradesh_SWMM/Firozabad/Procesed%20Survey_Data/CSV/CSV/FIROZABAD%20CSV/2026-09-21%20CP%20POINTS(FZD)_csv__063434.csv?type=csv&amp;maxFields=10000&amp;detectTypes=yes&amp;xField=246950.3174&amp;yField=3003441.6912&amp;zField=170</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>78.3992413249068,27.1242087593314,160.9715</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="merged_control_points.61">
+			<ExtendedData>
+				<SchemaData schemaUrl="#merged_control_points">
+					<SimpleData name="BASE">10</SimpleData>
+					<SimpleData name="TBM.1">FRD.CP-73</SimpleData>
+					<SimpleData name="3003441._1">3004226.583000000100583</SimpleData>
+					<SimpleData name="246950.317">242164.325400000001537</SimpleData>
+					<SimpleData name="170.4242">160.454000000000008</SimpleData>
+					<SimpleData name="27_07_49_1">27:08:11.45355</SimpleData>
+					<SimpleData name="78_26_49_1">78:23:55.04753</SimpleData>
+					<SimpleData name="112.0448">102.276700000000005</SimpleData>
+					<SimpleData name="layer">2026-09-21 Control Points(FZD)_csv__063434</SimpleData>
+					<SimpleData name="path">file:///D:/OneDrive/OneDrive%20-%20CWD/Uttara%20Pradesh_SWMM/Firozabad/Procesed%20Survey_Data/CSV/CSV/FIROZABAD%20CSV/2026-09-21%20CP%20POINTS(FZD)_csv__063434.csv?type=csv&amp;maxFields=10000&amp;detectTypes=yes&amp;xField=246950.3174&amp;yField=3003441.6912&amp;zField=170</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>78.39862431314219,27.1365148754041,160.454</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="merged_control_points.62">
+			<ExtendedData>
+				<SchemaData schemaUrl="#merged_control_points">
+					<SimpleData name="BASE">11</SimpleData>
+					<SimpleData name="TBM.1">FRD.CP-72</SimpleData>
+					<SimpleData name="3003441._1">3004180.914799999911338</SimpleData>
+					<SimpleData name="246950.317">241597.575000000011642</SimpleData>
+					<SimpleData name="170.4242">161.231500000000011</SimpleData>
+					<SimpleData name="27_07_49_1">27:08:09.58901</SimpleData>
+					<SimpleData name="78_26_49_1">78:23:34.51398</SimpleData>
+					<SimpleData name="112.0448">103.076899999999995</SimpleData>
+					<SimpleData name="layer">2026-09-21 Control Points(FZD)_csv__063434</SimpleData>
+					<SimpleData name="path">file:///D:/OneDrive/OneDrive%20-%20CWD/Uttara%20Pradesh_SWMM/Firozabad/Procesed%20Survey_Data/CSV/CSV/FIROZABAD%20CSV/2026-09-21%20CP%20POINTS(FZD)_csv__063434.csv?type=csv&amp;maxFields=10000&amp;detectTypes=yes&amp;xField=246950.3174&amp;yField=3003441.6912&amp;zField=170</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>78.3929205511734,27.1359969487867,161.2315</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="merged_control_points.63">
+			<ExtendedData>
+				<SchemaData schemaUrl="#merged_control_points">
+					<SimpleData name="BASE">12</SimpleData>
+					<SimpleData name="TBM.1">FRD.CP-81</SimpleData>
+					<SimpleData name="3003441._1">3003579.498300000093877</SimpleData>
+					<SimpleData name="246950.317">241313.448299999989104</SimpleData>
+					<SimpleData name="170.4242">162.522600000000011</SimpleData>
+					<SimpleData name="27_07_49_1">27:07:49.87024</SimpleData>
+					<SimpleData name="78_26_49_1">78:23:24.65653</SimpleData>
+					<SimpleData name="112.0448">104.372900000000001</SimpleData>
+					<SimpleData name="layer">2026-09-21 Control Points(FZD)_csv__063434</SimpleData>
+					<SimpleData name="path">file:///D:/OneDrive/OneDrive%20-%20CWD/Uttara%20Pradesh_SWMM/Firozabad/Procesed%20Survey_Data/CSV/CSV/FIROZABAD%20CSV/2026-09-21%20CP%20POINTS(FZD)_csv__063434.csv?type=csv&amp;maxFields=10000&amp;detectTypes=yes&amp;xField=246950.3174&amp;yField=3003441.6912&amp;zField=170</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>78.3901823688594,27.130519512656,162.5226</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="merged_control_points.64">
+			<ExtendedData>
+				<SchemaData schemaUrl="#merged_control_points">
+					<SimpleData name="BASE">13</SimpleData>
+					<SimpleData name="TBM.1">FRD.CP-84</SimpleData>
+					<SimpleData name="3003441._1">3002791.323700000066310</SimpleData>
+					<SimpleData name="246950.317">240974.855099999986123</SimpleData>
+					<SimpleData name="170.4242">162.144399999999990</SimpleData>
+					<SimpleData name="27_07_49_1">27:07:24.05080</SimpleData>
+					<SimpleData name="78_26_49_1">78:23:12.96455</SimpleData>
+					<SimpleData name="112.0448">103.984099999999998</SimpleData>
+					<SimpleData name="layer">2026-09-21 Control Points(FZD)_csv__063434</SimpleData>
+					<SimpleData name="path">file:///D:/OneDrive/OneDrive%20-%20CWD/Uttara%20Pradesh_SWMM/Firozabad/Procesed%20Survey_Data/CSV/CSV/FIROZABAD%20CSV/2026-09-21%20CP%20POINTS(FZD)_csv__063434.csv?type=csv&amp;maxFields=10000&amp;detectTypes=yes&amp;xField=246950.3174&amp;yField=3003441.6912&amp;zField=170</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>78.386934595824,27.1233474445707,162.1444</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="merged_control_points.65">
+			<ExtendedData>
+				<SchemaData schemaUrl="#merged_control_points">
+					<SimpleData name="BASE">14</SimpleData>
+					<SimpleData name="TBM.1">FRD.CP-85</SimpleData>
+					<SimpleData name="3003441._1">3002626.047600000165403</SimpleData>
+					<SimpleData name="246950.317">241271.316200000001118</SimpleData>
+					<SimpleData name="170.4242">161.126499999999993</SimpleData>
+					<SimpleData name="27_07_49_1">27:07:18.88470</SimpleData>
+					<SimpleData name="78_26_49_1">78:23:23.84675</SimpleData>
+					<SimpleData name="112.0448">102.952399999999997</SimpleData>
+					<SimpleData name="layer">2026-09-21 Control Points(FZD)_csv__063434</SimpleData>
+					<SimpleData name="path">file:///D:/OneDrive/OneDrive%20-%20CWD/Uttara%20Pradesh_SWMM/Firozabad/Procesed%20Survey_Data/CSV/CSV/FIROZABAD%20CSV/2026-09-21%20CP%20POINTS(FZD)_csv__063434.csv?type=csv&amp;maxFields=10000&amp;detectTypes=yes&amp;xField=246950.3174&amp;yField=3003441.6912&amp;zField=170</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>78.3899574308178,27.1219124158425,161.1265</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="merged_control_points.66">
+			<ExtendedData>
+				<SchemaData schemaUrl="#merged_control_points">
+					<SimpleData name="BASE">15</SimpleData>
+					<SimpleData name="TBM.1">FRD.CP-82</SimpleData>
+					<SimpleData name="3003441._1">3003437.981699999887496</SimpleData>
+					<SimpleData name="246950.317">240936.577300000004470</SimpleData>
+					<SimpleData name="170.4242">160.130500000000012</SimpleData>
+					<SimpleData name="27_07_49_1">27:07:45.02090</SimpleData>
+					<SimpleData name="78_26_49_1">78:23:11.08719</SimpleData>
+					<SimpleData name="112.0448">101.994600000000005</SimpleData>
+					<SimpleData name="layer">2026-09-21 Control Points(FZD)_csv__063434</SimpleData>
+					<SimpleData name="path">file:///D:/OneDrive/OneDrive%20-%20CWD/Uttara%20Pradesh_SWMM/Firozabad/Procesed%20Survey_Data/CSV/CSV/FIROZABAD%20CSV/2026-09-21%20CP%20POINTS(FZD)_csv__063434.csv?type=csv&amp;maxFields=10000&amp;detectTypes=yes&amp;xField=246950.3174&amp;yField=3003441.6912&amp;zField=170</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>78.3864131093983,27.1291724710732,160.1305</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="merged_control_points.67">
+			<ExtendedData>
+				<SchemaData schemaUrl="#merged_control_points">
+					<SimpleData name="BASE">16</SimpleData>
+					<SimpleData name="TBM.1">FRD.CP-71</SimpleData>
+					<SimpleData name="3003441._1">3004066.717800000216812</SimpleData>
+					<SimpleData name="246950.317">240763.464000000007218</SimpleData>
+					<SimpleData name="170.4242">161.501499999999993</SimpleData>
+					<SimpleData name="27_07_49_1">27:08:05.31787</SimpleData>
+					<SimpleData name="78_26_49_1">78:23:04.32989</SimpleData>
+					<SimpleData name="112.0448">103.379700000000000</SimpleData>
+					<SimpleData name="layer">2026-09-21 Control Points(FZD)_csv__063434</SimpleData>
+					<SimpleData name="path">file:///D:/OneDrive/OneDrive%20-%20CWD/Uttara%20Pradesh_SWMM/Firozabad/Procesed%20Survey_Data/CSV/CSV/FIROZABAD%20CSV/2026-09-21%20CP%20POINTS(FZD)_csv__063434.csv?type=csv&amp;maxFields=10000&amp;detectTypes=yes&amp;xField=246950.3174&amp;yField=3003441.6912&amp;zField=170</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>78.3845360796372,27.1348105205368,161.5015</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="merged_control_points.68">
+			<ExtendedData>
+				<SchemaData schemaUrl="#merged_control_points">
+					<SimpleData name="BASE">17</SimpleData>
+					<SimpleData name="TBM.1">FRD.CP-64</SimpleData>
+					<SimpleData name="3003441._1">3005064.955000000074506</SimpleData>
+					<SimpleData name="246950.317">241856.432600000000093</SimpleData>
+					<SimpleData name="170.4242">160.321300000000008</SimpleData>
+					<SimpleData name="27_07_49_1">27:08:38.46701</SimpleData>
+					<SimpleData name="78_26_49_1">78:23:43.24238</SimpleData>
+					<SimpleData name="112.0448">102.165899999999993</SimpleData>
+					<SimpleData name="layer">2026-09-21 Control Points(FZD)_csv__063434</SimpleData>
+					<SimpleData name="path">file:///D:/OneDrive/OneDrive%20-%20CWD/Uttara%20Pradesh_SWMM/Firozabad/Procesed%20Survey_Data/CSV/CSV/FIROZABAD%20CSV/2026-09-21%20CP%20POINTS(FZD)_csv__063434.csv?type=csv&amp;maxFields=10000&amp;detectTypes=yes&amp;xField=246950.3174&amp;yField=3003441.6912&amp;zField=170</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>78.3953451051397,27.1440186133017,160.3213</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="merged_control_points.69">
+			<ExtendedData>
+				<SchemaData schemaUrl="#merged_control_points">
+					<SimpleData name="BASE">18</SimpleData>
+					<SimpleData name="TBM.1">FRD.CP-65</SimpleData>
+					<SimpleData name="3003441._1">3004776.835200000088662</SimpleData>
+					<SimpleData name="246950.317">241139.146799999987707</SimpleData>
+					<SimpleData name="170.4242">163.489200000000011</SimpleData>
+					<SimpleData name="27_07_49_1">27:08:28.62820</SimpleData>
+					<SimpleData name="78_26_49_1">78:23:17.42729</SimpleData>
+					<SimpleData name="112.0448">105.359899999999996</SimpleData>
+					<SimpleData name="layer">2026-09-21 Control Points(FZD)_csv__063434</SimpleData>
+					<SimpleData name="path">file:///D:/OneDrive/OneDrive%20-%20CWD/Uttara%20Pradesh_SWMM/Firozabad/Procesed%20Survey_Data/CSV/CSV/FIROZABAD%20CSV/2026-09-21%20CP%20POINTS(FZD)_csv__063434.csv?type=csv&amp;maxFields=10000&amp;detectTypes=yes&amp;xField=246950.3174&amp;yField=3003441.6912&amp;zField=170</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>78.3881742474843,27.1412856107224,163.4892</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="merged_control_points.70">
+			<ExtendedData>
+				<SchemaData schemaUrl="#merged_control_points">
+					<SimpleData name="BASE">19</SimpleData>
+					<SimpleData name="TBM.1">FRD.CP-66</SimpleData>
+					<SimpleData name="3003441._1">3005028.347899999469519</SimpleData>
+					<SimpleData name="246950.317">240706.865300000004936</SimpleData>
+					<SimpleData name="170.4242">163.293200000000013</SimpleData>
+					<SimpleData name="27_07_49_1">27:08:36.50206</SimpleData>
+					<SimpleData name="78_26_49_1">78:23:01.54852</SimpleData>
+					<SimpleData name="112.0448">105.184399999999997</SimpleData>
+					<SimpleData name="layer">2026-09-21 Control Points(FZD)_csv__063434</SimpleData>
+					<SimpleData name="path">file:///D:/OneDrive/OneDrive%20-%20CWD/Uttara%20Pradesh_SWMM/Firozabad/Procesed%20Survey_Data/CSV/CSV/FIROZABAD%20CSV/2026-09-21%20CP%20POINTS(FZD)_csv__063434.csv?type=csv&amp;maxFields=10000&amp;detectTypes=yes&amp;xField=246950.3174&amp;yField=3003441.6912&amp;zField=170</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>78.38376347768281,27.1434727945913,163.2932</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="merged_control_points.71">
+			<ExtendedData>
+				<SchemaData schemaUrl="#merged_control_points">
+					<SimpleData name="BASE">20</SimpleData>
+					<SimpleData name="TBM.1">FRD.CP-70</SimpleData>
+					<SimpleData name="3003441._1">3004789.031099999789149</SimpleData>
+					<SimpleData name="246950.317">240187.010799999989104</SimpleData>
+					<SimpleData name="170.4242">163.146400000000000</SimpleData>
+					<SimpleData name="27_07_49_1">27:08:28.37968</SimpleData>
+					<SimpleData name="78_26_49_1">78:22:42.86292</SimpleData>
+					<SimpleData name="112.0448">105.056299999999993</SimpleData>
+					<SimpleData name="layer">2026-09-21 Control Points(FZD)_csv__063434</SimpleData>
+					<SimpleData name="path">file:///D:/OneDrive/OneDrive%20-%20CWD/Uttara%20Pradesh_SWMM/Firozabad/Procesed%20Survey_Data/CSV/CSV/FIROZABAD%20CSV/2026-09-21%20CP%20POINTS(FZD)_csv__063434.csv?type=csv&amp;maxFields=10000&amp;detectTypes=yes&amp;xField=246950.3174&amp;yField=3003441.6912&amp;zField=170</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>78.3785730344089,27.1412165765686,163.1464</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="merged_control_points.72">
+			<ExtendedData>
+				<SchemaData schemaUrl="#merged_control_points">
+					<SimpleData name="BASE">21</SimpleData>
+					<SimpleData name="TBM.1">FRD.CP-67</SimpleData>
+					<SimpleData name="3003441._1">3005044.301800000015646</SimpleData>
+					<SimpleData name="246950.317">239886.790299999993294</SimpleData>
+					<SimpleData name="170.4242">154.539999999999992</SimpleData>
+					<SimpleData name="27_07_49_1">27:08:36.46411</SimpleData>
+					<SimpleData name="78_26_49_1">78:22:31.77358</SimpleData>
+					<SimpleData name="112.0448">96.465100000000007</SimpleData>
+					<SimpleData name="layer">2026-09-21 Control Points(FZD)_csv__063434</SimpleData>
+					<SimpleData name="path">file:///D:/OneDrive/OneDrive%20-%20CWD/Uttara%20Pradesh_SWMM/Firozabad/Procesed%20Survey_Data/CSV/CSV/FIROZABAD%20CSV/2026-09-21%20CP%20POINTS(FZD)_csv__063434.csv?type=csv&amp;maxFields=10000&amp;detectTypes=yes&amp;xField=246950.3174&amp;yField=3003441.6912&amp;zField=170</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>78.3754926614675,27.1434622522411,154.54</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="merged_control_points.73">
+			<ExtendedData>
+				<SchemaData schemaUrl="#merged_control_points">
+					<SimpleData name="BASE">22</SimpleData>
+					<SimpleData name="TBM.1">FRD.CP-83</SimpleData>
+					<SimpleData name="3003441._1">3004377.646100000012666</SimpleData>
+					<SimpleData name="246950.317">239325.521600000007311</SimpleData>
+					<SimpleData name="170.4242">146.649400000000014</SimpleData>
+					<SimpleData name="27_07_49_1">27:08:14.43768</SimpleData>
+					<SimpleData name="78_26_49_1">78:22:11.91066</SimpleData>
+					<SimpleData name="112.0448">88.594200000000001</SimpleData>
+					<SimpleData name="layer">2026-09-21 Control Points(FZD)_csv__063434</SimpleData>
+					<SimpleData name="path">file:///D:/OneDrive/OneDrive%20-%20CWD/Uttara%20Pradesh_SWMM/Firozabad/Procesed%20Survey_Data/CSV/CSV/FIROZABAD%20CSV/2026-09-21%20CP%20POINTS(FZD)_csv__063434.csv?type=csv&amp;maxFields=10000&amp;detectTypes=yes&amp;xField=246950.3174&amp;yField=3003441.6912&amp;zField=170</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>78.3699751819246,27.137343800982,146.6494</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="merged_control_points.74">
+			<ExtendedData>
+				<SchemaData schemaUrl="#merged_control_points">
+					<SimpleData name="BASE">23</SimpleData>
+					<SimpleData name="TBM.1">FRD.CP-69</SimpleData>
+					<SimpleData name="3003441._1">3003924.138700000010431</SimpleData>
+					<SimpleData name="246950.317">238749.972500000003492</SimpleData>
+					<SimpleData name="170.4242">144.604199999999992</SimpleData>
+					<SimpleData name="27_07_49_1">27:07:59.32134</SimpleData>
+					<SimpleData name="78_26_49_1">78:21:51.36926</SimpleData>
+					<SimpleData name="112.0448">86.567499999999995</SimpleData>
+					<SimpleData name="layer">2026-09-21 Control Points(FZD)_csv__063434</SimpleData>
+					<SimpleData name="path">file:///D:/OneDrive/OneDrive%20-%20CWD/Uttara%20Pradesh_SWMM/Firozabad/Procesed%20Survey_Data/CSV/CSV/FIROZABAD%20CSV/2026-09-21%20CP%20POINTS(FZD)_csv__063434.csv?type=csv&amp;maxFields=10000&amp;detectTypes=yes&amp;xField=246950.3174&amp;yField=3003441.6912&amp;zField=170</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>78.3642692385543,27.1331448163739,144.6042</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="merged_control_points.75">
+			<ExtendedData>
+				<SchemaData schemaUrl="#merged_control_points">
+					<SimpleData name="BASE">24</SimpleData>
+					<SimpleData name="TBM.1">FRD.CP-49</SimpleData>
+					<SimpleData name="3003441._1">3005675.195699999574572</SimpleData>
+					<SimpleData name="246950.317">239153.744899999990594</SimpleData>
+					<SimpleData name="170.4242">162.970300000000009</SimpleData>
+					<SimpleData name="27_07_49_1">27:08:56.44944</SimpleData>
+					<SimpleData name="78_26_49_1">78:22:04.68922</SimpleData>
+					<SimpleData name="112.0448">104.936700000000002</SimpleData>
+					<SimpleData name="layer">2026-09-21 Control Points(FZD)_csv__063434</SimpleData>
+					<SimpleData name="path">file:///D:/OneDrive/OneDrive%20-%20CWD/Uttara%20Pradesh_SWMM/Firozabad/Procesed%20Survey_Data/CSV/CSV/FIROZABAD%20CSV/2026-09-21%20CP%20POINTS(FZD)_csv__063434.csv?type=csv&amp;maxFields=10000&amp;detectTypes=yes&amp;xField=246950.3174&amp;yField=3003441.6912&amp;zField=170</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>78.3679692281487,27.1490137329058,162.9703</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="merged_control_points.76">
+			<ExtendedData>
+				<SchemaData schemaUrl="#merged_control_points">
+					<SimpleData name="BASE">25</SimpleData>
+					<SimpleData name="TBM.1">FRD.CP-68</SimpleData>
+					<SimpleData name="3003441._1">3004991.747099999804050</SimpleData>
+					<SimpleData name="246950.317">239000.305200000002515</SimpleData>
+					<SimpleData name="170.4242">162.146099999999990</SimpleData>
+					<SimpleData name="27_07_49_1">27:08:34.15483</SimpleData>
+					<SimpleData name="78_26_49_1">78:21:59.64079</SimpleData>
+					<SimpleData name="112.0448">104.111099999999993</SimpleData>
+					<SimpleData name="layer">2026-09-21 Control Points(FZD)_csv__063434</SimpleData>
+					<SimpleData name="path">file:///D:/OneDrive/OneDrive%20-%20CWD/Uttara%20Pradesh_SWMM/Firozabad/Procesed%20Survey_Data/CSV/CSV/FIROZABAD%20CSV/2026-09-21%20CP%20POINTS(FZD)_csv__063434.csv?type=csv&amp;maxFields=10000&amp;detectTypes=yes&amp;xField=246950.3174&amp;yField=3003441.6912&amp;zField=170</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>78.366566886652,27.1428207874895,162.1461</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="merged_control_points.77">
+			<ExtendedData>
+				<SchemaData schemaUrl="#merged_control_points">
+					<SimpleData name="BASE">26</SimpleData>
+					<SimpleData name="TBM.1">FRD.CP-51</SimpleData>
+					<SimpleData name="3003441._1">3005586.228000000119209</SimpleData>
+					<SimpleData name="246950.317">240747.794099999999162</SimpleData>
+					<SimpleData name="170.4242">165.699700000000007</SimpleData>
+					<SimpleData name="27_07_49_1">27:08:54.64315</SimpleData>
+					<SimpleData name="78_26_49_1">78:23:02.61188</SimpleData>
+					<SimpleData name="112.0448">107.595500000000001</SimpleData>
+					<SimpleData name="layer">2026-09-21 Control Points(FZD)_csv__063434</SimpleData>
+					<SimpleData name="path">file:///D:/OneDrive/OneDrive%20-%20CWD/Uttara%20Pradesh_SWMM/Firozabad/Procesed%20Survey_Data/CSV/CSV/FIROZABAD%20CSV/2026-09-21%20CP%20POINTS(FZD)_csv__063434.csv?type=csv&amp;maxFields=10000&amp;detectTypes=yes&amp;xField=246950.3174&amp;yField=3003441.6912&amp;zField=170</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>78.38405885429449,27.1485119876161,165.6997</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="merged_control_points.78">
+			<ExtendedData>
+				<SchemaData schemaUrl="#merged_control_points">
+					<SimpleData name="BASE">27</SimpleData>
+					<SimpleData name="TBM.1">DTL</SimpleData>
+					<SimpleData name="3003441._1">3005832.015399999916553</SimpleData>
+					<SimpleData name="246950.317">240001.955699999991339</SimpleData>
+					<SimpleData name="170.4242">156.794900000000013</SimpleData>
+					<SimpleData name="27_07_49_1">27:09:02.11781</SimpleData>
+					<SimpleData name="78_26_49_1">78:22:35.35555</SimpleData>
+					<SimpleData name="112.0448">98.724100000000007</SimpleData>
+					<SimpleData name="layer">2026-09-21 Control Points(FZD)_csv__063434</SimpleData>
+					<SimpleData name="path">file:///D:/OneDrive/OneDrive%20-%20CWD/Uttara%20Pradesh_SWMM/Firozabad/Procesed%20Survey_Data/CSV/CSV/FIROZABAD%20CSV/2026-09-21%20CP%20POINTS(FZD)_csv__063434.csv?type=csv&amp;maxFields=10000&amp;detectTypes=yes&amp;xField=246950.3174&amp;yField=3003441.6912&amp;zField=170</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>78.3764876523487,27.1505882821731,156.7949</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="merged_control_points.79">
+			<ExtendedData>
+				<SchemaData schemaUrl="#merged_control_points">
+					<SimpleData name="BASE">28</SimpleData>
+					<SimpleData name="TBM.1">DTL</SimpleData>
+					<SimpleData name="3003441._1">3005832.015399999916553</SimpleData>
+					<SimpleData name="246950.317">240001.955699999991339</SimpleData>
+					<SimpleData name="170.4242">156.794900000000013</SimpleData>
+					<SimpleData name="27_07_49_1">27:09:02.11781</SimpleData>
+					<SimpleData name="78_26_49_1">78:22:35.35555</SimpleData>
+					<SimpleData name="112.0448">98.724100000000007</SimpleData>
+					<SimpleData name="layer">2026-09-21 Control Points(FZD)_csv__063434</SimpleData>
+					<SimpleData name="path">file:///D:/OneDrive/OneDrive%20-%20CWD/Uttara%20Pradesh_SWMM/Firozabad/Procesed%20Survey_Data/CSV/CSV/FIROZABAD%20CSV/2026-09-21%20CP%20POINTS(FZD)_csv__063434.csv?type=csv&amp;maxFields=10000&amp;detectTypes=yes&amp;xField=246950.3174&amp;yField=3003441.6912&amp;zField=170</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>78.3764876523487,27.1505882821731,156.7949</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="merged_control_points.80">
+			<ExtendedData>
+				<SchemaData schemaUrl="#merged_control_points">
+					<SimpleData name="BASE">29</SimpleData>
+					<SimpleData name="TBM.1">DB</SimpleData>
+					<SimpleData name="3003441._1">3005833.519700000062585</SimpleData>
+					<SimpleData name="246950.317">240002.473399999988033</SimpleData>
+					<SimpleData name="170.4242">153.723899999999986</SimpleData>
+					<SimpleData name="27_07_49_1">27:09:02.16701</SimpleData>
+					<SimpleData name="78_26_49_1">78:22:35.37320</SimpleData>
+					<SimpleData name="112.0448">95.653099999999995</SimpleData>
+					<SimpleData name="layer">2026-09-21 Control Points(FZD)_csv__063434</SimpleData>
+					<SimpleData name="path">file:///D:/OneDrive/OneDrive%20-%20CWD/Uttara%20Pradesh_SWMM/Firozabad/Procesed%20Survey_Data/CSV/CSV/FIROZABAD%20CSV/2026-09-21%20CP%20POINTS(FZD)_csv__063434.csv?type=csv&amp;maxFields=10000&amp;detectTypes=yes&amp;xField=246950.3174&amp;yField=3003441.6912&amp;zField=170</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>78.3764925546562,27.1506019469321,153.7239</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="merged_control_points.81">
+			<ExtendedData>
+				<SchemaData schemaUrl="#merged_control_points">
+					<SimpleData name="BASE">30</SimpleData>
+					<SimpleData name="TBM.1">DB</SimpleData>
+					<SimpleData name="3003441._1">3005833.548499999567866</SimpleData>
+					<SimpleData name="246950.317">240002.345899999985704</SimpleData>
+					<SimpleData name="170.4242">153.428899999999999</SimpleData>
+					<SimpleData name="27_07_49_1">27:09:02.16786</SimpleData>
+					<SimpleData name="78_26_49_1">78:22:35.36855</SimpleData>
+					<SimpleData name="112.0448">95.358099999999993</SimpleData>
+					<SimpleData name="layer">2026-09-21 Control Points(FZD)_csv__063434</SimpleData>
+					<SimpleData name="path">file:///D:/OneDrive/OneDrive%20-%20CWD/Uttara%20Pradesh_SWMM/Firozabad/Procesed%20Survey_Data/CSV/CSV/FIROZABAD%20CSV/2026-09-21%20CP%20POINTS(FZD)_csv__063434.csv?type=csv&amp;maxFields=10000&amp;detectTypes=yes&amp;xField=246950.3174&amp;yField=3003441.6912&amp;zField=170</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>78.37649126313509,27.15060218263219,153.4289</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="merged_control_points.82">
+			<ExtendedData>
+				<SchemaData schemaUrl="#merged_control_points">
+					<SimpleData name="BASE">31</SimpleData>
+					<SimpleData name="TBM.1">DTR</SimpleData>
+					<SimpleData name="3003441._1">3005830.245600000023842</SimpleData>
+					<SimpleData name="246950.317">239997.507199999992736</SimpleData>
+					<SimpleData name="170.4242">156.344799999999992</SimpleData>
+					<SimpleData name="27_07_49_1">27:09:02.05733</SimpleData>
+					<SimpleData name="78_26_49_1">78:22:35.19543</SimpleData>
+					<SimpleData name="112.0448">98.274100000000004</SimpleData>
+					<SimpleData name="layer">2026-09-21 Control Points(FZD)_csv__063434</SimpleData>
+					<SimpleData name="path">file:///D:/OneDrive/OneDrive%20-%20CWD/Uttara%20Pradesh_SWMM/Firozabad/Procesed%20Survey_Data/CSV/CSV/FIROZABAD%20CSV/2026-09-21%20CP%20POINTS(FZD)_csv__063434.csv?type=csv&amp;maxFields=10000&amp;detectTypes=yes&amp;xField=246950.3174&amp;yField=3003441.6912&amp;zField=170</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>78.3764431758609,27.1505714816098,156.3448</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="merged_control_points.83">
+			<ExtendedData>
+				<SchemaData schemaUrl="#merged_control_points">
+					<SimpleData name="BASE">32</SimpleData>
+					<SimpleData name="TBM.1">DTR</SimpleData>
+					<SimpleData name="3003441._1">3005830.247899999842048</SimpleData>
+					<SimpleData name="246950.317">239997.514699999999721</SimpleData>
+					<SimpleData name="170.4242">156.337799999999987</SimpleData>
+					<SimpleData name="27_07_49_1">27:09:02.05741</SimpleData>
+					<SimpleData name="78_26_49_1">78:22:35.19570</SimpleData>
+					<SimpleData name="112.0448">98.267099999999999</SimpleData>
+					<SimpleData name="layer">2026-09-21 Control Points(FZD)_csv__063434</SimpleData>
+					<SimpleData name="path">file:///D:/OneDrive/OneDrive%20-%20CWD/Uttara%20Pradesh_SWMM/Firozabad/Procesed%20Survey_Data/CSV/CSV/FIROZABAD%20CSV/2026-09-21%20CP%20POINTS(FZD)_csv__063434.csv?type=csv&amp;maxFields=10000&amp;detectTypes=yes&amp;xField=246950.3174&amp;yField=3003441.6912&amp;zField=170</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>78.3764432509907,27.1505715037677,156.3378</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="merged_control_points.84">
+			<ExtendedData>
+				<SchemaData schemaUrl="#merged_control_points">
+					<SimpleData name="BASE">33</SimpleData>
+					<SimpleData name="TBM.1">DB(2M</SimpleData>
+					<SimpleData name="3003441._1">3005830.357400000095367</SimpleData>
+					<SimpleData name="246950.317">239998.005999999993946</SimpleData>
+					<SimpleData name="170.4242">155.612799999999993</SimpleData>
+					<SimpleData name="27_07_49_1">27:09:02.06130</SimpleData>
+					<SimpleData name="78_26_49_1">78:22:35.21345</SimpleData>
+					<SimpleData name="112.0448">97.542100000000005</SimpleData>
+					<SimpleData name="layer">2026-09-21 Control Points(FZD)_csv__063434</SimpleData>
+					<SimpleData name="path">file:///D:/OneDrive/OneDrive%20-%20CWD/Uttara%20Pradesh_SWMM/Firozabad/Procesed%20Survey_Data/CSV/CSV/FIROZABAD%20CSV/2026-09-21%20CP%20POINTS(FZD)_csv__063434.csv?type=csv&amp;maxFields=10000&amp;detectTypes=yes&amp;xField=246950.3174&amp;yField=3003441.6912&amp;zField=170</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>78.3764481811714,27.1505725839891,155.6128</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="merged_control_points.85">
+			<ExtendedData>
+				<SchemaData schemaUrl="#merged_control_points">
+					<SimpleData name="BASE">34</SimpleData>
+					<SimpleData name="TBM.1">DB(2M</SimpleData>
+					<SimpleData name="3003441._1">3005825.481200000271201</SimpleData>
+					<SimpleData name="246950.317">239999.677599999995437</SimpleData>
+					<SimpleData name="170.4242">155.355899999999991</SimpleData>
+					<SimpleData name="27_07_49_1">27:09:01.90411</SimpleData>
+					<SimpleData name="78_26_49_1">78:22:35.27782</SimpleData>
+					<SimpleData name="112.0448">97.285100000000000</SimpleData>
+					<SimpleData name="layer">2026-09-21 Control Points(FZD)_csv__063434</SimpleData>
+					<SimpleData name="path">file:///D:/OneDrive/OneDrive%20-%20CWD/Uttara%20Pradesh_SWMM/Firozabad/Procesed%20Survey_Data/CSV/CSV/FIROZABAD%20CSV/2026-09-21%20CP%20POINTS(FZD)_csv__063434.csv?type=csv&amp;maxFields=10000&amp;detectTypes=yes&amp;xField=246950.3174&amp;yField=3003441.6912&amp;zField=170</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>78.3764660621307,27.1505289212717,155.3559</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="merged_control_points.86">
+			<ExtendedData>
+				<SchemaData schemaUrl="#merged_control_points">
+					<SimpleData name="BASE">35</SimpleData>
+					<SimpleData name="TBM.1">CU</SimpleData>
+					<SimpleData name="3003441._1">3005826.501999999862164</SimpleData>
+					<SimpleData name="246950.317">239998.053099999990081</SimpleData>
+					<SimpleData name="170.4242">157.089799999999997</SimpleData>
+					<SimpleData name="27_07_49_1">27:09:01.93616</SimpleData>
+					<SimpleData name="78_26_49_1">78:22:35.21809</SimpleData>
+					<SimpleData name="112.0448">99.019099999999995</SimpleData>
+					<SimpleData name="layer">2026-09-21 Control Points(FZD)_csv__063434</SimpleData>
+					<SimpleData name="path">file:///D:/OneDrive/OneDrive%20-%20CWD/Uttara%20Pradesh_SWMM/Firozabad/Procesed%20Survey_Data/CSV/CSV/FIROZABAD%20CSV/2026-09-21%20CP%20POINTS(FZD)_csv__063434.csv?type=csv&amp;maxFields=10000&amp;detectTypes=yes&amp;xField=246950.3174&amp;yField=3003441.6912&amp;zField=170</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>78.3764494688017,27.1505378214086,157.0898</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="merged_control_points.87">
+			<ExtendedData>
+				<SchemaData schemaUrl="#merged_control_points">
+					<SimpleData name="BASE">36</SimpleData>
+					<SimpleData name="TBM.1">CU</SimpleData>
+					<SimpleData name="3003441._1">3005825.535600000061095</SimpleData>
+					<SimpleData name="246950.317">239997.473100000002887</SimpleData>
+					<SimpleData name="170.4242">157.056800000000010</SimpleData>
+					<SimpleData name="27_07_49_1">27:09:01.90439</SimpleData>
+					<SimpleData name="78_26_49_1">78:22:35.19777</SimpleData>
+					<SimpleData name="112.0448">98.986099999999993</SimpleData>
+					<SimpleData name="layer">2026-09-21 Control Points(FZD)_csv__063434</SimpleData>
+					<SimpleData name="path">file:///D:/OneDrive/OneDrive%20-%20CWD/Uttara%20Pradesh_SWMM/Firozabad/Procesed%20Survey_Data/CSV/CSV/FIROZABAD%20CSV/2026-09-21%20CP%20POINTS(FZD)_csv__063434.csv?type=csv&amp;maxFields=10000&amp;detectTypes=yes&amp;xField=246950.3174&amp;yField=3003441.6912&amp;zField=170</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>78.3764438249996,27.1505289961654,157.0568</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="merged_control_points.88">
+			<ExtendedData>
+				<SchemaData schemaUrl="#merged_control_points">
+					<SimpleData name="BASE">37</SimpleData>
+					<SimpleData name="TBM.1">CU</SimpleData>
+					<SimpleData name="3003441._1">3005828.768099999986589</SimpleData>
+					<SimpleData name="246950.317">239996.927899999980582</SimpleData>
+					<SimpleData name="170.4242">157.006799999999998</SimpleData>
+					<SimpleData name="27_07_49_1">27:09:02.00897</SimpleData>
+					<SimpleData name="78_26_49_1">78:22:35.17553</SimpleData>
+					<SimpleData name="112.0448">98.936099999999996</SimpleData>
+					<SimpleData name="layer">2026-09-21 Control Points(FZD)_csv__063434</SimpleData>
+					<SimpleData name="path">file:///D:/OneDrive/OneDrive%20-%20CWD/Uttara%20Pradesh_SWMM/Firozabad/Procesed%20Survey_Data/CSV/CSV/FIROZABAD%20CSV/2026-09-21%20CP%20POINTS(FZD)_csv__063434.csv?type=csv&amp;maxFields=10000&amp;detectTypes=yes&amp;xField=246950.3174&amp;yField=3003441.6912&amp;zField=170</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>78.3764376468624,27.1505580469391,157.0068</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="merged_control_points.89">
+			<ExtendedData>
+				<SchemaData schemaUrl="#merged_control_points">
+					<SimpleData name="BASE">38</SimpleData>
+					<SimpleData name="TBM.1">CU</SimpleData>
+					<SimpleData name="3003441._1">3005829.871100000105798</SimpleData>
+					<SimpleData name="246950.317">240001.334200000012061</SimpleData>
+					<SimpleData name="170.4242">157.112899999999996</SimpleData>
+					<SimpleData name="27_07_49_1">27:09:02.04777</SimpleData>
+					<SimpleData name="78_26_49_1">78:22:35.33462</SimpleData>
+					<SimpleData name="112.0448">99.042100000000005</SimpleData>
+					<SimpleData name="layer">2026-09-21 Control Points(FZD)_csv__063434</SimpleData>
+					<SimpleData name="path">file:///D:/OneDrive/OneDrive%20-%20CWD/Uttara%20Pradesh_SWMM/Firozabad/Procesed%20Survey_Data/CSV/CSV/FIROZABAD%20CSV/2026-09-21%20CP%20POINTS(FZD)_csv__063434.csv?type=csv&amp;maxFields=10000&amp;detectTypes=yes&amp;xField=246950.3174&amp;yField=3003441.6912&amp;zField=170</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>78.3764818384544,27.1505688257436,157.1129</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="merged_control_points.90">
+			<ExtendedData>
+				<SchemaData schemaUrl="#merged_control_points">
+					<SimpleData name="BASE">39</SimpleData>
+					<SimpleData name="TBM.1">CU</SimpleData>
+					<SimpleData name="3003441._1">3005830.441000000108033</SimpleData>
+					<SimpleData name="246950.317">240002.298499999975320</SimpleData>
+					<SimpleData name="170.4242">157.155000000000001</SimpleData>
+					<SimpleData name="27_07_49_1">27:09:02.06693</SimpleData>
+					<SimpleData name="78_26_49_1">78:22:35.36919</SimpleData>
+					<SimpleData name="112.0448">99.084100000000007</SimpleData>
+					<SimpleData name="layer">2026-09-21 Control Points(FZD)_csv__063434</SimpleData>
+					<SimpleData name="path">file:///D:/OneDrive/OneDrive%20-%20CWD/Uttara%20Pradesh_SWMM/Firozabad/Procesed%20Survey_Data/CSV/CSV/FIROZABAD%20CSV/2026-09-21%20CP%20POINTS(FZD)_csv__063434.csv?type=csv&amp;maxFields=10000&amp;detectTypes=yes&amp;xField=246950.3174&amp;yField=3003441.6912&amp;zField=170</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>78.3764914403435,27.1505741474643,157.155</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="merged_control_points.91">
+			<ExtendedData>
+				<SchemaData schemaUrl="#merged_control_points">
+					<SimpleData name="BASE">40</SimpleData>
+					<SimpleData name="TBM.1">CU</SimpleData>
+					<SimpleData name="3003441._1">3005827.576299999840558</SimpleData>
+					<SimpleData name="246950.317">240002.601400000014110</SimpleData>
+					<SimpleData name="170.4242">157.092999999999989</SimpleData>
+					<SimpleData name="27_07_49_1">27:09:01.97413</SimpleData>
+					<SimpleData name="78_26_49_1">78:22:35.38235</SimpleData>
+					<SimpleData name="112.0448">99.022099999999995</SimpleData>
+					<SimpleData name="layer">2026-09-21 Control Points(FZD)_csv__063434</SimpleData>
+					<SimpleData name="path">file:///D:/OneDrive/OneDrive%20-%20CWD/Uttara%20Pradesh_SWMM/Firozabad/Procesed%20Survey_Data/CSV/CSV/FIROZABAD%20CSV/2026-09-21%20CP%20POINTS(FZD)_csv__063434.csv?type=csv&amp;maxFields=10000&amp;detectTypes=yes&amp;xField=246950.3174&amp;yField=3003441.6912&amp;zField=170</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>78.376495098075,27.1505483681451,157.093</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="merged_control_points.92">
+			<ExtendedData>
+				<SchemaData schemaUrl="#merged_control_points">
+					<SimpleData name="BASE">41</SimpleData>
+					<SimpleData name="TBM.1">CU</SimpleData>
+					<SimpleData name="3003441._1">3005826.523800000082701</SimpleData>
+					<SimpleData name="246950.317">240002.966099999990547</SimpleData>
+					<SimpleData name="170.4242">157.147999999999996</SimpleData>
+					<SimpleData name="27_07_49_1">27:09:01.94020</SimpleData>
+					<SimpleData name="78_26_49_1">78:22:35.39639</SimpleData>
+					<SimpleData name="112.0448">99.077100000000002</SimpleData>
+					<SimpleData name="layer">2026-09-21 Control Points(FZD)_csv__063434</SimpleData>
+					<SimpleData name="path">file:///D:/OneDrive/OneDrive%20-%20CWD/Uttara%20Pradesh_SWMM/Firozabad/Procesed%20Survey_Data/CSV/CSV/FIROZABAD%20CSV/2026-09-21%20CP%20POINTS(FZD)_csv__063434.csv?type=csv&amp;maxFields=10000&amp;detectTypes=yes&amp;xField=246950.3174&amp;yField=3003441.6912&amp;zField=170</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>78.3764989968405,27.1505389445294,157.148</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="merged_control_points.93">
+			<ExtendedData>
+				<SchemaData schemaUrl="#merged_control_points">
+					<SimpleData name="BASE">42</SimpleData>
+					<SimpleData name="TBM.1">CUT</SimpleData>
+					<SimpleData name="3003441._1">3005826.697600000072271</SimpleData>
+					<SimpleData name="246950.317">240002.964100000011967</SimpleData>
+					<SimpleData name="170.4242">157.228000000000009</SimpleData>
+					<SimpleData name="27_07_49_1">27:09:01.94584</SimpleData>
+					<SimpleData name="78_26_49_1">78:22:35.39619</SimpleData>
+					<SimpleData name="112.0448">99.157100000000000</SimpleData>
+					<SimpleData name="layer">2026-09-21 Control Points(FZD)_csv__063434</SimpleData>
+					<SimpleData name="path">file:///D:/OneDrive/OneDrive%20-%20CWD/Uttara%20Pradesh_SWMM/Firozabad/Procesed%20Survey_Data/CSV/CSV/FIROZABAD%20CSV/2026-09-21%20CP%20POINTS(FZD)_csv__063434.csv?type=csv&amp;maxFields=10000&amp;detectTypes=yes&amp;xField=246950.3174&amp;yField=3003441.6912&amp;zField=170</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>78.37649894003791,27.1505405116369,157.228</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="merged_control_points.94">
+			<ExtendedData>
+				<SchemaData schemaUrl="#merged_control_points">
+					<SimpleData name="BASE">43</SimpleData>
+					<SimpleData name="TBM.1">DTL</SimpleData>
+					<SimpleData name="3003441._1">3005825.733000000007451</SimpleData>
+					<SimpleData name="246950.317">240002.978399999992689</SimpleData>
+					<SimpleData name="170.4242">156.729999999999990</SimpleData>
+					<SimpleData name="27_07_49_1">27:09:01.91453</SimpleData>
+					<SimpleData name="78_26_49_1">78:22:35.39744</SimpleData>
+					<SimpleData name="112.0448">98.659099999999995</SimpleData>
+					<SimpleData name="layer">2026-09-21 Control Points(FZD)_csv__063434</SimpleData>
+					<SimpleData name="path">file:///D:/OneDrive/OneDrive%20-%20CWD/Uttara%20Pradesh_SWMM/Firozabad/Procesed%20Survey_Data/CSV/CSV/FIROZABAD%20CSV/2026-09-21%20CP%20POINTS(FZD)_csv__063434.csv?type=csv&amp;maxFields=10000&amp;detectTypes=yes&amp;xField=246950.3174&amp;yField=3003441.6912&amp;zField=170</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>78.3764992875565,27.1505318147033,156.73</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="merged_control_points.95">
+			<ExtendedData>
+				<SchemaData schemaUrl="#merged_control_points">
+					<SimpleData name="BASE">44</SimpleData>
+					<SimpleData name="TBM.1">DTR</SimpleData>
+					<SimpleData name="3003441._1">3005825.673500000033528</SimpleData>
+					<SimpleData name="246950.317">239998.605000000010477</SimpleData>
+					<SimpleData name="170.4242">156.453900000000004</SimpleData>
+					<SimpleData name="27_07_49_1">27:09:01.90963</SimpleData>
+					<SimpleData name="78_26_49_1">78:22:35.23875</SimpleData>
+					<SimpleData name="112.0448">98.383099999999999</SimpleData>
+					<SimpleData name="layer">2026-09-21 Control Points(FZD)_csv__063434</SimpleData>
+					<SimpleData name="path">file:///D:/OneDrive/OneDrive%20-%20CWD/Uttara%20Pradesh_SWMM/Firozabad/Procesed%20Survey_Data/CSV/CSV/FIROZABAD%20CSV/2026-09-21%20CP%20POINTS(FZD)_csv__063434.csv?type=csv&amp;maxFields=10000&amp;detectTypes=yes&amp;xField=246950.3174&amp;yField=3003441.6912&amp;zField=170</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>78.3764552076898,27.1505304533307,156.4539</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="merged_control_points.96">
+			<ExtendedData>
+				<SchemaData schemaUrl="#merged_control_points">
+					<SimpleData name="BASE">45</SimpleData>
+					<SimpleData name="TBM.1">DTL</SimpleData>
+					<SimpleData name="3003441._1">3005816.245899999979883</SimpleData>
+					<SimpleData name="246950.317">240004.121699999959674</SimpleData>
+					<SimpleData name="170.4242">154.430200000000013</SimpleData>
+					<SimpleData name="27_07_49_1">27:09:01.60728</SimpleData>
+					<SimpleData name="78_26_49_1">78:22:35.44613</SimpleData>
+					<SimpleData name="112.0448">96.359099999999998</SimpleData>
+					<SimpleData name="layer">2026-09-21 Control Points(FZD)_csv__063434</SimpleData>
+					<SimpleData name="path">file:///D:/OneDrive/OneDrive%20-%20CWD/Uttara%20Pradesh_SWMM/Firozabad/Procesed%20Survey_Data/CSV/CSV/FIROZABAD%20CSV/2026-09-21%20CP%20POINTS(FZD)_csv__063434.csv?type=csv&amp;maxFields=10000&amp;detectTypes=yes&amp;xField=246950.3174&amp;yField=3003441.6912&amp;zField=170</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>78.3765128142078,27.150446467107,154.4302</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="merged_control_points.97">
+			<ExtendedData>
+				<SchemaData schemaUrl="#merged_control_points">
+					<SimpleData name="BASE">46</SimpleData>
+					<SimpleData name="TBM.1">DB</SimpleData>
+					<SimpleData name="3003441._1">3005816.079400000162423</SimpleData>
+					<SimpleData name="246950.317">240003.610699999990175</SimpleData>
+					<SimpleData name="170.4242">152.870200000000011</SimpleData>
+					<SimpleData name="27_07_49_1">27:09:01.60153</SimpleData>
+					<SimpleData name="78_26_49_1">78:22:35.42771</SimpleData>
+					<SimpleData name="112.0448">94.799099999999996</SimpleData>
+					<SimpleData name="layer">2026-09-21 Control Points(FZD)_csv__063434</SimpleData>
+					<SimpleData name="path">file:///D:/OneDrive/OneDrive%20-%20CWD/Uttara%20Pradesh_SWMM/Firozabad/Procesed%20Survey_Data/CSV/CSV/FIROZABAD%20CSV/2026-09-21%20CP%20POINTS(FZD)_csv__063434.csv?type=csv&amp;maxFields=10000&amp;detectTypes=yes&amp;xField=246950.3174&amp;yField=3003441.6912&amp;zField=170</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>78.3765076974334,27.1504448690959,152.8702</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="merged_control_points.98">
+			<ExtendedData>
+				<SchemaData schemaUrl="#merged_control_points">
+					<SimpleData name="BASE">47</SimpleData>
+					<SimpleData name="TBM.1">DTR(2m)</SimpleData>
+					<SimpleData name="3003441._1">3005816.100899999495596</SimpleData>
+					<SimpleData name="246950.317">240004.141100000008009</SimpleData>
+					<SimpleData name="170.4242">154.455199999999991</SimpleData>
+					<SimpleData name="27_07_49_1">27:09:01.60258</SimpleData>
+					<SimpleData name="78_26_49_1">78:22:35.44695</SimpleData>
+					<SimpleData name="112.0448">96.384100000000004</SimpleData>
+					<SimpleData name="layer">2026-09-21 Control Points(FZD)_csv__063434</SimpleData>
+					<SimpleData name="path">file:///D:/OneDrive/OneDrive%20-%20CWD/Uttara%20Pradesh_SWMM/Firozabad/Procesed%20Survey_Data/CSV/CSV/FIROZABAD%20CSV/2026-09-21%20CP%20POINTS(FZD)_csv__063434.csv?type=csv&amp;maxFields=10000&amp;detectTypes=yes&amp;xField=246950.3174&amp;yField=3003441.6912&amp;zField=170</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>78.3765130403646,27.150445163025,154.4552</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CP 42</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Firozabad_Additional_GCPs_Corrected_WGS84_SDDDDDD">
+					<SimpleData name="Name">CP 42</SimpleData>
+					<SimpleData name="Latitude">27.1543</SimpleData>
+					<SimpleData name="Longitude">78.4061</SimpleData>
+					<SimpleData name="Easting_E">242949</SimpleData>
+					<SimpleData name="Northing_N">3.00618e+06</SimpleData>
+					<SimpleData name="Z">165.227</SimpleData>
+					<SimpleData name="Additional_Value">121.111</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>78.40613027000001,27.15428501,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CP 33</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Firozabad_Additional_GCPs_Corrected_WGS84_SDDDDDD">
+					<SimpleData name="Name">CP 33</SimpleData>
+					<SimpleData name="Latitude">27.1619</SimpleData>
+					<SimpleData name="Longitude">78.3983</SimpleData>
+					<SimpleData name="Easting_E">242192</SimpleData>
+					<SimpleData name="Northing_N">3.00704e+06</SimpleData>
+					<SimpleData name="Z">164.159</SimpleData>
+					<SimpleData name="Additional_Value">120.051</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>78.39831400000001,27.16188882,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CP 32</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Firozabad_Additional_GCPs_Corrected_WGS84_SDDDDDD">
+					<SimpleData name="Name">CP 32</SimpleData>
+					<SimpleData name="Latitude">27.1632</SimpleData>
+					<SimpleData name="Longitude">78.3897</SimpleData>
+					<SimpleData name="Easting_E">241337</SimpleData>
+					<SimpleData name="Northing_N">3.0072e+06</SimpleData>
+					<SimpleData name="Z">164.378</SimpleData>
+					<SimpleData name="Additional_Value">120.285</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>78.38966141999997,27.16319546,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CP 43</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Firozabad_Additional_GCPs_Corrected_WGS84_SDDDDDD">
+					<SimpleData name="Name">CP 43</SimpleData>
+					<SimpleData name="Latitude">27.1551</SimpleData>
+					<SimpleData name="Longitude">78.3949</SimpleData>
+					<SimpleData name="Easting_E">241840</SimpleData>
+					<SimpleData name="Northing_N">3.00629e+06</SimpleData>
+					<SimpleData name="Z">163.386</SimpleData>
+					<SimpleData name="Additional_Value">119.291</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>78.39491862000001,27.15505921999998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CP 21</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Firozabad_Additional_GCPs_Corrected_WGS84_SDDDDDD">
+					<SimpleData name="Name">CP 21</SimpleData>
+					<SimpleData name="Latitude">27.1656</SimpleData>
+					<SimpleData name="Longitude">78.3974</SimpleData>
+					<SimpleData name="Easting_E">242109</SimpleData>
+					<SimpleData name="Northing_N">3.00746e+06</SimpleData>
+					<SimpleData name="Z">164.168</SimpleData>
+					<SimpleData name="Additional_Value">120.058</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>78.39739531999999,27.16562434,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CP 44</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Firozabad_Additional_GCPs_Corrected_WGS84_SDDDDDD">
+					<SimpleData name="Name">CP 44</SimpleData>
+					<SimpleData name="Latitude">27.1566</SimpleData>
+					<SimpleData name="Longitude">78.3891</SimpleData>
+					<SimpleData name="Easting_E">241269</SimpleData>
+					<SimpleData name="Northing_N">3.00647e+06</SimpleData>
+					<SimpleData name="Z">164.226</SimpleData>
+					<SimpleData name="Additional_Value">120.14</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>78.38912400999999,27.15660400999998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CP 20</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Firozabad_Additional_GCPs_Corrected_WGS84_SDDDDDD">
+					<SimpleData name="Name">CP 20</SimpleData>
+					<SimpleData name="Latitude">27.1671</SimpleData>
+					<SimpleData name="Longitude">78.4064</SimpleData>
+					<SimpleData name="Easting_E">243009</SimpleData>
+					<SimpleData name="Northing_N">3.00761e+06</SimpleData>
+					<SimpleData name="Z">165.29</SimpleData>
+					<SimpleData name="Additional_Value">121.161</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>78.40643273000002,27.16714573000003,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CP 43</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Firozabad_Additional_GCPs_Corrected_WGS84_SDDDDDD">
+					<SimpleData name="Name">CP 43</SimpleData>
+					<SimpleData name="Latitude">27.1671</SimpleData>
+					<SimpleData name="Longitude">78.4064</SimpleData>
+					<SimpleData name="Easting_E">243009</SimpleData>
+					<SimpleData name="Northing_N">3.0076e+06</SimpleData>
+					<SimpleData name="Z">163.621</SimpleData>
+					<SimpleData name="Additional_Value">119.492</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>78.40643557999998,27.16711549,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CP 34</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Firozabad_Additional_GCPs_Corrected_WGS84_SDDDDDD">
+					<SimpleData name="Name">CP 34</SimpleData>
+					<SimpleData name="Latitude">27.1612</SimpleData>
+					<SimpleData name="Longitude">78.4053</SimpleData>
+					<SimpleData name="Easting_E">242881</SimpleData>
+					<SimpleData name="Northing_N">3.00694e+06</SimpleData>
+					<SimpleData name="Z">164.947</SimpleData>
+					<SimpleData name="Additional_Value">120.826</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>78.40528706999999,27.16116499000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Unlabelled GCP</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Firozabad_Additional_GCPs_Corrected_WGS84_SDDDDDD">
+					<SimpleData name="Name">Unlabelled GCP</SimpleData>
+					<SimpleData name="Latitude">27.1303</SimpleData>
+					<SimpleData name="Longitude">78.447</SimpleData>
+					<SimpleData name="Easting_E">246950</SimpleData>
+					<SimpleData name="Northing_N">3.00344e+06</SimpleData>
+					<SimpleData name="Z">166.993</SimpleData>
+					<SimpleData name="Additional_Value">122.807</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>78.44703155000002,27.13029373000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>TBM 1.</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Firozabad_Additional_GCPs_Corrected_WGS84_SDDDDDD">
+					<SimpleData name="Name">TBM 1.</SimpleData>
+					<SimpleData name="Latitude">27.1303</SimpleData>
+					<SimpleData name="Longitude">78.447</SimpleData>
+					<SimpleData name="Easting_E">246950</SimpleData>
+					<SimpleData name="Northing_N">3.00344e+06</SimpleData>
+					<SimpleData name="Z">170.425</SimpleData>
+					<SimpleData name="Additional_Value">126.239</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>78.44703291999998,27.13032171,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

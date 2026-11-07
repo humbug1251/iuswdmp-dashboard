@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>SNR_08.kml</name>
+	<Schema name="saharanpur_buffer_new_survey" id="saharanpur_buffer_new_survey">
+		<SimpleField type="float" name="id">
+		</SimpleField>
+	</Schema>
+	<StyleMap id="msn_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffff0000</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffff0000</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark id="saharanpur_buffer_new_survey.1">
+		<name>SNR_08</name>
+		<open>1</open>
+		<styleUrl>#msn_ylw-pushpin</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#saharanpur_buffer_new_survey">
+				<SimpleData name="id">1</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						77.51369776228179,30.0112571815304,0 77.5109892994687,30.006546042892,0 77.51299972763501,30.0048916803585,0 77.5126606283274,30.003069555877,0 77.508229035051,29.9958822228908,0 77.5046239991906,29.9962911007924,0 77.4982623477333,29.9880769629592,0 77.49924816548599,29.9845285925961,0 77.50569991591352,29.9849014894261,0 77.50588174683381,29.98402040529911,0 77.54548029522655,29.9843272027784,0 77.54518942832819,30.01927405051529,0 77.5443176149563,30.01956194916839,0 77.5416727646402,30.01945452222409,0 77.53611103771431,30.0193160417582,0 77.52639920938699,30.0178870012879,0 77.5169892011298,30.012921839608,0 77.51369776228179,30.0112571815304,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+		<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.7.1327"></atom:link>
+	</Placemark>
+</Document>
+</kml>

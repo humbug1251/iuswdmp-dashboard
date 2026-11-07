@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>AOI.kml</name>
+	<Schema name="Moradabad_Buffer_Boundary_100sqKmArea" id="Moradabad_Buffer_Boundary_100sqKmArea">
+		<SimpleField type="float" name="Area">
+		</SimpleField>
+	</Schema>
+	<Style id="style">
+		<LineStyle>
+			<color>ffff0000</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="style0">
+		<LineStyle>
+			<color>ffff0000</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="stylemap_id0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark id="Moradabad_Buffer_Boundary_100sqKmArea.1">
+		<name> [1:Polygon]</name>
+		<styleUrl>#stylemap_id0</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#Moradabad_Buffer_Boundary_100sqKmArea">
+				<SimpleData name="Area">100.389144521948964</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						78.6914215449071,28.8830814574382,0 78.73068267430411,28.9118046504043,0 78.732160542841,28.9110859399704,0 78.73519838372241,28.9111578112379,0 78.7377436017581,28.9115171668282,0 78.73979619694821,28.9106187755183,0 78.7410277540623,28.90928914210239,0 78.7416845845231,28.9067376356631,0 78.74090459835089,28.9049048247107,0 78.74106880596609,28.90310791980169,0 78.7415203769079,28.9019219455176,0 78.74316245305999,28.8998734125597,0 78.74373717971319,28.8986874013142,0 78.74542030776909,28.89746543616,0 78.746692916787,28.894338577473,0 78.7475550067668,28.8906724852806,0 78.7497718095722,28.8864671024819,0 78.75334332520301,28.8831961314518,0 78.75551907610451,28.8826210050174,0 78.76574100015129,28.8827647869245,0 78.7686146334174,28.8821896581016,0 78.77033881337709,28.8813629048395,0 78.7750597823144,28.876761722994,0 78.7778102598691,28.8729512150173,0 78.7798218031555,28.8707223625588,0 78.78019127028971,28.86648022096569,0 78.7791649726946,28.8643590852362,0 78.8175003088119,28.8120976689223,0 78.8183257017016,28.8032246953578,0 78.7686731606794,28.7769668840535,0 78.74981809185481,28.7868200116746,0 78.7328975376156,28.79878820857549,0 78.7155011654351,28.8059523702257,0 78.7057111593103,28.8301531383849,0 78.7026933165573,28.8352086698344,0 78.7153837322368,28.8457324291784,0 78.6914215449071,28.8830814574382,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+		<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.7.1327"></atom:link>
+	</Placemark>
+</Document>
+</kml>

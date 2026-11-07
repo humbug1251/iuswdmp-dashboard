@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="Drone_Survey_Blocks" id="Drone_Survey_Blocks">
+	<SimpleField name="Area" type="float"></SimpleField>
+</Schema>
+<Folder><name>Drone_Survey_Blocks</name>
+  <Placemark>
+	<name>JAIL KML</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Drone_Survey_Blocks">
+		<SimpleData name="Area">1.594</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>79.9047393089427,27.8871153760084,0 79.9138160894042,27.8872677009131,0 79.9259919312318,27.8873162203191,0 79.9260814792337,27.8797813402135,0 79.9167989369557,27.8797489623297,0 79.9182256383029,27.8835181868764,0 79.9143479070265,27.8847241264435,0 79.9132073376188,27.8815840631612,0 79.9160001329009,27.8805824722489,0 79.9170622885347,27.8804377413436,0 79.9168160801925,27.8797458972663,0 79.9120144312372,27.8797070629127,0 79.9048538491746,27.8796456494449,0 79.9047393089427,27.8871153760084,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>TILE -57-58</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Drone_Survey_Blocks">
+		<SimpleData name="Area">2.460</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>79.8830231173811,27.8942038948302,0 79.8830941287519,27.9042436436599,0 79.905713145856,27.9043471310247,0 79.90555307758,27.8944057956355,0 79.8830231173811,27.8942038948302,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>tile 22.23</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Drone_Survey_Blocks">
+		<SimpleData name="Area">2.677</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>79.925031653127,27.8603713885436,0 79.9459183494884,27.8603683319059,0 79.9462198701639,27.8452870316987,0 79.9415962065697,27.846371119942,0 79.9352584190089,27.8500002644803,0 79.9252758449301,27.8503263311213,0 79.925031653127,27.8603713885436,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>TILE 60-61</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Drone_Survey_Blocks">
+		<SimpleData name="Area">1.228</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>79.894871474023,27.9137040886203,0 79.8952407577223,27.903242253887,0 79.8795772475246,27.903051106685,0 79.8800700449321,27.9042463643627,0 79.8840829124213,27.9094726503333,0 79.8893212885095,27.9132771433732,0 79.8928879505546,27.9117199876678,0 79.894871474023,27.9137040886203,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>TILE-14-15</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Drone_Survey_Blocks">
+		<SimpleData name="Area">1.565</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>79.9453526560406,27.8454841041544,0 79.945300879113,27.850528138295,0 79.9558315705702,27.8505953734204,0 79.955690804811,27.8595535811138,0 79.9571350127706,27.8601690998131,0 79.9576111658177,27.8565555848714,0 79.9613910779505,27.8556427507899,0 79.9612519405869,27.8516238599811,0 79.9605862952918,27.8498617591447,0 79.9598497774012,27.8458812414377,0 79.9589728413066,27.843154861496,0 79.9577665934703,27.8413001811428,0 79.9453526560406,27.8454841041544,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>TILE-17-16</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Drone_Survey_Blocks">
+		<SimpleData name="Area">1.826</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>79.8747373735443,27.8538861344354,0 79.8756921912203,27.8598249635582,0 79.8861190733761,27.8598591005814,0 79.8854227216571,27.8493130856245,0 79.867414076947,27.8490536515796,0 79.8659458052043,27.8491299384775,0 79.8644091972033,27.8506558960148,0 79.8636075828668,27.8528610447523,0 79.8673803853336,27.8546733230886,0 79.8681799024322,27.8548152235145,0 79.8747373735443,27.8538861344354,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>TILE-18-19</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Drone_Survey_Blocks">
+		<SimpleData name="Area">2.628</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>79.8842626283888,27.8598725046905,0 79.9061887174636,27.8601083170218,0 79.9062665650217,27.8490449227096,0 79.884100256292,27.849095495644,0 79.8842626283888,27.8598725046905,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>TILE-20-21</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Drone_Survey_Blocks">
+		<SimpleData name="Area">2.330</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>79.9048688794841,27.8602481668295,0 79.9260432084158,27.8604184241844,0 79.9261263670143,27.8503699217711,0 79.9050359362296,27.8501000692756,0 79.9048688794841,27.8602481668295,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>tile-29-30</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Drone_Survey_Blocks">
+		<SimpleData name="Area">2.295</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>79.9047609745275,27.8693191549731,0 79.9257502130018,27.8692799956942,0 79.9259910129657,27.8594021171279,0 79.9049937652214,27.8591634780546,0 79.9047609745275,27.8693191549731,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>TILE-31-40-49-32-41-50</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Drone_Survey_Blocks">
+		<SimpleData name="Area">5.493</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>79.9249843160938,27.8588465606383,0 79.9248524779701,27.8874203316867,0 79.9262269869207,27.8873847087613,0 79.9287864993761,27.8850299939525,0 79.9353104126492,27.8836787334804,0 79.9383529944681,27.8822360600789,0 79.9423182133393,27.8791041388707,0 79.9459466613986,27.8770439702876,0 79.9461898537027,27.8674149256878,0 79.9462763149129,27.8592023062843,0 79.9249843160938,27.8588465606383,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>TILE-33-42-24</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Drone_Survey_Blocks">
+		<SimpleData name="Area">2.803</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>79.9450926585795,27.8497266028377,0 79.9447583050715,27.8603007954123,0 79.9446043392768,27.8776074220142,0 79.9472457134151,27.8753215074928,0 79.9522673824793,27.8696362498521,0 79.9545016544547,27.87004693199,0 79.9569211411318,27.8616079931873,0 79.957009333506,27.8595632106834,0 79.9562231006035,27.8595208831972,0 79.9563300577436,27.8498975191043,0 79.9450926585795,27.8497266028377,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>TILE-34-35-26</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Drone_Survey_Blocks">
+		<SimpleData name="Area">2.712</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>79.8700901870657,27.8780506042323,0 79.8854496042719,27.878226226762,0 79.8860490323106,27.8581980094745,0 79.8743851850951,27.8585391680975,0 79.8743653725597,27.8705092611678,0 79.8730917678094,27.8733890232217,0 79.8706867968339,27.8734642295784,0 79.8691768025449,27.8751804045203,0 79.8700901870657,27.8780506042323,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>TILE-36-37-27-28</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Drone_Survey_Blocks">
+		<SimpleData name="Area">4.667</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>79.8842894245394,27.8782600646124,0 79.9059626604831,27.8781967562889,0 79.9065096778561,27.8588356954314,0 79.8842707504836,27.8586698099112,0 79.8842894245394,27.8782600646124,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>TILE-38-47-39-48</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Drone_Survey_Blocks">
+		<SimpleData name="Area">4.395</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>79.9260225186549,27.8683848701269,0 79.9049404078537,27.8681633464713,0 79.9047053893017,27.8871786847956,0 79.9180488517255,27.8873026914975,0 79.9260273794597,27.8873297050183,0 79.9260225186549,27.8683848701269,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>TILE-4-11-12</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Drone_Survey_Blocks">
+		<SimpleData name="Area">2.714</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>79.9146549906088,27.8346043991344,0 79.9149660986794,27.8511479841461,0 79.9359321964694,27.8511750203258,0 79.9361102780444,27.8482676799057,0 79.9323714266915,27.8450548237522,0 79.928315042393,27.8411567099045,0 79.9237985327621,27.8370411698066,0 79.9226270387908,27.8352892740469,0 79.9197697602365,27.8348708360389,0 79.9146549906088,27.8346043991344,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>TILE-43-44</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Drone_Survey_Blocks">
+		<SimpleData name="Area">1.260</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>79.8737933388831,27.8860774140732,0 79.8844677314026,27.8862729040548,0 79.8844932678704,27.8771444862185,0 79.8697709695085,27.8769579994222,0 79.8737933388831,27.8860774140732,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>TILE-45-46</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Drone_Survey_Blocks">
+		<SimpleData name="Area">2.326</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>79.8831023776188,27.8862490961635,0 79.9059376041697,27.8863158140183,0 79.9061236604128,27.877051273786,0 79.8831262489317,27.8769080560661,0 79.8831023776188,27.8862490961635,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>TILE-52-53</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Drone_Survey_Blocks">
+		<SimpleData name="Area">2.516</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>79.8831098630136,27.895246899559,0 79.9055455831811,27.8953881638643,0 79.9056364781289,27.8851268942327,0 79.8829804799548,27.885053405839,0 79.8831098630136,27.895246899559,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>TILE-56-51</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Drone_Survey_Blocks">
+		<SimpleData name="Area">1.587</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>79.8771066214734,27.9042432575875,0 79.8842381022752,27.9042271469306,0 79.8843775562203,27.8850454795897,0 79.8736399286698,27.885315650585,0 79.8750083657682,27.8889337474751,0 79.876398742595,27.8917923871537,0 79.8783492873708,27.8948677853779,0 79.8793868581602,27.8992063302273,0 79.878956601873,27.9001401809687,0 79.8756215610364,27.9010857196033,0 79.8753071755309,27.9024856849389,0 79.8759222836195,27.9035411400961,0 79.8771066214734,27.9042432575875,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>TILE-6-7-8</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Drone_Survey_Blocks">
+		<SimpleData name="Area">2.022</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>79.8661036244597,27.849876674837,0 79.8948790696108,27.8501389520935,0 79.8948965481168,27.8410619216843,0 79.8924289986687,27.8410926587373,0 79.8898931552352,27.8434797578185,0 79.8848458499568,27.8442442314579,0 79.8821009491359,27.8444689575959,0 79.8746650830056,27.8423784346673,0 79.8707188720412,27.8415499412466,0 79.8698531259228,27.842550782809,0 79.8679431596051,27.8487798494997,0 79.8661036244597,27.849876674837,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>TILE-62</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Drone_Survey_Blocks">
+		<SimpleData name="Area">1.414</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>79.8952316773755,27.9137000080395,0 79.9054632319836,27.9141502490174,0 79.9055570753395,27.908821484819,0 79.9056154338674,27.9062873085897,0 79.9055765463774,27.9033312412071,0 79.8932943870096,27.9033350447683,0 79.8927286366619,27.9108626108312,0 79.8952316773755,27.9137000080395,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>TILE-65</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Drone_Survey_Blocks">
+		<SimpleData name="Area">0.909</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>79.9068902717067,27.9125819265246,0 79.8952874343975,27.9124667320923,0 79.8952928322842,27.9142963875554,0 79.9021642311839,27.919570888248,0 79.9009494755958,27.9232023514339,0 79.9068967327462,27.92332128506,0 79.9068902717067,27.9125819265246,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>TILE-66-64</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Drone_Survey_Blocks">
+		<SimpleData name="Area">1.581</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>79.9049814764837,27.9232003557053,0 79.9176139902199,27.923313184744,0 79.9172848873275,27.9140750653587,0 79.9207312952927,27.9141809186038,0 79.9195494461556,27.9120546809837,0 79.9141205348968,27.9087371014982,0 79.9141091126982,27.9128838520354,0 79.9054299431456,27.9127643695033,0 79.9049814764837,27.9232003557053,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>TILE-68-67</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Drone_Survey_Blocks">
+		<SimpleData name="Area">1.055</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>79.9306783507337,27.9229671345809,0 79.9301325135749,27.921667394422,0 79.9292760207798,27.9200266960872,0 79.9273872455864,27.9170032660683,0 79.92566523125,27.9159811672429,0 79.9227770941367,27.9163318947163,0 79.9202228399833,27.9135082044174,0 79.9165807056353,27.913508156866,0 79.9165508634581,27.9183991424832,0 79.9165606665526,27.9229857197597,0 79.9306783507337,27.9229671345809,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>TILE-69</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Drone_Survey_Blocks">
+		<SimpleData name="Area">0.866</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>79.9102776670627,27.9323236231341,0 79.9114806330995,27.9220731644949,0 79.9015514328652,27.9219284055454,0 79.9011841182176,27.9236620296433,0 79.9000901831407,27.9281120179394,0 79.9004585395023,27.9282421096986,0 79.9039893278827,27.9289457681555,0 79.9065263595273,27.9299941552315,0 79.9085723546243,27.9306259928949,0 79.9102776670627,27.9323236231341,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>TILE-70-73</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Drone_Survey_Blocks">
+		<SimpleData name="Area">1.281</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>79.9214323353629,27.9316039315857,0 79.9214824097977,27.922567501527,0 79.9106099143928,27.9224614498217,0 79.909734291615,27.931599110982,0 79.9100770449818,27.9354652280202,0 79.914191903409,27.9332439015835,0 79.9166327428481,27.9318327502338,0 79.9214323353629,27.9316039315857,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>TILE-74-71-72</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Drone_Survey_Blocks">
+		<SimpleData name="Area">1.627</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>79.9246603730851,27.9325304626176,0 79.9251421411736,27.9329679984244,0 79.9264373667494,27.9341188358234,0 79.9280046423813,27.93539576128,0 79.930155917,27.9351176016709,0 79.9327783175533,27.9343266419516,0 79.9350111651784,27.9330307809767,0 79.9359732387439,27.9317026682043,0 79.9367518251442,27.9307399692498,0 79.9304236832047,27.9226006507037,0 79.9207597116127,27.922570331414,0 79.9206209488891,27.9316257415526,0 79.9223977016328,27.9316086324311,0 79.9246603730851,27.9325304626176,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>TILE-9-10-2-3</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Drone_Survey_Blocks">
+		<SimpleData name="Area">3.748</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>79.8938620705487,27.8510501044962,0 79.9162448920169,27.8511887488338,0 79.9159963717556,27.8349276167159,0 79.909012673815,27.8342857724615,0 79.9020301820358,27.8374583452125,0 79.8965831588903,27.8353609021051,0 79.8946149293416,27.836076412717,0 79.8940221867111,27.8386754066544,0 79.8938620705487,27.8510501044962,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder>
+</Document></kml>

@@ -1,0 +1,1829 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:globalmapper="https://www.bluemarblegeo.com/globalmapper">
+<Document>
+  <!-- Begin Style Definitions -->
+  <Style id="point1">
+    <IconStyle><Icon><href>kml_symbol_dot_custom_3_224_24_24_0.png</href></Icon></IconStyle>
+  </Style>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 1<BR><B>ATTR_2</B> = SNR CP101<BR><B>ELEVATION</B> = 274.7287]]></description>
+      <name>SNR CP101</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.563479698,29.969205602,274.7287</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 2<BR><B>ATTR_2</B> = SNR CP102<BR><B>ELEVATION</B> = 276.9296]]></description>
+      <name>SNR CP102</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.557388146,29.967397805,276.9296</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 3<BR><B>ATTR_2</B> = SNR CP103<BR><B>ELEVATION</B> = 276.3141]]></description>
+      <name>SNR CP103</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.549808818,29.969397277,276.3141</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 4<BR><B>ATTR_2</B> = SNR CP104<BR><B>ELEVATION</B> = 274.3595]]></description>
+      <name>SNR CP104</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.542861444,29.968954626,274.3595</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 5<BR><B>ATTR_2</B> = SNR CP105<BR><B>ELEVATION</B> = 276.1336]]></description>
+      <name>SNR CP105</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.535324107,29.968512467,276.1336</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 6<BR><B>ATTR_2</B> = SNR CP106<BR><B>ELEVATION</B> = 276.3525]]></description>
+      <name>SNR CP106</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.529510719,29.968726980,276.3525</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 7<BR><B>ATTR_2</B> = SNR CP107<BR><B>ELEVATION</B> = 278.5169]]></description>
+      <name>SNR CP107</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.520317902,29.967617074,278.5169</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 8<BR><B>ATTR_2</B> = SNR CP108<BR><B>ELEVATION</B> = 277.6807]]></description>
+      <name>SNR CP108</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.512462005,29.968531157,277.6807</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 9<BR><B>ATTR_2</B> = SNR CP109<BR><B>ELEVATION</B> = 277.4008]]></description>
+      <name>SNR CP109</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.504045040,29.964638559,277.4008</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 10<BR><B>ATTR_2</B> = SNR CP110<BR><B>ELEVATION</B> = 277.1675]]></description>
+      <name>SNR CP110</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.506538933,29.963791771,277.1675</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 11<BR><B>ATTR_2</B> = SNR CP111<BR><B>ELEVATION</B> = 277.7943]]></description>
+      <name>SNR CP111</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.514031928,29.961275360,277.7943</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 12<BR><B>ATTR_2</B> = SNR CP112<BR><B>ELEVATION</B> = 278.1284]]></description>
+      <name>SNR CP112</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.522492109,29.960374020,278.1284</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 13<BR><B>ATTR_2</B> = SNR CP113<BR><B>ELEVATION</B> = 277.3121]]></description>
+      <name>SNR CP113</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.526984799,29.962183369,277.3121</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 14<BR><B>ATTR_2</B> = SNR CP114<BR><B>ELEVATION</B> = 275.6053]]></description>
+      <name>SNR CP114</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.536306306,29.961326974,275.6053</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 15<BR><B>ATTR_2</B> = SNR CP115<BR><B>ELEVATION</B> = 275.6789]]></description>
+      <name>SNR CP115</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.544073580,29.963073960,275.6789</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 16<BR><B>ATTR_2</B> = SNR CP12<BR><B>ELEVATION</B> = 280.5488]]></description>
+      <name>SNR CP12</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.566850906,30.007688140,280.5488</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 17<BR><B>ATTR_2</B> = SNR CP121<BR><B>ELEVATION</B> = 275.7168]]></description>
+      <name>SNR CP121</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.537385152,29.955958851,275.7168</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 18<BR><B>ATTR_2</B> = SNR CP122<BR><B>ELEVATION</B> = 276.3189]]></description>
+      <name>SNR CP122</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.526854449,29.956640698,276.3189</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 19<BR><B>ATTR_2</B> = SNR CP123<BR><B>ELEVATION</B> = 276.1805]]></description>
+      <name>SNR CP123</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.520567519,29.956620012,276.1805</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 20<BR><B>ATTR_2</B> = SNR CP124<BR><B>ELEVATION</B> = 276.6601]]></description>
+      <name>SNR CP124</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.512571743,29.956848012,276.6601</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 21<BR><B>ATTR_2</B> = SNR CP125<BR><B>ELEVATION</B> = 276.414]]></description>
+      <name>SNR CP125</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.505568420,29.957938851,276.414</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 22<BR><B>ATTR_2</B> = SNR CP126<BR><B>ELEVATION</B> = 276.9017]]></description>
+      <name>SNR CP126</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.499517419,29.955202557,276.9017</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 23<BR><B>ATTR_2</B> = SNR CP127<BR><B>ELEVATION</B> = 275.8565]]></description>
+      <name>SNR CP127</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.497145637,29.950541548,275.8565</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 24<BR><B>ATTR_2</B> = SNR CP128<BR><B>ELEVATION</B> = 275.8513]]></description>
+      <name>SNR CP128</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.507533685,29.949588315,275.8513</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 25<BR><B>ATTR_2</B> = SNR CP129<BR><B>ELEVATION</B> = 276.2979]]></description>
+      <name>SNR CP129</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.514181546,29.952612985,276.2979</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 26<BR><B>ATTR_2</B> = SNR CP13<BR><B>ELEVATION</B> = 278.7961]]></description>
+      <name>SNR CP13</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.556467646,30.005241666,278.7961</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 27<BR><B>ATTR_2</B> = SNR CP130<BR><B>ELEVATION</B> = 275.3795]]></description>
+      <name>SNR CP130</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.521498098,29.949331152,275.3795</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 28<BR><B>ATTR_2</B> = SNR CP131<BR><B>ELEVATION</B> = 276.5241]]></description>
+      <name>SNR CP131</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.527144006,29.950045629,276.5241</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 29<BR><B>ATTR_2</B> = SNR CP132<BR><B>ELEVATION</B> = 276.4379]]></description>
+      <name>SNR CP132</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.535387755,29.950809735,276.4379</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 30<BR><B>ATTR_2</B> = SNR CP133<BR><B>ELEVATION</B> = 275.2799]]></description>
+      <name>SNR CP133</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.543671696,29.950104255,275.2799</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 31<BR><B>ATTR_2</B> = SNR CP136<BR><B>ELEVATION</B> = 274.3727]]></description>
+      <name>SNR CP136</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.593881572,29.948707702,274.3727</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 32<BR><B>ATTR_2</B> = SNR CP137<BR><B>ELEVATION</B> = 274.9493]]></description>
+      <name>SNR CP137</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.584361890,29.939960811,274.9493</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 33<BR><B>ATTR_2</B> = SNR CP138<BR><B>ELEVATION</B> = 275.1829]]></description>
+      <name>SNR CP138</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.581340236,29.944124586,275.1829</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 34<BR><B>ATTR_2</B> = SNR CP139<BR><B>ELEVATION</B> = 276.2133]]></description>
+      <name>SNR CP139</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.571080904,29.943769057,276.2133</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 35<BR><B>ATTR_2</B> = SNR CP144<BR><B>ELEVATION</B> = 275.6624]]></description>
+      <name>SNR CP144</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.536557385,29.943569262,275.6624</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 36<BR><B>ATTR_2</B> = SNR CP145<BR><B>ELEVATION</B> = 276.4255]]></description>
+      <name>SNR CP145</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.527788568,29.943851367,276.4255</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 37<BR><B>ATTR_2</B> = SNR CP146<BR><B>ELEVATION</B> = 275.7109]]></description>
+      <name>SNR CP146</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.520922360,29.942340277,275.7109</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 38<BR><B>ATTR_2</B> = SNR CP147<BR><B>ELEVATION</B> = 276.385]]></description>
+      <name>SNR CP147</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.513133424,29.943915423,276.385</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 39<BR><B>ATTR_2</B> = SNR CP148<BR><B>ELEVATION</B> = 276.3264]]></description>
+      <name>SNR CP148</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.514550396,29.935195849,276.3264</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 40<BR><B>ATTR_2</B> = SNR CP149<BR><B>ELEVATION</B> = 274.2746]]></description>
+      <name>SNR CP149</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.520793244,29.935044835,274.2746</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 41<BR><B>ATTR_2</B> = SNR CP150<BR><B>ELEVATION</B> = 274.3275]]></description>
+      <name>SNR CP150</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.528851022,29.936555220,274.3275</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 42<BR><B>ATTR_2</B> = SNR CP151<BR><B>ELEVATION</B> = 274.1982]]></description>
+      <name>SNR CP151</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.536537911,29.936705905,274.1982</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 43<BR><B>ATTR_2</B> = SNR CP154<BR><B>ELEVATION</B> = 271.8535]]></description>
+      <name>SNR CP154</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.557216674,29.938283483,271.8535</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 44<BR><B>ATTR_2</B> = SNR CP16<BR><B>ELEVATION</B> = 279.4947]]></description>
+      <name>SNR CP16</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.537379383,30.007187670,279.4947</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 45<BR><B>ATTR_2</B> = SNR CP165<BR><B>ELEVATION</B> = 274.2822]]></description>
+      <name>SNR CP165</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.529187631,29.931632078,274.2822</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 46<BR><B>ATTR_2</B> = SNR CP166<BR><B>ELEVATION</B> = 273.7462]]></description>
+      <name>SNR CP166</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.524509427,29.930705804,273.7462</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 47<BR><B>ATTR_2</B> = SNR CP167<BR><B>ELEVATION</B> = 274.1117]]></description>
+      <name>SNR CP167</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.515207355,29.929920923,274.1117</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 48<BR><B>ATTR_2</B> = SNR CP168<BR><B>ELEVATION</B> = 275.4465]]></description>
+      <name>SNR CP168</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.503451948,29.928183743,275.4465</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 49<BR><B>ATTR_2</B> = SNR CP169<BR><B>ELEVATION</B> = 275.7246]]></description>
+      <name>SNR CP169</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.503779753,29.924136485,275.7246</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 50<BR><B>ATTR_2</B> = SNR CP170<BR><B>ELEVATION</B> = 275.2881]]></description>
+      <name>SNR CP170</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.514585941,29.924690150,275.2881</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 51<BR><B>ATTR_2</B> = SNR CP171<BR><B>ELEVATION</B> = 273.5694]]></description>
+      <name>SNR CP171</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.522398365,29.924937281,273.5694</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 52<BR><B>ATTR_2</B> = SNR CP18<BR><B>ELEVATION</B> = 281.2444]]></description>
+      <name>SNR CP18</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.519307242,30.006946637,281.2444</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 53<BR><B>ATTR_2</B> = SNR CP180<BR><B>ELEVATION</B> = 274.6844]]></description>
+      <name>SNR CP180</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.514810733,29.917836586,274.6844</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 54<BR><B>ATTR_2</B> = SNR CP21<BR><B>ELEVATION</B> = 281.4342]]></description>
+      <name>SNR CP21</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.523002031,30.002076737,281.4342</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 55<BR><B>ATTR_2</B> = SNR CP23<BR><B>ELEVATION</B> = 279.8624]]></description>
+      <name>SNR CP23</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.535269518,30.001067852,279.8624</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 56<BR><B>ATTR_2</B> = SNR CP26<BR><B>ELEVATION</B> = 278.7816]]></description>
+      <name>SNR CP26</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.560090749,30.001110056,278.7816</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 57<BR><B>ATTR_2</B> = SNR CP27<BR><B>ELEVATION</B> = 278.764]]></description>
+      <name>SNR CP27</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.564442651,30.000101365,278.764</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 58<BR><B>ATTR_2</B> = SNR CP46<BR><B>ELEVATION</B> = 280.0001]]></description>
+      <name>SNR CP46</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.505875662,29.993307597,280.0001</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 59<BR><B>ATTR_2</B> = SNR CP47<BR><B>ELEVATION</B> = 279.8093]]></description>
+      <name>SNR CP47</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.508476738,29.988382655,279.8093</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 60<BR><B>ATTR_2</B> = SNR CP55<BR><B>ELEVATION</B> = 277.9305]]></description>
+      <name>SNR CP55</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.567023486,29.988227787,277.9305</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 61<BR><B>ATTR_2</B> = SNR CP72<BR><B>ELEVATION</B> = 278.2254]]></description>
+      <name>SNR CP72</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.511357369,29.973814727,278.2254</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 62<BR><B>ATTR_2</B> = SNR CP73<BR><B>ELEVATION</B> = 277.0648]]></description>
+      <name>SNR CP73</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.518154222,29.972179700,277.0648</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 63<BR><B>ATTR_2</B> = SNR CP78<BR><B>ELEVATION</B> = 276.9624]]></description>
+      <name>SNR CP78</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.557467021,29.977221181,276.9624</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 64<BR><B>ATTR_2</B> = SNR CP89<BR><B>ELEVATION</B> = 276.3661]]></description>
+      <name>SNR CP89</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.565912563,29.976201493,276.3661</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 65<BR><B>ATTR_2</B> = SNR CP92<BR><B>ELEVATION</B> = 278.7278]]></description>
+      <name>SNR CP92</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.588205339,29.975172222,278.7278</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 66<BR><B>ATTR_2</B> = SNRCP 1<BR><B>ELEVATION</B> = 282.0062]]></description>
+      <name>SNRCP 1</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.520742595,30.011339257,282.0062</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 67<BR><B>ATTR_2</B> = SNRCP 100<BR><B>ELEVATION</B> = 276.7855]]></description>
+      <name>SNRCP 100</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.573274803,29.970001441,276.7855</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 68<BR><B>ATTR_2</B> = SNRCP 103<BR><B>ELEVATION</B> = 276.3037]]></description>
+      <name>SNRCP 103</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.549809153,29.969397000,276.3037</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 69<BR><B>ATTR_2</B> = SNRCP 11<BR><B>ELEVATION</B> = 280.4145]]></description>
+      <name>SNRCP 11</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.572463922,30.005039274,280.4145</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 70<BR><B>ATTR_2</B> = SNRCP 116<BR><B>ELEVATION</B> = 277.1679]]></description>
+      <name>SNRCP 116</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.550934616,29.963084593,277.1679</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 71<BR><B>ATTR_2</B> = SNRCP 117<BR><B>ELEVATION</B> = 273.2208]]></description>
+      <name>SNRCP 117</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.558795544,29.962794985,273.2208</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 72<BR><B>ATTR_2</B> = SNRCP 118<BR><B>ELEVATION</B> = 280.0145]]></description>
+      <name>SNRCP 118</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.556995099,29.955041395,280.0145</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 73<BR><B>ATTR_2</B> = SNRCP 119<BR><B>ELEVATION</B> = 275.0284]]></description>
+      <name>SNRCP 119</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.549049429,29.955761223,275.0284</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 74<BR><B>ATTR_2</B> = SNRCP 120<BR><B>ELEVATION</B> = 275.7559]]></description>
+      <name>SNRCP 120</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.542705557,29.956580798,275.7559</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 75<BR><B>ATTR_2</B> = SNRCP 134<BR><B>ELEVATION</B> = 274.8481]]></description>
+      <name>SNRCP 134</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.551611591,29.948898847,274.8481</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 76<BR><B>ATTR_2</B> = SNRCP 135<BR><B>ELEVATION</B> = 274.1929]]></description>
+      <name>SNRCP 135</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.557610068,29.949951387,274.1929</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 77<BR><B>ATTR_2</B> = SNRCP 140<BR><B>ELEVATION</B> = 276.6642]]></description>
+      <name>SNRCP 140</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.566253290,29.939564262,276.6642</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 78<BR><B>ATTR_2</B> = SNRCP 141<BR><B>ELEVATION</B> = 270.517]]></description>
+      <name>SNRCP 141</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.555862490,29.941238131,270.517</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 79<BR><B>ATTR_2</B> = SNRCP 142<BR><B>ELEVATION</B> = 274.4239]]></description>
+      <name>SNRCP 142</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.548092138,29.943328429,274.4239</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 80<BR><B>ATTR_2</B> = SNRCP 143<BR><B>ELEVATION</B> = 274.3873]]></description>
+      <name>SNRCP 143</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.544207304,29.943426428,274.3873</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 81<BR><B>ATTR_2</B> = SNRCP 152<BR><B>ELEVATION</B> = 274.0176]]></description>
+      <name>SNRCP 152</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.544746927,29.936981375,274.0176</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 82<BR><B>ATTR_2</B> = SNRCP 153<BR><B>ELEVATION</B> = 273.1679]]></description>
+      <name>SNRCP 153</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.549733929,29.936691542,273.1679</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 83<BR><B>ATTR_2</B> = SNRCP 155<BR><B>ELEVATION</B> = 275.5262]]></description>
+      <name>SNRCP 155</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.563536425,29.937891920,275.5262</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 84<BR><B>ATTR_2</B> = SNRCP 158<BR><B>ELEVATION</B> = 272.5948]]></description>
+      <name>SNRCP 158</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.578166792,29.931254772,272.5948</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 85<BR><B>ATTR_2</B> = SNRCP 159<BR><B>ELEVATION</B> = 275.4512]]></description>
+      <name>SNRCP 159</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.573039775,29.930749800,275.4512</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 86<BR><B>ATTR_2</B> = SNRCP 160<BR><B>ELEVATION</B> = 275.113]]></description>
+      <name>SNRCP 160</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.563865888,29.931354245,275.113</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 87<BR><B>ATTR_2</B> = SNRCP 161<BR><B>ELEVATION</B> = 267.213]]></description>
+      <name>SNRCP 161</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.557654565,29.930244346,267.213</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 88<BR><B>ATTR_2</B> = SNRCP 162<BR><B>ELEVATION</B> = 274.0682]]></description>
+      <name>SNRCP 162</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.550335503,29.930291560,274.0682</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 89<BR><B>ATTR_2</B> = SNRCP 163<BR><B>ELEVATION</B> = 274.2763]]></description>
+      <name>SNRCP 163</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.542352395,29.930821362,274.2763</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 90<BR><B>ATTR_2</B> = SNRCP 164<BR><B>ELEVATION</B> = 273.5553]]></description>
+      <name>SNRCP 164</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.535610775,29.931079243,273.5553</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 91<BR><B>ATTR_2</B> = SNRCP 17<BR><B>ELEVATION</B> = 280.8121]]></description>
+      <name>SNRCP 17</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.523895074,30.005853169,280.8121</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 92<BR><B>ATTR_2</B> = SNRCP 172<BR><B>ELEVATION</B> = 273.1312]]></description>
+      <name>SNRCP 172</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.529432267,29.923923581,273.1312</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 93<BR><B>ATTR_2</B> = SNRCP 173<BR><B>ELEVATION</B> = 272.7003]]></description>
+      <name>SNRCP 173</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.534994774,29.923742205,272.7003</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 94<BR><B>ATTR_2</B> = SNRCP 174<BR><B>ELEVATION</B> = 273.3033]]></description>
+      <name>SNRCP 174</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.543356966,29.924391920,273.3033</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 95<BR><B>ATTR_2</B> = SNRCP 175<BR><B>ELEVATION</B> = 273.1599]]></description>
+      <name>SNRCP 175</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.551185164,29.924001570,273.1599</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 96<BR><B>ATTR_2</B> = SNRCP 178<BR><B>ELEVATION</B> = 271.4141]]></description>
+      <name>SNRCP 178</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.560086462,29.923748198,271.4141</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 97<BR><B>ATTR_2</B> = SNRCP 179<BR><B>ELEVATION</B> = 275.8085]]></description>
+      <name>SNRCP 179</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.570417502,29.925740494,275.8085</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 98<BR><B>ATTR_2</B> = SNRCP 181<BR><B>ELEVATION</B> = 273.3863]]></description>
+      <name>SNRCP 181</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.523588880,29.916140619,273.3863</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 99<BR><B>ATTR_2</B> = SNRCP 182<BR><B>ELEVATION</B> = 273.5827]]></description>
+      <name>SNRCP 182</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.527557465,29.917987041,273.5827</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 100<BR><B>ATTR_2</B> = SNRCP 183<BR><B>ELEVATION</B> = 273.0505]]></description>
+      <name>SNRCP 183</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.536305875,29.918693050,273.0505</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 101<BR><B>ATTR_2</B> = SNRCP 184<BR><B>ELEVATION</B> = 272.8772]]></description>
+      <name>SNRCP 184</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.545300406,29.918278945,272.8772</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 102<BR><B>ATTR_2</B> = SNRCP 185<BR><B>ELEVATION</B> = 272.5216]]></description>
+      <name>SNRCP 185</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.552069786,29.917282636,272.5216</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 103<BR><B>ATTR_2</B> = SNRCP 186<BR><B>ELEVATION</B> = 271.8797]]></description>
+      <name>SNRCP 186</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.551123689,29.910762878,271.8797</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 104<BR><B>ATTR_2</B> = SNRCP 187<BR><B>ELEVATION</B> = 273.166]]></description>
+      <name>SNRCP 187</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.540836321,29.911179128,273.166</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 105<BR><B>ATTR_2</B> = SNRCP 188<BR><B>ELEVATION</B> = 272.477]]></description>
+      <name>SNRCP 188</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.535634381,29.911147773,272.477</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 106<BR><B>ATTR_2</B> = SNRCP 189<BR><B>ELEVATION</B> = 272.5221]]></description>
+      <name>SNRCP 189</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.528793206,29.909565886,272.5221</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 107<BR><B>ATTR_2</B> = SNRCP 19<BR><B>ELEVATION</B> = 281.2868]]></description>
+      <name>SNRCP 19</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.513161268,30.007730096,281.2868</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 108<BR><B>ATTR_2</B> = SNRCP 190<BR><B>ELEVATION</B> = 272.8123]]></description>
+      <name>SNRCP 190</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.539536998,29.906534441,272.8123</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 109<BR><B>ATTR_2</B> = SNRCP 2<BR><B>ELEVATION</B> = 280.2755]]></description>
+      <name>SNRCP 2</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.529877312,30.008528038,280.2755</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 110<BR><B>ATTR_2</B> = SNRCP 20<BR><B>ELEVATION</B> = 280.4518]]></description>
+      <name>SNRCP 20</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.515073486,29.999033390,280.4518</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 111<BR><B>ATTR_2</B> = SNRCP 21<BR><B>ELEVATION</B> = 281.4552]]></description>
+      <name>SNRCP 21</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.523001804,30.002077183,281.4552</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 112<BR><B>ATTR_2</B> = SNRCP 22<BR><B>ELEVATION</B> = 281.6836]]></description>
+      <name>SNRCP 22</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.527469947,30.001507451,281.6836</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 113<BR><B>ATTR_2</B> = SNRCP 26<BR><B>ELEVATION</B> = 278.8365]]></description>
+      <name>SNRCP 26</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.560090768,30.001110001,278.8365</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 114<BR><B>ATTR_2</B> = SNRCP 27<BR><B>ELEVATION</B> = 278.846]]></description>
+      <name>SNRCP 27</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.564442833,30.000101569,278.846</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 115<BR><B>ATTR_2</B> = SNRCP 28<BR><B>ELEVATION</B> = 279.0617]]></description>
+      <name>SNRCP 28</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.572791465,30.002121348,279.0617</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 116<BR><B>ATTR_2</B> = SNRCP 29<BR><B>ELEVATION</B> = 280.7078]]></description>
+      <name>SNRCP 29</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.579854299,29.998925308,280.7078</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 117<BR><B>ATTR_2</B> = SNRCP 3<BR><B>ELEVATION</B> = 279.7224]]></description>
+      <name>SNRCP 3</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.537652814,30.012757629,279.7224</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 118<BR><B>ATTR_2</B> = SNRCP 30<BR><B>ELEVATION</B> = 279.3082]]></description>
+      <name>SNRCP 30</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.587742105,29.999624846,279.3082</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 119<BR><B>ATTR_2</B> = SNRCP 32<BR><B>ELEVATION</B> = 281.2975]]></description>
+      <name>SNRCP 32</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.593091793,29.995079411,281.2975</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 120<BR><B>ATTR_2</B> = SNRCP 33<BR><B>ELEVATION</B> = 279.4293]]></description>
+      <name>SNRCP 33</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.587658007,29.991618822,279.4293</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 121<BR><B>ATTR_2</B> = SNRCP 34<BR><B>ELEVATION</B> = 278.0193]]></description>
+      <name>SNRCP 34</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.578922970,29.996919639,278.0193</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 122<BR><B>ATTR_2</B> = SNRCP 34<BR><B>ELEVATION</B> = 278.0738]]></description>
+      <name>SNRCP 34</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.578922548,29.996919756,278.0738</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 123<BR><B>ATTR_2</B> = SNRCP 36<BR><B>ELEVATION</B> = 278.5526]]></description>
+      <name>SNRCP 36</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.565531591,29.994882904,278.5526</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 124<BR><B>ATTR_2</B> = SNRCP 42<BR><B>ELEVATION</B> = 279.2005]]></description>
+      <name>SNRCP 42</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.535903402,29.994202684,279.2005</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 125<BR><B>ATTR_2</B> = SNRCP 43<BR><B>ELEVATION</B> = 279.7887]]></description>
+      <name>SNRCP 43</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.530551622,29.997771118,279.7887</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 126<BR><B>ATTR_2</B> = SNRCP 45<BR><B>ELEVATION</B> = 280.5296]]></description>
+      <name>SNRCP 45</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.512957361,29.991912344,280.5296</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 127<BR><B>ATTR_2</B> = SNRCP 47<BR><B>ELEVATION</B> = 279.8053]]></description>
+      <name>SNRCP 47</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.508477106,29.988382459,279.8053</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 128<BR><B>ATTR_2</B> = SNRCP 48<BR><B>ELEVATION</B> = 279.198]]></description>
+      <name>SNRCP 48</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.515679480,29.987904676,279.198</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 129<BR><B>ATTR_2</B> = SNRCP 51<BR><B>ELEVATION</B> = 278.4828]]></description>
+      <name>SNRCP 51</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.536309722,29.987114344,278.4828</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 130<BR><B>ATTR_2</B> = SNRCP 52<BR><B>ELEVATION</B> = 278.5835]]></description>
+      <name>SNRCP 52</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.541633617,29.987220410,278.5835</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 131<BR><B>ATTR_2</B> = SNRCP 57<BR><B>ELEVATION</B> = 278.8434]]></description>
+      <name>SNRCP 57</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.579585404,29.986986820,278.8434</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 132<BR><B>ATTR_2</B> = SNRCP 58<BR><B>ELEVATION</B> = 279.4233]]></description>
+      <name>SNRCP 58</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.586530427,29.987022728,279.4233</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 133<BR><B>ATTR_2</B> = SNRCP 59<BR><B>ELEVATION</B> = 280.5095]]></description>
+      <name>SNRCP 59</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.594284523,29.989592572,280.5095</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 134<BR><B>ATTR_2</B> = SNRCP 60<BR><B>ELEVATION</B> = 280.5692]]></description>
+      <name>SNRCP 60</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.597651022,29.982391652,280.5692</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 135<BR><B>ATTR_2</B> = SNRCP 61<BR><B>ELEVATION</B> = 279.3118]]></description>
+      <name>SNRCP 61</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.590138318,29.984828903,279.3118</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 136<BR><B>ATTR_2</B> = SNRCP 66<BR><B>ELEVATION</B> = 274.9916]]></description>
+      <name>SNRCP 66</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.549621399,29.980747702,274.9916</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 137<BR><B>ATTR_2</B> = SNRCP 70<BR><B>ELEVATION</B> = 279.2757]]></description>
+      <name>SNRCP 70</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.521729146,29.985519384,279.2757</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 138<BR><B>ATTR_2</B> = SNRCP 90<BR><B>ELEVATION</B> = 277.0944]]></description>
+      <name>SNRCP 90</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.574490438,29.974063613,277.0944</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 139<BR><B>ATTR_2</B> = SNRCP 91<BR><B>ELEVATION</B> = 278.4702]]></description>
+      <name>SNRCP 91</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.580018354,29.975064250,278.4702</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 140<BR><B>ATTR_2</B> = SNRCP 92<BR><B>ELEVATION</B> = 278.7152]]></description>
+      <name>SNRCP 92</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.588205854,29.975172113,278.7152</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 141<BR><B>ATTR_2</B> = SNRCP 93<BR><B>ELEVATION</B> = 278.7912]]></description>
+      <name>SNRCP 93</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.594846878,29.974413365,278.7912</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 142<BR><B>ATTR_2</B> = SNRCP 94<BR><B>ELEVATION</B> = 279.1896]]></description>
+      <name>SNRCP 94</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.599879563,29.974519506,279.1896</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 143<BR><B>ATTR_2</B> = SNRCP 95<BR><B>ELEVATION</B> = 278.046]]></description>
+      <name>SNRCP 95</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.608394863,29.975619513,278.046</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 144<BR><B>ATTR_2</B> = SNRCP 96<BR><B>ELEVATION</B> = 278.1997]]></description>
+      <name>SNRCP 96</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.615998759,29.974062659,278.1997</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 145<BR><B>ATTR_2</B> = SNRCP 97<BR><B>ELEVATION</B> = 278.2256]]></description>
+      <name>SNRCP 97</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.622823907,29.966626128,278.2256</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 146<BR><B>ATTR_2</B> = SNRCP 98<BR><B>ELEVATION</B> = 278.2573]]></description>
+      <name>SNRCP 98</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.584688016,29.970763330,278.2573</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 147<BR><B>ATTR_2</B> = SNRCP 99<BR><B>ELEVATION</B> = 277.8259]]></description>
+      <name>SNRCP 99</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.578083703,29.970266638,277.8259</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 148<BR><B>ATTR_2</B> = SNRCP13<BR><B>ELEVATION</B> = 278.7929]]></description>
+      <name>SNRCP13</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.556468001,30.005242201,278.7929</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 149<BR><B>ATTR_2</B> = SNRCP14<BR><B>ELEVATION</B> = 280.0068]]></description>
+      <name>SNRCP14</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.551511471,30.006622061,280.0068</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 150<BR><B>ATTR_2</B> = SNRCP15<BR><B>ELEVATION</B> = 279.4242]]></description>
+      <name>SNRCP15</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.542272409,30.003527216,279.4242</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 151<BR><B>ATTR_2</B> = SNRCP24<BR><B>ELEVATION</B> = 279.2468]]></description>
+      <name>SNRCP24</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.543523381,30.000016565,279.2468</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 152<BR><B>ATTR_2</B> = SNRCP25<BR><B>ELEVATION</B> = 276.1851]]></description>
+      <name>SNRCP25</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.550671459,30.000929193,276.1851</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 153<BR><B>ATTR_2</B> = SNRCP40<BR><B>ELEVATION</B> = 277.2136]]></description>
+      <name>SNRCP40</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.549472840,29.993490021,277.2136</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 154<BR><B>ATTR_2</B> = SNRCP44<BR><B>ELEVATION</B> = 279.7117]]></description>
+      <name>SNRCP44</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.520058632,29.992804313,279.7117</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 155<BR><B>ATTR_2</B> = SNRCP49<BR><B>ELEVATION</B> = 279.9524]]></description>
+      <name>SNRCP49</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.524299709,29.988202002,279.9524</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 156<BR><B>ATTR_2</B> = SNRCP50<BR><B>ELEVATION</B> = 279.2333]]></description>
+      <name>SNRCP50</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.529398208,29.987209942,279.2333</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 157<BR><B>ATTR_2</B> = SNRCP53<BR><B>ELEVATION</B> = 276.1461]]></description>
+      <name>SNRCP53</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.551776502,29.989245989,276.1461</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 158<BR><B>ATTR_2</B> = SNRCP68<BR><B>ELEVATION</B> = 277.8389]]></description>
+      <name>SNRCP68</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.534964068,29.983382167,277.8389</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 159<BR><B>ATTR_2</B> = SNRCP77<BR><B>ELEVATION</B> = 274.3528]]></description>
+      <name>SNRCP77</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.549037024,29.976961435,274.3528</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 160<BR><B>ATTR_2</B> = SRN CP04<BR><B>ELEVATION</B> = 281.6264]]></description>
+      <name>SRN CP04</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.542550624,30.015948516,281.6264</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 161<BR><B>ATTR_2</B> = SRN CP05<BR><B>ELEVATION</B> = 282.458]]></description>
+      <name>SRN CP05</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.553290377,30.015152705,282.458</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 162<BR><B>ATTR_2</B> = SRN CP06<BR><B>ELEVATION</B> = 282.9039]]></description>
+      <name>SRN CP06</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.556819918,30.012974371,282.9039</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 163<BR><B>ATTR_2</B> = SRN CP07<BR><B>ELEVATION</B> = 283.0798]]></description>
+      <name>SRN CP07</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.562537852,30.020888431,283.0798</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 164<BR><B>ATTR_2</B> = SRN CP08<BR><B>ELEVATION</B> = 281.9607]]></description>
+      <name>SRN CP08</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.573175194,30.019156282,281.9607</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 165<BR><B>ATTR_2</B> = SRN CP09<BR><B>ELEVATION</B> = 281.2747]]></description>
+      <name>SRN CP09</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.582333945,30.013516556,281.2747</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 166<BR><B>ATTR_2</B> = SRN CP10<BR><B>ELEVATION</B> = 279.9463]]></description>
+      <name>SRN CP10</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.582613710,30.004303029,279.9463</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 167<BR><B>ATTR_2</B> = SRN CP31<BR><B>ELEVATION</B> = 281.088]]></description>
+      <name>SRN CP31</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.593596325,30.000236875,281.088</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 168<BR><B>ATTR_2</B> = SRN CP35<BR><B>ELEVATION</B> = 278.0418]]></description>
+      <name>SRN CP35</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.569367509,29.993265554,278.0418</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 169<BR><B>ATTR_2</B> = SRN CP37<BR><B>ELEVATION</B> = 277.1552]]></description>
+      <name>SRN CP37</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.541289761,29.981754990,277.1552</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 170<BR><B>ATTR_2</B> = SRN CP41<BR><B>ELEVATION</B> = 279.0283]]></description>
+      <name>SRN CP41</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.543709122,29.996448217,279.0283</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 171<BR><B>ATTR_2</B> = SRN CP54<BR><B>ELEVATION</B> = 278.2499]]></description>
+      <name>SRN CP54</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.558868520,29.987921654,278.2499</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 172<BR><B>ATTR_2</B> = SRN CP56<BR><B>ELEVATION</B> = 272.5836]]></description>
+      <name>SRN CP56</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.572625670,29.986948694,272.5836</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 173<BR><B>ATTR_2</B> = SRN CP62<BR><B>ELEVATION</B> = 278.6708]]></description>
+      <name>SRN CP62</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.579861132,29.982734626,278.6708</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 174<BR><B>ATTR_2</B> = SRN CP63<BR><B>ELEVATION</B> = 276.0716]]></description>
+      <name>SRN CP63</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.572255142,29.980873158,276.0716</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 175<BR><B>ATTR_2</B> = SRN CP64<BR><B>ELEVATION</B> = 277.1824]]></description>
+      <name>SRN CP64</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.564274333,29.980926712,277.1824</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 176<BR><B>ATTR_2</B> = SRN CP65<BR><B>ELEVATION</B> = 278.8342]]></description>
+      <name>SRN CP65</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.557882818,29.983738687,278.8342</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 177<BR><B>ATTR_2</B> = SRN CP68<BR><B>ELEVATION</B> = 277.8313]]></description>
+      <name>SRN CP68</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.534987071,29.983397248,277.8313</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 178<BR><B>ATTR_2</B> = SRN CP69<BR><B>ELEVATION</B> = 278.106]]></description>
+      <name>SRN CP69</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.530712204,29.981887949,278.106</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 179<BR><B>ATTR_2</B> = SRN CP71<BR><B>ELEVATION</B> = 278.9758]]></description>
+      <name>SRN CP71</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.512713967,29.981799774,278.9758</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 180<BR><B>ATTR_2</B> = SRN CP74<BR><B>ELEVATION</B> = 276.6709]]></description>
+      <name>SRN CP74</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.529381710,29.974003948,276.6709</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 181<BR><B>ATTR_2</B> = SRN CP75<BR><B>ELEVATION</B> = 275.9569]]></description>
+      <name>SRN CP75</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.536541812,29.973323644,275.9569</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[Unknown Point Feature<BR><BR><B>ATTR_1</B> = 182<BR><B>ATTR_2</B> = SRN CP76<BR><B>ELEVATION</B> = 276.7263]]></description>
+      <name>SRN CP76</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>77.541956276,29.975866944,276.7263</coordinates>
+      </Point>
+    </Placemark>
+</Document>
+</kml>

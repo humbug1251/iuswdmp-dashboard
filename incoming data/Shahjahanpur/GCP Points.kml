@@ -1,0 +1,783 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="GCP_Points" id="GCP_Points">
+	<SimpleField name="SL NO" type="int"></SimpleField>
+	<SimpleField name="LATITUDE" type="float"></SimpleField>
+	<SimpleField name="LONGITUDE" type="float"></SimpleField>
+	<SimpleField name="ELEVATION" type="string"></SimpleField>
+	<SimpleField name="LABEL" type="string"></SimpleField>
+</Schema>
+<Folder><name>GCP_Points</name>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#GCP_Points">
+		<SimpleData name="SL NO">1</SimpleData>
+		<SimpleData name="LATITUDE">27.92901248</SimpleData>
+		<SimpleData name="LONGITUDE">79.93345958</SimpleData>
+		<SimpleData name="ELEVATION">156.9415</SimpleData>
+		<SimpleData name="LABEL">SJPRCP-06</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.93345958,27.92901248</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#GCP_Points">
+		<SimpleData name="SL NO">2</SimpleData>
+		<SimpleData name="LATITUDE">27.92136405</SimpleData>
+		<SimpleData name="LONGITUDE">79.92581697</SimpleData>
+		<SimpleData name="ELEVATION">154.817</SimpleData>
+		<SimpleData name="LABEL">SJPRCP-10</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.92581697,27.92136405</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#GCP_Points">
+		<SimpleData name="SL NO">3</SimpleData>
+		<SimpleData name="LATITUDE">27.91656562</SimpleData>
+		<SimpleData name="LONGITUDE">79.92818814</SimpleData>
+		<SimpleData name="ELEVATION">156.9213</SimpleData>
+		<SimpleData name="LABEL">SJPRCP-12</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.92818814,27.91656562</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#GCP_Points">
+		<SimpleData name="SL NO">4</SimpleData>
+		<SimpleData name="LATITUDE">27.91779931</SimpleData>
+		<SimpleData name="LONGITUDE">79.92053736</SimpleData>
+		<SimpleData name="ELEVATION">154.3406</SimpleData>
+		<SimpleData name="LABEL">SJPRCP-13</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.92053736,27.91779931</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#GCP_Points">
+		<SimpleData name="SL NO">5</SimpleData>
+		<SimpleData name="LATITUDE">27.89518133</SimpleData>
+		<SimpleData name="LONGITUDE">79.89077632</SimpleData>
+		<SimpleData name="ELEVATION">149.5616</SimpleData>
+		<SimpleData name="LABEL">SJPRCP-25</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.89077632,27.89518133</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#GCP_Points">
+		<SimpleData name="SL NO">6</SimpleData>
+		<SimpleData name="LATITUDE">27.8957557</SimpleData>
+		<SimpleData name="LONGITUDE">79.89513855</SimpleData>
+		<SimpleData name="ELEVATION">148.9028</SimpleData>
+		<SimpleData name="LABEL">SJPRCP-26</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.89513855,27.8957557</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#GCP_Points">
+		<SimpleData name="SL NO">7</SimpleData>
+		<SimpleData name="LATITUDE">27.89449123</SimpleData>
+		<SimpleData name="LONGITUDE">79.90326084</SimpleData>
+		<SimpleData name="ELEVATION">155.3502</SimpleData>
+		<SimpleData name="LABEL">SJPRCP-27</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.90326084,27.89449123</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#GCP_Points">
+		<SimpleData name="SL NO">8</SimpleData>
+		<SimpleData name="LATITUDE">27.87027963</SimpleData>
+		<SimpleData name="LONGITUDE">79.91230898</SimpleData>
+		<SimpleData name="ELEVATION">154.3446</SimpleData>
+		<SimpleData name="LABEL">SJPRCP-56</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.91230898,27.87027963</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#GCP_Points">
+		<SimpleData name="SL NO">9</SimpleData>
+		<SimpleData name="LATITUDE">27.87130693</SimpleData>
+		<SimpleData name="LONGITUDE">79.91937436</SimpleData>
+		<SimpleData name="ELEVATION">148.7369</SimpleData>
+		<SimpleData name="LABEL">SJPRCP-57</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.91937436,27.87130693</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#GCP_Points">
+		<SimpleData name="SL NO">10</SimpleData>
+		<SimpleData name="LATITUDE">27.86573031</SimpleData>
+		<SimpleData name="LONGITUDE">79.91645025</SimpleData>
+		<SimpleData name="ELEVATION">153.5175</SimpleData>
+		<SimpleData name="LABEL">SJPRCP-64</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.91645025,27.86573031</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#GCP_Points">
+		<SimpleData name="SL NO">11</SimpleData>
+		<SimpleData name="LATITUDE">27.85741757</SimpleData>
+		<SimpleData name="LONGITUDE">79.89596563</SimpleData>
+		<SimpleData name="ELEVATION">149.4105</SimpleData>
+		<SimpleData name="LABEL">SJPRCP-70</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.89596563,27.85741757</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#GCP_Points">
+		<SimpleData name="SL NO">12</SimpleData>
+		<SimpleData name="LATITUDE">27.93410162</SimpleData>
+		<SimpleData name="LONGITUDE">79.91043665</SimpleData>
+		<SimpleData name="ELEVATION">156.3946</SimpleData>
+		<SimpleData name="LABEL">SJPR-CP-01</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.91043665,27.93410162</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#GCP_Points">
+		<SimpleData name="SL NO">13</SimpleData>
+		<SimpleData name="LATITUDE">27.92766387</SimpleData>
+		<SimpleData name="LONGITUDE">79.9029481</SimpleData>
+		<SimpleData name="ELEVATION">155.3974</SimpleData>
+		<SimpleData name="LABEL">SJPR-CP-02</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.9029481,27.92766387</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#GCP_Points">
+		<SimpleData name="SL NO">14</SimpleData>
+		<SimpleData name="LATITUDE">27.92843605</SimpleData>
+		<SimpleData name="LONGITUDE">79.90980335</SimpleData>
+		<SimpleData name="ELEVATION">153.7705</SimpleData>
+		<SimpleData name="LABEL">SJPR-CP-03</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.90980335,27.92843605</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#GCP_Points">
+		<SimpleData name="SL NO">15</SimpleData>
+		<SimpleData name="LATITUDE">27.92854268</SimpleData>
+		<SimpleData name="LONGITUDE">79.91826781</SimpleData>
+		<SimpleData name="ELEVATION">156.652</SimpleData>
+		<SimpleData name="LABEL">SJPR-CP-04</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.91826781,27.92854268</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#GCP_Points">
+		<SimpleData name="SL NO">16</SimpleData>
+		<SimpleData name="LATITUDE">27.92845827</SimpleData>
+		<SimpleData name="LONGITUDE">79.9243456</SimpleData>
+		<SimpleData name="ELEVATION">158.9747</SimpleData>
+		<SimpleData name="LABEL">SJPR-CP-05</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.9243456,27.92845827</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#GCP_Points">
+		<SimpleData name="SL NO">17</SimpleData>
+		<SimpleData name="LATITUDE">27.9208318</SimpleData>
+		<SimpleData name="LONGITUDE">79.90470888</SimpleData>
+		<SimpleData name="ELEVATION">155.8787</SimpleData>
+		<SimpleData name="LABEL">SJPR-CP-07</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.90470888,27.9208318</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#GCP_Points">
+		<SimpleData name="SL NO">18</SimpleData>
+		<SimpleData name="LATITUDE">27.91887563</SimpleData>
+		<SimpleData name="LONGITUDE">79.90975801</SimpleData>
+		<SimpleData name="ELEVATION">154.3249</SimpleData>
+		<SimpleData name="LABEL">SJPR-CP-08</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.90975801,27.91887563</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#GCP_Points">
+		<SimpleData name="SL NO">19</SimpleData>
+		<SimpleData name="LATITUDE">27.92147677</SimpleData>
+		<SimpleData name="LONGITUDE">79.92238086</SimpleData>
+		<SimpleData name="ELEVATION">155.1236</SimpleData>
+		<SimpleData name="LABEL">SJPR-CP-09</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.92238086,27.92147677</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#GCP_Points">
+		<SimpleData name="SL NO">20</SimpleData>
+		<SimpleData name="LATITUDE">27.91572512</SimpleData>
+		<SimpleData name="LONGITUDE">79.91132923</SimpleData>
+		<SimpleData name="ELEVATION">154.8771</SimpleData>
+		<SimpleData name="LABEL">SJPR-CP-14</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.91132923,27.91572512</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#GCP_Points">
+		<SimpleData name="SL NO">21</SimpleData>
+		<SimpleData name="LATITUDE">27.91688539</SimpleData>
+		<SimpleData name="LONGITUDE">79.90423244</SimpleData>
+		<SimpleData name="ELEVATION">152.9263</SimpleData>
+		<SimpleData name="LABEL">SJPR-CP-15</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.90423244,27.91688539</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#GCP_Points">
+		<SimpleData name="SL NO">22</SimpleData>
+		<SimpleData name="LATITUDE">27.90753742</SimpleData>
+		<SimpleData name="LONGITUDE">79.9005359</SimpleData>
+		<SimpleData name="ELEVATION">148.5844</SimpleData>
+		<SimpleData name="LABEL">SJPR-CP-16</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.9005359,27.90753742</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#GCP_Points">
+		<SimpleData name="SL NO">23</SimpleData>
+		<SimpleData name="LATITUDE">27.90831049</SimpleData>
+		<SimpleData name="LONGITUDE">79.90519261</SimpleData>
+		<SimpleData name="ELEVATION">152.4056</SimpleData>
+		<SimpleData name="LABEL">SJPR-CP-17</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.90519261,27.90831049</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#GCP_Points">
+		<SimpleData name="SL NO">24</SimpleData>
+		<SimpleData name="LATITUDE">27.90926405</SimpleData>
+		<SimpleData name="LONGITUDE">79.90974308</SimpleData>
+		<SimpleData name="ELEVATION">153.0141</SimpleData>
+		<SimpleData name="LABEL">SJPR-CP-18</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.90974308,27.90926405</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#GCP_Points">
+		<SimpleData name="SL NO">25</SimpleData>
+		<SimpleData name="LATITUDE">27.90104194</SimpleData>
+		<SimpleData name="LONGITUDE">79.90987434</SimpleData>
+		<SimpleData name="ELEVATION">154.4746</SimpleData>
+		<SimpleData name="LABEL">SJPR-CP-19</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.90987434,27.90104194</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#GCP_Points">
+		<SimpleData name="SL NO">26</SimpleData>
+		<SimpleData name="LATITUDE">27.90365266</SimpleData>
+		<SimpleData name="LONGITUDE">79.90548764</SimpleData>
+		<SimpleData name="ELEVATION">150.1438</SimpleData>
+		<SimpleData name="LABEL">SJPR-CP-20</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.90548764,27.90365266</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#GCP_Points">
+		<SimpleData name="SL NO">27</SimpleData>
+		<SimpleData name="LATITUDE">27.88991961</SimpleData>
+		<SimpleData name="LONGITUDE">79.89665834</SimpleData>
+		<SimpleData name="ELEVATION">147.6438</SimpleData>
+		<SimpleData name="LABEL">SJPR-CP-33</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.89665834,27.88991961</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#GCP_Points">
+		<SimpleData name="SL NO">28</SimpleData>
+		<SimpleData name="LATITUDE">27.88237704</SimpleData>
+		<SimpleData name="LONGITUDE">79.89776246</SimpleData>
+		<SimpleData name="ELEVATION">150.7278</SimpleData>
+		<SimpleData name="LABEL">SJPR-CP-39</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.89776246,27.88237704</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#GCP_Points">
+		<SimpleData name="SL NO">29</SimpleData>
+		<SimpleData name="LATITUDE">27.87708271</SimpleData>
+		<SimpleData name="LONGITUDE">79.90292006</SimpleData>
+		<SimpleData name="ELEVATION">152.2578</SimpleData>
+		<SimpleData name="LABEL">SJPR-CP-47</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.90292006,27.87708271</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#GCP_Points">
+		<SimpleData name="SL NO">30</SimpleData>
+		<SimpleData name="LATITUDE">27.87750383</SimpleData>
+		<SimpleData name="LONGITUDE">79.89707473</SimpleData>
+		<SimpleData name="ELEVATION">153.4415</SimpleData>
+		<SimpleData name="LABEL">SJPR-CP-48</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.89707473,27.87750383</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#GCP_Points">
+		<SimpleData name="SL NO">31</SimpleData>
+		<SimpleData name="LATITUDE">27.87175797</SimpleData>
+		<SimpleData name="LONGITUDE">79.89616282</SimpleData>
+		<SimpleData name="ELEVATION">148.8019</SimpleData>
+		<SimpleData name="LABEL">SJPR-CP-54</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.89616282,27.87175797</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#GCP_Points">
+		<SimpleData name="SL NO">32</SimpleData>
+		<SimpleData name="LATITUDE">27.87159897</SimpleData>
+		<SimpleData name="LONGITUDE">79.90338446</SimpleData>
+		<SimpleData name="ELEVATION">151.0492</SimpleData>
+		<SimpleData name="LABEL">SJPR-CP-55</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.90338446,27.87159897</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#GCP_Points">
+		<SimpleData name="SL NO">33</SimpleData>
+		<SimpleData name="LATITUDE">27.85609088</SimpleData>
+		<SimpleData name="LONGITUDE">79.95176291</SimpleData>
+		<SimpleData name="ELEVATION">153.3513</SimpleData>
+		<SimpleData name="LABEL">SJPR-CP-78</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.95176291,27.85609088</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#GCP_Points">
+		<SimpleData name="SL NO">34</SimpleData>
+		<SimpleData name="LATITUDE">27.85215267</SimpleData>
+		<SimpleData name="LONGITUDE">79.95769547</SimpleData>
+		<SimpleData name="ELEVATION">154.0863</SimpleData>
+		<SimpleData name="LABEL">SJPR-CP-79</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.95769547,27.85215267</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#GCP_Points">
+		<SimpleData name="SL NO">35</SimpleData>
+		<SimpleData name="LATITUDE">27.89116859</SimpleData>
+		<SimpleData name="LONGITUDE">79.88815492</SimpleData>
+		<SimpleData name="ELEVATION">154.0947</SimpleData>
+		<SimpleData name="LABEL">SJPR-CP-34</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.88815492,27.89116859</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#GCP_Points">
+		<SimpleData name="SL NO">36</SimpleData>
+		<SimpleData name="LATITUDE">27.89228285</SimpleData>
+		<SimpleData name="LONGITUDE">79.88846668</SimpleData>
+		<SimpleData name="ELEVATION">153.9895</SimpleData>
+		<SimpleData name="LABEL">SJPR-CP-35</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.88846668,27.89228285</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#GCP_Points">
+		<SimpleData name="SL NO">37</SimpleData>
+		<SimpleData name="LATITUDE">27.87787316</SimpleData>
+		<SimpleData name="LONGITUDE">79.91803787</SimpleData>
+		<SimpleData name="ELEVATION">148.0682</SimpleData>
+		<SimpleData name="LABEL">SJPR-CP-45</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.91803787,27.87787316</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#GCP_Points">
+		<SimpleData name="SL NO">38</SimpleData>
+		<SimpleData name="LATITUDE">27.87675603</SimpleData>
+		<SimpleData name="LONGITUDE">79.91095349</SimpleData>
+		<SimpleData name="ELEVATION">153.3867</SimpleData>
+		<SimpleData name="LABEL">SJPR-CP-46</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.91095349,27.87675603</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#GCP_Points">
+		<SimpleData name="SL NO">39</SimpleData>
+		<SimpleData name="LATITUDE">27.87220425</SimpleData>
+		<SimpleData name="LONGITUDE">79.93612578</SimpleData>
+		<SimpleData name="ELEVATION">154.3088</SimpleData>
+		<SimpleData name="LABEL">SJPR-CP-59</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.93612578,27.87220425</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#GCP_Points">
+		<SimpleData name="SL NO">40</SimpleData>
+		<SimpleData name="LATITUDE">27.86237491</SimpleData>
+		<SimpleData name="LONGITUDE">79.95296423</SimpleData>
+		<SimpleData name="ELEVATION">153.1776</SimpleData>
+		<SimpleData name="LABEL">SJPR-CP-60</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.95296423,27.86237491</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#GCP_Points">
+		<SimpleData name="SL NO">41</SimpleData>
+		<SimpleData name="LATITUDE">27.85455788</SimpleData>
+		<SimpleData name="LONGITUDE">79.91721686</SimpleData>
+		<SimpleData name="ELEVATION">146.8052</SimpleData>
+		<SimpleData name="LABEL">SJPR-CP-83</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.91721686,27.85455788</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#GCP_Points">
+		<SimpleData name="SL NO">42</SimpleData>
+		<SimpleData name="LATITUDE">27.91046073</SimpleData>
+		<SimpleData name="LONGITUDE">79.8846897</SimpleData>
+		<SimpleData name="ELEVATION">150.3397</SimpleData>
+		<SimpleData name="LABEL">SJPR-CP-100</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.8846897,27.91046073</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#GCP_Points">
+		<SimpleData name="SL NO">43</SimpleData>
+		<SimpleData name="LATITUDE">27.91038057</SimpleData>
+		<SimpleData name="LONGITUDE">79.89378504</SimpleData>
+		<SimpleData name="ELEVATION">151.1534</SimpleData>
+		<SimpleData name="LABEL">SJPR-CP-101</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.89378504,27.91038057</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#GCP_Points">
+		<SimpleData name="SL NO">44</SimpleData>
+		<SimpleData name="LATITUDE">27.91491942</SimpleData>
+		<SimpleData name="LONGITUDE">79.89763166</SimpleData>
+		<SimpleData name="ELEVATION">156.4742</SimpleData>
+		<SimpleData name="LABEL">SJPR-CP-102</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.89763166,27.91491942</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#GCP_Points">
+		<SimpleData name="SL NO">45</SimpleData>
+		<SimpleData name="LATITUDE">27.92162812</SimpleData>
+		<SimpleData name="LONGITUDE">79.8975396</SimpleData>
+		<SimpleData name="ELEVATION">155.8514</SimpleData>
+		<SimpleData name="LABEL">SJPR-CP-103</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.8975396,27.92162812</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#GCP_Points">
+		<SimpleData name="SL NO">46</SimpleData>
+		<SimpleData name="LATITUDE">27.93003016</SimpleData>
+		<SimpleData name="LONGITUDE">79.90049806</SimpleData>
+		<SimpleData name="ELEVATION">155.3854</SimpleData>
+		<SimpleData name="LABEL">SJPR-CP-104</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.90049806,27.93003016</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#GCP_Points">
+		<SimpleData name="SL NO">47</SimpleData>
+		<SimpleData name="LATITUDE">27.93763326</SimpleData>
+		<SimpleData name="LONGITUDE">79.91068194</SimpleData>
+		<SimpleData name="ELEVATION">155.8665</SimpleData>
+		<SimpleData name="LABEL">SJPR-CP-105</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.91068194,27.93763326</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#GCP_Points">
+		<SimpleData name="SL NO">48</SimpleData>
+		<SimpleData name="LATITUDE">27.93390214</SimpleData>
+		<SimpleData name="LONGITUDE">79.91732687</SimpleData>
+		<SimpleData name="ELEVATION">156.2932</SimpleData>
+		<SimpleData name="LABEL">SJPR-CP-106</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.91732687,27.93390214</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#GCP_Points">
+		<SimpleData name="SL NO">49</SimpleData>
+		<SimpleData name="LATITUDE">27.91320305</SimpleData>
+		<SimpleData name="LONGITUDE">79.926902</SimpleData>
+		<SimpleData name="ELEVATION">154.9372</SimpleData>
+		<SimpleData name="LABEL">SJPR-CP-109</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.926902,27.91320305</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#GCP_Points">
+		<SimpleData name="SL NO">50</SimpleData>
+		<SimpleData name="LATITUDE">27.91216542</SimpleData>
+		<SimpleData name="LONGITUDE">79.92020684</SimpleData>
+		<SimpleData name="ELEVATION">155.2895</SimpleData>
+		<SimpleData name="LABEL">SJPR-CP-110</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.92020684,27.91216542</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#GCP_Points">
+		<SimpleData name="SL NO">51</SimpleData>
+		<SimpleData name="LATITUDE">27.90250217</SimpleData>
+		<SimpleData name="LONGITUDE">79.91548925</SimpleData>
+		<SimpleData name="ELEVATION">154.8041</SimpleData>
+		<SimpleData name="LABEL">SJPR-CP-112</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.91548925,27.90250217</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#GCP_Points">
+		<SimpleData name="SL NO">52</SimpleData>
+		<SimpleData name="LATITUDE">27.89547171</SimpleData>
+		<SimpleData name="LONGITUDE">79.92023819</SimpleData>
+		<SimpleData name="ELEVATION">155.2669</SimpleData>
+		<SimpleData name="LABEL">SJPR-CP-113</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.92023819,27.89547171</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#GCP_Points">
+		<SimpleData name="SL NO">53</SimpleData>
+		<SimpleData name="LATITUDE">27.84274914</SimpleData>
+		<SimpleData name="LONGITUDE">79.95486765</SimpleData>
+		<SimpleData name="ELEVATION">154.182</SimpleData>
+		<SimpleData name="LABEL">SJPR-CP-124</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.95486765,27.84274914</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#GCP_Points">
+		<SimpleData name="SL NO">54</SimpleData>
+		<SimpleData name="LATITUDE">27.84930891</SimpleData>
+		<SimpleData name="LONGITUDE">79.95345731</SimpleData>
+		<SimpleData name="ELEVATION">154.178</SimpleData>
+		<SimpleData name="LABEL">SJPR-CP-125</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.95345731,27.84930891</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#GCP_Points">
+		<SimpleData name="SL NO">55</SimpleData>
+		<SimpleData name="LATITUDE">27.84634072</SimpleData>
+		<SimpleData name="LONGITUDE">79.94538873</SimpleData>
+		<SimpleData name="ELEVATION">153.9224</SimpleData>
+		<SimpleData name="LABEL">SJPR-CP-126</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.94538873,27.84634072</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#GCP_Points">
+		<SimpleData name="SL NO">56</SimpleData>
+		<SimpleData name="LATITUDE">27.84392369</SimpleData>
+		<SimpleData name="LONGITUDE">79.93228968</SimpleData>
+		<SimpleData name="ELEVATION">152.627</SimpleData>
+		<SimpleData name="LABEL">SJPR-CP-127</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.93228968,27.84392369</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#GCP_Points">
+		<SimpleData name="SL NO">57</SimpleData>
+		<SimpleData name="LATITUDE">27.86410263</SimpleData>
+		<SimpleData name="LONGITUDE">79.90792144</SimpleData>
+		<SimpleData name="ELEVATION">152.4163</SimpleData>
+		<SimpleData name="LABEL">SJPR-CP-65</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.90792144,27.86410263</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#GCP_Points">
+		<SimpleData name="SL NO">58</SimpleData>
+		<SimpleData name="LATITUDE">27.86465667</SimpleData>
+		<SimpleData name="LONGITUDE">79.90307682</SimpleData>
+		<SimpleData name="ELEVATION">150.1121</SimpleData>
+		<SimpleData name="LABEL">SJPR-CP-66</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.90307682,27.86465667</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#GCP_Points">
+		<SimpleData name="SL NO">59</SimpleData>
+		<SimpleData name="LATITUDE">27.85849742</SimpleData>
+		<SimpleData name="LONGITUDE">79.91175005</SimpleData>
+		<SimpleData name="ELEVATION">150.7333</SimpleData>
+		<SimpleData name="LABEL">SJPR-CP-72</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.91175005,27.85849742</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#GCP_Points">
+		<SimpleData name="SL NO">60</SimpleData>
+		<SimpleData name="LATITUDE">27.85053676</SimpleData>
+		<SimpleData name="LONGITUDE">79.90895011</SimpleData>
+		<SimpleData name="ELEVATION">147.1876</SimpleData>
+		<SimpleData name="LABEL">SJPR-CP-84</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.90895011,27.85053676</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#GCP_Points">
+		<SimpleData name="SL NO">61</SimpleData>
+		<SimpleData name="LATITUDE">27.85900067</SimpleData>
+		<SimpleData name="LONGITUDE">79.87850962</SimpleData>
+		<SimpleData name="ELEVATION">149.0352</SimpleData>
+		<SimpleData name="LABEL">SJPR-CP-88</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.87850962,27.85900067</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#GCP_Points">
+		<SimpleData name="SL NO">62</SimpleData>
+		<SimpleData name="LATITUDE">27.83951841</SimpleData>
+		<SimpleData name="LONGITUDE">79.90549358</SimpleData>
+		<SimpleData name="ELEVATION">152.3708</SimpleData>
+		<SimpleData name="LABEL">SJPR-CP-89</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.90549358,27.83951841</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#GCP_Points">
+		<SimpleData name="SL NO">63</SimpleData>
+		<SimpleData name="LATITUDE">27.84393951</SimpleData>
+		<SimpleData name="LONGITUDE">79.89876156</SimpleData>
+		<SimpleData name="ELEVATION">147.9445</SimpleData>
+		<SimpleData name="LABEL">SJPR-CP-90</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.89876156,27.84393951</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#GCP_Points">
+		<SimpleData name="SL NO">64</SimpleData>
+		<SimpleData name="LATITUDE">27.84606544</SimpleData>
+		<SimpleData name="LONGITUDE">79.88813706</SimpleData>
+		<SimpleData name="ELEVATION">147.6893</SimpleData>
+		<SimpleData name="LABEL">SJPR-CP-92</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.88813706,27.84606544</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#GCP_Points">
+		<SimpleData name="SL NO">65</SimpleData>
+		<SimpleData name="LATITUDE">27.85039161</SimpleData>
+		<SimpleData name="LONGITUDE">79.88409741</SimpleData>
+		<SimpleData name="ELEVATION">147.7787</SimpleData>
+		<SimpleData name="LABEL">SJPR-CP-93</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.88409741,27.85039161</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#GCP_Points">
+		<SimpleData name="SL NO">66</SimpleData>
+		<SimpleData name="LATITUDE">27.89363302</SimpleData>
+		<SimpleData name="LONGITUDE">79.92554884</SimpleData>
+		<SimpleData name="ELEVATION">155.2097</SimpleData>
+		<SimpleData name="LABEL">SJPR-CP-114</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.92554884,27.89363302</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#GCP_Points">
+		<SimpleData name="SL NO">67</SimpleData>
+		<SimpleData name="LATITUDE">27.87773663</SimpleData>
+		<SimpleData name="LONGITUDE">79.93192742</SimpleData>
+		<SimpleData name="ELEVATION">154.9163</SimpleData>
+		<SimpleData name="LABEL">SJPR-CP-116</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.93192742,27.87773663</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#GCP_Points">
+		<SimpleData name="SL NO">68</SimpleData>
+		<SimpleData name="LATITUDE">27.87730353</SimpleData>
+		<SimpleData name="LONGITUDE">79.93870199</SimpleData>
+		<SimpleData name="ELEVATION">154.954</SimpleData>
+		<SimpleData name="LABEL">SJPR-CP-117</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.93870199,27.87730353</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#GCP_Points">
+		<SimpleData name="SL NO">69</SimpleData>
+		<SimpleData name="LATITUDE">27.8727973</SimpleData>
+		<SimpleData name="LONGITUDE">79.94060864</SimpleData>
+		<SimpleData name="ELEVATION">155.0695</SimpleData>
+		<SimpleData name="LABEL">SJPR-CP-118</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.94060864,27.8727973</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#GCP_Points">
+		<SimpleData name="SL NO">70</SimpleData>
+		<SimpleData name="LATITUDE">27.86618498</SimpleData>
+		<SimpleData name="LONGITUDE">79.94785417</SimpleData>
+		<SimpleData name="ELEVATION">154.4943</SimpleData>
+		<SimpleData name="LABEL">SJPR-CP-120</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.94785417,27.86618498</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#GCP_Points">
+		<SimpleData name="SL NO">71</SimpleData>
+		<SimpleData name="LATITUDE">27.86902193</SimpleData>
+		<SimpleData name="LONGITUDE">79.95591495</SimpleData>
+		<SimpleData name="ELEVATION">152.7473</SimpleData>
+		<SimpleData name="LABEL">SJPR-CP-121</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.95591495,27.86902193</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#GCP_Points">
+		<SimpleData name="SL NO">72</SimpleData>
+		<SimpleData name="LATITUDE">27.85074545</SimpleData>
+		<SimpleData name="LONGITUDE">79.96384456</SimpleData>
+		<SimpleData name="ELEVATION">154.4277</SimpleData>
+		<SimpleData name="LABEL">SJPR-CP-123</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.96384456,27.85074545</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#GCP_Points">
+		<SimpleData name="SL NO">73</SimpleData>
+		<SimpleData name="LATITUDE">27.86888353</SimpleData>
+		<SimpleData name="LONGITUDE">79.87554316</SimpleData>
+		<SimpleData name="ELEVATION">150.6831</SimpleData>
+		<SimpleData name="LABEL">SJPR-CP-87</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.87554316,27.86888353</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#GCP_Points">
+		<SimpleData name="SL NO">74</SimpleData>
+		<SimpleData name="LATITUDE">27.87197395</SimpleData>
+		<SimpleData name="LONGITUDE">79.87300023</SimpleData>
+		<SimpleData name="ELEVATION">148.8331</SimpleData>
+		<SimpleData name="LABEL">SJPR-CP-95</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.87300023,27.87197395</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#GCP_Points">
+		<SimpleData name="SL NO">75</SimpleData>
+		<SimpleData name="LATITUDE">27.88110779</SimpleData>
+		<SimpleData name="LONGITUDE">79.86878579</SimpleData>
+		<SimpleData name="ELEVATION">149.1129</SimpleData>
+		<SimpleData name="LABEL">SJPR-CP-97</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.86878579,27.88110779</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#GCP_Points">
+		<SimpleData name="SL NO">76</SimpleData>
+		<SimpleData name="LATITUDE">27.89672575</SimpleData>
+		<SimpleData name="LONGITUDE">79.87483903</SimpleData>
+		<SimpleData name="ELEVATION">149.4951</SimpleData>
+		<SimpleData name="LABEL">SJPR-CP-98</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.87483903,27.89672575</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#GCP_Points">
+		<SimpleData name="SL NO">77</SimpleData>
+		<SimpleData name="LATITUDE">27.90071508</SimpleData>
+		<SimpleData name="LONGITUDE">79.87106421</SimpleData>
+		<SimpleData name="ELEVATION">149.8259</SimpleData>
+		<SimpleData name="LABEL">SJPR-CP-99</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>79.87106421,27.90071508</coordinates></Point>
+  </Placemark>
+</Folder>
+</Document></kml>
