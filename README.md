@@ -108,6 +108,7 @@ The 6 Nov drain SHP contains **498 primary**, **5,228 secondary**, **280 natural
 | Drains surveyed | Real — 5 Nov primary/secondary/tertiary SHPs; 1,100 mapped segments, 247.9 km |
 | GCP marked | Real — 202 unique KML points (WPR reports 206) |
 | TBM | 40 geotagged locations from `TBM_photos.kml`; 3 carry elevations from the 27 Oct survey CSV (TBM1 209.96 m, TBM2 209.97 m, MRDST1 194.73 m) |
+| Survey photos | Real — 533 compressed photos from `Survey_Moradabad_photos.kmz` |
 | Drone survey blocks | Real — 14 block KMLs |
 | Ortho image | Not supplied for Moradabad |
 
