@@ -3076,6 +3076,16 @@ p {
   background: #f4f1ea;
 }
 
+@media (max-width: 1200px) {
+  .photo-popup {
+    max-width: 240px;
+  }
+
+  .photo-popup img {
+    height: 160px;
+  }
+}
+
 .popup-kicker {
   font-family: var(--font-mono);
   font-size: 7px;

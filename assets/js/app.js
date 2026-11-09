@@ -1062,6 +1062,7 @@
 
     let photos = null;
     if (layers.photos && layers.photos.features.length) {
+      const compactPhotoLayout = window.matchMedia('(max-width: 1200px)').matches;
       photos = L.geoJSON(layers.photos, {
         pane: 'pointsPane',
         pointToLayer: (feature, latlng) => L.circleMarker(latlng, {
@@ -1094,14 +1095,18 @@
           </div>`, {
             maxWidth: 260,
             keepInView: true,
-            autoPanPaddingTopLeft: [380, 110],
-            autoPanPaddingBottomRight: [430, 110]
+            autoPan: !compactPhotoLayout,
+            autoPanPaddingTopLeft: compactPhotoLayout ? [12, 80] : [380, 110],
+            autoPanPaddingBottomRight: compactPhotoLayout ? [12, 120] : [430, 110]
           });
           layer.on('popupopen', () => {
             const popup = layer.getPopup();
             const popupEl = popup && popup.getElement();
             const img = popupEl && popupEl.querySelector('img');
             if (img) img.addEventListener('load', () => popup.update(), { once: true });
+            if (compactPhotoLayout && state.map) {
+              state.map.panTo(layer.getLatLng(), { animate: true, duration: 0.25 });
+            }
           });
         }
       });
