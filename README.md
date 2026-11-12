@@ -128,6 +128,7 @@ The mapped drain lengths are **129.9 km primary**, **71.3 km secondary** and **4
 | Drains surveyed | Real — 5 Nov primary and secondary SHPs; 1,001 mapped segments, 298.3 km |
 | TBM | 23 points parsed from `TBM.kmz` |
 | Static points | 10 points parsed from `TBM.kmz` |
+| Survey photos | Real — 630 compressed photos from `Meerut_SWmaps_combined 1 (2).kmz` |
 | GCP marked | Not reported for Meerut |
 | Drone survey blocks | Not required for Meerut |
 | Ortho image | Not supplied for Meerut |
