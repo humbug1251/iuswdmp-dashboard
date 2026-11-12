@@ -75,6 +75,7 @@ The photo layer contains **1,079 recovered geotagged survey photos**. The suppli
 | TBM | Real — 4 points from `SP+TBM Locations.kml` |
 | Static points | Real — 5 points from `SP+TBM Locations.kml` |
 | Drone survey blocks | Real — 27 survey blocks; the Jail polygon is excluded |
+| Survey photos | Real — 1,394 combined photos from 28 unique site KMZ files; 65 duplicate images removed |
 | Ortho image | Real — `ORI.tif`, 1.9 m resolution, masked overlay in `Shahjahanpur_Ortho_Overlay.webp` |
 
 The classified drain KML uses `P`, `S` and `T` type codes. Mapped totals are **26.2 km primary**, **35.8 km secondary** and **263.1 km tertiary**. Primary drain progress is **100% complete** (29.1 / 29.1 km). The WPR reports 29.1 km primary, 341.5 km secondary/tertiary, 322 / 740 km roads, 77 GCPs, 5 static points, 54.825 sq km LiDAR acquisition (processing in progress), 31 outfalls and a 56.24 sq km RFP area (40.1 sq km ward KML). The supplied drain KML is a partial network, so its 325.1 km total is below the WPR secondary/tertiary figure.
