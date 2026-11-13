@@ -466,15 +466,15 @@ window.DASHBOARD = {
       ],
       "status": "reporting",
       "statusLabel": "Reporting",
-      "reportPeriod": "30 Oct–5 Nov 2026",
-      "reportIssued": "2026-11-06",
-      "reportDate": "2026-11-05",
+      "reportPeriod": "6–12 Nov 2026",
+      "reportIssued": "2026-11-13",
+      "reportDate": "2026-11-12",
       "area": {
         "rfp": 141.94,
         "kml": 143.83,
         "unit": "sq km"
       },
-      "outfalls": 4,
+      "outfalls": 5,
       "surveyTeam": {
         "base": 1,
         "rovers": 6,
@@ -491,7 +491,7 @@ window.DASHBOARD = {
           "unit": "km"
         },
         "secondaryTertiary": {
-          "done": 228.72,
+          "done": 262.86,
           "planned": null,
           "pct": null,
           "unit": "km",
@@ -511,31 +511,31 @@ window.DASHBOARD = {
           "note": "Helicopter-mounted LiDAR; agency finalisation under process"
         },
         "road": {
-          "done": 162.6,
+          "done": 213.15,
           "planned": 2458,
-          "pct": 6.6,
+          "pct": 8.7,
           "unit": "km"
         }
       },
       "milestones": [],
       "notes": [
-        "Source WPR: Meerut_WPR_30 Oct to 05 Nov_06112026.pdf (reporting period 30 Oct–5 Nov 2026).",
+        "Source WPR: Meerut_Weekly_Progress_Report_06Nov12Nov.docx (reporting period 6–12 Nov 2026).",
         "City area is 141.94 sq km as per the RFP and 143.83 sq km as per the KML.",
-        "WPR cumulative survey: primary 74.66 km with invert of 85.59 km alignment, secondary/tertiary 228.72 km, road 162.6 km, static 10 / 10.",
+        "WPR cumulative survey: primary 74.66 km with invert of 85.59 km alignment, secondary/tertiary 262.86 km, road 213.15 km, static 10 / 10.",
         "Primary progress is shown against the 80 km tentative OSM plan; the mapped primary network with alignment only is 85.59 km.",
         "DGPS deployment is 1 base and 6 rovers.",
         "No GCP data is reported for Meerut.",
         "No drone flight blocks are required; LiDAR is planned with a helicopter-mounted system and is not started.",
         "TBM and static points are taken from the supplied TBM.kmz.",
         "The 5 Nov primary layer contains 20 alignments and 74.7 km; the secondary/tertiary SHP has 189 secondary, 64 tertiary and 730 unclassified segments.",
-        "Outfalls identified: 4."
+        "Outfalls identified: 5."
       ],
       "gcpAvailable": false,
       "blocksAvailable": false,
       "lidarCard": false,
       "layersAvailable": true,
       "layerKey": "meerut",
-      "overall": 50.0
+      "overall": 50.5
     },
     {
       "id": "ghaziabad",
