@@ -35,7 +35,7 @@ The basemap will not load without an internet connection, but the layer controls
 | Firozabad | 6–12 Nov 2026 | Yes | 84.3% | Real boundary, buffer, ward and control-point KMLs; real primary/secondary/tertiary drain shapefiles with tertiary up to 12 Nov; real drone flight-block KML |
 | Shahjahanpur | 30 Oct–5 Nov 2026 | Yes | 85.9% | Real outer boundary, 60 wards, classified drain KML, ortho overlay, 77 GCPs, 5 static points, 4 TBM points and 27 drone blocks; no buffer; primary drain marked 100% complete |
 | Saharanpur | 6–12 Nov 2026 | Yes | 78.3% | Real outer boundary, 70 wards, AOI buffer, 13 Nov conduits, GCP, TBM and drone blocks; no ortho supplied |
-| Moradabad | 30 Oct–6 Nov 2026 | Yes | 77.7% | Real outer/ward boundaries, AOI buffer, 5 Nov primary/secondary/tertiary drains, GCP, TBM and 14 drone blocks; no ortho |
+| Moradabad | 7–13 Nov 2026 | Yes | 78.8% | Real outer/ward boundaries, AOI buffer, 13 Nov primary/secondary/tertiary drains, GCP, TBM and 14 drone blocks; no ortho |
 | Meerut | 30 Oct–5 Nov 2026 | Yes | 50.0% | Real outer/ward boundaries, buffer, 5 Nov primary/secondary drains, TBM and static points from `TBM.kmz`; no GCP, drone blocks or ortho |
 | Ghaziabad | 6–12 Nov 2026 | Yes | 44.9% | Real outer boundary, 100 wards, 12 Nov drains, 22 TBM points and six static points; no buffer, drone-block or ortho layers |
 
@@ -106,18 +106,18 @@ The 13 Nov drain SHP contains **498 primary**, **5,634 secondary**, **279 natura
 | Outer boundary | Real — KML, 64.43 sq km |
 | Ward boundary | Real — 70 labelled ward polygons from the administrative KML |
 | Buffer boundary | Real — AOI KML, 100.39 sq km |
-| Drains surveyed | Real — 5 Nov primary/secondary/tertiary SHPs; 1,100 mapped segments, 247.9 km |
+| Drains surveyed | Real — 13 Nov primary/secondary/tertiary SHPs; 1,141 mapped segments, 260.3 km |
 | GCP marked | Real — 202 unique KML points (WPR reports 206) |
 | TBM | 40 geotagged locations from `TBM_photos.kml`; 3 carry elevations from the 27 Oct survey CSV (TBM1 209.96 m, TBM2 209.97 m, MRDST1 194.73 m) |
 | Survey photos | Real — 533 compressed photos from `Survey_Moradabad_photos.kmz` |
 | Drone survey blocks | Real — 14 block KMLs |
 | Ortho image | Not supplied for Moradabad |
 
-WPR figures: primary 135.18 / 140 km, secondary 67.27 km, tertiary 51.90 km, road 165.66 / 1,155 km, GCP 206 / 206, static 10 / 10, LiDAR 100 sq km.
+WPR figures: primary 142.21 / 140 km, secondary 67.27 km, tertiary 52.53 km, road 174.24 / 1,155 km, GCP 206 / 206, static 10 / 10, LiDAR 100 sq km.
 
 The TBM layer uses the 40 geotagged photo locations in `TBM_photos.kml`. Only three points have elevations, matched from the 27 Oct survey CSV; the remaining 37 are location-only.
 
-The mapped drain lengths are **129.9 km primary**, **71.3 km secondary** and **46.6 km tertiary**. The 1,112 source segments become 1,100 mapped segments after dropping sub-2 m geometry. Primary and tertiary mapped lengths differ from the WPR totals because the 5 Nov hierarchy layers are a separate compilation.
+The mapped drain lengths are **141.7 km primary**, **71.3 km secondary** and **47.2 km tertiary**. The 1,153 source segments become 1,141 mapped segments after dropping sub-2 m geometry. Primary and tertiary mapped lengths differ from the WPR totals because the 13 Nov hierarchy layers are a separate compilation.
 
 ### Meerut layers
 
@@ -329,7 +329,7 @@ For best results, use a desktop viewport of 1280 px or wider. Below 1200 px the 
 - Saharanpur WPR: `Incoming Data/WPR _7to13/SRE_WPR_Submission_06_Nov_to_12_Nov_2026 1.docx`
 - Saharanpur layers: `Incoming Data/Saharanpur/`
 - Saharanpur TBM points: `Incoming Data/Saharanpur/TBM_SHP_KML/SAHARANPUR_TBM.csv`; elevations from `TBM_KML.kml`
-- Moradabad WPR: `Incoming Data/Moradabad/WPRs/Moradabad_WPR_30_10_2026to6_11_2026.pdf`
+- Moradabad WPR: `Incoming Data/WPR _7to13/Moradabad_WPR_7_11_2026to13_11_2026.docx`
 - Moradabad layers: `Incoming Data/Moradabad/`
 - Meerut WPR: `Incoming Data/Meerut/WPRs/Meerut_WPR_30 Oct to 05 Nov_06112026.pdf`
 - Meerut layers and TBM/static points: `Incoming Data/Meerut/`, `Incoming Data/Meerut/TBM_KML/TBM.kmz`

@@ -377,15 +377,15 @@ window.DASHBOARD = {
       ],
       "status": "reporting",
       "statusLabel": "Reporting",
-      "reportPeriod": "30 Oct–6 Nov 2026",
-      "reportIssued": "2026-11-06",
-      "reportDate": "2026-11-06",
+      "reportPeriod": "7–13 Nov 2026",
+      "reportIssued": "2026-11-13",
+      "reportDate": "2026-11-13",
       "area": {
         "rfp": 85.2,
         "kml": 64.52,
         "unit": "sq km"
       },
-      "outfalls": 5,
+      "outfalls": 6,
       "surveyTeam": {
         "base": 1,
         "rovers": 4,
@@ -394,10 +394,11 @@ window.DASHBOARD = {
       },
       "components": {
         "primary": {
-          "done": 135.18,
+          "done": 142.21,
           "planned": 140,
-          "pct": 96.6,
-          "unit": "km"
+          "pct": 100.0,
+          "unit": "km",
+          "note": "142.21 km cumulative alignment; 64.653 km with invert; 140 km target exceeded"
         },
         "secondary": {
           "done": 67.27,
@@ -406,15 +407,15 @@ window.DASHBOARD = {
           "unit": "km"
         },
         "tertiary": {
-          "done": 51.9,
+          "done": 52.53,
           "planned": null,
           "pct": null,
           "unit": "km"
         },
         "road": {
-          "done": 165.66,
+          "done": 174.24,
           "planned": 1155,
-          "pct": 14.3,
+          "pct": 15.1,
           "unit": "km"
         },
         "gcp": {
@@ -439,19 +440,20 @@ window.DASHBOARD = {
       },
       "milestones": [],
       "notes": [
-        "Source WPR: Moradabad_WPR_30_10_2026to6_11_2026.pdf (reporting period 30 Oct–6 Nov 2026).",
+        "Source WPR: Moradabad_WPR_7_11_2026to13_11_2026.docx (reporting period 7–13 Nov 2026).",
         "City area is 85.2 sq km as per the RFP and 64.52 sq km as per the Nagar Nigam KML.",
-        "WPR cumulative survey: primary 135.18 km, secondary 67.27 km, tertiary 51.90 km, road 165.66 km, GCP 206 / 206, static 10 / 10.",
-        "Drains are the separate 5 Nov primary, secondary and tertiary SHPs: 1,112 source segments, mapped after cleaning.",
-        "The WPR reports 57.63 km of actual invert/desilting on primary drains.",
+        "WPR cumulative survey: primary 142.21 km alignment, secondary 67.27 km, tertiary 52.53 km, road 174.24 km, GCP 206 / 206, static 10 / 10.",
+        "Drains are the 13 Nov primary, secondary and tertiary SHPs: 1,153 source segments (204 primary, 297 secondary, 652 tertiary), mapped after cleaning.",
+        "The WPR reports 64.653 km of actual invert/desilting on primary drains.",
         "The GCP KML contains 202 unique points; the WPR reports 206 GCPs completed.",
         "The TBM layer uses 40 geotagged locations from TBM_photos.kml; the three points nearest the 27 Oct survey benchmarks carry the CSV elevations (TBM1 209.96 m, TBM2 209.97 m, MRDST1 194.73 m).",
         "The AOI KML is used as the buffer boundary.",
-        "LiDAR area is 100 sq km, 14 blocks; data processing is in progress."
+        "LiDAR area is 100 sq km, 14 blocks; data processing is in progress.",
+        "Outfalls identified: 6."
       ],
       "layersAvailable": true,
       "layerKey": "moradabad",
-      "overall": 77.7
+      "overall": 78.8
     },
     {
       "id": "meerut",
