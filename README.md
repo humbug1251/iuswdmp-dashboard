@@ -32,7 +32,7 @@ The basemap will not load without an internet connection, but the layer controls
 
 | City | WPR | GIS layers | Overall progress | Notes |
 |---|---|---|---|---|
-| Firozabad | 30 Oct–5 Nov 2026 | Yes | 83.0% | Real boundary, buffer, ward and control-point KMLs; real primary/secondary/tertiary drain shapefiles; real drone flight-block KML |
+| Firozabad | 6–12 Nov 2026 | Yes | 84.3% | Real boundary, buffer, ward and control-point KMLs; real primary/secondary/tertiary drain shapefiles with tertiary up to 12 Nov; real drone flight-block KML |
 | Shahjahanpur | 30 Oct–5 Nov 2026 | Yes | 85.9% | Real outer boundary, 60 wards, classified drain KML, ortho overlay, 77 GCPs, 5 static points, 4 TBM points and 27 drone blocks; no buffer; primary drain marked 100% complete |
 | Saharanpur | 30 Oct–5 Nov 2026 | Yes | 78.1% | Real outer boundary, 70 wards, AOI buffer, 6 Nov conduits, GCP, TBM and drone blocks; no ortho supplied |
 | Moradabad | 30 Oct–6 Nov 2026 | Yes | 77.7% | Real outer/ward boundaries, AOI buffer, 5 Nov primary/secondary/tertiary drains, GCP, TBM and 14 drone blocks; no ortho |
@@ -57,9 +57,9 @@ The basemap will not load without an internet connection, but the layer controls
 
 All Firozabad layers now come from the supplied survey data.
 
-WPR figures (30 Oct–5 Nov 2026): primary 58.5 km, secondary 7.624 km, tertiary 164.661 km, road 241.015 / 758 km, GCP 86 / 86, static 5 / 5 and LiDAR 35.5 sq km.
+WPR figures (6–12 Nov 2026): primary 58.5 km, secondary 7.624 km, tertiary 207.62 km, road 283.785 / 758 km, GCP 86 / 86, static 5 / 5 and LiDAR 35.5 sq km.
 
-The map now uses the 5 Nov primary, secondary and tertiary SHPs: **5,428 mapped segments / 350.0 km**, with primary 109.2 km, secondary 8.4 km and tertiary 232.3 km. These map totals are higher than the WPR component totals because the SHPs include all digitized and outfall-extension geometry.
+The map now uses the 12 Nov tertiary SHP with the 5 Nov primary and secondary SHPs: **5,681 mapped segments / 368.7 km**, with primary 109.2 km, secondary 8.4 km and tertiary 251.0 km. These map totals are higher than the WPR component totals because the SHPs include all digitized and outfall-extension geometry.
 
 The photo layer contains **1,079 recovered geotagged survey photos**. The supplied KMZ is missing its ZIP central directory and the final 111 images, so those 111 photos could not be extracted; re-exporting a complete KMZ would allow the layer to be completed.
 
@@ -325,7 +325,7 @@ For best results, use a desktop viewport of 1280 px or wider. Below 1200 px the 
 - Firozabad control points: `Incoming Data/Firozabad/GCP's and Static Points/GCP_Firozabad(86_Points).kml`
 - Firozabad drone flight blocks: `Incoming Data/Firozabad/Drone_Survey_Flight_Blocks/Drone_Flight_Blocks_Firozabad.kml`
 - Firozabad drain shapefiles: `Incoming Data/Firozabad/Survey_Data_Digitized_Till_now/`
-- Firozabad WPR: `Incoming Data/Firozabad/WPR/Firozbad_WPR_30Oct_5Nov.docx`
+- Firozabad WPR: `Incoming Data/WPR _7to13/Firozbad_WPR_6Nov_to_12Nov.docx`
 - Saharanpur WPR: `Incoming Data/Saharanpur/WPR/SRE_WPR_Submission_30_Oct_to_05_Nov_2026.docx`
 - Saharanpur layers: `Incoming Data/Saharanpur/`
 - Saharanpur TBM points: `Incoming Data/Saharanpur/TBM_SHP_KML/SAHARANPUR_TBM.csv`; elevations from `TBM_KML.kml`

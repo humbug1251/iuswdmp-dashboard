@@ -33,9 +33,9 @@ window.DASHBOARD = {
       ],
       "status": "reporting",
       "statusLabel": "Reporting",
-      "reportPeriod": "30 Oct–5 Nov 2026",
-      "reportIssued": "2026-11-06",
-      "reportDate": "2026-11-05",
+      "reportPeriod": "6–12 Nov 2026",
+      "reportIssued": "2026-11-13",
+      "reportDate": "2026-11-12",
       "area": {
         "rfp": 35.49,
         "kml": 35.08,
@@ -62,15 +62,15 @@ window.DASHBOARD = {
           "unit": "km"
         },
         "tertiary": {
-          "done": 164.661,
+          "done": 207.62,
           "planned": null,
           "pct": null,
           "unit": "km"
         },
         "road": {
-          "done": 241.015,
+          "done": 283.785,
           "planned": 758,
-          "pct": 31.8,
+          "pct": 37.4,
           "unit": "km",
           "note": "Target 758 km per detail table; summary states 740 km"
         },
@@ -131,7 +131,7 @@ window.DASHBOARD = {
           "status": "done"
         },
         {
-          "date": "05 Nov 2026",
+          "date": "12 Nov 2026",
           "label": "Latest reporting period closed",
           "status": "done"
         },
@@ -147,11 +147,11 @@ window.DASHBOARD = {
         }
       ],
       "notes": [
-        "Source WPR: Firozbad_WPR_30Oct_5Nov.docx (reporting period 30 Oct–5 Nov 2026).",
+        "Source WPR: Firozbad_WPR_6Nov_to_12Nov.docx (reporting period 6–12 Nov 2026).",
         "Overall progress is the simple average of primary drains, road survey, GCP marking and LiDAR acquisition percentages.",
         "The primary-drain target (40.7 km) is tentative and based on OSM; the surveyed length includes extensions to outfalls.",
-        "Secondary and tertiary drain targets have not been notified, so only completed lengths are shown. The latest cumulative lengths are 7.624 km secondary and 164.661 km tertiary.",
-        "Map drains use the 5 Nov primary, secondary and tertiary SHPs: 5,428 mapped segments and 350.0 km (primary 109.2 km, secondary 8.4 km, tertiary 232.3 km).",
+        "Secondary and tertiary drain targets have not been notified, so only completed lengths are shown. The latest cumulative lengths are 7.624 km secondary and 207.62 km tertiary.",
+        "Map drains use the 12 Nov tertiary SHP with the 5 Nov primary and secondary SHPs: 5,681 mapped segments and 368.7 km (primary 109.2 km, secondary 8.4 km, tertiary 251.0 km).",
         "The road target is 758 km in the latest detail table; the summary table states 740 km.",
         "Ward-boundary verification by Nagar Nigam is pending.",
         "The supplied 70-ward KML labels two polygons as Ward 43 and omits Ward 42; the larger 0.889 sq km polygon was relabelled Ward 42 Ram Nagar, matching the WPR, to complete the 1–70 sequence.",
@@ -159,7 +159,7 @@ window.DASHBOARD = {
         "The two TBM points lie outside the Nagar Nigam outer boundary in the supplied KML; the initial map extent includes them so the TBM layer is visible.",
         "Ward boundaries, drains and drone flight blocks are real survey layers."
       ],
-      "overall": 83.0,
+      "overall": 84.3,
       "layersAvailable": true,
       "layerKey": "firozabad"
     },

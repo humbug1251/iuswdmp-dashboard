@@ -472,10 +472,6 @@
       cards.push(metricCard('Secondary &amp; Tertiary', km(combinedDone), 'km', null, '', null, '#ff7a00'));
     }
 
-    if (c.road) {
-      cards.push(metricCard('Road Survey', km(c.road.done), 'km', km(c.road.planned), 'km', c.road.pct, '#c77d2a'));
-    }
-
     if (c.gcp) {
       cards.push(metricCard('GCP Points', points(c.gcp.done), 'points', points(c.gcp.planned), 'points', c.gcp.pct, '#d94f70'));
     }
@@ -610,7 +606,6 @@
       <p>No WPR or survey figures for ${escapeHtml(city.name)} were found in the supplied workspace.</p>
       <ul class="check-list">
         <li>Primary, secondary and tertiary drain lengths</li>
-        <li>Road survey completed against target</li>
         <li>GCP, static point and LiDAR coverage</li>
         <li>Drone survey blocks</li>
       </ul>
