@@ -37,7 +37,7 @@ The basemap will not load without an internet connection, but the layer controls
 | Saharanpur | 6–12 Nov 2026 | Yes | 78.3% | Real outer boundary, 70 wards, AOI buffer, 13 Nov conduits, GCP, TBM and drone blocks; no ortho supplied |
 | Moradabad | 30 Oct–6 Nov 2026 | Yes | 77.7% | Real outer/ward boundaries, AOI buffer, 5 Nov primary/secondary/tertiary drains, GCP, TBM and 14 drone blocks; no ortho |
 | Meerut | 30 Oct–5 Nov 2026 | Yes | 50.0% | Real outer/ward boundaries, buffer, 5 Nov primary/secondary drains, TBM and static points from `TBM.kmz`; no GCP, drone blocks or ortho |
-| Ghaziabad | 30 Oct–5 Nov 2026 | Yes | 44.5% | Real outer boundary, 100 wards, 5 Nov drains, 22 TBM points and six static points; no buffer, drone-block or ortho layers |
+| Ghaziabad | 6–12 Nov 2026 | Yes | 44.9% | Real outer boundary, 100 wards, 12 Nov drains, 22 TBM points and six static points; no buffer, drone-block or ortho layers |
 
 > The official spelling **Shahjahanpur** is used (the source folder is also `Shahjahanpur`).
 
@@ -143,14 +143,14 @@ WPR figures: primary 74.66 / 80 km (93.3%; the mapped alignment total is 85.59 k
 | Outer boundary | Real — SHP, 170.97 sq km |
 | Ward boundary | Real — 100 wards from `GZD_Wards_100.shp` |
 | Buffer boundary | Not supplied |
-| Drains surveyed | Real — 29 Oct KMZ plus 30 Oct–5 Nov SHP; 3,218 mapped segments, 204.6 km |
+| Drains surveyed | Real — 29 Oct KMZ plus 30 Oct–5 Nov and 6–12 Nov SHPs; 3,404 mapped segments, 264.4 km |
 | TBM | Real — 22 points from `Ghaziabad_Most_22_TBMs.csv`; TBM 6 is a CAD/grid point, the rest are RTK fixes |
 | Static points | Real — six points from `Static Points_GZB.shp`, elevations from `GAZIABAD Main Control Points.csv`; `Static Point 8.kmz` contains ST08 |
 | GCP marked | Not reported for Ghaziabad |
 | Drone survey blocks | Not required for Ghaziabad |
 | Ortho image | Not supplied for Ghaziabad |
 
-The 29 Oct KMZ contains **3,121 source features / 102.6 km**; hierarchy was matched from the 24 Oct SHP by drain name: **1,245 primary**, **903 tertiary** and **947 unclassified** mapped segments. The 30 Oct–5 Nov SHP adds **123 segments / 102.2 km**, all shown as unclassified, for a mapped total of **3,218 segments / 204.6 km**. WPR figures: primary 160.5 / 223 km, secondary + tertiary 72.52 km, road 206.4 / 3,450 km, static 6 / 6, LiDAR not started, outfalls 4. The WPR road row shows 104.3 km as the previous-week length, apparently copied from the primary row; the reported cumulative is 206.4 km. The WPR secondary/tertiary page reports 72.52 km, while a later table says 75.52 km; 26.62 + 45.9 = 72.52 km. The mapped total remains below the WPR surveyed total because the network compilation is partial.
+The 29 Oct KMZ contains **3,121 source features / 102.6 km**; hierarchy was matched from the 24 Oct SHP by drain name: **1,245 primary**, **903 tertiary** and **947 unclassified** mapped segments. The 30 Oct–5 Nov SHP adds **123 segments / 102.2 km**, and the 6–12 Nov SHP adds **186 segments / 59.8 km**, all shown as unclassified, for a mapped total of **3,404 segments / 264.4 km**. WPR figures: primary 160.5 / 223 km, secondary + tertiary 94.8 km, road 255.3 / 3,450 km, static 6 / 6, LiDAR not started, outfalls 4. Primary invert-level survey added 11 km this week; cumulative with invert levels is 171.5 km. The WPR shows previous-week secondary/tertiary as 45.9 km (the prior week's weekly addition) and cumulative 94.8 km; the reported cumulative is used. The mapped total remains below the WPR surveyed total because the network compilation is partial.
 
 The static-point CSV also contains an older ST3 record; the six-point SHP and the WPR set use **ST01, ST02, ST05, ST06, ST07 and ST08**.
 
@@ -333,7 +333,7 @@ For best results, use a desktop viewport of 1280 px or wider. Below 1200 px the 
 - Moradabad layers: `Incoming Data/Moradabad/`
 - Meerut WPR: `Incoming Data/Meerut/WPRs/Meerut_WPR_30 Oct to 05 Nov_06112026.pdf`
 - Meerut layers and TBM/static points: `Incoming Data/Meerut/`, `Incoming Data/Meerut/TBM_KML/TBM.kmz`
-- Ghaziabad WPR: `Incoming Data/Ghaziabad/WPR/Ghaziabad_WPR_20261106 2.pdf`
+- Ghaziabad WPR: `Incoming Data/WPR _7to13/Ghaziabad_WPR_20261113.docx`
 - Ghaziabad layers: `Incoming Data/Ghaziabad/Boundary Shapefiles/`, `Incoming Data/Ghaziabad/Digitized Drains/`
 - Ghaziabad static points: `Incoming Data/Ghaziabad/Static Points/`
 - Ghaziabad TBM points: `Incoming Data/Ghaziabad/TBM/Ghaziabad_Most_22_TBMs.csv`

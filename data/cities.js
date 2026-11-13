@@ -546,9 +546,9 @@ window.DASHBOARD = {
       ],
       "status": "reporting",
       "statusLabel": "Reporting",
-      "reportPeriod": "30 Oct–5 Nov 2026",
-      "reportIssued": "2026-11-06",
-      "reportDate": "2026-11-05",
+      "reportPeriod": "6–12 Nov 2026",
+      "reportIssued": "2026-11-13",
+      "reportDate": "2026-11-12",
       "area": {
         "rfp": 225,
         "kml": 170.97,
@@ -556,9 +556,9 @@ window.DASHBOARD = {
       },
       "outfalls": 4,
       "surveyTeam": {
-        "base": 4,
-        "rovers": 11,
-        "members": 15
+        "base": 3,
+        "rovers": 5,
+        "members": 8
       },
       "aerialSurvey": {
         "status": "Permission awaited"
@@ -569,7 +569,7 @@ window.DASHBOARD = {
           "planned": 223,
           "pct": 72.0,
           "unit": "km",
-          "note": "160.5 km cumulative; 56.2 km surveyed this week"
+          "note": "160.5 km cumulative; 11 km invert levels this week; 171.5 km cumulative with invert"
         },
         "secondary": {
           "done": null,
@@ -584,16 +584,16 @@ window.DASHBOARD = {
           "unit": "km"
         },
         "secondaryTertiary": {
-          "done": 72.52,
+          "done": 94.8,
           "planned": null,
           "pct": null,
           "unit": "km",
           "note": "Combined secondary + tertiary length; target not notified"
         },
         "road": {
-          "done": 206.4,
+          "done": 255.3,
           "planned": 3450,
-          "pct": 6.0,
+          "pct": 7.4,
           "unit": "km"
         },
         "static": {
@@ -627,7 +627,7 @@ window.DASHBOARD = {
           "status": "done"
         },
         {
-          "date": "05 Nov 2026",
+          "date": "12 Nov 2026",
           "label": "Latest reporting period closed",
           "status": "done"
         },
@@ -638,14 +638,14 @@ window.DASHBOARD = {
         }
       ],
       "notes": [
-        "Source WPR: Ghaziabad_WPR_20261106 2.pdf (reporting period 30 Oct–5 Nov 2026; the cover heading says 30 Oct–6 Nov).",
+        "Source WPR: Ghaziabad_WPR_20261113.docx (reporting period 6–12 Nov 2026).",
         "Overall progress is the simple average of the available component percentages (primary drains, road survey, static points and LiDAR).",
         "City area is 225 sq km as per the RFP and 170.97 sq km as per the supplied outer boundary.",
         "Outfalls identified: Shahberi, Raj Nagar Extension, Hindon Ghat and Hindon cut to Yamuna.",
-        "WPR cumulative survey: primary 160.5 km, road 206.4 km, secondary/tertiary 72.52 km, static 6 / 6.",
-        "The WPR road row shows 104.3 km as the previous-week length, apparently copied from the primary row; the reported cumulative is 206.4 km.",
-        "The WPR secondary/tertiary page reports 72.52 km; a later table says 75.52 km, but 26.62 + 45.9 = 72.52 km.",
-        "Drains combine the 29 Oct KMZ (3,121 features / 102.6 km) with the 30 Oct–5 Nov SHP (123 segments / 102.2 km); the new segments are unclassified.",
+        "WPR cumulative survey: primary 160.5 km, road 255.3 km, secondary/tertiary 94.8 km, static 6 / 6.",
+        "Primary invert-level survey added 11 km this week; cumulative with invert levels is 171.5 km.",
+        "The WPR shows previous-week secondary/tertiary as 45.9 km (the prior week's weekly addition) and cumulative 94.8 km; the reported cumulative is used.",
+        "Drains combine the 29 Oct KMZ (3,121 features / 102.6 km), the 30 Oct–5 Nov SHP (123 segments / 102.2 km) and the 6–12 Nov SHP (186 segments / 59.8 km); new segments are unclassified.",
         "The supplied outer boundary and 100-ward SHP are used for the map; no buffer or AOI layer was supplied.",
         "Static points are mapped from the supplied six-point SHP, with elevations from the main control-point CSV. The KMZ contains Static Point 8 only and is included in the SHP.",
         "TBM layer contains 22 benchmarks from Ghaziabad_Most_22_TBMs.csv; TBM 6 is a CAD/grid point and the rest are RTK fixes.",
@@ -653,7 +653,7 @@ window.DASHBOARD = {
         "About 80% of the city area is in a red zone, restricting drone operations; LiDAR is planned with a helicopter-mounted system.",
         "Secondary/tertiary target has not been notified; only the combined completed length is reported."
       ],
-      "overall": 44.5,
+      "overall": 44.9,
       "gcpAvailable": false,
       "blocksAvailable": false,
       "lidarCard": false,
