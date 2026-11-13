@@ -5,8 +5,8 @@ window.DASHBOARD = {
     "shortProject": "IUSWDMP Progress",
     "state": "Uttar Pradesh",
     "generated": "2026-11-13",
-    "latestReport": "30 Oct–6 Nov 2026",
-    "latestReportDate": "2026-11-06",
+    "latestReport": "7-13 Nov 2026",
+    "latestReportDate": "2026-11-13",
     "overallMethod": "Simple average of the available component percentages: primary drain, road survey, GCP or static points where reported, and LiDAR. Secondary/tertiary components are excluded where a target has not been notified.",
     "basemaps": "OSM Streets and Esri World Imagery",
     "dataNotes": [
@@ -18,7 +18,7 @@ window.DASHBOARD = {
       "Meerut GIS layers are derived from the supplied boundaries, wards, drains and TBM.kmz; no GCP points or drone blocks are reported.",
       "Ghaziabad GIS layers are derived from the supplied outer boundary, 100-ward SHP, 29 Oct drain KMZ with the 5 Nov weekly SHP, six-point static SHP and 22-point TBM CSV; no buffer or drone-block layers were supplied.",
       "Shahjahanpur GIS layers are derived from the supplied boundary, 60-ward KML, drain KML, GCP KML, SP+TBM KML and drone-block KML.",
-      "Progress numbers are taken from the latest available weekly progress reports: Firozabad, Shahjahanpur, Saharanpur, Meerut and Ghaziabad 30 Oct-5 Nov 2026, and Moradabad 30 Oct-6 Nov 2026."
+      "Progress numbers are taken from the latest available weekly progress reports: Firozabad, Shahjahanpur, Saharanpur and Ghaziabad 6-12 Nov 2026, Moradabad 7-13 Nov 2026, and Meerut 30 Oct-5 Nov 2026."
     ]
   },
   "cities": [
@@ -174,9 +174,9 @@ window.DASHBOARD = {
       ],
       "status": "reporting",
       "statusLabel": "Reporting",
-      "reportPeriod": "30 Oct–5 Nov 2026",
-      "reportIssued": "2026-11-06",
-      "reportDate": "2026-11-05",
+      "reportPeriod": "6–12 Nov 2026",
+      "reportIssued": "2026-11-13",
+      "reportDate": "2026-11-12",
       "area": {
         "rfp": 56.24,
         "kml": 56.46,
@@ -190,23 +190,23 @@ window.DASHBOARD = {
       },
       "components": {
         "primary": {
-          "done": 29.1,
-          "planned": 29.1,
+          "done": 31.4,
+          "planned": 31.4,
           "pct": 100.0,
           "unit": "km",
-          "note": "Primary drain marked 100% complete"
+          "note": "31 primary drains identified and completed; 31.4 km cumulative"
         },
         "secondaryTertiary": {
-          "done": 341.5,
+          "done": 376.7,
           "planned": null,
           "pct": null,
           "unit": "km",
           "note": "Combined secondary and tertiary drains; target not notified"
         },
         "road": {
-          "done": 322,
+          "done": 345,
           "planned": 740,
-          "pct": 43.5,
+          "pct": 46.6,
           "unit": "km"
         },
         "gcp": {
@@ -226,7 +226,7 @@ window.DASHBOARD = {
           "planned": 54.825,
           "pct": 100.0,
           "unit": "sq km",
-          "note": "Data acquisition complete; processing expected Nov 2nd week; 1.63 sq km restricted area excluded"
+          "note": "Ortho received 2 Nov, DSM 6 Nov; DTM processing expected 3rd week of Nov; 1.63 sq km restricted area excluded"
         }
       },
       "milestones": [
@@ -256,23 +256,23 @@ window.DASHBOARD = {
           "status": "done"
         },
         {
-          "date": "05 Nov 2026",
+          "date": "12 Nov 2026",
           "label": "Latest reporting period closed",
           "status": "done"
         },
         {
           "date": "Nov 2026",
-          "label": "LiDAR processing expected",
+          "label": "LiDAR DTM processing expected",
           "status": "pending"
         }
       ],
       "notes": [
-        "Source WPR: Weekly Report_ UP_Shahajanpur_30 Oct to 5th Nov.docx (reporting period 30 Oct–5 Nov 2026).",
+        "Source WPR: Weekly Report_ UP_Shahajanpur_ 6th Nov to 12th Nov.docx (reporting period 6–12 Nov 2026).",
         "City area is 56.24 sq km as per the RFP and 40.1 sq km as per the ward KML; the supplied outer boundary measures 56.46 sq km.",
-        "WPR cumulative survey: primary 29.1 km, secondary/tertiary 341.5 km, road 322 km, GCP 77 / 77, static 5 / 5.",
+        "WPR cumulative survey: primary 31.4 km, secondary/tertiary 376.7 km, road 345 km, GCP 77 / 77, static 5 / 5.",
         "The classified drain KML contains 3,761 source features and 326.06 km; primary 26.27 km, secondary 35.93 km, tertiary 263.86 km.",
-        "The WPR reports 341.5 km of secondary/tertiary drains; the supplied KML is a partial classified network of 326.1 km.",
-        "LiDAR acquisition covered 54.825 sq km; 1.63 sq km is excluded as Army/Jail restricted area and processing is in progress.",
+        "The WPR reports 376.7 km of secondary/tertiary drains; the supplied KML is a partial classified network of 326.1 km.",
+        "LiDAR acquisition covered 54.825 sq km; 1.63 sq km is excluded as Army/Jail restricted area. Ortho and DSM are received; DTM processing is expected in the 3rd week of November.",
         "Static points and TBM locations come from SP+TBM Locations.kml; the four TBM points are separate from the five static points.",
         "The drone-block KML contains 28 polygons including a Jail area; the Jail polygon is excluded, leaving 27 survey blocks.",
         "The ortho overlay is generated from ORI.tif at 1.9 m resolution and masked to the outer boundary."
@@ -281,7 +281,7 @@ window.DASHBOARD = {
       "blocksAvailable": true,
       "layersAvailable": true,
       "layerKey": "shahjahanpur",
-      "overall": 85.9
+      "overall": 86.7
     },
     {
       "id": "saharanpur",

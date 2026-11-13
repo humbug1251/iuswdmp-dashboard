@@ -33,7 +33,7 @@ The basemap will not load without an internet connection, but the layer controls
 | City | WPR | GIS layers | Overall progress | Notes |
 |---|---|---|---|---|
 | Firozabad | 6–12 Nov 2026 | Yes | 84.3% | Real boundary, buffer, ward and control-point KMLs; real primary/secondary/tertiary drain shapefiles with tertiary up to 12 Nov; real drone flight-block KML |
-| Shahjahanpur | 30 Oct–5 Nov 2026 | Yes | 85.9% | Real outer boundary, 60 wards, classified drain KML, ortho overlay, 77 GCPs, 5 static points, 4 TBM points and 27 drone blocks; no buffer; primary drain marked 100% complete |
+| Shahjahanpur | 6–12 Nov 2026 | Yes | 86.7% | Real outer boundary, 60 wards, classified drain KML, ortho overlay, 77 GCPs, 5 static points, 4 TBM points and 27 drone blocks; no buffer; primary drain marked 100% complete |
 | Saharanpur | 6–12 Nov 2026 | Yes | 78.3% | Real outer boundary, 70 wards, AOI buffer, 13 Nov conduits, GCP, TBM and drone blocks; no ortho supplied |
 | Moradabad | 7–13 Nov 2026 | Yes | 78.8% | Real outer/ward boundaries, AOI buffer, 13 Nov primary/secondary/tertiary drains, GCP, TBM and 14 drone blocks; no ortho |
 | Meerut | 30 Oct–5 Nov 2026 | Yes | 50.0% | Real outer/ward boundaries, buffer, 5 Nov primary/secondary drains, TBM and static points from `TBM.kmz`; no GCP, drone blocks or ortho |
@@ -78,7 +78,7 @@ The photo layer contains **1,079 recovered geotagged survey photos**. The suppli
 | Survey photos | Real — 1,394 combined photos from 28 unique site KMZ files; 65 duplicate images removed |
 | Ortho image | Real — `ORI.tif`, 1.9 m resolution, masked overlay in `Shahjahanpur_Ortho_Overlay.webp` |
 
-The classified drain KML uses `P`, `S` and `T` type codes. Mapped totals are **26.2 km primary**, **35.8 km secondary** and **263.1 km tertiary**. Primary drain progress is **100% complete** (29.1 / 29.1 km). The WPR reports 29.1 km primary, 341.5 km secondary/tertiary, 322 / 740 km roads, 77 GCPs, 5 static points, 54.825 sq km LiDAR acquisition (processing in progress), 31 outfalls and a 56.24 sq km RFP area (40.1 sq km ward KML). The supplied drain KML is a partial network, so its 325.1 km total is below the WPR secondary/tertiary figure.
+The classified drain KML uses `P`, `S` and `T` type codes. Mapped totals are **26.2 km primary**, **35.8 km secondary** and **263.1 km tertiary**. Primary drain progress is **100% complete** (31.4 / 31.4 km). The WPR reports 31.4 km primary, 376.7 km secondary/tertiary, 345 / 740 km roads, 77 GCPs, 5 static points, 54.825 sq km LiDAR acquisition (DTM processing in progress), 31 outfalls and a 56.24 sq km RFP area (40.1 sq km ward KML). The supplied drain KML is a partial network, so its 325.1 km total is below the WPR secondary/tertiary figure.
 
 The ortho overlay is generated from `ORI.tif` (5,089 × 5,942 px, 1.9 m, EPSG:32644), masked to the outer boundary and saved as `assets/ortho/Shahjahanpur_Ortho_Overlay.webp`.
 
@@ -337,7 +337,7 @@ For best results, use a desktop viewport of 1280 px or wider. Below 1200 px the 
 - Ghaziabad layers: `Incoming Data/Ghaziabad/Boundary Shapefiles/`, `Incoming Data/Ghaziabad/Digitized Drains/`
 - Ghaziabad static points: `Incoming Data/Ghaziabad/Static Points/`
 - Ghaziabad TBM points: `Incoming Data/Ghaziabad/TBM/Ghaziabad_Most_22_TBMs.csv`
-- Shahjahanpur WPR: `Incoming Data/Shahjahanpur/WPR/Weekly Report_ UP_Shahajanpur_30 Oct to 5th Nov.docx`
+- Shahjahanpur WPR: `Incoming Data/WPR _7to13/Weekly Report_ UP_Shahajanpur_ 6th Nov to 12th Nov.docx`
 - Shahjahanpur layers: `Incoming Data/Shahjahanpur/`
 - Shahjahanpur ortho: `Incoming Data/Shahjahanpur/Ortho/ORI.tif`
 - Basemap imagery: Google, Esri and its data providers; OSM © OpenStreetMap contributors
