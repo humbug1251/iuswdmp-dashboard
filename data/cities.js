@@ -559,7 +559,7 @@ window.DASHBOARD = {
       "outfalls": 4,
       "surveyTeam": {
         "base": 3,
-        "rovers": 5,
+        "rovers": 11,
         "members": 8
       },
       "aerialSurvey": {
@@ -646,6 +646,7 @@ window.DASHBOARD = {
         "Outfalls identified: Shahberi, Raj Nagar Extension, Hindon Ghat and Hindon cut to Yamuna.",
         "WPR cumulative survey: primary 160.5 km, road 255.3 km, secondary/tertiary 94.8 km, static 6 / 6.",
         "Primary invert-level survey added 11 km this week; cumulative with invert levels is 171.5 km.",
+        "Current DGPS deployment is 3 base and 11 rovers with 8 team members.",
         "The WPR shows previous-week secondary/tertiary as 45.9 km (the prior week's weekly addition) and cumulative 94.8 km; the reported cumulative is used.",
         "Drains combine the 29 Oct KMZ (3,121 features / 102.6 km), the 30 Oct–5 Nov SHP (123 segments / 102.2 km) and the 6–12 Nov SHP (186 segments / 59.8 km); new segments are unclassified.",
         "The supplied outer boundary and 100-ward SHP are used for the map; no buffer or AOI layer was supplied.",
