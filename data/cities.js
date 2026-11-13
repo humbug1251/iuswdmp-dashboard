@@ -528,6 +528,7 @@ window.DASHBOARD = {
         "No drone flight blocks are required; LiDAR is planned with a helicopter-mounted system and is not started.",
         "TBM and static points are taken from the supplied TBM.kmz.",
         "The 5 Nov primary layer contains 20 alignments and 74.7 km; the secondary/tertiary SHP has 189 secondary, 64 tertiary and 730 unclassified segments.",
+        "The 12 Nov survey-progress KML adds 261 new unclassified segments / 38.4 km; the map now has 1,262 segments / 336.6 km, close to the WPR total of 337.5 km.",
         "Outfalls identified: 5."
       ],
       "gcpAvailable": false,

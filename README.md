@@ -126,7 +126,7 @@ The mapped drain lengths are **141.7 km primary**, **71.3 km secondary** and **4
 | Outer boundary | Real — SHP, 143.84 sq km |
 | Ward boundary | Real — 90 wards from `MEERUT_WARD _BOUNDARY_new.shp` |
 | Buffer boundary | Real — `Meerut_Survey Boundary.shp`, 188.82 sq km |
-| Drains surveyed | Real — 5 Nov primary and secondary SHPs; 1,001 mapped segments, 298.3 km |
+| Drains surveyed | Real - 5 Nov primary/secondary SHPs plus 12 Nov survey-progress KML; 1,262 mapped segments, 336.6 km |
 | TBM | 23 points parsed from `TBM.kmz` |
 | Static points | 10 points parsed from `TBM.kmz` |
 | Survey photos | Real — 630 compressed photos from `Meerut_SWmaps_combined 1 (2).kmz` |
@@ -134,7 +134,7 @@ The mapped drain lengths are **141.7 km primary**, **71.3 km secondary** and **4
 | Drone survey blocks | Not required for Meerut |
 | Ortho image | Not supplied for Meerut |
 
-WPR figures: primary 74.66 / 80 km (93.3%; the mapped alignment total is 85.59 km), secondary + tertiary 262.86 km, road 213.15 / 2,458 km, static 10 / 10, LiDAR not started, outfalls 5. No GCP points or drone blocks are reported for Meerut; LiDAR is planned with a helicopter-mounted system. The primary layer contains 20 alignments and 74.7 km; the 5 Nov secondary/tertiary SHP has 189 secondary, 64 tertiary and 728 mapped unclassified segments (177.5 km).
+WPR figures: primary 74.66 / 80 km (93.3%; the mapped alignment total is 85.59 km), secondary + tertiary 262.86 km, road 213.15 / 2,458 km, static 10 / 10, LiDAR not started, outfalls 5. No GCP points or drone blocks are reported for Meerut; LiDAR is planned with a helicopter-mounted system. The primary layer contains 20 alignments and 74.7 km; the 5 Nov secondary/tertiary SHP has 189 secondary, 64 tertiary and 728 mapped unclassified segments (177.5 km). The 12 Nov survey-progress KML adds 261 new unclassified segments / 38.4 km, for a mapped total of 1,262 segments / 336.6 km.
 
 ### Ghaziabad layers
 
@@ -332,7 +332,7 @@ For best results, use a desktop viewport of 1280 px or wider. Below 1200 px the 
 - Moradabad WPR: `Incoming Data/WPR _7to13/Moradabad_WPR_7_11_2026to13_11_2026.docx`
 - Moradabad layers: `Incoming Data/Moradabad/`
 - Meerut WPR: `Incoming Data/WPR _7to13/Meerut_Weekly_Progress_Report_06Nov12Nov.docx`
-- Meerut layers and TBM/static points: `Incoming Data/Meerut/`, `Incoming Data/Meerut/TBM_KML/TBM.kmz`
+- Meerut layers and TBM/static points: `Incoming Data/Meerut/`, `Incoming Data/Meerut/Drain_Data_Digitised/Meerut Survey Progress_Til 12th Nov.kml`, `Incoming Data/Meerut/TBM_KML/TBM.kmz`
 - Ghaziabad WPR: `Incoming Data/WPR _7to13/Ghaziabad_WPR_20261113.docx`
 - Ghaziabad layers: `Incoming Data/Ghaziabad/Boundary Shapefiles/`, `Incoming Data/Ghaziabad/Digitized Drains/`
 - Ghaziabad static points: `Incoming Data/Ghaziabad/Static Points/`
