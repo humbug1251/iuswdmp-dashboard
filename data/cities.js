@@ -4,7 +4,7 @@ window.DASHBOARD = {
     "project": "Survey, Collection of Data, Preparation of Integrated Urban Storm Water Drainage Master Plan (IUSWDMP)",
     "shortProject": "IUSWDMP Progress",
     "state": "Uttar Pradesh",
-    "generated": "2026-11-06",
+    "generated": "2026-11-13",
     "latestReport": "30 Oct–6 Nov 2026",
     "latestReportDate": "2026-11-06",
     "overallMethod": "Simple average of the available component percentages: primary drain, road survey, GCP or static points where reported, and LiDAR. Secondary/tertiary components are excluded where a target has not been notified.",
@@ -475,7 +475,7 @@ window.DASHBOARD = {
       "outfalls": 4,
       "surveyTeam": {
         "base": 1,
-        "rovers": 4,
+        "rovers": 6,
         "members": null
       },
       "aerialSurvey": {
@@ -521,7 +521,7 @@ window.DASHBOARD = {
         "City area is 141.94 sq km as per the RFP and 143.83 sq km as per the KML.",
         "WPR cumulative survey: primary 74.66 km with invert of 85.59 km alignment, secondary/tertiary 228.72 km, road 162.6 km, static 10 / 10.",
         "Primary progress is shown against the 80 km tentative OSM plan; the mapped primary network with alignment only is 85.59 km.",
-        "DGPS deployment was 1 base and 6 rovers on 30–31 Oct and 1 base and 4 rovers for the rest of the week.",
+        "DGPS deployment is 1 base and 6 rovers.",
         "No GCP data is reported for Meerut.",
         "No drone flight blocks are required; LiDAR is planned with a helicopter-mounted system and is not started.",
         "TBM and static points are taken from the supplied TBM.kmz.",
