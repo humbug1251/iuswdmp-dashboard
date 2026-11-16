@@ -54,6 +54,8 @@ The basemap will not load without an internet connection, but the layer controls
 | Drone survey blocks | Real - 10 drone flight blocks from `Drone_Flight_Blocks_Firozabad.kml` |
 | Survey photos | Real - 1,079 compressed photos from `Firozabad_Survey_Photos.kmz`; 111 photos were unrecoverable because the source KMZ is truncated |
 | Ortho image | Real - downscaled orthomosaic mask overlaid on the city boundary |
+| DSM | Real - 15.6 GB DSM converted to a 2.67 m/px shaded-relief WebP; elevation stretch 151–175 m (full range 128.5–216.1 m) |
+| DSM surface | Real - 1.8 m hillshade overlay, masked to the city boundary |
 
 All Firozabad layers now come from the supplied survey data.
 
@@ -327,6 +329,7 @@ For best results, use a desktop viewport of 1280 px or wider. Below 1200 px the 
 - Firozabad drain shapefiles: `Incoming Data/Firozabad/Survey_Data_Digitized_Till_now/`
 - Firozabad WPR: `Incoming Data/WPR _7to13/Firozbad_WPR_6Nov_to_12Nov.docx`
 - Firozabad TBM points: `Incoming Data/Firozabad/TBM/TBM_KML (1).kml`
+- Firozabad DSM: `Incoming Data/Firozabad/DSM/Firozabad-44 N_DSM.tif`
 - Saharanpur WPR: `Incoming Data/WPR _7to13/SRE_WPR_Submission_06_Nov_to_12_Nov_2026 1.docx`
 - Saharanpur layers: `Incoming Data/Saharanpur/`
 - Saharanpur TBM points: `Incoming Data/Saharanpur/TBM_SHP_KML/SAHARANPUR_TBM.csv`; elevations from `TBM_KML.kml`
@@ -344,5 +347,7 @@ For best results, use a desktop viewport of 1280 px or wider. Below 1200 px the 
 - Basemap imagery: Google, Esri and its data providers; OSM © OpenStreetMap contributors
 
 A downscaled copy of the Firozabad orthomosaic is available at `assets/ortho/Firozabad_Ortho_Downscaled.tif` — 14.4 MB, 6,116 × 5,987 px, about 1.33 m resolution, EPSG:32644, JPEG-compressed GeoTIFF. The map layer uses `assets/ortho/Firozabad_Ortho_Overlay.webp` (4.96 MB), masked to the city boundary. The 195 MB source file under `Incoming Data` is left unchanged.
+
+The Firozabad DSM layer is generated from `Firozabad-44 N_DSM.tif` (75,691 × 74,096 px, 0.108 m, float32, EPSG:32644) at 4,500 px wide (1.81 m), masked to the Nagar Nigam outer boundary and saved as `assets/dsm/Firozabad_DSM_Overlay.webp` (0.89 MB, hypsometric tint plus hillshade). A neutral grayscale variant is at `assets/dsm/Firozabad_DSM_Greyscale.webp`. Both use the same WGS84 bounds as the ortho overlay; layer metadata is in `assets/dsm/Firozabad_DSM_Overlay.json`.
 
 No source files under `Incoming Data` are modified by the dashboard.

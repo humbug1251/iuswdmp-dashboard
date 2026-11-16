@@ -27,6 +27,7 @@
 
   const LAYER_DEFAULTS = {
     ortho: false,
+    dsm: false,
     drains: false,
     gcp: false,
     tbm: false,
@@ -689,6 +690,9 @@
         ${data.ortho
           ? layerRow('ortho', 'Ortho Image', `${formatNumber(data.ortho.resolution_m, 2)} m/px · ortho`, 'raster', '#8b5cf6', 'ORTHO', true)
           : ''}
+        ${data.dsm
+          ? layerRow('dsm', 'DSM Surface', `${formatNumber(data.dsm.resolution_m, 2)} m/px · ${formatNumber(data.dsm.stretch[0], 0)}–${formatNumber(data.dsm.stretch[1], 0)} m`, 'raster', '#7a9a62', 'DSM', true)
+          : ''}
         ${layerRow('drains', 'Drains Surveyed', `${formatNumber(counts.drains, 0)} segments`, 'line', '#0057ff', '', counts.drains > 0)}
         ${counts.drains && data.drainClassification !== false ? `<div class="layer-sublegend" aria-label="Drain hierarchy colours">
           ${drainClasses.has('Primary') ? '<span><i class="line-key line-primary"></i>Primary</span>' : ''}
@@ -814,6 +818,7 @@
 
   function createPanes(map) {
     const panes = {
+      dsmPane: 305,
       orthoPane: 300,
       bufferPane: 350,
       outerPane: 360,
@@ -1118,6 +1123,15 @@
         attribution: 'Ortho: Firozabad drone survey'
       });
       state.layerGroups.ortho = L.layerGroup([ortho]);
+    }
+    if (data.dsm) {
+      const dsm = L.imageOverlay(data.dsm.url, data.dsm.bounds, {
+        pane: 'dsmPane',
+        opacity: 1,
+        interactive: false,
+        attribution: 'DSM: Firozabad drone survey'
+      });
+      state.layerGroups.dsm = L.layerGroup([dsm]);
     }
     Object.keys(state.layerGroups).forEach((key) => {
       const group = state.layerGroups[key];
