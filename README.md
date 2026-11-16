@@ -94,6 +94,7 @@ The ortho overlay is generated from `ORI.tif` (5,089 × 5,942 px, 1.9 m, EPSG:32
 | Drains surveyed | Real — `Conduits_till_13_Nov.shp`, 6,332 mapped segments, 210.5 km |
 | GCP marked | Real — 181 mapped points from 182 KML placemarks (WPR reports 182 completed) |
 | TBM | `SAHARANPUR_TBM.csv` — **42 points** (40 unique labels; TBM1 and TBM3 repeat); elevations from `TBM_KML.kml` where matched |
+| Survey photos | Real - 2,107 compressed photos from `Saharanpur_Combined_photos.kmz` |
 | Drone survey blocks | Real — 14 merged flight-plan polygons |
 | Ortho image | Not supplied for Saharanpur |
 
@@ -333,6 +334,7 @@ For best results, use a desktop viewport of 1280 px or wider. Below 1200 px the 
 - Saharanpur WPR: `Incoming Data/WPR _7to13/SRE_WPR_Submission_06_Nov_to_12_Nov_2026 1.docx`
 - Saharanpur layers: `Incoming Data/Saharanpur/`
 - Saharanpur TBM points: `Incoming Data/Saharanpur/TBM_SHP_KML/SAHARANPUR_TBM.csv`; elevations from `TBM_KML.kml`
+- Saharanpur photos: `Incoming Data/Saharanpur/Photos KML/Saharanpur_Combined_photos.kmz`
 - Moradabad WPR: `Incoming Data/WPR _7to13/Moradabad_WPR_7_11_2026to13_11_2026.docx`
 - Moradabad layers: `Incoming Data/Moradabad/`
 - Meerut WPR: `Incoming Data/WPR _7to13/Meerut_Weekly_Progress_Report_06Nov12Nov.docx`
