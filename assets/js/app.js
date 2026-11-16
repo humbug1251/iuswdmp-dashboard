@@ -32,6 +32,7 @@
     gcp: false,
     tbm: false,
     static: false,
+    surveyPoints: false,
     photos: false,
     blocks: false,
     wards: false,
@@ -663,6 +664,7 @@
       gcp: (layers.gcp.features || []).length,
       tbm: (layers.tbm.features || []).length,
       static: (layers.static && layers.static.features ? layers.static.features : []).length,
+      surveyPoints: data.surveyPoints && data.surveyPoints.count ? data.surveyPoints.count : 0,
       photos: (layers.photos && layers.photos.features ? layers.photos.features : []).length,
       blocks: (layers.blocks.features || []).length,
       wards: (layers.wards.features || []).length,
@@ -704,6 +706,7 @@
         ${counts.gcp > 0 ? layerRow('gcp', 'GCP Marked', `${formatNumber(gcpCount, 0)} points`, 'dot', '#d94f70', '', true) : ''}
         ${counts.tbm > 0 ? layerRow('tbm', 'TBM', `${formatNumber(counts.tbm, 0)} benchmark${counts.tbm === 1 ? '' : 's'}`, 'diamond', '#6d5aa8', '', true) : ''}
         ${counts.static > 0 ? layerRow('static', 'Static Points', `${formatNumber(counts.static, 0)} points`, 'dot', '#14b8a6', '', true) : ''}
+        ${counts.surveyPoints > 0 ? layerRow('surveyPoints', 'Survey Points', `${formatNumber(counts.surveyPoints, 0)} DGPS points`, 'dot', '#0284c7', '', true) : ''}
         ${counts.photos > 0 ? layerRow('photos', 'Survey Photos', `${formatNumber(counts.photos, 0)} photos`, 'dot', '#e11d48', '', true) : ''}
         ${counts.blocks > 0 ? layerRow('blocks', 'Drone Survey Blocks', `${formatNumber(counts.blocks, 0)} blocks`, 'poly', '#00c2ff', '', true) : ''}
       </div>`;
@@ -825,6 +828,7 @@
       blocksPane: 388,
       wardsPane: 385,
       drainsPane: 390,
+      surveyPane: 395,
       pointsPane: 400
     };
     Object.keys(panes).forEach((name) => {
@@ -850,6 +854,170 @@
     add(BASEMAPS[name] || BASEMAPS.streets);
     if (name === 'satellite') add(BASEMAPS.satelliteLabels);
   }
+
+  /* ---------------------------------------------------------------------- */
+  /* Survey point cloud                                                     */
+  /* ---------------------------------------------------------------------- */
+
+  const SURVEY_POINT_MAX_ZOOM = 19;
+  const SURVEY_POINT_WORLD = 256 * Math.pow(2, SURVEY_POINT_MAX_ZOOM);
+
+  function surveyDotSize(zoom) {
+    if (zoom >= 16) return 3;
+    if (zoom >= 14) return 2.6;
+    if (zoom >= 12) return 2.1;
+    return 1.6;
+  }
+
+  const SurveyPointLayer = L.Layer.extend({
+    initialize: function (dataset, options) {
+      L.setOptions(this, options || {});
+      this._dataset = dataset;
+      this._count = dataset.count;
+      this._worldX = null;
+      this._worldY = null;
+    },
+
+    onAdd: function (map) {
+      this._map = map;
+      this._canvas = L.DomUtil.create('canvas', 'survey-points-canvas');
+      this._canvas.setAttribute('aria-hidden', 'true');
+      const pane = map.getPane(this.options.pane) || map.getPanes().overlayPane;
+      pane.appendChild(this._canvas);
+      this._containerClick = (event) => this._handleContainerClick(event);
+      map.getContainer().addEventListener('click', this._containerClick, true);
+      map.on('moveend zoomend resize', this._reset, this);
+      this._reset();
+    },
+
+    onRemove: function (map) {
+      map.off('moveend zoomend resize', this._reset, this);
+      if (this._containerClick) map.getContainer().removeEventListener('click', this._containerClick, true);
+      this._containerClick = null;
+      if (this._popup) {
+        map.closePopup(this._popup);
+        this._popup = null;
+      }
+      if (this._canvas && this._canvas.parentNode) this._canvas.parentNode.removeChild(this._canvas);
+      this._canvas = null;
+      this._map = null;
+    },
+
+    _project: function () {
+      if (this._worldX) return;
+      const dataset = this._dataset;
+      const units = dataset.units || 1000000;
+      const originLon = dataset.origin[0];
+      const originLat = dataset.origin[1];
+      const xs = new Float64Array(this._count);
+      const ys = new Float64Array(this._count);
+      for (let i = 0; i < this._count; i += 1) {
+        const lon = originLon + dataset.lon[i] / units;
+        const lat = originLat + dataset.lat[i] / units;
+        const sin = Math.sin(lat * Math.PI / 180);
+        xs[i] = (lon + 180) / 360 * SURVEY_POINT_WORLD;
+        ys[i] = (0.5 - Math.log((1 + sin) / (1 - sin)) / (4 * Math.PI)) * SURVEY_POINT_WORLD;
+      }
+      this._worldX = xs;
+      this._worldY = ys;
+    },
+
+    _offsets: function () {
+      const map = this._map;
+      const shift = map.containerPointToLayerPoint([0, 0]);
+      const origin = map.getPixelOrigin();
+      return { x: origin.x + shift.x, y: origin.y + shift.y };
+    },
+
+    _reset: function () {
+      if (!this._map || !this._canvas) return;
+      this._project();
+      const map = this._map;
+      const size = map.getSize();
+      const dpr = Math.min(window.devicePixelRatio || 1, 2);
+      L.DomUtil.setPosition(this._canvas, map.containerPointToLayerPoint([0, 0]));
+      this._canvas.width = Math.max(1, Math.round(size.x * dpr));
+      this._canvas.height = Math.max(1, Math.round(size.y * dpr));
+      this._canvas.style.width = size.x + 'px';
+      this._canvas.style.height = size.y + 'px';
+      this._dpr = dpr;
+      this._draw();
+    },
+
+    _draw: function () {
+      const map = this._map;
+      const canvas = this._canvas;
+      if (!map || !canvas) return;
+      const ctx = canvas.getContext('2d');
+      const size = map.getSize();
+      const dpr = this._dpr || 1;
+      ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+      ctx.clearRect(0, 0, size.x, size.y);
+
+      const zoom = map.getZoom();
+      const scale = Math.pow(2, SURVEY_POINT_MAX_ZOOM - zoom);
+      const offset = this._offsets();
+      const dot = surveyDotSize(zoom);
+      const half = dot / 2;
+      const maxX = size.x + 4;
+      const maxY = size.y + 4;
+      const xs = this._worldX;
+      const ys = this._worldY;
+
+      ctx.fillStyle = 'rgba(2, 132, 199, 0.55)';
+      for (let i = 0; i < this._count; i += 1) {
+        const x = xs[i] / scale - offset.x;
+        const y = ys[i] / scale - offset.y;
+        if (x < -4 || y < -4 || x > maxX || y > maxY) continue;
+        ctx.fillRect(x - half, y - half, dot, dot);
+      }
+    },
+
+    _nearest: function (point) {
+      const map = this._map;
+      const zoom = map.getZoom();
+      const scale = Math.pow(2, SURVEY_POINT_MAX_ZOOM - zoom);
+      const offset = this._offsets();
+      let best = -1;
+      let bestDist = 100;
+      for (let i = 0; i < this._count; i += 1) {
+        const dx = this._worldX[i] / scale - offset.x - point.x;
+        const dy = this._worldY[i] / scale - offset.y - point.y;
+        const dist = dx * dx + dy * dy;
+        if (dist < bestDist) {
+          bestDist = dist;
+          best = i;
+        }
+      }
+      return best;
+    },
+
+    _handleContainerClick: function (event) {
+      if (!this._map || !this._canvas || event.button !== 0) return;
+      if (event.target && event.target.closest && event.target.closest('.leaflet-popup, .leaflet-control')) return;
+      const best = this._nearest(this._map.mouseEventToContainerPoint(event));
+      if (best < 0) return;
+
+      event.stopPropagation();
+      event.preventDefault();
+
+      const dataset = this._dataset;
+      const elev = dataset.elev[best];
+      const popup = L.popup({ maxWidth: 300 })
+        .setLatLng([
+          dataset.origin[1] + dataset.lat[best] / (dataset.units || 1000000),
+          dataset.origin[0] + dataset.lon[best] / (dataset.units || 1000000)
+        ])
+        .setContent(popupCard('Survey point', dataset.names[dataset.name[best]], [
+          ['Team', dataset.teams[dataset.team[best]]],
+          ['Date', dataset.dates[dataset.date[best]]],
+          ['Elevation', elev === -32768 ? '—' : formatNumber(elev / 100, 2) + ' m'],
+          ['Source', 'Saharanpur DGPS']
+        ]));
+      this._popup = popup;
+      popup.openOn(this._map);
+    }
+  });
 
   function buildOverlays(map, data) {
     const layers = data.layers;
@@ -1060,6 +1228,11 @@
       });
     }
 
+    let surveyPoints = null;
+    if (data.surveyPoints && data.surveyPoints.count) {
+      surveyPoints = new SurveyPointLayer(data.surveyPoints, { pane: 'surveyPane' });
+    }
+
     let photos = null;
     if (layers.photos && layers.photos.features.length) {
       const compactPhotoLayout = window.matchMedia('(max-width: 1200px)').matches;
@@ -1114,6 +1287,7 @@
 
     state.layerGroups = { buffer, outer, wards: wardsGroup, blocks, drains, gcp, tbm };
     if (staticPoints) state.layerGroups.static = staticPoints;
+    if (surveyPoints) state.layerGroups.surveyPoints = L.layerGroup([surveyPoints]);
     if (photos) state.layerGroups.photos = photos;
     if (data.ortho) {
       const ortho = L.imageOverlay(data.ortho.url, data.ortho.bounds, {
