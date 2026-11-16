@@ -52,7 +52,7 @@ The basemap will not load without an internet connection, but the layer controls
 | Drains surveyed | Real — 5 Nov primary/secondary/tertiary SHPs; 5,428 mapped segments, 350.0 km |
 | Ward boundary | Real - 70 ward polygons from `Firozabad_70Wardwise_Map.kml` |
 | Drone survey blocks | Real - 10 drone flight blocks from `Drone_Flight_Blocks_Firozabad.kml` |
-| Survey photos | Real - 1,079 compressed photos from `Firozabad_Survey_Photos.kmz`; 111 photos were unrecoverable because the source KMZ is truncated |
+| Survey photos | Real - 418 compressed photos from `Photos_Firozabad_photos.kmz` (15–30 Oct 2026) |
 | Ortho image | Real - downscaled orthomosaic mask overlaid on the city boundary |
 | DSM | Real - 15.6 GB DSM converted to a 2.67 m/px shaded-relief WebP; elevation stretch 151–175 m (full range 128.5–216.1 m) |
 | DSM surface | Real - 1.8 m hillshade overlay, masked to the city boundary |
@@ -63,7 +63,7 @@ WPR figures (6–12 Nov 2026): primary 58.5 km, secondary 7.624 km, tertiary 207
 
 The map now uses the 12 Nov tertiary SHP with the 5 Nov primary and secondary SHPs: **5,681 mapped segments / 368.7 km**, with primary 109.2 km, secondary 8.4 km and tertiary 251.0 km. These map totals are higher than the WPR component totals because the SHPs include all digitized and outfall-extension geometry.
 
-The photo layer contains **1,079 recovered geotagged survey photos**. The supplied KMZ is missing its ZIP central directory and the final 111 images, so those 111 photos could not be extracted; re-exporting a complete KMZ would allow the layer to be completed.
+The photo layer contains **418 geotagged site photos** from the new `Photos_Firozabad_photos.kmz`, covering 15–30 October 2026.
 
 ### Shahjahanpur layers
 
@@ -330,6 +330,7 @@ For best results, use a desktop viewport of 1280 px or wider. Below 1200 px the 
 - Firozabad drain shapefiles: `Incoming Data/Firozabad/Survey_Data_Digitized_Till_now/`
 - Firozabad WPR: `Incoming Data/WPR _7to13/Firozbad_WPR_6Nov_to_12Nov.docx`
 - Firozabad TBM points: `Incoming Data/Firozabad/TBM/TBM_KML (1).kml`
+- Firozabad photos: `Incoming Data/Firozabad/Photos KML/FIROZABAD SITE IMAGES/Photos Firozabad/Photos_Firozabad_photos.kmz`
 - Firozabad DSM: `Incoming Data/Firozabad/DSM/Firozabad-44 N_DSM.tif`
 - Saharanpur WPR: `Incoming Data/WPR _7to13/SRE_WPR_Submission_06_Nov_to_12_Nov_2026 1.docx`
 - Saharanpur layers: `Incoming Data/Saharanpur/`
