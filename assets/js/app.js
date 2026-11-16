@@ -1296,7 +1296,7 @@
         pane: 'orthoPane',
         opacity: 1,
         interactive: false,
-        attribution: 'Ortho: Firozabad drone survey'
+        attribution: 'Ortho: drone survey'
       });
       state.layerGroups.ortho = L.layerGroup([ortho]);
     }
@@ -1305,7 +1305,7 @@
         pane: 'dsmPane',
         opacity: 1,
         interactive: false,
-        attribution: 'DSM: Firozabad drone survey'
+        attribution: 'DSM: drone survey'
       });
       state.layerGroups.dsm = L.layerGroup([dsm]);
     }

@@ -78,7 +78,8 @@ The photo layer contains **1,497 geotagged photos** from two sources: 1,079 from
 | Static points | Real — 5 points from `SP+TBM Locations.kml` |
 | Drone survey blocks | Real — 27 survey blocks; the Jail polygon is excluded |
 | Survey photos | Real - 5,370 compressed photos from `Shahjahanpur_Photos_Combined_640px.kmz` (18 Sep–16 Nov 2026, 43 dates; no duplicates) |
-| Ortho image | Real — `ORI.tif`, 1.9 m resolution, masked overlay in `Shahjahanpur_Ortho_Overlay.webp` |
+| Ortho image | Real - `ORI.tif`, 1.9 m resolution, masked overlay in `Shahjahanpur_Ortho_Overlay.webp` |
+| DSM | Real - 10 GB DSM converted to a 3.44 m/px shaded-relief WebP; elevation stretch 146–164 m (full range 76.8–194.5 m) |
 
 The classified drain KML uses `P`, `S` and `T` type codes. Mapped totals are **26.2 km primary**, **35.8 km secondary** and **263.1 km tertiary**. Primary drain progress is **100% complete** (31.4 / 31.4 km). The WPR reports 31.4 km primary, 376.7 km secondary/tertiary, 345 / 740 km roads, 77 GCPs, 5 static points, 54.825 sq km LiDAR acquisition (DTM processing in progress), 31 outfalls and a 56.24 sq km RFP area (40.1 sq km ward KML). The supplied drain KML is a partial network, so its 325.1 km total is below the WPR secondary/tertiary figure.
 
@@ -353,6 +354,7 @@ For best results, use a desktop viewport of 1280 px or wider. Below 1200 px the 
 - Shahjahanpur layers: `Incoming Data/Shahjahanpur/`
 - Shahjahanpur ortho: `Incoming Data/Shahjahanpur/Ortho/ORI.tif`
 - Shahjahanpur photos: `Incoming Data/Shahjahanpur/Photos/Photos KML/Shahjahanpur_Photos_Combined_640px.kmz`
+- Shahjahanpur DSM: `C:\Users\swaga\Downloads\SAHJANPUR 44N_DSM.tif`
 - Basemap imagery: Google, Esri and its data providers; OSM © OpenStreetMap contributors
 
 A downscaled copy of the Firozabad orthomosaic is available at `assets/ortho/Firozabad_Ortho_Downscaled.tif` — 14.4 MB, 6,116 × 5,987 px, about 1.33 m resolution, EPSG:32644, JPEG-compressed GeoTIFF. The map layer uses `assets/ortho/Firozabad_Ortho_Overlay.webp` (4.96 MB), masked to the city boundary. The 195 MB source file under `Incoming Data` is left unchanged.
