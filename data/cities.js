@@ -317,10 +317,11 @@ window.DASHBOARD = {
           "note": "Primary drains completed as per the WPR"
         },
         "secondaryTertiary": {
-          "done": 173.119,
+          "done": 182.87,
           "planned": null,
           "pct": null,
           "unit": "km",
+          "decimals": 2,
           "note": "Combined secondary and tertiary drains; target not notified"
         },
         "road": {
@@ -353,13 +354,13 @@ window.DASHBOARD = {
       "notes": [
         "Source WPR: SRE_WPR_Submission_06_Nov_to_12_Nov_2026 1.docx (reporting period 6–12 Nov 2026).",
         "City area is 73.7 sq km as per the RFP and 80.544 sq km as per the WPR KML.",
-        "WPR cumulative survey: primary 14.58 km, secondary/tertiary 173.119 km, road 173.119 km, GCP 182 / 182, static 5 / 5, river 22.38 km.",
+        "WPR cumulative survey: primary 14.58 km, secondary/tertiary 182.87 km, road 173.119 km, GCP 182 / 182, static 5 / 5, river 22.38 km.",
         "LiDAR acquisition covered 90 sq km; a 10 sq km jail area is excluded as a restricted area.",
-        "The map drains layer is the 13 Nov conduit SHP; primary geometry is 14.6 km, matching the WPR's 14.58 km completed.",
-        "The 13 Nov SHP contains 498 primary, 5,634 secondary, 279 natural-stream and 18 unclassified source segments; 6,429 source segments and 210.68 km. After cleaning, 6,332 segments / 210.5 km are mapped: primary 14.6 km, secondary 173.0 km, natural streams 22.7 km and unclassified 0.2 km.",
+        "The map drains layer is the 16 Nov conduit SHP (Conduits_till_06_Nov.shp); primary geometry is 14.56 km, matching the WPR's 14.58 km completed.",
+        "The 06 Nov SHP contains 6,016 source segments and 197.19 km. After removing duplicate and zero-length geometry, 5,948 segments / 195.6 km are mapped: primary 14.6 km, secondary 158.2 km, natural streams 22.7 km and unclassified 0.3 km.",
         "The GCP KML contains 182 placemarks; 181 unique name-and-location points are mapped, matching the WPR total of 182 completed GCPs within one point.",
         "The TBM CSV contains 42 rows and 40 unique labels (TBM1 and TBM3 repeat). All 42 CSV points are mapped; matching elevations come from TBM_KML.kml.",
-        "The WPR reports a combined secondary and tertiary length of 173.119 km; no separate target was notified.",
+        "The WPR reports a combined secondary and tertiary length of 182.87 km; no separate target was notified.",
         "The AOI KML is used as the buffer boundary."
       ],
       "layersAvailable": true,

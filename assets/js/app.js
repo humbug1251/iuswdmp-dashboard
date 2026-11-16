@@ -471,7 +471,9 @@
       const total = (secondaryDone || 0) + (tertiaryDone || 0);
       cards.push(metricCard('Secondary &amp; Tertiary', km(total), 'km', null, '', null, '#ff7a00'));
     } else if (combinedDone != null) {
-      cards.push(metricCard('Secondary &amp; Tertiary', km(combinedDone), 'km', null, '', null, '#ff7a00'));
+      const decimals = c.secondaryTertiary.decimals != null ? Number(c.secondaryTertiary.decimals) : null;
+      const combinedLabel = decimals != null ? formatNumber(combinedDone, decimals) : km(combinedDone);
+      cards.push(metricCard('Secondary &amp; Tertiary', combinedLabel, 'km', null, '', null, '#ff7a00'));
     }
 
     if (c.gcp) {
