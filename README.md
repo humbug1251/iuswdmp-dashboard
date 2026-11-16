@@ -48,7 +48,7 @@ The basemap will not load without an internet connection, but the layer controls
 | Outer boundary | Real — from `Firozabad Nagar Nigam Boundary _Final.kml` |
 | Buffer boundary | Real — from `FIROZABAD BUFFER_AREA (42.6 Sq.kms).kml` |
 | GCP points | Real - 85 unique identifiable point geometries from `GCP_Firozabad(86_Points).kml` (WPR reports 86 completed) |
-| TBM points | Real - 2 benchmark points from the same KML |
+| TBM points | Real - 18 benchmarks from `TBM_KML (1).kml`; 8 carry RL values |
 | Drains surveyed | Real — 5 Nov primary/secondary/tertiary SHPs; 5,428 mapped segments, 350.0 km |
 | Ward boundary | Real - 70 ward polygons from `Firozabad_70Wardwise_Map.kml` |
 | Drone survey blocks | Real - 10 drone flight blocks from `Drone_Flight_Blocks_Firozabad.kml` |
@@ -326,6 +326,7 @@ For best results, use a desktop viewport of 1280 px or wider. Below 1200 px the 
 - Firozabad drone flight blocks: `Incoming Data/Firozabad/Drone_Survey_Flight_Blocks/Drone_Flight_Blocks_Firozabad.kml`
 - Firozabad drain shapefiles: `Incoming Data/Firozabad/Survey_Data_Digitized_Till_now/`
 - Firozabad WPR: `Incoming Data/WPR _7to13/Firozbad_WPR_6Nov_to_12Nov.docx`
+- Firozabad TBM points: `Incoming Data/Firozabad/TBM/TBM_KML (1).kml`
 - Saharanpur WPR: `Incoming Data/WPR _7to13/SRE_WPR_Submission_06_Nov_to_12_Nov_2026 1.docx`
 - Saharanpur layers: `Incoming Data/Saharanpur/`
 - Saharanpur TBM points: `Incoming Data/Saharanpur/TBM_SHP_KML/SAHARANPUR_TBM.csv`; elevations from `TBM_KML.kml`

@@ -4,7 +4,7 @@ window.DASHBOARD = {
     "project": "Survey, Collection of Data, Preparation of Integrated Urban Storm Water Drainage Master Plan (IUSWDMP)",
     "shortProject": "IUSWDMP Progress",
     "state": "Uttar Pradesh",
-    "generated": "2026-11-13",
+    "generated": "2026-11-16",
     "latestReport": "7-13 Nov 2026",
     "latestReportDate": "2026-11-13",
     "overallMethod": "Simple average of the available component percentages: primary drain, road survey, GCP or static points where reported, and LiDAR. Secondary/tertiary components are excluded where a target has not been notified.",
@@ -156,7 +156,7 @@ window.DASHBOARD = {
         "Ward-boundary verification by Nagar Nigam is pending.",
         "The supplied 70-ward KML labels two polygons as Ward 43 and omits Ward 42; the larger 0.889 sq km polygon was relabelled Ward 42 Ram Nagar, matching the WPR, to complete the 1–70 sequence.",
         "The GCP KML contains 85 unique identifiable point geometries; the WPR reports 86 GCPs completed.",
-        "The two TBM points lie outside the Nagar Nigam outer boundary in the supplied KML; the initial map extent includes them so the TBM layer is visible.",
+        "The TBM layer uses TBM_KML (1).kml: 18 benchmarks, 8 with RL values; the remaining 10 points have no RL in the supplied KML.",
         "Ward boundaries, drains and drone flight blocks are real survey layers."
       ],
       "overall": 84.3,
