@@ -43,8 +43,8 @@ window.DASHBOARD = {
       },
       "outfalls": 3,
       "surveyTeam": {
-        "base": 1,
-        "rovers": 3,
+        "base": 2,
+        "rovers": 5,
         "members": 6
       },
       "components": {
@@ -477,8 +477,8 @@ window.DASHBOARD = {
       },
       "outfalls": 5,
       "surveyTeam": {
-        "base": 1,
-        "rovers": 6,
+        "base": 2,
+        "rovers": 7,
         "members": null
       },
       "aerialSurvey": {
