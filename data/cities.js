@@ -45,7 +45,7 @@ window.DASHBOARD = {
       "surveyTeam": {
         "base": 2,
         "rovers": 7,
-        "members": 8
+        "members": 10
       },
       "components": {
         "primary": {
