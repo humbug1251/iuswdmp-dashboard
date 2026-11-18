@@ -148,8 +148,9 @@ WPR figures: primary 74.66 / 80 km (93.3%; the mapped alignment total is 85.59 k
 | Layer | Status |
 |---|---|
 | Outer boundary | Real — SHP, 170.97 sq km |
-| Ward boundary | Real — 100 wards from `GZD_Wards_100.shp` |
+| Ward boundary | Real - 100 wards from `GZD_Wards_100.shp` |
 | Buffer boundary | Not supplied |
+| Catchment boundary | Real - `GZB_Subcatchment_Boundary_1.shp`, 780.98 sq km watershed area |
 | Drains surveyed | Real — 29 Oct KMZ plus 30 Oct–5 Nov and 6–12 Nov SHPs; 3,404 mapped segments, 264.4 km |
 | TBM | Real — 22 points from `Ghaziabad_Most_22_TBMs.csv`; TBM 6 is a CAD/grid point, the rest are RTK fixes |
 | Static points | Real — six points from `Static Points_GZB.shp`, elevations from `GAZIABAD Main Control Points.csv`; `Static Point 8.kmz` contains ST08 |
@@ -350,6 +351,7 @@ For best results, use a desktop viewport of 1280 px or wider. Below 1200 px the 
 - Meerut layers and TBM/static points: `Incoming Data/Meerut/`, `Incoming Data/Meerut/Drain_Data_Digitised/Meerut Survey Progress_Til 12th Nov.kml`, `Incoming Data/Meerut/TBM_KML/TBM.kmz`
 - Ghaziabad WPR: `Incoming Data/WPR _7to13/Ghaziabad_WPR_20261113.docx`
 - Ghaziabad layers: `Incoming Data/Ghaziabad/Boundary Shapefiles/`, `Incoming Data/Ghaziabad/Digitized Drains/`
+- Ghaziabad catchment boundary: `Incoming Data/Ghaziabad/Subcatchment_Boundary/GZB_Subcatchment_Boundary_1.shp`
 - Ghaziabad static points: `Incoming Data/Ghaziabad/Static Points/`
 - Ghaziabad TBM points: `Incoming Data/Ghaziabad/TBM/Ghaziabad_Most_22_TBMs.csv`
 - Shahjahanpur WPR: `Incoming Data/WPR _7to13/Weekly Report_ UP_Shahajanpur_ 6th Nov to 12th Nov.docx`
