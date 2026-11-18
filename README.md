@@ -93,6 +93,7 @@ The ortho overlay is generated from `ORI.tif` (5,089 × 5,942 px, 1.9 m, EPSG:32
 | Outer boundary | Real — SHP, 80.58 sq km |
 | Ward boundary | Real — 70 wards from `Saharanpur_Wards.kml` |
 | Buffer boundary | Real — `AOI.kml`, 100.2 sq km |
+| Catchment boundary | Real — `Catchment_Boundary.shp`, 190.2 sq km watershed area |
 | Drains surveyed | Real — `Conduits_till_06_Nov.shp`, 5,948 mapped segments, 195.6 km |
 | GCP marked | Real — 181 mapped points from 182 KML placemarks (WPR reports 182 completed) |
 | TBM | `SAHARANPUR_TBM.csv` — **42 points** (40 unique labels; TBM1 and TBM3 repeat); elevations from `TBM_KML.kml` where matched |
@@ -346,6 +347,7 @@ For best results, use a desktop viewport of 1280 px or wider. Below 1200 px the 
 - Saharanpur survey points: `Incoming Data/Saharanpur/Survey Points/Saharanpur_DGPS.kmz`
 - Saharanpur static points: `Incoming Data/Saharanpur/Static Points/SAHARANPUR STATIC POINTS 1.csv`
 - Saharanpur drains: `Incoming Data/Saharanpur/Digitalised_SHP/16th_Nov/Conduits_till_06_Nov.shp`
+- Saharanpur catchment boundary: `Incoming Data/Saharanpur/Catchment_Boundary/Catchment_Boundary.shp`
 - Moradabad WPR: `Incoming Data/WPR _7to13/Moradabad_WPR_7_11_2026to13_11_2026.docx`
 - Moradabad layers: `Incoming Data/Moradabad/`
 - Meerut WPR: `Incoming Data/WPR _7to13/Meerut_Weekly_Progress_Report_06Nov12Nov.docx`
