@@ -132,7 +132,8 @@ The mapped drain lengths are **141.7 km primary**, **71.3 km secondary** and **4
 |---|---|
 | Outer boundary | Real — SHP, 143.84 sq km |
 | Ward boundary | Real — 90 wards from `MEERUT_WARD _BOUNDARY_new.shp` |
-| Buffer boundary | Real — `Meerut_Survey Boundary.shp`, 188.82 sq km |
+| Buffer boundary | Real - `Meerut_Survey Boundary.shp`, 188.82 sq km |
+| Catchment boundary | Real - `Catchment Boundary_50Ha.kml`, 295.99 sq km watershed area |
 | Drains surveyed | Real - 5 Nov primary/secondary SHPs plus 12 Nov survey-progress KML; 1,262 mapped segments, 336.6 km |
 | TBM | 23 points parsed from `TBM.kmz` |
 | Static points | 10 points parsed from `TBM.kmz` |
@@ -349,6 +350,7 @@ For best results, use a desktop viewport of 1280 px or wider. Below 1200 px the 
 - Moradabad layers: `Incoming Data/Moradabad/`
 - Meerut WPR: `Incoming Data/WPR _7to13/Meerut_Weekly_Progress_Report_06Nov12Nov.docx`
 - Meerut layers and TBM/static points: `Incoming Data/Meerut/`, `Incoming Data/Meerut/Drain_Data_Digitised/Meerut Survey Progress_Til 12th Nov.kml`, `Incoming Data/Meerut/TBM_KML/TBM.kmz`
+- Meerut catchment boundary: `Incoming Data/Meerut/Catchment Boundary/Catchment Boundary_50Ha.kml`
 - Ghaziabad WPR: `Incoming Data/WPR _7to13/Ghaziabad_WPR_20261113.docx`
 - Ghaziabad layers: `Incoming Data/Ghaziabad/Boundary Shapefiles/`, `Incoming Data/Ghaziabad/Digitized Drains/`
 - Ghaziabad catchment boundary: `Incoming Data/Ghaziabad/Subcatchment_Boundary/GZB_Subcatchment_Boundary_1.shp`
