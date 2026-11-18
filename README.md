@@ -47,6 +47,7 @@ The basemap will not load without an internet connection, but the layer controls
 |---|---|
 | Outer boundary | Real — from `Firozabad Nagar Nigam Boundary _Final.kml` |
 | Buffer boundary | Real — from `FIROZABAD BUFFER_AREA (42.6 Sq.kms).kml` |
+| Catchment boundary | Real — `Subcatchment_OuterBoundary.shp`, 109.33 sq km watershed area |
 | GCP points | Real - 85 unique identifiable point geometries from `GCP_Firozabad(86_Points).kml` (WPR reports 86 completed) |
 | TBM points | Real - 18 benchmarks from `TBM_KML (1).kml`; 8 carry RL values |
 | Drains surveyed | Real — 5 Nov primary/secondary/tertiary SHPs; 5,428 mapped segments, 350.0 km |
@@ -335,6 +336,7 @@ For best results, use a desktop viewport of 1280 px or wider. Below 1200 px the 
 - Firozabad TBM points: `Incoming Data/Firozabad/TBM/TBM_KML (1).kml`
 - Firozabad photos: `Incoming Data/Firozabad/Photos KML/FIROZABAD SITE IMAGES/Photos Firozabad/Photos_Firozabad_photos.kmz`
 - Firozabad DSM: `Incoming Data/Firozabad/DSM/Firozabad-44 N_DSM.tif`
+- Firozabad catchment boundary: `Incoming Data/Firozabad/Subcatchment_Outer Boundary_for_WatershedArea/Subcatchment_OuterBoundary.shp`
 - Saharanpur WPR: `Incoming Data/WPR _7to13/SRE_WPR_Submission_06_Nov_to_12_Nov_2026 1.docx`
 - Saharanpur layers: `Incoming Data/Saharanpur/`
 - Saharanpur TBM points: `Incoming Data/Saharanpur/TBM_SHP_KML/SAHARANPUR_TBM.csv`; elevations from `TBM_KML.kml`

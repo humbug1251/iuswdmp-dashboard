@@ -36,6 +36,7 @@
     photos: false,
     blocks: false,
     wards: false,
+    catchment: false,
     outer: true,
     buffer: false
   };
@@ -671,10 +672,12 @@
       blocks: (layers.blocks.features || []).length,
       wards: (layers.wards.features || []).length,
       outer: (layers.outer.features || []).length,
-      buffer: (layers.buffer.features || []).length
+      buffer: (layers.buffer.features || []).length,
+      catchment: (layers.catchment && layers.catchment.features ? layers.catchment.features : []).length
     };
     const outerArea = layers.outer.features[0] && layers.outer.features[0].properties.area_sqkm;
     const bufferArea = layers.buffer.features[0] && layers.buffer.features[0].properties.area_sqkm;
+    const catchmentArea = layers.catchment && layers.catchment.features[0] && layers.catchment.features[0].properties.area_sqkm;
     const wardSample = layers.wards.features.length > 0 && layers.wards.features.every((feature) => feature.properties.sample);
     const drainClasses = new Set((layers.drains.features || []).map((feature) => feature.properties.hierarchy));
     const wardFormat = data.wardSource === 'SHP' ? 'SHP' : 'KML';
@@ -688,6 +691,7 @@
         ${layerRow('wards', 'Ward Boundary', `${formatNumber(counts.wards, 0)} wards · ${wardFormat}`, 'poly', '#a16207', '', counts.wards > 0)}
         ${layerRow('outer', 'Outer Boundary', `${formatNumber(outerArea, 2)} sq km`, 'poly', '#0b1f2a', '', counts.outer > 0)}
         ${counts.buffer > 0 ? layerRow('buffer', 'Buffer Area', `${formatNumber(bufferArea, 2)} sq km`, 'poly', '#c77d2a', '', true) : ''}
+        ${counts.catchment > 0 ? layerRow('catchment', 'Catchment Boundary', `${formatNumber(catchmentArea, 2)} sq km`, 'poly', '#7c3aed', '', true) : ''}
       </div>
       <div class="layer-group">
         <p class="layer-group-title">Survey layers</p>
@@ -826,6 +830,7 @@
       dsmPane: 305,
       orthoPane: 300,
       bufferPane: 350,
+      catchmentPane: 345,
       outerPane: 360,
       blocksPane: 388,
       wardsPane: 385,
@@ -1062,6 +1067,28 @@
       }
     });
 
+    let catchment = null;
+    if (layers.catchment && layers.catchment.features.length) {
+      catchment = L.geoJSON(layers.catchment, {
+        pane: 'catchmentPane',
+        style: {
+          color: '#7c3aed',
+          weight: 2.4,
+          opacity: 0.95,
+          dashArray: '14 5 3 5',
+          fill: false,
+          className: 'boundary-line catchment-line'
+        },
+        onEachFeature: (feature, layer) => {
+          layer.bindTooltip('Catchment boundary', { sticky: true, direction: 'top', className: 'map-tip' });
+          layer.bindPopup(popupCard('Boundary', 'Catchment boundary', [
+            ['Area', formatNumber(feature.properties.area_sqkm, 2) + ' sq km'],
+            ['Source', feature.properties.source]
+          ], feature.properties.source));
+        }
+      });
+    }
+
     const wardLabels = L.layerGroup();
     const wards = L.geoJSON(layers.wards, {
       pane: 'wardsPane',
@@ -1288,6 +1315,7 @@
     }
 
     state.layerGroups = { buffer, outer, wards: wardsGroup, blocks, drains, gcp, tbm };
+    if (catchment) state.layerGroups.catchment = catchment;
     if (staticPoints) state.layerGroups.static = staticPoints;
     if (surveyPoints) state.layerGroups.surveyPoints = L.layerGroup([surveyPoints]);
     if (photos) state.layerGroups.photos = photos;
