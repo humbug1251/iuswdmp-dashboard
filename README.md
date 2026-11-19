@@ -116,7 +116,7 @@ The 06 Nov drain SHP (`Digitalised_SHP/16th_Nov/Conduits_till_06_Nov.shp`) conta
 | Buffer boundary | Real — AOI KML, 100.39 sq km |
 | Drains surveyed | Real — 13 Nov primary/secondary/tertiary SHPs; 1,141 mapped segments, 260.3 km |
 | GCP marked | Real — 202 unique KML points (WPR reports 206) |
-| TBM | 92 photo points from `TBM_Photos_photos.kmz` (06 Nov folder excluded); 3 carry elevations from the 27 Oct survey CSV (TBM1 209.96 m, TBM2 209.97 m, MRDST1 194.73 m) |
+| TBM | 70 photo points from `TBM_Photos_photos.kmz` (06 Nov folder excluded; the 22-photo stack at CONCOR, 28.840668 N / 78.752895 E, removed); 3 carry elevations from the 27 Oct survey CSV (TBM1 209.96 m, TBM2 209.97 m, MRDST1 194.73 m) |
 | Static points | Real - 10 points from `Static_Points.csv` (MRD-ST-01 to MRD-ST-10); coordinates from the description field, no elevations supplied |
 | Survey photos | Real — 533 compressed photos from `Survey_Moradabad_photos.kmz` |
 | Drone survey blocks | Real — 14 block KMLs |
@@ -124,7 +124,7 @@ The 06 Nov drain SHP (`Digitalised_SHP/16th_Nov/Conduits_till_06_Nov.shp`) conta
 
 WPR figures: primary 142.21 / 140 km, secondary 67.27 km, tertiary 52.53 km, road 174.24 / 1,155 km, GCP 206 / 206, static 10 / 10, LiDAR 100 sq km.
 
-The TBM layer uses 92 photo points from `TBM_Photos_photos.kmz`, excluding the 06 Nov folder. Only three points have elevations, matched from the 27 Oct survey CSV; the remaining 89 are location-only.
+The TBM layer uses 70 photo points from `TBM_Photos_photos.kmz`, excluding the 06 Nov folder. The 22 photos in the 10 Nov folder that all shared one coordinate (CONCOR, 28.840668 N / 78.752895 E) were removed as a stacked batch. Only three points have elevations, matched from the 27 Oct survey CSV; the remaining 67 are location-only.
 
 The mapped drain lengths are **141.7 km primary**, **71.3 km secondary** and **47.2 km tertiary**. The 1,153 source segments become 1,141 mapped segments after dropping sub-2 m geometry. Primary and tertiary mapped lengths differ from the WPR totals because the 13 Nov hierarchy layers are a separate compilation.
 
