@@ -113,7 +113,8 @@ The 06 Nov drain SHP (`Digitalised_SHP/16th_Nov/Conduits_till_06_Nov.shp`) conta
 |---|---|
 | Outer boundary | Real — KML, 64.43 sq km |
 | Ward boundary | Real — 70 labelled ward polygons from the administrative KML |
-| Buffer boundary | Real — AOI KML, 100.39 sq km |
+| Buffer boundary | Real - AOI KML, 100.39 sq km |
+| Catchment boundary | Real - `Moradabad_Model_Domain.shp`, 183.9 sq km model domain |
 | Drains surveyed | Real — 13 Nov primary/secondary/tertiary SHPs; 1,141 mapped segments, 260.3 km |
 | GCP marked | Real — 202 unique KML points (WPR reports 206) |
 | TBM | 70 photo points from `TBM_Photos_photos.kmz` (06 Nov folder excluded; the 22-photo stack at CONCOR, 28.840668 N / 78.752895 E, removed); 3 carry elevations from the 27 Oct survey CSV (TBM1 209.96 m, TBM2 209.97 m, MRDST1 194.73 m) |
@@ -353,6 +354,7 @@ For best results, use a desktop viewport of 1280 px or wider. Below 1200 px the 
 - Moradabad WPR: `Incoming Data/WPR _7to13/Moradabad_WPR_7_11_2026to13_11_2026.docx`
 - Moradabad layers: `Incoming Data/Moradabad/`
 - Moradabad static points: `Incoming Data/Moradabad/Static Points Moradabad/Static_Points.csv`
+- Moradabad catchment boundary: `Incoming Data/Moradabad/Moradabad_Model_Domain/Moradabad_Model_Domain.shp`
 - Meerut WPR: `Incoming Data/WPR _7to13/Meerut_Weekly_Progress_Report_06Nov12Nov.docx`
 - Meerut layers and TBM/static points: `Incoming Data/Meerut/`, `Incoming Data/Meerut/Drain_Data_Digitised/Meerut Survey Progress_Til 12th Nov.kml`, `Incoming Data/Meerut/TBM_KML/TBM.kmz`
 - Meerut catchment boundary: `Incoming Data/Meerut/Catchment Boundary/Catchment Boundary_50Ha.kml`
