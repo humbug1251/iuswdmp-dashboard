@@ -56,6 +56,7 @@ The basemap will not load without an internet connection, but the layer controls
 | Survey photos | Real - 1,497 compressed photos: 1,079 from `Firozabad_Survey_Photos.kmz` (25 Sep–05 Oct 2026) + 418 from `Photos_Firozabad_photos.kmz` (15–30 Oct 2026) |
 | Ortho image | Real - downscaled orthomosaic mask overlaid on the city boundary |
 | DSM | Real - 15.6 GB DSM converted to a 2.67 m/px shaded-relief WebP; elevation stretch 151–175 m (full range 128.5–216.1 m) |
+| Survey points | Real - **127,571 DGPS observations** from `Firozabad_Processed_Survey_upto_10_11_2026.csv`; 17,660 carry elevations (148.6–179.3 m), UTM 44N converted to WGS84 |
 | DSM surface | Real - 1.8 m hillshade overlay, masked to the city boundary |
 
 All Firozabad layers now come from the supplied survey data.
@@ -343,6 +344,7 @@ For best results, use a desktop viewport of 1280 px or wider. Below 1200 px the 
 - Firozabad photos: `Incoming Data/Firozabad/Photos KML/FIROZABAD SITE IMAGES/Photos Firozabad/Photos_Firozabad_photos.kmz`
 - Firozabad DSM: `Incoming Data/Firozabad/DSM/Firozabad-44 N_DSM.tif`
 - Firozabad catchment boundary: `Incoming Data/Firozabad/Subcatchment_Outer Boundary_for_WatershedArea/Subcatchment_OuterBoundary.shp`
+- Firozabad DGPS survey points: `Incoming Data/Firozabad/DGPS/Firozabad_Processed_Survey_upto_10_11_2026.csv`
 - Saharanpur WPR: `Incoming Data/WPR _7to13/SRE_WPR_Submission_06_Nov_to_12_Nov_2026 1.docx`
 - Saharanpur layers: `Incoming Data/Saharanpur/`
 - Saharanpur TBM points: `Incoming Data/Saharanpur/TBM_SHP_KML/SAHARANPUR_TBM.csv`; elevations from `TBM_KML.kml`

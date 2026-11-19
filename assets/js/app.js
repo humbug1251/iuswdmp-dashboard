@@ -1019,7 +1019,7 @@
           ['Team', dataset.teams[dataset.team[best]]],
           ['Date', dataset.dates[dataset.date[best]]],
           ['Elevation', elev === -32768 ? '—' : formatNumber(elev / 100, 2) + ' m'],
-          ['Source', 'Saharanpur DGPS']
+          ['Source', dataset.source || 'DGPS survey']
         ]));
       this._popup = popup;
       popup.openOn(this._map);
