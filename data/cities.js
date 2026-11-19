@@ -273,7 +273,7 @@ window.DASHBOARD = {
         "The classified drain KML contains 3,761 source features and 326.06 km; primary 26.27 km, secondary 35.93 km, tertiary 263.86 km.",
         "The WPR reports 376.7 km of secondary/tertiary drains; the supplied KML is a partial classified network of 326.1 km.",
         "LiDAR acquisition covered 54.825 sq km; 1.63 sq km is excluded as Army/Jail restricted area. Ortho and DSM are received; DTM processing is expected in the 3rd week of November.",
-        "Static points and TBM locations come from SP+TBM Locations.kml; the four TBM points are separate from the five static points.",
+        "Static points come from SP+TBM Locations.kml; the TBM layer is built from SHAHJANPUR MERGED TBM EXCEL.xlsx (71 rows, one duplicate at TBM6 removed, 70 benchmarks with elevations).",
         "The drone-block KML contains 28 polygons including a Jail area; the Jail polygon is excluded, leaving 27 survey blocks.",
         "The ortho overlay is generated from ORI.tif at 1.9 m resolution and masked to the outer boundary."
       ],
