@@ -77,6 +77,7 @@ The photo layer contains **1,497 geotagged photos** from two sources: 1,079 from
 | Drains surveyed | Real — `Surveyed Drain classification (30.10.26).kml`, 3,761 source features / 3,856 mapped line segments, 325.1 km |
 | GCP marked | Real — 77 KML points |
 | TBM | Real - 70 benchmarks from `SHAHJANPUR MERGED TBM EXCEL.xlsx` (71 rows; one 4 cm duplicate at TBM6 removed); UTM 44N converted to WGS84, elevations included |
+| Survey points | Real - **211,844 DGPS observations** from `SHAHJAHANPUR_ALL_POINTS_MERGED_Till 10th Nov.csv`; all carry elevations (141.67–166.59 m), 411 attribute labels, UTM 44N converted to WGS84 |
 | Static points | Real — 5 points from `SP+TBM Locations.kml` |
 | Drone survey blocks | Real — 27 survey blocks; the Jail polygon is excluded |
 | Survey photos | Real - 5,370 compressed photos from `Shahjahanpur_Photos_Combined_640px.kmz` (18 Sep–16 Nov 2026, 43 dates; no duplicates) |
@@ -372,6 +373,7 @@ For best results, use a desktop viewport of 1280 px or wider. Below 1200 px the 
 - Shahjahanpur ortho: `Incoming Data/Shahjahanpur/Ortho/ORI.tif`
 - Shahjahanpur photos: `Incoming Data/Shahjahanpur/Photos/Photos KML/Shahjahanpur_Photos_Combined_640px.kmz`
 - Shahjahanpur TBM: `Incoming Data/Shahjahanpur/SHAHJANPUR MERGED TBM EXCEL.xlsx`
+- Shahjahanpur DGPS survey points: `Incoming Data/Shahjahanpur/DGPS/SHAHJAHANPUR_ALL_POINTS_MERGED_Till 10th Nov.csv`
 - Shahjahanpur DSM: `C:\Users\swaga\Downloads\SAHJANPUR 44N_DSM.tif`
 - Basemap imagery: Google, Esri and its data providers; OSM © OpenStreetMap contributors
 
