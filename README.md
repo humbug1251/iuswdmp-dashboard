@@ -121,6 +121,7 @@ The 06 Nov drain SHP (`Digitalised_SHP/16th_Nov/Conduits_till_06_Nov.shp`) conta
 | GCP marked | Real — 202 unique KML points (WPR reports 206) |
 | TBM | 102 points from `TBM.kml`; all carry elevations from the KML (190.51–209.96 m); 3 repeat readings share one benchmark |
 | Static points | Real - 10 points from `Static_Points.csv` (MRD-ST-01 to MRD-ST-10); coordinates from the description field, elevations 192.26–203.71 m |
+| Survey points | Real - **62,538 DGPS observations** from `Compile_Survey_data_till_17-11-26_CSV(in).csv`; 62,526 carry usable elevations (135.99–209.98 m), UTM 44N converted to WGS84 |
 | Survey photos | Real — 533 compressed photos from `Survey_Moradabad_photos.kmz` |
 | Drone survey blocks | Real — 14 block KMLs |
 | Ortho image | Not supplied for Moradabad |
@@ -359,6 +360,7 @@ For best results, use a desktop viewport of 1280 px or wider. Below 1200 px the 
 - Moradabad static points: `Incoming Data/Moradabad/Static Points Moradabad/Static_Points.csv`
 - Moradabad catchment boundary: `Incoming Data/Moradabad/Moradabad_Model_Domain/Moradabad_Model_Domain.shp`
 - Moradabad TBM: `Incoming Data/Moradabad/TBM Points/TBM.kml`
+- Moradabad DGPS survey points: `Incoming Data/Moradabad/DGPS/Compile_Survey_data_till_17-11-26_CSV(in).csv`
 - Meerut WPR: `Incoming Data/WPR _7to13/Meerut_Weekly_Progress_Report_06Nov12Nov.docx`
 - Meerut layers and TBM/static points: `Incoming Data/Meerut/`, `Incoming Data/Meerut/Drain_Data_Digitised/Meerut Survey Progress_Til 12th Nov.kml`, `Incoming Data/Meerut/TBM_KML/TBM.kmz`
 - Meerut catchment boundary: `Incoming Data/Meerut/Catchment Boundary/Catchment Boundary_50Ha.kml`
