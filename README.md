@@ -117,7 +117,7 @@ The 06 Nov drain SHP (`Digitalised_SHP/16th_Nov/Conduits_till_06_Nov.shp`) conta
 | Catchment boundary | Real - `Moradabad_Model_Domain.shp`, 183.9 sq km model domain |
 | Drains surveyed | Real — 13 Nov primary/secondary/tertiary SHPs; 1,141 mapped segments, 260.3 km |
 | GCP marked | Real — 202 unique KML points (WPR reports 206) |
-| TBM | 70 photo points from `TBM_Photos_photos.kmz` (06 Nov folder excluded; the 22-photo stack at CONCOR, 28.840668 N / 78.752895 E, removed); 3 carry elevations from the 27 Oct survey CSV (TBM1 209.96 m, TBM2 209.97 m, MRDST1 194.73 m) |
+| TBM | 102 points from `TBM.kml`; all carry elevations from the KML (190.51–209.96 m); 3 repeat readings share one benchmark |
 | Static points | Real - 10 points from `Static_Points.csv` (MRD-ST-01 to MRD-ST-10); coordinates from the description field, no elevations supplied |
 | Survey photos | Real — 533 compressed photos from `Survey_Moradabad_photos.kmz` |
 | Drone survey blocks | Real — 14 block KMLs |
@@ -125,7 +125,7 @@ The 06 Nov drain SHP (`Digitalised_SHP/16th_Nov/Conduits_till_06_Nov.shp`) conta
 
 WPR figures: primary 142.21 / 140 km, secondary 67.27 km, tertiary 52.53 km, road 174.24 / 1,155 km, GCP 206 / 206, static 10 / 10, LiDAR 100 sq km.
 
-The TBM layer uses 70 photo points from `TBM_Photos_photos.kmz`, excluding the 06 Nov folder. The 22 photos in the 10 Nov folder that all shared one coordinate (CONCOR, 28.840668 N / 78.752895 E) were removed as a stacked batch. Only three points have elevations, matched from the 27 Oct survey CSV; the remaining 67 are location-only.
+The TBM layer now uses 102 points from `TBM.kml`, replacing the earlier photo-derived 70-point set. Every point carries its KML elevation (190.51–209.96 m); three readings at 28.829232 N / 78.724132 E are repeats of one benchmark.
 
 The mapped drain lengths are **141.7 km primary**, **71.3 km secondary** and **47.2 km tertiary**. The 1,153 source segments become 1,141 mapped segments after dropping sub-2 m geometry. Primary and tertiary mapped lengths differ from the WPR totals because the 13 Nov hierarchy layers are a separate compilation.
 
@@ -355,6 +355,7 @@ For best results, use a desktop viewport of 1280 px or wider. Below 1200 px the 
 - Moradabad layers: `Incoming Data/Moradabad/`
 - Moradabad static points: `Incoming Data/Moradabad/Static Points Moradabad/Static_Points.csv`
 - Moradabad catchment boundary: `Incoming Data/Moradabad/Moradabad_Model_Domain/Moradabad_Model_Domain.shp`
+- Moradabad TBM: `Incoming Data/Moradabad/TBM Points/TBM.kml`
 - Meerut WPR: `Incoming Data/WPR _7to13/Meerut_Weekly_Progress_Report_06Nov12Nov.docx`
 - Meerut layers and TBM/static points: `Incoming Data/Meerut/`, `Incoming Data/Meerut/Drain_Data_Digitised/Meerut Survey Progress_Til 12th Nov.kml`, `Incoming Data/Meerut/TBM_KML/TBM.kmz`
 - Meerut catchment boundary: `Incoming Data/Meerut/Catchment Boundary/Catchment Boundary_50Ha.kml`
