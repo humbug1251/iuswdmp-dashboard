@@ -117,7 +117,7 @@ The 06 Nov drain SHP (`Digitalised_SHP/16th_Nov/Conduits_till_06_Nov.shp`) conta
 | Ward boundary | Real — 70 labelled ward polygons from the administrative KML |
 | Buffer boundary | Real - AOI KML, 100.39 sq km |
 | Catchment boundary | Real - `Moradabad_Model_Domain.shp`, 183.9 sq km model domain |
-| Drains surveyed | Real — 13 Nov primary/secondary/tertiary SHPs; 1,141 mapped segments, 260.3 km |
+| Drains surveyed | Real — 19 Nov primary/secondary/tertiary SHPs; 2,099 mapped segments, 340.9 km |
 | GCP marked | Real — 202 unique KML points (WPR reports 206) |
 | TBM | 102 points from `TBM.kml`; all carry elevations from the KML (190.51–209.96 m); 3 repeat readings share one benchmark |
 | Static points | Real - 10 points from `Static_Points.csv` (MRD-ST-01 to MRD-ST-10); coordinates from the description field, elevations 192.26–203.71 m |
@@ -126,7 +126,7 @@ The 06 Nov drain SHP (`Digitalised_SHP/16th_Nov/Conduits_till_06_Nov.shp`) conta
 | Drone survey blocks | Real — 14 block KMLs |
 | Ortho image | Not supplied for Moradabad |
 
-WPR figures: primary 142.21 / 140 km, secondary 67.27 km, tertiary 52.53 km, road 174.24 / 1,155 km, GCP 206 / 206, static 10 / 10, LiDAR 100 sq km.
+WPR figures (13–20 Nov 2026): primary 146.68 / 140 km, secondary 72.61 km, tertiary 122.94 km, road 232.54 / 1,155 km, GCP 206 / 206, static 10 / 10, LiDAR 100 sq km (processing 75%), outfalls 15.
 
 The TBM layer now uses 102 points from `TBM.kml`, replacing the earlier photo-derived 70-point set. Every point carries its KML elevation (190.51–209.96 m); three readings at 28.829232 N / 78.724132 E are repeats of one benchmark.
 
