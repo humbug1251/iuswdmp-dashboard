@@ -50,7 +50,7 @@ The basemap will not load without an internet connection, but the layer controls
 | Catchment boundary | Real — `Subcatchment_OuterBoundary.shp`, 109.33 sq km watershed area |
 | GCP points | Real - 85 unique identifiable point geometries from `GCP_Firozabad(86_Points).kml` (WPR reports 86 completed) |
 | TBM points | Real - 18 benchmarks from `TBM_KML (1).kml`; 8 carry RL values |
-| Drains surveyed | Real — 5 Nov primary/secondary/tertiary SHPs; 5,428 mapped segments, 350.0 km |
+| Drains surveyed | Real — 19 Nov PST SHPs; 6,764 mapped segments, 467.3 km |
 | Ward boundary | Real - 70 ward polygons from `Firozabad_70Wardwise_Map.kml` |
 | Drone survey blocks | Real - 10 drone flight blocks from `Drone_Flight_Blocks_Firozabad.kml` |
 | Survey photos | Real - 1,497 compressed photos: 1,079 from `Firozabad_Survey_Photos.kmz` (25 Sep–05 Oct 2026) + 418 from `Photos_Firozabad_photos.kmz` (15–30 Oct 2026) |
@@ -61,9 +61,9 @@ The basemap will not load without an internet connection, but the layer controls
 
 All Firozabad layers now come from the supplied survey data.
 
-WPR figures (6–12 Nov 2026): primary 58.5 km, secondary 7.624 km, tertiary 207.62 km, road 283.785 / 758 km, GCP 86 / 86, static 5 / 5 and LiDAR 35.5 sq km.
+WPR figures (13–19 Nov 2026): primary 67.072 km, secondary + tertiary 345.532 km (total 412.604 km), road 283.785 / 758 km, GCP 86 / 86, static 5 / 5 and LiDAR 35.5 sq km.
 
-The map now uses the 12 Nov tertiary SHP with the 5 Nov primary and secondary SHPs: **5,681 mapped segments / 368.7 km**, with primary 109.2 km, secondary 8.4 km and tertiary 251.0 km. These map totals are higher than the WPR component totals because the SHPs include all digitized and outfall-extension geometry.
+The map now uses the 19 Nov PST SHPs: **6,764 mapped segments / 467.3 km**, with primary 73.7 km, secondary 11.5 km and tertiary 382.1 km. These map totals are higher than the WPR component totals because the SHPs include all digitized and outfall-extension geometry.
 
 The photo layer contains **1,497 geotagged photos** from two sources: 1,079 from `Firozabad_Survey_Photos.kmz` (25 Sep–05 Oct 2026) and 418 from `Photos_Firozabad_photos.kmz` (15–30 Oct 2026). Date ranges do not overlap and no duplicate images were detected.
 
@@ -74,7 +74,7 @@ The photo layer contains **1,497 geotagged photos** from two sources: 1,079 from
 | Outer boundary | Real — KML, 56.46 sq km |
 | Ward boundary | Real — 60 wards from `60_Wards_New_Ward_Boundary.kml` |
 | Buffer boundary | Not supplied |
-| Drains surveyed | Real — `Surveyed Drain classification (30.10.26).kml`, 3,761 source features / 3,856 mapped line segments, 325.1 km |
+| Drains surveyed | Real — `SURVEY CLASSIFICATION- (20.11.26).shp`, 4,846 mapped segments, 408.4 km |
 | GCP marked | Real — 77 KML points |
 | TBM | Real - 70 benchmarks from `SHAHJANPUR MERGED TBM EXCEL.xlsx` (71 rows; one 4 cm duplicate at TBM6 removed); UTM 44N converted to WGS84, elevations included |
 | Survey points | Real - **211,844 DGPS observations** from `SHAHJAHANPUR_ALL_POINTS_MERGED_Till 10th Nov.csv`; all carry elevations (141.67–166.59 m), 411 attribute labels, UTM 44N converted to WGS84 |
@@ -84,7 +84,7 @@ The photo layer contains **1,497 geotagged photos** from two sources: 1,079 from
 | Ortho image | Real - `ORI.tif`, 1.9 m resolution, masked overlay in `Shahjahanpur_Ortho_Overlay.webp` |
 | DSM | Real - 10 GB DSM converted to a 3.44 m/px shaded-relief WebP; elevation stretch 146–164 m (full range 76.8–194.5 m) |
 
-The classified drain KML uses `P`, `S` and `T` type codes. Mapped totals are **26.2 km primary**, **35.8 km secondary** and **263.1 km tertiary**. Primary drain progress is **100% complete** (31.4 / 31.4 km). The WPR reports 31.4 km primary, 376.7 km secondary/tertiary, 345 / 740 km roads, 77 GCPs, 5 static points, 54.825 sq km LiDAR acquisition (DTM processing in progress), 31 outfalls and a 56.24 sq km RFP area (40.1 sq km ward KML). The supplied drain KML is a partial network, so its 325.1 km total is below the WPR secondary/tertiary figure.
+The classified drain SHP uses `P`, `S` and `T` type codes. Mapped totals are **34.6 km primary**, **54.6 km secondary** and **319.1 km tertiary**. Primary drain progress is **100% complete** (34.636 / 31.4 km; 45 outfalls identified). The WPR (13–19 Nov) reports 34.636 km primary, 466.4 km secondary/tertiary, 367 / 740 km roads, 77 GCPs, 5 static points, 54.825 sq km LiDAR acquisition (DTM processing in progress), 45 outfalls and a 56.24 sq km RFP area (40.1 sq km ward KML). The supplied drain SHP is a partial network, so its 373.7 km secondary/tertiary total is below the WPR 466.4 km figure.
 
 The ortho overlay is generated from `ORI.tif` (5,089 × 5,942 px, 1.9 m, EPSG:32644), masked to the outer boundary and saved as `assets/ortho/Shahjahanpur_Ortho_Overlay.webp`.
 

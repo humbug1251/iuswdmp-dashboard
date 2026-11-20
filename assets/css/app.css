@@ -478,6 +478,66 @@ p {
   color: rgba(247, 243, 233, 0.52);
 }
 
+.summary-section {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 22px 28px 0;
+}
+
+.summary-grid {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.summary-card {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 16px 18px;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: var(--surface);
+  box-shadow: 0 1px 0 rgba(16, 35, 46, 0.02);
+}
+
+.summary-card::before {
+  content: '';
+  width: 34px;
+  height: 3px;
+  border-radius: 2px;
+  background: var(--accent, var(--teal));
+}
+
+.summary-drain { --accent: var(--amber); }
+.summary-uav { --accent: var(--green); }
+.summary-dgps { --accent: var(--violet); }
+.summary-gcp { --accent: var(--rose); }
+.summary-tbm { --accent: var(--teal); }
+
+.summary-label {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.summary-value {
+  font-size: 24px;
+  font-weight: 800;
+  letter-spacing: -0.01em;
+  color: var(--ink);
+}
+
+.summary-value small {
+  margin-left: 6px;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0;
+  color: var(--muted);
+}
+
 .city-strip-section {
   max-width: 1240px;
   margin: 0 auto;
@@ -3568,6 +3628,14 @@ p {
 
   .project-line {
     font-size: 11px;
+  }
+
+  .summary-section {
+    padding: 18px 22px 0;
+  }
+
+  .summary-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .city-strip-section {

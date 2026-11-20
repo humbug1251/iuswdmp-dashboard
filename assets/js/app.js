@@ -160,6 +160,7 @@
     el.landing = document.getElementById('landing');
     el.cityView = document.getElementById('city-view');
     el.cityGrid = document.getElementById('city-grid');
+    el.summaryGrid = document.getElementById('summary-grid');
     el.coverageMap = document.getElementById('coverage-map');
     el.cityTitle = document.getElementById('city-title');
     el.citySub = document.getElementById('city-sub');
@@ -310,9 +311,59 @@
   /* ---------------------------------------------------------------------- */
 
   function renderLanding() {
+    renderSummary();
     renderCityGrid(DATA.cities);
     observeReveal(el.landing);
     requestAnimationFrame(() => initCoverageMap());
+  }
+
+  function renderSummary() {
+    if (!el.summaryGrid) return;
+    const cities = DATA.cities || [];
+    let totalDrain = 0;
+    let uav = 0;
+    let dgps = 0;
+    let gcp = 0;
+    let tbm = 0;
+
+    cities.forEach((city) => {
+      const components = city.components || {};
+      const primary = Number(components.primary && components.primary.done) || 0;
+      const secondary = Number(components.secondary && components.secondary.done) || 0;
+      const tertiary = Number(components.tertiary && components.tertiary.done) || 0;
+      const combined = Number(components.secondaryTertiary && components.secondaryTertiary.done) || 0;
+      const separated = secondary + tertiary;
+      totalDrain += primary + (separated > 0 ? separated : combined);
+
+      if (components.lidar && components.lidar.unit === 'sq km' && components.lidar.done != null) {
+        uav += Number(components.lidar.done);
+      }
+      if (components.gcp && components.gcp.done != null) {
+        gcp += Number(components.gcp.done);
+      }
+
+      const layers = city.layerKey ? CITY_LAYERS[city.layerKey] : null;
+      if (layers && layers.surveyPoints && layers.surveyPoints.count) {
+        dgps += layers.surveyPoints.count;
+      }
+      if (layers && layers.stats && layers.stats.tbm) {
+        tbm += layers.stats.tbm;
+      }
+    });
+
+    const cards = [
+      ['Total Drains Surveyed', formatNumber(totalDrain, 0), 'km', 'drain'],
+      ['UAV Area Covered', formatNumber(uav, 0), 'sq km', 'uav'],
+      ['Survey Points Surveyed', formatNumber(dgps, 0), 'points', 'dgps'],
+      ['GCP Points', formatNumber(gcp, 0), 'points', 'gcp'],
+      ['TBM Marked', formatNumber(tbm, 0), 'points', 'tbm']
+    ];
+
+    el.summaryGrid.innerHTML = cards.map(([label, value, unit, tone]) => `
+      <div class="summary-card summary-${tone}" data-reveal>
+        <span class="summary-label">${label}</span>
+        <span class="summary-value">${value}${unit ? `<small>${unit}</small>` : ''}</span>
+      </div>`).join('');
   }
 
   function renderCityGrid(cities) {

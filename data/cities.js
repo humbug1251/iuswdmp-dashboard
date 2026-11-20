@@ -32,9 +32,9 @@ window.DASHBOARD = {
       ],
       "status": "reporting",
       "statusLabel": "Reporting",
-      "reportPeriod": "6–12 Nov 2026",
-      "reportIssued": "2026-11-13",
-      "reportDate": "2026-11-12",
+      "reportPeriod": "13–19 Nov 2026",
+      "reportIssued": "2026-11-20",
+      "reportDate": "2026-11-20",
       "area": {
         "rfp": 35.49,
         "kml": 35.08,
@@ -48,20 +48,20 @@ window.DASHBOARD = {
       },
       "components": {
         "primary": {
-          "done": 58.5,
+          "done": 67.072,
           "planned": 40.7,
           "pct": 100.0,
           "unit": "km",
-          "note": "58.5 km surveyed; target 40.7 km (extended to outfalls)"
+          "note": "67.072 km surveyed; target 40.7 km (extended to outfalls)"
         },
         "secondary": {
-          "done": 7.624,
+          "done": null,
           "planned": null,
           "pct": null,
           "unit": "km"
         },
         "tertiary": {
-          "done": 207.62,
+          "done": 345.532,
           "planned": null,
           "pct": null,
           "unit": "km"
@@ -146,11 +146,11 @@ window.DASHBOARD = {
         }
       ],
       "notes": [
-        "Source WPR: Firozbad_WPR_6Nov_to_12Nov.docx (reporting period 6–12 Nov 2026).",
+        "Source WPR: reporting period 13–19 Nov 2026 (primary 67.072 km, secondary + tertiary 345.532 km, total 412.604 km).",
         "Overall progress is the simple average of primary drains, road survey, GCP marking and LiDAR acquisition percentages.",
         "The primary-drain target (40.7 km) is tentative and based on OSM; the surveyed length includes extensions to outfalls.",
-        "Secondary and tertiary drain targets have not been notified, so only completed lengths are shown. The latest cumulative lengths are 7.624 km secondary and 207.62 km tertiary.",
-        "Map drains use the 12 Nov tertiary SHP with the 5 Nov primary and secondary SHPs: 5,681 mapped segments and 368.7 km (primary 109.2 km, secondary 8.4 km, tertiary 251.0 km).",
+        "Secondary and tertiary drain targets have not been notified, so only completed lengths are shown. The latest cumulative length is 345.532 km combined.",
+        "Map drains use the 19 Nov PST SHPs: 6,764 mapped segments and 467.3 km (primary 73.7 km, secondary 11.5 km, tertiary 382.1 km).",
         "The road target is 758 km in the latest detail table; the summary table states 740 km.",
         "Ward-boundary verification by Nagar Nigam is pending.",
         "The supplied 70-ward KML labels two polygons as Ward 43 and omits Ward 42; the larger 0.889 sq km polygon was relabelled Ward 42 Ram Nagar, matching the WPR, to complete the 1–70 sequence.",
@@ -173,15 +173,15 @@ window.DASHBOARD = {
       ],
       "status": "reporting",
       "statusLabel": "Reporting",
-      "reportPeriod": "6–12 Nov 2026",
-      "reportIssued": "2026-11-13",
-      "reportDate": "2026-11-12",
+      "reportPeriod": "13–19 Nov 2026",
+      "reportIssued": "2026-11-20",
+      "reportDate": "2026-11-20",
       "area": {
         "rfp": 56.24,
         "kml": 56.46,
         "unit": "sq km"
       },
-      "outfalls": 31,
+      "outfalls": 45,
       "surveyTeam": {
         "base": 2,
         "rovers": 4,
@@ -189,23 +189,23 @@ window.DASHBOARD = {
       },
       "components": {
         "primary": {
-          "done": 31.4,
+          "done": 34.636,
           "planned": 31.4,
           "pct": 100.0,
           "unit": "km",
-          "note": "31 primary drains identified and completed; 31.4 km cumulative"
+          "note": "45 primary drains identified and completed; 34.6 km cumulative"
         },
         "secondaryTertiary": {
-          "done": 376.7,
+          "done": 466.4,
           "planned": null,
           "pct": null,
           "unit": "km",
           "note": "Combined secondary and tertiary drains; target not notified"
         },
         "road": {
-          "done": 345,
+          "done": 367,
           "planned": 740,
-          "pct": 46.6,
+          "pct": 49.6,
           "unit": "km"
         },
         "gcp": {
@@ -266,12 +266,12 @@ window.DASHBOARD = {
         }
       ],
       "notes": [
-        "Source WPR: Weekly Report_ UP_Shahajanpur_ 6th Nov to 12th Nov.docx (reporting period 6–12 Nov 2026).",
+        "Source WPR: Weekly Report_ UP_Shahajanpur_ 13th Nov to 19th Nov.docx (reporting period 13–19 Nov 2026).",
         "City area is 56.24 sq km as per the RFP and 40.1 sq km as per the ward KML; the supplied outer boundary measures 56.46 sq km.",
-        "WPR cumulative survey: primary 31.4 km, secondary/tertiary 376.7 km, road 345 km, GCP 77 / 77, static 5 / 5.",
-        "The classified drain KML contains 3,761 source features and 326.06 km; primary 26.27 km, secondary 35.93 km, tertiary 263.86 km.",
-        "The WPR reports 376.7 km of secondary/tertiary drains; the supplied KML is a partial classified network of 326.1 km.",
-        "LiDAR acquisition covered 54.825 sq km; 1.63 sq km is excluded as Army/Jail restricted area. Ortho and DSM are received; DTM processing is expected in the 3rd week of November.",
+        "WPR cumulative survey: primary 34.636 km, secondary/tertiary 466.4 km, road 367 km, GCP 77 / 77, static 5 / 5.",
+        "The classified drain SHP (SURVEY CLASSIFICATION 20.11.26) contains 4,846 mapped segments and 408.4 km: primary 34.6 km, secondary 54.6 km, tertiary 319.1 km.",
+        "The WPR reports 466.4 km of secondary/tertiary drains; the supplied SHP is a partial classified network of 373.7 km (secondary + tertiary).",
+        "LiDAR acquisition covered 54.825 sq km; 1.63 sq km is excluded as Army/Jail restricted area. Ortho and DSM are received; DTM processing is expected in the 1st week of December.",
         "Static points come from SP+TBM Locations.kml; the TBM layer is built from SHAHJANPUR MERGED TBM EXCEL.xlsx (71 rows, one duplicate at TBM6 removed, 70 benchmarks with elevations).",
         "The drone-block KML contains 28 polygons including a Jail area; the Jail polygon is excluded, leaving 27 survey blocks.",
         "The ortho overlay is generated from ORI.tif at 1.9 m resolution and masked to the outer boundary."
