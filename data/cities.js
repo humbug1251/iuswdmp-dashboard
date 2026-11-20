@@ -491,11 +491,12 @@ window.DASHBOARD = {
           "unit": "km"
         },
         "secondaryTertiary": {
-          "done": 262.86,
+          "done": 370.12,
           "planned": null,
           "pct": null,
           "unit": "km",
-          "note": "Combined secondary and tertiary drains; target not notified"
+          "note": "Combined secondary and tertiary drains; target not notified",
+          "decimals": 2
         },
         "static": {
           "done": 10,
@@ -521,14 +522,14 @@ window.DASHBOARD = {
       "notes": [
         "Source WPR: Meerut_Weekly_Progress_Report_06Nov12Nov.docx (reporting period 6–12 Nov 2026).",
         "City area is 141.94 sq km as per the RFP and 143.83 sq km as per the KML.",
-        "WPR cumulative survey: primary 74.66 km with invert of 85.59 km alignment, secondary/tertiary 262.86 km, road 213.15 km, static 10 / 10.",
+        "WPR cumulative survey: primary 74.66 km with invert of 85.59 km alignment, secondary/tertiary 370.12 km, road 213.15 km, static 10 / 10.",
         "Primary progress is shown against the 80 km tentative OSM plan; the mapped primary network with alignment only is 85.59 km.",
         "DGPS deployment is 1 base and 6 rovers.",
         "No GCP data is reported for Meerut.",
         "No drone flight blocks are required; LiDAR is planned with a helicopter-mounted system and is not started.",
         "TBM and static points are taken from the supplied TBM.kmz.",
         "The 5 Nov primary layer contains 20 alignments and 74.7 km; the secondary/tertiary SHP has 189 secondary, 64 tertiary and 730 unclassified segments.",
-        "The 12 Nov survey-progress KML adds 261 new unclassified segments / 38.4 km; the map now has 1,262 segments / 336.6 km, close to the WPR total of 337.5 km.",
+        "The 13–19 Nov SHP adds 624 new unclassified segments / 107.2 km; the map now has 1,886 segments / 443.8 km.",
         "Outfalls identified: 5."
       ],
       "gcpAvailable": false,
