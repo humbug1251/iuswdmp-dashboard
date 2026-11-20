@@ -293,9 +293,9 @@ window.DASHBOARD = {
       ],
       "status": "reporting",
       "statusLabel": "Reporting",
-      "reportPeriod": "6–12 Nov 2026",
-      "reportIssued": "2026-11-13",
-      "reportDate": "2026-11-12",
+      "reportPeriod": "13–19 Nov 2026",
+      "reportIssued": "2026-11-20",
+      "reportDate": "2026-11-20",
       "area": {
         "rfp": 73.7,
         "kml": 80.544,
@@ -316,7 +316,7 @@ window.DASHBOARD = {
           "note": "Primary drains completed as per the WPR"
         },
         "secondaryTertiary": {
-          "done": 182.87,
+          "done": 217.43,
           "planned": null,
           "pct": null,
           "unit": "km",
@@ -351,15 +351,15 @@ window.DASHBOARD = {
       },
       "milestones": [],
       "notes": [
-        "Source WPR: SRE_WPR_Submission_06_Nov_to_12_Nov_2026 1.docx (reporting period 6–12 Nov 2026).",
+        "Source WPR: SRE_WPR_Submission_13_Nov_to_19_Nov_2026.docx (reporting period 13–19 Nov 2026).",
         "City area is 73.7 sq km as per the RFP and 80.544 sq km as per the WPR KML.",
-        "WPR cumulative survey: primary 14.58 km, secondary/tertiary 182.87 km, road 173.119 km, GCP 182 / 182, static 5 / 5, river 22.38 km.",
+        "WPR cumulative survey: primary 14.58 km, secondary/tertiary 217.43 km, road 173.119 km, GCP 182 / 182, static 5 / 5, river 22.38 km.",
         "LiDAR acquisition covered 90 sq km; a 10 sq km jail area is excluded as a restricted area.",
-        "The map drains layer is the 16 Nov conduit SHP (Conduits_till_06_Nov.shp); primary geometry is 14.56 km, matching the WPR's 14.58 km completed.",
-        "The 06 Nov SHP contains 6,016 source segments and 197.19 km. After removing duplicate and zero-length geometry, 5,948 segments / 195.6 km are mapped: primary 14.6 km, secondary 158.2 km, natural streams 22.7 km and unclassified 0.3 km.",
+        "The map drains layer is the 19 Nov conduit SHP (Conduits_till_Survey_19_Nov.shp); primary geometry is 14.18 km, matching the WPR's 14.58 km completed.",
+        "The 19 Nov SHP contains 7,866 source segments and 255.19 km. After removing duplicate and zero-length geometry, 7,797 segments / 253.5 km are mapped: primary 14.2 km, secondary 190.2 km, tertiary 25.7 km, natural streams 22.4 km and unclassified 1.0 km.",
         "The GCP KML contains 182 placemarks; 181 unique name-and-location points are mapped, matching the WPR total of 182 completed GCPs within one point.",
         "The TBM CSV contains 42 rows and 40 unique labels (TBM1 and TBM3 repeat). All 42 CSV points are mapped; matching elevations come from TBM_KML.kml.",
-        "The WPR reports a combined secondary and tertiary length of 182.87 km; no separate target was notified.",
+        "The WPR reports a combined secondary and tertiary length of 217.43 km; no separate target was notified.",
         "The AOI KML is used as the buffer boundary."
       ],
       "layersAvailable": true,
@@ -549,9 +549,9 @@ window.DASHBOARD = {
       ],
       "status": "reporting",
       "statusLabel": "Reporting",
-      "reportPeriod": "6–12 Nov 2026",
-      "reportIssued": "2026-11-13",
-      "reportDate": "2026-11-12",
+      "reportPeriod": "13–19 Nov 2026",
+      "reportIssued": "2026-11-20",
+      "reportDate": "2026-11-20",
       "area": {
         "rfp": 225,
         "kml": 170.97,
@@ -560,8 +560,8 @@ window.DASHBOARD = {
       "outfalls": 4,
       "surveyTeam": {
         "base": 3,
-        "rovers": 11,
-        "members": 8
+        "rovers": 10,
+        "members": 11
       },
       "aerialSurvey": {
         "status": "Permission awaited"
@@ -587,16 +587,16 @@ window.DASHBOARD = {
           "unit": "km"
         },
         "secondaryTertiary": {
-          "done": 94.8,
+          "done": 239.97,
           "planned": null,
           "pct": null,
           "unit": "km",
           "note": "Combined secondary + tertiary length; target not notified"
         },
         "road": {
-          "done": 255.3,
+          "done": 327.88,
           "planned": 3450,
-          "pct": 7.4,
+          "pct": 9.5,
           "unit": "km"
         },
         "static": {
@@ -641,15 +641,15 @@ window.DASHBOARD = {
         }
       ],
       "notes": [
-        "Source WPR: Ghaziabad_WPR_20261113.docx (reporting period 6–12 Nov 2026).",
+        "Source WPR: Ghaziabad_WPR_20261120.docx (reporting period 13–19 Nov 2026).",
         "Overall progress is the simple average of the available component percentages (primary drains, road survey, static points and LiDAR).",
         "City area is 225 sq km as per the RFP and 170.97 sq km as per the supplied outer boundary.",
         "Outfalls identified: Shahberi, Raj Nagar Extension, Hindon Ghat and Hindon cut to Yamuna.",
-        "WPR cumulative survey: primary 160.5 km, road 255.3 km, secondary/tertiary 94.8 km, static 6 / 6.",
+        "WPR cumulative survey: primary 160.5 km, road 327.88 km, secondary/tertiary 239.97 km, static 6 / 6.",
         "Primary invert-level survey added 11 km this week; cumulative with invert levels is 171.5 km.",
-        "Current DGPS deployment is 3 base and 11 rovers with 8 team members.",
-        "The WPR shows previous-week secondary/tertiary as 45.9 km (the prior week's weekly addition) and cumulative 94.8 km; the reported cumulative is used.",
-        "Drains combine the 29 Oct KMZ (3,121 features / 102.6 km), the 30 Oct–5 Nov SHP (123 segments / 102.2 km) and the 6–12 Nov SHP (186 segments / 59.8 km); new segments are unclassified.",
+        "Current DGPS deployment is 3 base and 10 rovers with 11 team members.",
+        "The WPR shows previous-week secondary/tertiary as 94.8 km (the prior week's weekly addition) and cumulative 239.97 km; the reported cumulative is used.",
+        "Drains combine the 29 Oct KMZ (3,121 features / 102.6 km), the 30 Oct–5 Nov SHP (123 segments / 102.2 km), the 6–12 Nov SHP (186 segments / 59.8 km) and the 13–19 Nov SHP (485 segments / 96.0 km); new segments are unclassified.",
         "The supplied outer boundary and 100-ward SHP are used for the map; no buffer or AOI layer was supplied.",
         "Static points are mapped from the supplied six-point SHP, with elevations from the main control-point CSV. The KMZ contains Static Point 8 only and is included in the SHP.",
         "TBM layer contains 22 benchmarks from Ghaziabad_Most_22_TBMs.csv; TBM 6 is a CAD/grid point and the rest are RTK fixes.",

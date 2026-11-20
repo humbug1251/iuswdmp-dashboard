@@ -96,7 +96,7 @@ The ortho overlay is generated from `ORI.tif` (5,089 × 5,942 px, 1.9 m, EPSG:32
 | Ward boundary | Real — 70 wards from `Saharanpur_Wards.kml` |
 | Buffer boundary | Real — `AOI.kml`, 100.2 sq km |
 | Catchment boundary | Real — `Catchment_Boundary_Updated.shp`, 218.52 sq km watershed area |
-| Drains surveyed | Real — `Conduits_till_06_Nov.shp`, 5,948 mapped segments, 195.6 km |
+| Drains surveyed | Real — `Conduits_till_Survey_19_Nov.shp`, 7,797 mapped segments, 253.5 km |
 | GCP marked | Real — 181 mapped points from 182 KML placemarks (WPR reports 182 completed) |
 | TBM | `SAHARANPUR_TBM.csv` — **42 points** (40 unique labels; TBM1 and TBM3 repeat); elevations from `TBM_KML.kml` where matched |
 | Static points | Real — **5 points** from `SAHARANPUR STATIC POINTS 1.csv` (UTM 43N converted to WGS84); elevations from Ortho H |
@@ -105,9 +105,9 @@ The ortho overlay is generated from `ORI.tif` (5,089 × 5,942 px, 1.9 m, EPSG:32
 | Drone survey blocks | Real — 14 merged flight-plan polygons |
 | Ortho image | Not supplied for Saharanpur |
 
-The WPR reports 14.58 km primary drains, 182.87 km secondary + tertiary, 173.119 / 1,298.41 km roads, 182 GCPs, 5 static points, 22.38 km river survey and 90 sq km LiDAR coverage.
+The WPR reports 14.58 km primary drains, 217.43 km secondary + tertiary, 173.119 / 1,298.41 km roads, 182 GCPs, 5 static points, 22.38 km river survey and 90 sq km LiDAR coverage.
 
-The 06 Nov drain SHP (`Digitalised_SHP/16th_Nov/Conduits_till_06_Nov.shp`) contains **6,016 source segments / 197.19 km**. After removing duplicate and zero-length geometry, **5,948 segments / 195.6 km** are mapped: primary 14.6 km, secondary 158.2 km, natural streams 22.7 km and unclassified 0.3 km. Natural streams are shown in green and blanks in grey; only actual tertiary drains would use pink, and this SHP has none. The map primary geometry (14.56 km) matches the WPR’s 14.58 km; the WPR's 182.87 km secondary + tertiary figure is reported separately from this till-06-Nov geometry.
+The 19 Nov drain SHP (`Digitalised_SHP/20th_Nov/Conduits_till_Survey_19_Nov.shp`) contains **7,866 source segments / 255.19 km**. After removing duplicate and zero-length geometry, **7,797 segments / 253.5 km** are mapped: primary 14.2 km, secondary 190.2 km, tertiary 25.7 km, natural streams 22.4 km and unclassified 1.0 km. Natural streams are shown in green and blanks in grey. The map primary geometry (14.18 km) matches the WPR’s 14.58 km; the WPR's 217.43 km secondary + tertiary figure is reported separately from this till-19-Nov geometry.
 
 ### Moradabad layers
 
@@ -159,7 +159,7 @@ WPR figures: primary 74.66 / 80 km (93.3%; the mapped alignment total is 85.59 k
 | Ward boundary | Real - 100 wards from `GZD_Wards_100.shp` |
 | Buffer boundary | Not supplied |
 | Catchment boundary | Real - `GZB_Subcatchment_Boundary_1.shp`, 780.98 sq km watershed area |
-| Drains surveyed | Real — 29 Oct KMZ plus 30 Oct–5 Nov and 6–12 Nov SHPs; 3,404 mapped segments, 264.4 km |
+| Drains surveyed | Real — 29 Oct KMZ plus 30 Oct–5 Nov, 6–12 Nov and 13–19 Nov SHPs; 3,889 mapped segments, 360.4 km |
 | TBM | Real — 22 points from `Ghaziabad_Most_22_TBMs.csv`; TBM 6 is a CAD/grid point, the rest are RTK fixes |
 | Static points | Real - six points from `Static Points_GZB.shp`, elevations from `GAZIABAD Main Control Points.csv`; `Static Point 8.kmz` contains ST08 |
 | Survey photos | Real - 982 compressed photos: 298 from `Survey_Photos_photos.kmz` + 84 from `Photos_photos.kmz` + 600 from `Ghaziabad_Photos_WithCoordinates.kmz` (23 Sep–18 Nov 2026) |
@@ -168,7 +168,7 @@ WPR figures: primary 74.66 / 80 km (93.3%; the mapped alignment total is 85.59 k
 | Drone survey blocks | Not required for Ghaziabad |
 | Ortho image | Not supplied for Ghaziabad |
 
-The 29 Oct KMZ contains **3,121 source features / 102.6 km**; hierarchy was matched from the 24 Oct SHP by drain name: **1,245 primary**, **903 tertiary** and **947 unclassified** mapped segments. The 30 Oct–5 Nov SHP adds **123 segments / 102.2 km**, and the 6–12 Nov SHP adds **186 segments / 59.8 km**, all shown as unclassified, for a mapped total of **3,404 segments / 264.4 km**. WPR figures: primary 160.5 / 223 km, secondary + tertiary 94.8 km, road 255.3 / 3,450 km, static 6 / 6, LiDAR not started, outfalls 4. Primary invert-level survey added 11 km this week; cumulative with invert levels is 171.5 km. The WPR shows previous-week secondary/tertiary as 45.9 km (the prior week's weekly addition) and cumulative 94.8 km; the reported cumulative is used. The mapped total remains below the WPR surveyed total because the network compilation is partial.
+The 29 Oct KMZ contains **3,121 source features / 102.6 km**; hierarchy was matched from the 24 Oct SHP by drain name: **1,245 primary**, **903 tertiary** and **947 unclassified** mapped segments. The 30 Oct–5 Nov SHP adds **123 segments / 102.2 km**, the 6–12 Nov SHP adds **186 segments / 59.8 km**, and the 13–19 Nov SHP adds **485 segments / 96.0 km**, all shown as unclassified, for a mapped total of **3,889 segments / 360.4 km**. WPR figures (13–19 Nov 2026): primary 160.5 / 223 km, secondary + tertiary 239.97 km, road 327.88 / 3,450 km, static 6 / 6, LiDAR not started, outfalls 4. The mapped total remains below the WPR surveyed total because the network compilation is partial.
 
 The static-point CSV also contains an older ST3 record; the six-point SHP and the WPR set use **ST01, ST02, ST05, ST06, ST07 and ST08**.
 
