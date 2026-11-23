@@ -29,6 +29,7 @@
     ortho: false,
     dsm: false,
     drains: false,
+    namedDrains: false,
     gcp: false,
     tbm: false,
     static: false,
@@ -715,6 +716,7 @@
     const stats = data.stats || {};
     const counts = {
       drains: (layers.drains.features || []).length,
+      namedDrains: layers.namedDrains && layers.namedDrains.features ? layers.namedDrains.features.length : 0,
       gcp: (layers.gcp.features || []).length,
       tbm: (layers.tbm.features || []).length,
       static: (layers.static && layers.static.features ? layers.static.features : []).length,
@@ -760,6 +762,7 @@
           ${drainClasses.has('Natural Stream') ? '<span><i class="line-key line-natural"></i>Natural Stream</span>' : ''}
           ${drainClasses.has('Unclassified') ? '<span><i class="line-key line-unclassified"></i>Unclassified</span>' : ''}
         </div>` : ''}
+        ${counts.namedDrains > 0 ? layerRow('namedDrains', 'Primary Drains & Outfalls', `${formatNumber(data.namedDrainsStats.segments, 0)} segments · ${formatNumber(data.namedDrainsStats.points, 0)} points`, 'line', '#0f766e', '', true) : ''}
         ${counts.gcp > 0 ? layerRow('gcp', 'GCP Marked', `${formatNumber(gcpCount, 0)} points`, 'dot', '#d94f70', '', true) : ''}
         ${counts.tbm > 0 ? layerRow('tbm', 'TBM', `${formatNumber(counts.tbm, 0)} benchmark${counts.tbm === 1 ? '' : 's'}`, 'diamond', '#6d5aa8', '', true) : ''}
         ${counts.static > 0 ? layerRow('static', 'Static Points', `${formatNumber(counts.static, 0)} points`, 'dot', '#14b8a6', '', true) : ''}
@@ -886,6 +889,7 @@
       blocksPane: 388,
       wardsPane: 385,
       drainsPane: 390,
+      namedDrainsPane: 392,
       surveyPane: 395,
       pointsPane: 400
     };
@@ -1246,6 +1250,64 @@
       }
     });
 
+    let namedDrains = null;
+    if (layers.namedDrains && layers.namedDrains.features.length) {
+      const outfallIcon = L.divIcon({
+        className: 'outfall-icon-wrap',
+        html: '<span class="outfall-icon"></span>',
+        iconSize: [14, 14],
+        iconAnchor: [7, 7]
+      });
+      namedDrains = L.geoJSON(layers.namedDrains, {
+        pane: 'namedDrainsPane',
+        style: (feature) => {
+          if (feature.geometry.type !== 'LineString') return { stroke: false };
+          const type = feature.properties.type;
+          if (type === 'Lined RCC') {
+            return { color: '#0057ff', weight: 2.4, opacity: 0.95, lineCap: 'round', lineJoin: 'round' };
+          }
+          if (type === 'Lined Brick') {
+            return { color: '#0f766e', weight: 2.2, opacity: 0.95, lineCap: 'round', lineJoin: 'round' };
+          }
+          if (type === 'Unlined Drain') {
+            return { color: '#ff7a00', weight: 2, opacity: 0.9, dashArray: '7 4', lineCap: 'round', lineJoin: 'round' };
+          }
+          return { color: '#8b5cf6', weight: 1.6, opacity: 0.8, dashArray: '2 4' };
+        },
+        pointToLayer: (feature, latlng) => {
+          if (feature.properties.kind === 'outfall') {
+            return L.marker(latlng, { icon: outfallIcon, pane: 'namedDrainsPane', keyboard: true });
+          }
+          return L.circleMarker(latlng, {
+            radius: 4,
+            color: '#6d5aa8',
+            weight: 1.4,
+            fillColor: '#c4b5fd',
+            fillOpacity: 0.95,
+            pane: 'namedDrainsPane'
+          });
+        },
+        onEachFeature: (feature, layer) => {
+          const props = feature.properties;
+          if (props.kind === 'segment') {
+            layer.bindTooltip(`${props.name} · ${props.type}`, { sticky: true, direction: 'top', className: 'map-tip' });
+            layer.bindPopup(popupCard('Primary drain segment', props.name, [
+              ['Type', props.type],
+              ['Length', formatKm(props.length_km) + ' km']
+            ], 'Primary drains & outfalls KMZ'));
+          } else {
+            const title = props.kind === 'outfall' ? 'Outfall' : 'Drain point';
+            const coords = feature.geometry.coordinates;
+            layer.bindTooltip(props.name, { direction: 'top', offset: [0, -8], className: 'map-tip' });
+            layer.bindPopup(popupCard(title, props.name, [
+              ['Drain name', props.drainName || '—'],
+              ['Coordinates', `${coords[1].toFixed(5)}, ${coords[0].toFixed(5)}`]
+            ], 'Primary drains & outfalls KMZ'));
+          }
+        }
+      });
+    }
+
     const gcp = L.geoJSON(layers.gcp, {
       pane: 'pointsPane',
       pointToLayer: (feature, latlng) => L.circleMarker(latlng, {
@@ -1366,6 +1428,7 @@
     }
 
     state.layerGroups = { buffer, outer, wards: wardsGroup, blocks, drains, gcp, tbm };
+    if (namedDrains) state.layerGroups.namedDrains = namedDrains;
     if (catchment) state.layerGroups.catchment = catchment;
     if (staticPoints) state.layerGroups.static = staticPoints;
     if (surveyPoints) state.layerGroups.surveyPoints = L.layerGroup([surveyPoints]);

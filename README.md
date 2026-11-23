@@ -75,6 +75,7 @@ The photo layer contains **1,497 geotagged photos** from two sources: 1,079 from
 | Ward boundary | Real — 60 wards from `60_Wards_New_Ward_Boundary.kml` |
 | Buffer boundary | Not supplied |
 | Drains surveyed | Real — `SURVEY CLASSIFICATION- (20.11.26).shp`, 4,846 mapped segments, 408.4 km |
+| Primary drains & outfalls | Real — `Primary drains (lined vs unlined) & outfall.kmz`: 597 segments (97 Lined RCC, 259 Lined Brick, 239 Unlined) + 31 outfalls + 31 drain points; drain names in hover/click popups |
 | GCP marked | Real — 77 KML points |
 | TBM | Real - 70 benchmarks from `SHAHJANPUR MERGED TBM EXCEL.xlsx` (71 rows; one 4 cm duplicate at TBM6 removed); UTM 44N converted to WGS84, elevations included |
 | Survey points | Real - **211,844 DGPS observations** from `SHAHJAHANPUR_ALL_POINTS_MERGED_Till 10th Nov.csv`; all carry elevations (141.67–166.59 m), 411 attribute labels, UTM 44N converted to WGS84 |
@@ -379,6 +380,7 @@ For best results, use a desktop viewport of 1280 px or wider. Below 1200 px the 
 - Shahjahanpur ortho: `Incoming Data/Shahjahanpur/Ortho/ORI.tif`
 - Shahjahanpur photos: `Incoming Data/Shahjahanpur/Photos/Photos KML/Shahjahanpur_Photos_Combined_640px.kmz`
 - Shahjahanpur TBM: `Incoming Data/Shahjahanpur/SHAHJANPUR MERGED TBM EXCEL.xlsx`
+- Shahjahanpur named primary drains: `Incoming Data/Shahjahanpur/Names Drains/Primary drains (lined vs unlined) & outfall.kmz`
 - Shahjahanpur DGPS survey points: `Incoming Data/Shahjahanpur/DGPS/SHAHJAHANPUR_ALL_POINTS_MERGED_Till 10th Nov.csv`
 - Shahjahanpur DSM: `C:\Users\swaga\Downloads\SAHJANPUR 44N_DSM.tif`
 - Basemap imagery: Google, Esri and its data providers; OSM © OpenStreetMap contributors

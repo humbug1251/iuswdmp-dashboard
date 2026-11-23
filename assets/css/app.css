@@ -3266,6 +3266,22 @@ p {
   background: none;
 }
 
+.outfall-icon-wrap {
+  border: 0;
+  background: none;
+}
+
+.outfall-icon {
+  display: block;
+  width: 11px;
+  height: 11px;
+  border: 2px solid #fff;
+  border-radius: 2px;
+  background: var(--rose);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+  transform: rotate(45deg);
+}
+
 .survey-points-canvas {
   pointer-events: none;
 }
