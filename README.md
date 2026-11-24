@@ -104,7 +104,7 @@ The ortho overlay is generated from `ORI.tif` (5,089 × 5,942 px, 1.9 m, EPSG:32
 | Survey points | Real — **107,533 DGPS observations** from `Saharanpur_DGPS.kmz`, 18 Sep–07 Nov 2026; drawn as a canvas point cloud, click a point for team, date and elevation |
 | Survey photos | Real - 2,107 compressed photos from `Saharanpur_Combined_photos.kmz` |
 | Drone survey blocks | Real — 14 merged flight-plan polygons |
-| Ortho image | Not supplied for Saharanpur |
+| Ortho image | Real — `SAHARANPUR_ORTHO.ecw` (9 GB) converted to a 2.09 m/px WebP overlay, masked to the boundary |
 
 The WPR reports 14.58 km primary drains, 217.43 km secondary + tertiary, 173.119 / 1,298.41 km roads, 182 GCPs, 5 static points, 22.38 km river survey and 90 sq km LiDAR coverage.
 
@@ -358,6 +358,7 @@ For best results, use a desktop viewport of 1280 px or wider. Below 1200 px the 
 - Saharanpur static points: `Incoming Data/Saharanpur/Static Points/SAHARANPUR STATIC POINTS 1.csv`
 - Saharanpur drains: `Incoming Data/Saharanpur/Digitalised_SHP/16th_Nov/Conduits_till_06_Nov.shp`
 - Saharanpur catchment boundary: `Incoming Data/Saharanpur/Catchment_Boundary_Updated/Catchment_Boundary_Updated.shp`
+- Saharanpur ortho: `Incoming Data/Saharanpur/ORI/SAHARANPUR_ORTHO.ecw`
 - Moradabad WPR: `Incoming Data/WPR _7to13/Moradabad_WPR_7_11_2026to13_11_2026.docx`
 - Moradabad layers: `Incoming Data/Moradabad/`
 - Moradabad static points: `Incoming Data/Moradabad/Static Points Moradabad/Static_Points.csv`
