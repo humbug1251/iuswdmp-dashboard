@@ -598,11 +598,12 @@ window.DASHBOARD = {
           "unit": "km"
         },
         "secondaryTertiary": {
-          "done": 239.97,
+          "done": 311.25,
           "planned": null,
           "pct": null,
           "unit": "km",
-          "note": "Combined secondary + tertiary length; target not notified"
+          "note": "Combined secondary + tertiary length; target not notified",
+          "decimals": 2
         },
         "road": {
           "done": 327.88,
@@ -656,11 +657,11 @@ window.DASHBOARD = {
         "Overall progress is the simple average of the available component percentages (primary drains, road survey, static points and LiDAR).",
         "City area is 225 sq km as per the RFP and 170.97 sq km as per the supplied outer boundary.",
         "Outfalls identified: Shahberi, Raj Nagar Extension, Hindon Ghat and Hindon cut to Yamuna.",
-        "WPR cumulative survey: primary 160.5 km, road 327.88 km, secondary/tertiary 239.97 km, static 6 / 6.",
+        "WPR cumulative survey: primary 160.5 km, road 327.88 km, secondary/tertiary 311.25 km, static 6 / 6.",
         "Primary invert-level survey added 11 km this week; cumulative with invert levels is 171.5 km.",
         "Current DGPS deployment is 3 base and 10 rovers with 11 team members.",
         "The WPR shows previous-week secondary/tertiary as 94.8 km (the prior week's weekly addition) and cumulative 239.97 km; the reported cumulative is used.",
-        "Drains combine the 29 Oct KMZ (3,121 features / 102.6 km), the 30 Oct–5 Nov SHP (123 segments / 102.2 km), the 6–12 Nov SHP (186 segments / 59.8 km) and the 13–19 Nov SHP (485 segments / 96.0 km); new segments are unclassified.",
+        "Drains combine the 29 Oct KMZ (3,121 features / 102.6 km), the 30 Oct–5 Nov SHP (123 segments / 102.2 km), the 6–12 Nov SHP (186 segments / 59.8 km), the 13–19 Nov SHP (485 segments / 96.0 km) and the 20–23 Nov SHP (405 segments / 71.1 km); new segments are unclassified.",
         "The supplied outer boundary and 100-ward SHP are used for the map; no buffer or AOI layer was supplied.",
         "Static points are mapped from the supplied six-point SHP, with elevations from the main control-point CSV. The KMZ contains Static Point 8 only and is included in the SHP.",
         "TBM layer contains 22 benchmarks from Ghaziabad_Most_22_TBMs.csv; TBM 6 is a CAD/grid point and the rest are RTK fixes.",

@@ -160,7 +160,7 @@ WPR figures: primary 80.71 / 80 km (100%; the mapped alignment total is 85.59 km
 | Ward boundary | Real - 100 wards from `GZD_Wards_100.shp` |
 | Buffer boundary | Not supplied |
 | Catchment boundary | Real - `GZB_Subcatchment_Boundary_1.shp`, 780.98 sq km watershed area |
-| Drains surveyed | Real — 29 Oct KMZ plus 30 Oct–5 Nov, 6–12 Nov and 13–19 Nov SHPs; 3,889 mapped segments, 360.4 km |
+| Drains surveyed | Real — 29 Oct KMZ plus 30 Oct–5 Nov, 6–12 Nov, 13–19 Nov and 20–23 Nov SHPs; 4,294 mapped segments, 431.5 km |
 | TBM | Real — 22 points from `Ghaziabad_Most_22_TBMs.csv`; TBM 6 is a CAD/grid point, the rest are RTK fixes |
 | Static points | Real - six points from `Static Points_GZB.shp`, elevations from `GAZIABAD Main Control Points.csv`; `Static Point 8.kmz` contains ST08 |
 | Survey photos | Real - 982 compressed photos: 298 from `Survey_Photos_photos.kmz` + 84 from `Photos_photos.kmz` + 600 from `Ghaziabad_Photos_WithCoordinates.kmz` (23 Sep–18 Nov 2026) |
@@ -169,7 +169,7 @@ WPR figures: primary 80.71 / 80 km (100%; the mapped alignment total is 85.59 km
 | Drone survey blocks | Not required for Ghaziabad |
 | Ortho image | Not supplied for Ghaziabad |
 
-The 29 Oct KMZ contains **3,121 source features / 102.6 km**; hierarchy was matched from the 24 Oct SHP by drain name: **1,245 primary**, **903 tertiary** and **947 unclassified** mapped segments. The 30 Oct–5 Nov SHP adds **123 segments / 102.2 km**, the 6–12 Nov SHP adds **186 segments / 59.8 km**, and the 13–19 Nov SHP adds **485 segments / 96.0 km**, all shown as unclassified, for a mapped total of **3,889 segments / 360.4 km**. WPR figures (13–19 Nov 2026): primary 160.5 / 223 km, secondary + tertiary 239.97 km, road 327.88 / 3,450 km, static 6 / 6, LiDAR not started, outfalls 4. The mapped total remains below the WPR surveyed total because the network compilation is partial.
+The 29 Oct KMZ contains **3,121 source features / 102.6 km**; hierarchy was matched from the 24 Oct SHP by drain name: **1,245 primary**, **903 tertiary** and **947 unclassified** mapped segments. The 30 Oct–5 Nov SHP adds **123 segments / 102.2 km**, the 6–12 Nov SHP adds **186 segments / 59.8 km**, the 13–19 Nov SHP adds **485 segments / 96.0 km**, and the 20–23 Nov SHP adds **405 segments / 71.1 km**, all shown as unclassified, for a mapped total of **4,294 segments / 431.5 km**. WPR figures (13–19 Nov 2026, S/T to 23 Nov): primary 160.5 / 223 km, secondary + tertiary 311.25 km, road 327.88 / 3,450 km, static 6 / 6, LiDAR not started, outfalls 4. The mapped total remains below the WPR surveyed total because the network compilation is partial.
 
 The static-point CSV also contains an older ST3 record; the six-point SHP and the WPR set use **ST01, ST02, ST05, ST06, ST07 and ST08**.
 
