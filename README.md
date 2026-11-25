@@ -50,7 +50,7 @@ The basemap will not load without an internet connection, but the layer controls
 | Catchment boundary | Real — `Subcatchment_OuterBoundary.shp`, 109.33 sq km watershed area |
 | GCP points | Real - 85 unique identifiable point geometries from `GCP_Firozabad(86_Points).kml` (WPR reports 86 completed) |
 | TBM points | Real - 18 benchmarks from `TBM_KML (1).kml`; 8 carry RL values |
-| Drains surveyed | Real — 19 Nov PST SHPs; 6,764 mapped segments, 467.3 km |
+| Drains surveyed | Real - 23 Nov PST SHPs; 7,892 mapped segments, 549.0 km |
 | Ward boundary | Real - 70 ward polygons from `Firozabad_70Wardwise_Map.kml` |
 | Drone survey blocks | Real - 10 drone flight blocks from `Drone_Flight_Blocks_Firozabad.kml` |
 | Survey photos | Real - 1,497 compressed photos: 1,079 from `Firozabad_Survey_Photos.kmz` (25 Sep–05 Oct 2026) + 418 from `Photos_Firozabad_photos.kmz` (15–30 Oct 2026) |
@@ -61,9 +61,9 @@ The basemap will not load without an internet connection, but the layer controls
 
 All Firozabad layers now come from the supplied survey data.
 
-WPR figures (13–19 Nov 2026): primary 67.072 km, secondary + tertiary 345.532 km (total 412.604 km), road 283.785 / 758 km, GCP 86 / 86, static 5 / 5 and LiDAR 35.5 sq km.
+WPR figures (to 23 Nov 2026): primary 65.414 km, secondary + tertiary 413.49 km (total 478.904 km), road 388.715 / 758 km, GCP 86 / 86, static 5 / 5 and LiDAR 35.5 sq km.
 
-The map now uses the 19 Nov PST SHPs: **6,764 mapped segments / 467.3 km**, with primary 73.7 km, secondary 11.5 km and tertiary 382.1 km. These map totals are higher than the WPR component totals because the SHPs include all digitized and outfall-extension geometry.
+The map now uses the 23 Nov PST SHPs: **7,892 mapped segments / 549.0 km**, with primary 73.7 km, secondary 31.3 km and tertiary 444.1 km. These map totals are higher than the WPR component totals because the SHPs include all digitized and outfall-extension geometry.
 
 The photo layer contains **1,497 geotagged photos** from two sources: 1,079 from `Firozabad_Survey_Photos.kmz` (25 Sep–05 Oct 2026) and 418 from `Photos_Firozabad_photos.kmz` (15–30 Oct 2026). Date ranges do not overlap and no duplicate images were detected.
 
@@ -127,7 +127,7 @@ The 23 Nov drain SHP (`Digitalised_SHP/23rd_Nov/Conduits_till_Survey_23_Nov.shp`
 | Drone survey blocks | Real — 14 block KMLs |
 | Ortho image | Not supplied for Moradabad |
 
-WPR figures (13–20 Nov 2026): primary 146.68 / 140 km, secondary 72.61 km, tertiary 122.94 km, road 232.54 / 1,155 km, GCP 206 / 206, static 10 / 10, LiDAR 100 sq km (processing 75%), outfalls 15.
+WPR figures (13-20 Nov 2026): primary 148 / 140 km, secondary + tertiary 232.8 km (total 380.79 km), road 232.54 / 1,155 km, GCP 206 / 206, static 10 / 10, LiDAR 100 sq km (processing 75%), outfalls 15.
 
 The TBM layer now uses 102 points from `TBM.kml`, replacing the earlier photo-derived 70-point set. Every point carries its KML elevation (190.51–209.96 m); three readings at 28.829232 N / 78.724132 E are repeats of one benchmark.
 
@@ -271,7 +271,7 @@ The `Ghaziabad Digitization Tool` folder reads the raw November CSVs and the man
 python "Ghaziabad Digitization Tool\digitize_gzb.py" "...\Ghaziabad\DIgitization\November"
 ```
 
-It uses `Manually\<DDMMYYYY>` when available and creates a review draft only for days without manual linework. See `Ghaziabad Digitization Tool\README.md`.
+It uses `Manually\<DDMMYYYY>` when available and creates a review draft only for days without manual linework. A basemap check (`--basemap esri`) scores each line against imagery and writes `BMScore`, `Review`, a CSV and a preview image. See `Ghaziabad Digitization Tool\README.md`.
 
 ### 4.4 Replace or add GIS layers
 

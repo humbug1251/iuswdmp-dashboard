@@ -48,11 +48,11 @@ window.DASHBOARD = {
       },
       "components": {
         "primary": {
-          "done": 67.072,
+          "done": 65.414,
           "planned": 40.7,
           "pct": 100.0,
           "unit": "km",
-          "note": "67.072 km surveyed; target 40.7 km (extended to outfalls)"
+          "note": "65.414 km surveyed; target 40.7 km (extended to outfalls)"
         },
         "secondary": {
           "done": null,
@@ -61,15 +61,15 @@ window.DASHBOARD = {
           "unit": "km"
         },
         "tertiary": {
-          "done": 345.532,
+          "done": null,
           "planned": null,
           "pct": null,
           "unit": "km"
         },
         "road": {
-          "done": 283.785,
+          "done": 388.715,
           "planned": 758,
-          "pct": 37.4,
+          "pct": 51.3,
           "unit": "km",
           "note": "Target 758 km per detail table; summary states 740 km"
         },
@@ -91,6 +91,14 @@ window.DASHBOARD = {
           "pct": 100.0,
           "unit": "sq km",
           "note": "Acquisition complete; processing in progress (ORI received 17 Oct)"
+        },
+        "secondaryTertiary": {
+          "done": 413.49,
+          "planned": null,
+          "pct": null,
+          "unit": "km",
+          "decimals": 2,
+          "note": "Combined secondary and tertiary drains; target not notified"
         }
       },
       "milestones": [
@@ -146,11 +154,11 @@ window.DASHBOARD = {
         }
       ],
       "notes": [
-        "Source WPR: reporting period 13–19 Nov 2026 (primary 67.072 km, secondary + tertiary 345.532 km, total 412.604 km).",
+        "Source WPR: figures to 23 Nov 2026 (primary 65.414 km, secondary + tertiary 413.49 km, road 388.715 km).",
         "Overall progress is the simple average of primary drains, road survey, GCP marking and LiDAR acquisition percentages.",
         "The primary-drain target (40.7 km) is tentative and based on OSM; the surveyed length includes extensions to outfalls.",
-        "Secondary and tertiary drain targets have not been notified, so only completed lengths are shown. The latest cumulative length is 345.532 km combined.",
-        "Map drains use the 19 Nov PST SHPs: 6,764 mapped segments and 467.3 km (primary 73.7 km, secondary 11.5 km, tertiary 382.1 km).",
+        "Secondary and tertiary drain targets have not been notified, so only completed lengths are shown. The latest cumulative length is 413.49 km combined.",
+        "Map drains use the 23 Nov PST SHPs: 7,892 mapped segments and 549.0 km (primary 73.7 km, secondary 31.3 km, tertiary 444.1 km).",
         "The road target is 758 km in the latest detail table; the summary table states 740 km.",
         "Ward-boundary verification by Nagar Nigam is pending.",
         "The supplied 70-ward KML labels two polygons as Ward 43 and omits Ward 42; the larger 0.889 sq km polygon was relabelled Ward 42 Ram Nagar, matching the WPR, to complete the 1–70 sequence.",
@@ -394,20 +402,20 @@ window.DASHBOARD = {
       },
       "components": {
         "primary": {
-          "done": 146.68,
+          "done": 148,
           "planned": 140,
           "pct": 100.0,
           "unit": "km",
-          "note": "146.68 km cumulative alignment; 69.123 km actual invert; 140 km target exceeded"
+          "note": "148 km cumulative alignment; 140 km target exceeded"
         },
         "secondary": {
-          "done": 72.61,
+          "done": 232.8,
           "planned": null,
           "pct": null,
           "unit": "km"
         },
         "tertiary": {
-          "done": 122.94,
+          "done": null,
           "planned": null,
           "pct": null,
           "unit": "km"
@@ -442,7 +450,7 @@ window.DASHBOARD = {
       "notes": [
         "Source WPR: Moradabad_WPR_13_11_2026to20_11_2026.docx (reporting period 13–20 Nov 2026).",
         "City area is 85.2 sq km as per the RFP and 64.52 sq km as per the Nagar Nigam KML.",
-        "WPR cumulative survey: primary 146.68 km alignment (69.123 km actual invert), secondary 72.61 km, tertiary 122.94 km, road 232.54 km, GCP 206 / 206, static 10 / 10.",
+        "WPR cumulative survey: primary 148 km, secondary/tertiary 232.8 km (total 380.79 km), road 232.54 km, GCP 206 / 206, static 10 / 10.",
         "Drains are the 19 Nov primary, secondary and tertiary SHPs: 2,099 mapped segments (240 primary, 358 secondary, 1,501 tertiary), 340.9 km.",
         "The WPR reports 69.123 km of actual invert/desilting on primary drains.",
         "The GCP KML contains 202 unique points; the WPR reports 206 GCPs completed.",
