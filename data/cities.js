@@ -493,13 +493,14 @@ window.DASHBOARD = {
       },
       "components": {
         "primary": {
-          "done": 74.66,
+          "done": 80.71,
           "planned": 80,
-          "pct": 93.3,
-          "unit": "km"
+          "pct": 100.0,
+          "unit": "km",
+          "note": "80.71 km cumulative alignment; 80 km target exceeded"
         },
         "secondaryTertiary": {
-          "done": 370.12,
+          "done": 440.37,
           "planned": null,
           "pct": null,
           "unit": "km",
@@ -530,8 +531,8 @@ window.DASHBOARD = {
       "notes": [
         "Source WPR: Meerut_Weekly_Progress_Report_06Nov12Nov.docx (reporting period 6–12 Nov 2026).",
         "City area is 141.94 sq km as per the RFP and 143.83 sq km as per the KML.",
-        "WPR cumulative survey: primary 74.66 km with invert of 85.59 km alignment, secondary/tertiary 370.12 km, road 213.15 km, static 10 / 10.",
-        "Primary progress is shown against the 80 km tentative OSM plan; the mapped primary network with alignment only is 85.59 km.",
+        "WPR cumulative survey: primary 80.71 km, secondary/tertiary 440.37 km, static 10 / 10.",
+        "Primary progress is shown against the 80 km tentative OSM plan; cumulative alignment is 80.71 km.",
         "DGPS deployment is 1 base and 6 rovers.",
         "No GCP data is reported for Meerut.",
         "No drone flight blocks are required; LiDAR is planned with a helicopter-mounted system and is not started.",

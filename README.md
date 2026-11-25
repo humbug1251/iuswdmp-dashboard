@@ -150,7 +150,7 @@ The mapped drain lengths are **141.7 km primary**, **71.3 km secondary** and **4
 | Drone survey blocks | Not required for Meerut |
 | Ortho image | Not supplied for Meerut |
 
-WPR figures: primary 74.66 / 80 km (93.3%; the mapped alignment total is 85.59 km), secondary + tertiary 370.12 km, road 213.15 / 2,458 km, static 10 / 10, LiDAR not started, outfalls 5. No GCP points or drone blocks are reported for Meerut; LiDAR is planned with a helicopter-mounted system. The primary layer contains 20 alignments and 74.7 km; the 5 Nov secondary/tertiary SHP has 189 secondary, 64 tertiary and 728 mapped unclassified segments (177.5 km). The 12 Nov survey-progress KML adds 261 new unclassified segments / 38.4 km, and the 13–19 Nov SHP adds 624 segments / 107.2 km, for a mapped total of 1,886 segments / 443.8 km.
+WPR figures: primary 80.71 / 80 km (100%; the mapped alignment total is 85.59 km), secondary + tertiary 440.37 km, road 213.15 / 2,458 km, static 10 / 10, LiDAR not started, outfalls 5. No GCP points or drone blocks are reported for Meerut; LiDAR is planned with a helicopter-mounted system. The primary layer contains 20 alignments and 74.7 km; the 5 Nov secondary/tertiary SHP has 189 secondary, 64 tertiary and 728 mapped unclassified segments (177.5 km). The 12 Nov survey-progress KML adds 261 new unclassified segments / 38.4 km, and the 13–19 Nov SHP adds 624 segments / 107.2 km, for a mapped total of 1,886 segments / 443.8 km.
 
 ### Ghaziabad layers
 
