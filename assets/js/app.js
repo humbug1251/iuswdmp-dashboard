@@ -511,7 +511,10 @@
     const sqkm = (value) => (value == null ? null : formatNumber(value, 1));
 
     if (c.primary) {
-      cards.push(metricCard('Primary Drain', km(c.primary.done), 'km', km(c.primary.planned), 'km', c.primary.pct, '#0057ff'));
+      const primaryDone = c.primary.decimals != null
+        ? formatNumber(c.primary.done, Number(c.primary.decimals))
+        : km(c.primary.done);
+      cards.push(metricCard('Primary Drain', primaryDone, 'km', km(c.primary.planned), 'km', c.primary.pct, '#0057ff'));
     }
 
     const secondaryDone = c.secondary && c.secondary.done != null ? Number(c.secondary.done) : null;

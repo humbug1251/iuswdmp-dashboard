@@ -497,7 +497,8 @@ window.DASHBOARD = {
           "planned": 80,
           "pct": 100.0,
           "unit": "km",
-          "note": "80.71 km cumulative alignment; 80 km target exceeded"
+          "note": "80.71 km cumulative alignment; 80 km target exceeded",
+          "decimals": 2
         },
         "secondaryTertiary": {
           "done": 440.37,
