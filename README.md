@@ -97,7 +97,7 @@ The ortho overlay is generated from `ORI.tif` (5,089 × 5,942 px, 1.9 m, EPSG:32
 | Ward boundary | Real — 70 wards from `Saharanpur_Wards.kml` |
 | Buffer boundary | Real — `AOI.kml`, 100.2 sq km |
 | Catchment boundary | Real — `Catchment_Boundary_Updated.shp`, 218.52 sq km watershed area |
-| Drains surveyed | Real — `Conduits_till_Survey_19_Nov.shp`, 7,797 mapped segments, 253.5 km |
+| Drains surveyed | Real - `Conduits_till_Survey_23_Nov.shp`, 8,450 mapped segments, 273.0 km |
 | GCP marked | Real — 181 mapped points from 182 KML placemarks (WPR reports 182 completed) |
 | TBM | `SAHARANPUR_TBM.csv` — **42 points** (40 unique labels; TBM1 and TBM3 repeat); elevations from `TBM_KML.kml` where matched |
 | Static points | Real — **5 points** from `SAHARANPUR STATIC POINTS 1.csv` (UTM 43N converted to WGS84); elevations from Ortho H |
@@ -106,9 +106,9 @@ The ortho overlay is generated from `ORI.tif` (5,089 × 5,942 px, 1.9 m, EPSG:32
 | Drone survey blocks | Real — 14 merged flight-plan polygons |
 | Ortho image | Real — `SAHARANPUR_ORTHO.ecw` (9 GB) converted to a 2.09 m/px WebP overlay, masked to the boundary |
 
-The WPR reports 14.58 km primary drains, 217.43 km secondary + tertiary, 173.119 / 1,298.41 km roads, 182 GCPs, 5 static points, 22.38 km river survey and 90 sq km LiDAR coverage.
+The WPR reports 14.58 km primary drains, 237.019 km secondary + tertiary, 173.119 / 1,298.41 km roads, 182 GCPs, 5 static points, 22.38 km river survey and 90 sq km LiDAR coverage.
 
-The 19 Nov drain SHP (`Digitalised_SHP/20th_Nov/Conduits_till_Survey_19_Nov.shp`) contains **7,866 source segments / 255.19 km**. After removing duplicate and zero-length geometry, **7,797 segments / 253.5 km** are mapped: primary 14.2 km, secondary 190.2 km, tertiary 25.7 km, natural streams 22.4 km and unclassified 1.0 km. Natural streams are shown in green and blanks in grey. The map primary geometry (14.18 km) matches the WPR’s 14.58 km; the WPR's 217.43 km secondary + tertiary figure is reported separately from this till-19-Nov geometry.
+The 23 Nov drain SHP (`Digitalised_SHP/23rd_Nov/Conduits_till_Survey_23_Nov.shp`) contains **8,519 source segments / 274.66 km**. After removing duplicate and zero-length geometry, **8,450 segments / 273.0 km** are mapped: primary 14.2 km, secondary 191.6 km, tertiary 25.9 km, natural streams 22.7 km and unclassified 18.6 km. Classification was carried over from the 19 Nov SHP by geometry matching; 633 new segments are unclassified. Natural streams are shown in green and blanks in grey. The map primary geometry (14.19 km) matches the WPR's 14.58 km; the WPR's 237.019 km secondary + tertiary figure is reported separately from this till-23-Nov geometry.
 
 ### Moradabad layers
 
@@ -195,6 +195,22 @@ Dashboard-UP/
 │     ├─ ghaziabad.js          # generated GeoJSON layers for the map
 │     ├─ shahjahanpur.js       # generated GeoJSON layers for the map
 │     └─ _template.js          # copy-paste template for a new city
+├─ Digitization Tool/          # portable daily digitization tool (Moradabad)
+│  ├─ Digitize Survey.bat      # Windows drag-and-drop launcher
+│  ├─ ML Draft.bat             # experimental model-based draft
+│  ├─ bootstrap.ps1            # installs Python / packages automatically
+│  ├─ digitize_survey.py       # builds a daily survey + drain/road package
+│  ├─ ml_engine.py             # ML inference helpers
+│  ├─ ml_model.pkl             # trained ML model
+│  ├─ ML_REPORT.md             # model training / accuracy report
+│  ├─ requirements.txt         # tool Python dependencies
+│  └─ README.md                # tool usage notes
+├─ Ghaziabad Digitization Tool/ # Ghaziabad November package builder
+│  ├─ Digitize Ghaziabad.bat   # Windows launcher
+│  ├─ bootstrap.ps1            # installs Python / packages automatically
+│  ├─ digitize_gzb.py          # raw CSV → survey + manual Drain package
+│  ├─ requirements.txt
+│  └─ README.md
 ├─ tools/
 │  ├─ build_data.py            # builds the two data files
 │  └─ requirements.txt         # Python dependencies for the build script
@@ -235,7 +251,29 @@ The script rewrites `data/cities.js` and the Firozabad, Saharanpur, Meerut, Ghaz
 
 The build script uses `geopandas`, `shapely` and `pyproj`. It reads the ward KML and the primary, secondary and tertiary drain shapefiles directly from `Incoming Data`; no network access is required.
 
-### 4.2 Replace or add GIS layers
+### 4.2 Build a daily digitization package
+
+The portable `Digitization Tool` folder takes a day folder of CSV/KML point files and writes the combined survey plus Primary/Secondary/Tertiary/Drain/Roads shapefiles.
+
+Drag the day folder onto `Digitization Tool\Digitize Survey.bat`, or run:
+
+```powershell
+python "Digitization Tool\digitize_survey.py" "Incoming Data\Moradabad\Digitization\22"
+```
+
+On a new PC the launcher installs Python if needed, creates a local `.venv`, and installs/updates the required packages automatically. It automatically uses a same-date manual folder when one exists and falls back to a point-based draft otherwise. An experimental `--ml` mode is also included; see `Digitization Tool\README.md` and `Digitization Tool\ML_REPORT.md` for accuracy and limitations.
+
+### 4.3 Build Ghaziabad daily packages
+
+The `Ghaziabad Digitization Tool` folder reads the raw November CSVs and the manually digitized linework, then writes standardized EPSG:32643 packages to `November\Processed\<YYYYMMDD>`:
+
+```powershell
+python "Ghaziabad Digitization Tool\digitize_gzb.py" "...\Ghaziabad\DIgitization\November"
+```
+
+It uses `Manually\<DDMMYYYY>` when available and creates a review draft only for days without manual linework. See `Ghaziabad Digitization Tool\README.md`.
+
+### 4.4 Replace or add GIS layers
 
 1. Put the new boundary / ward / drain / GCP / TBM / static-point files in a city folder under `Incoming Data`.
 2. Update the file paths near the top of `tools/build_data.py` (`OUTER_KML`, `BUFFER_KML`, `GCP_KML`, `WARD_KML`, `DRAIN_SHP`).
@@ -249,7 +287,7 @@ The Firozabad builder currently generates:
 - `wards` - real ward polygons from `Firozabad_70Wardwise_Map.kml`
 - `blocks` - real drone flight blocks from `Drone_Flight_Blocks_Firozabad.kml`
 
-### 4.3 Add a new city with GIS data
+### 4.5 Add a new city with GIS data
 
 Use `data/layers/_template.js` as the starting point.
 
