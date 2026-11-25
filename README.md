@@ -141,7 +141,7 @@ The mapped drain lengths are **141.7 km primary**, **71.3 km secondary** and **4
 | Ward boundary | Real — 90 wards from `MEERUT_WARD _BOUNDARY_new.shp` |
 | Buffer boundary | Real - `Meerut_Survey Boundary.shp`, 188.82 sq km |
 | Catchment boundary | Real - `Catchment Boundary_50Ha.kml`, 295.99 sq km watershed area |
-| Drains surveyed | Real - 5 Nov primary/secondary SHPs plus 12 Nov survey-progress KML and 13–19 Nov SHP; 1,886 mapped segments, 443.8 km |
+| Drains surveyed | Real - `COMPLETE DRAINS TILL NOV 21.shp`; 2,567 mapped segments, 497.9 km |
 | TBM | 23 points parsed from `TBM.kmz` |
 | Static points | 10 points parsed from `TBM.kmz` |
 | Survey photos | Real - 630 compressed photos from `Meerut_SWmaps_combined 1 (2).kmz` |
@@ -150,7 +150,7 @@ The mapped drain lengths are **141.7 km primary**, **71.3 km secondary** and **4
 | Drone survey blocks | Not required for Meerut |
 | Ortho image | Not supplied for Meerut |
 
-WPR figures: primary 80.71 / 80 km (100%; the mapped alignment total is 85.59 km), secondary + tertiary 440.37 km, road 213.15 / 2,458 km, static 10 / 10, LiDAR not started, outfalls 5. No GCP points or drone blocks are reported for Meerut; LiDAR is planned with a helicopter-mounted system. The primary layer contains 20 alignments and 74.7 km; the 5 Nov secondary/tertiary SHP has 189 secondary, 64 tertiary and 728 mapped unclassified segments (177.5 km). The 12 Nov survey-progress KML adds 261 new unclassified segments / 38.4 km, and the 13–19 Nov SHP adds 624 segments / 107.2 km, for a mapped total of 1,886 segments / 443.8 km.
+WPR figures: primary 80.71 / 80 km (100%; the mapped alignment total is 85.59 km), secondary + tertiary 440.37 km, road 213.15 / 2,458 km, static 10 / 10, LiDAR not started, outfalls 5. No GCP points or drone blocks are reported for Meerut; LiDAR is planned with a helicopter-mounted system. The primary layer contains 20 alignments and 74.7 km; the 5 Nov secondary/tertiary SHP has 189 secondary, 64 tertiary and 728 mapped unclassified segments (177.5 km). The 12 Nov survey-progress KML adds 261 new unclassified segments / 38.4 km, and the complete 21 Nov SHP brings the map to 2,567 segments / 497.9 km (primary 111.3 km, secondary 41.7 km, tertiary 11.9 km, unclassified 333.0 km).
 
 ### Ghaziabad layers
 
