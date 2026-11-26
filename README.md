@@ -82,12 +82,12 @@ The photo layer contains **1,497 geotagged photos** from two sources: 1,079 from
 | Static points | Real — 5 points from `SP+TBM Locations.kml` |
 | Drone survey blocks | Real — 27 survey blocks; the Jail polygon is excluded |
 | Survey photos | Real - 5,370 compressed photos from `Shahjahanpur_Photos_Combined_640px.kmz` (18 Sep–16 Nov 2026, 43 dates; no duplicates) |
-| Ortho image | Real - `ORI.tif`, 1.9 m resolution, masked overlay in `Shahjahanpur_Ortho_Overlay.webp` |
+| Ortho image | Real - `ORI.tif`, 1.9 m resolution, north-up WGS84 overlay in `Shahjahanpur_Ortho_Overlay.webp` (source no-data gaps transparent) |
 | DSM | Real - 10 GB DSM converted to a 3.44 m/px shaded-relief WebP; elevation stretch 146–164 m (full range 76.8–194.5 m) |
 
 The classified drain SHP uses `P`, `S` and `T` type codes. Mapped totals are **34.6 km primary**, **54.6 km secondary** and **319.1 km tertiary**. Primary drain progress is **100% complete** (34.636 / 31.4 km; 45 outfalls identified). The WPR (13–19 Nov) reports 34.636 km primary, 466.4 km secondary/tertiary, 367 / 740 km roads, 77 GCPs, 5 static points, 54.825 sq km LiDAR acquisition (DTM processing in progress), 45 outfalls and a 56.24 sq km RFP area (40.1 sq km ward KML). The supplied drain SHP is a partial network, so its 373.7 km secondary/tertiary total is below the WPR 466.4 km figure.
 
-The ortho overlay is generated from `ORI.tif` (5,089 × 5,942 px, 1.9 m, EPSG:32644), masked to the outer boundary and saved as `assets/ortho/Shahjahanpur_Ortho_Overlay.webp`.
+The ortho overlay is generated from `ORI.tif` (5,089 × 5,942 px, 1.9 m, EPSG:32644), reprojected to north-up EPSG:4326 (5,143 × 5,988 px), with the source white no-data gaps made transparent and the outer boundary mask applied; saved as `assets/ortho/Shahjahanpur_Ortho_Overlay.webp`.
 
 ### Saharanpur layers
 
