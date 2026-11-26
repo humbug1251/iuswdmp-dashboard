@@ -396,8 +396,8 @@ window.DASHBOARD = {
       "outfalls": 15,
       "surveyTeam": {
         "base": 1,
-        "rovers": 4,
-        "members": 8,
+        "rovers": 5,
+        "members": 10,
         "teams": 4
       },
       "components": {
