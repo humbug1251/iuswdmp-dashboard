@@ -163,7 +163,7 @@ WPR figures: primary 80.71 / 80 km (100%; the mapped alignment total is 85.59 km
 | Drains surveyed | Real — 29 Oct KMZ plus 30 Oct–5 Nov, 6–12 Nov, 13–19 Nov and 20–23 Nov SHPs; 4,294 mapped segments, 431.5 km |
 | TBM | Real — 22 points from `Ghaziabad_Most_22_TBMs.csv`; TBM 6 is a CAD/grid point, the rest are RTK fixes |
 | Static points | Real - six points from `Static Points_GZB.shp`, elevations from `GAZIABAD Main Control Points.csv`; `Static Point 8.kmz` contains ST08 |
-| Survey photos | Real - 982 compressed photos: 298 from `Survey_Photos_photos.kmz` + 84 from `Photos_photos.kmz` + 600 from `Ghaziabad_Photos_WithCoordinates.kmz` (23 Sep–18 Nov 2026) |
+| Survey photos | Real - 1,329 compressed photos: 298 from `Survey_Photos_photos.kmz` + 84 from `Photos_photos.kmz` + 600 from `Ghaziabad_Photos_WithCoordinates.kmz` + 347 from `20-22_photos.kmz` (23 Sep–22 Nov 2026) |
 | Survey points | Real - **54,992 DGPS observations** from `GHAIZABAD_MERGED.csv`; all carry elevations (174.39–257.31 m), 57 survey dates, UTM 43N converted to WGS84 |
 | GCP marked | Not reported for Ghaziabad |
 | Drone survey blocks | Not required for Ghaziabad |
@@ -410,7 +410,7 @@ For best results, use a desktop viewport of 1280 px or wider. Below 1200 px the 
 - Ghaziabad WPR: `Incoming Data/WPR _7to13/Ghaziabad_WPR_20261113.docx`
 - Ghaziabad layers: `Incoming Data/Ghaziabad/Boundary Shapefiles/`, `Incoming Data/Ghaziabad/Digitized Drains/`
 - Ghaziabad catchment boundary: `Incoming Data/Ghaziabad/Subcatchment_Boundary/GZB_Subcatchment_Boundary_1.shp`
-- Ghaziabad photos: `Incoming Data/Ghaziabad/Photos/Photos_photos.kmz`, `Incoming Data/Ghaziabad/KMZ_Photos/KMZ_Photos/Ghaziabad_Photos_WithCoordinates.kmz`
+- Ghaziabad photos: `Incoming Data/Ghaziabad/Photos/Photos_photos.kmz`, `Incoming Data/Ghaziabad/KMZ_Photos/KMZ_Photos/Ghaziabad_Photos_WithCoordinates.kmz`, `Incoming Data/Ghaziabad/Photos/20-22/20-22_photos.kmz`
 - Ghaziabad DGPS survey points: `Incoming Data/Ghaziabad/DGPS/GHAIZABAD_MERGED.csv`
 - Ghaziabad static points: `Incoming Data/Ghaziabad/Static Points/`
 - Ghaziabad TBM points: `Incoming Data/Ghaziabad/TBM/Ghaziabad_Most_22_TBMs.csv`
