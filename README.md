@@ -55,9 +55,9 @@ The basemap will not load without an internet connection, but the layer controls
 | Drone survey blocks | Real - 10 drone flight blocks from `Drone_Flight_Blocks_Firozabad.kml` |
 | Survey photos | Real - 1,497 compressed photos: 1,079 from `Firozabad_Survey_Photos.kmz` (25 Sep–05 Oct 2026) + 418 from `Photos_Firozabad_photos.kmz` (15–30 Oct 2026) |
 | Ortho image | Real - downscaled orthomosaic mask overlaid on the city boundary |
-| DSM | Real - 15.6 GB DSM converted to a 2.67 m/px shaded-relief WebP; elevation stretch 151–175 m (full range 128.5–216.1 m) |
+| DSM | Real - 15.6 GB DSM reprojected to north-up WGS84 at 2.67 m/px, shaded-relief WebP, nodata transparent; elevation stretch 151–175 m (full range 128.5–216.1 m) |
 | Survey points | Real - **127,791 DGPS observations** from `Firozabad_Processed_Survey_upto_10_11_2026.csv` plus 220 points from `2026-10-14 Primary dran_csv_10.csv`; 17,660 carry elevations (148.6–179.3 m), UTM 44N converted to WGS84 |
-| DSM surface | Real - 1.8 m hillshade overlay, masked to the city boundary |
+| DSM surface | Real - 2.67 m hillshade overlay, masked to the city boundary |
 
 All Firozabad layers now come from the supplied survey data.
 
@@ -83,7 +83,7 @@ The photo layer contains **1,497 geotagged photos** from two sources: 1,079 from
 | Drone survey blocks | Real — 27 survey blocks; the Jail polygon is excluded |
 | Survey photos | Real - 5,370 compressed photos from `Shahjahanpur_Photos_Combined_640px.kmz` (18 Sep–16 Nov 2026, 43 dates; no duplicates) |
 | Ortho image | Real - `ORI.tif`, 1.9 m resolution, north-up WGS84 overlay in `Shahjahanpur_Ortho_Overlay.webp` (source no-data gaps transparent) |
-| DSM | Real - 10 GB DSM converted to a 3.44 m/px shaded-relief WebP; elevation stretch 146–164 m (full range 76.8–194.5 m) |
+| DSM | Real - 10 GB DSM reprojected to north-up WGS84 at 3.44 m/px, shaded-relief WebP, nodata gaps transparent; elevation stretch 146–164 m (full range 76.8–194.5 m) |
 
 The classified drain SHP uses `P`, `S` and `T` type codes. Mapped totals are **34.6 km primary**, **54.6 km secondary** and **319.1 km tertiary**. Primary drain progress is **100% complete** (34.636 / 31.4 km; 45 outfalls identified). The WPR (13–19 Nov) reports 34.636 km primary, 466.4 km secondary/tertiary, 367 / 740 km roads, 77 GCPs, 5 static points, 54.825 sq km LiDAR acquisition (DTM processing in progress), 45 outfalls and a 56.24 sq km RFP area (40.1 sq km ward KML). The supplied drain SHP is a partial network, so its 373.7 km secondary/tertiary total is below the WPR 466.4 km figure.
 
@@ -428,6 +428,6 @@ For best results, use a desktop viewport of 1280 px or wider. Below 1200 px the 
 
 A downscaled copy of the Firozabad orthomosaic is available at `assets/ortho/Firozabad_Ortho_Downscaled.tif` — 14.4 MB, 6,116 × 5,987 px, about 1.33 m resolution, EPSG:32644, JPEG-compressed GeoTIFF. The map layer uses `assets/ortho/Firozabad_Ortho_Overlay.webp` (4.96 MB), masked to the city boundary. The 195 MB source file under `Incoming Data` is left unchanged.
 
-The Firozabad DSM layer is generated from `Firozabad-44 N_DSM.tif` (75,691 × 74,096 px, 0.108 m, float32, EPSG:32644) at 4,500 px wide (1.81 m), masked to the Nagar Nigam outer boundary and saved as `assets/dsm/Firozabad_DSM_Overlay.webp` (0.89 MB, hypsometric tint plus hillshade). A neutral grayscale variant is at `assets/dsm/Firozabad_DSM_Greyscale.webp`. Both use the same WGS84 bounds as the ortho overlay; layer metadata is in `assets/dsm/Firozabad_DSM_Overlay.json`.
+The Firozabad DSM layer is generated from `Firozabad-44 N_DSM.tif` (75,691 × 74,096 px, 0.108 m, float32, EPSG:32644), reprojected to north-up EPSG:4326 at 2.67 m/px (3,090 × 3,052 px), masked to the Nagar Nigam outer boundary with nodata transparent and saved as `assets/dsm/Firozabad_DSM_Overlay.webp` (1.1 MB, hypsometric tint plus hillshade). A neutral grayscale variant is at `assets/dsm/Firozabad_DSM_Greyscale.webp`; layer metadata is in `assets/dsm/Firozabad_DSM_Overlay.json`.
 
 No source files under `Incoming Data` are modified by the dashboard.

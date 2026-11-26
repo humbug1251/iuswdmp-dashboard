@@ -1,0 +1,30 @@
+{
+  "url": "assets/dsm/Firozabad_DSM_Overlay.webp",
+  "bounds": [
+    [
+      27.11984,
+      78.355302
+    ],
+    [
+      27.193353,
+      78.439199
+    ]
+  ],
+  "resolution_m": 2.67,
+  "source": "Firozabad-44 N_DSM.tif",
+  "crs": "EPSG:4326 (from EPSG:32644)",
+  "width": 3090,
+  "height": 3052,
+  "elevation_min_m": 129.3,
+  "elevation_max_m": 220.9,
+  "color_stretch_m": [
+    151.0,
+    175.5
+  ],
+  "style": "hypsometric tint + hillshade (north-up WGS84)",
+  "masked_to": "Firozabad Nagar Nigam outer boundary",
+  "files": {
+    "color": "Firozabad_DSM_Overlay.webp",
+    "greyscale": "Firozabad_DSM_Greyscale.webp"
+  }
+}
