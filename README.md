@@ -144,7 +144,7 @@ The mapped drain lengths are **141.7 km primary**, **71.3 km secondary** and **4
 | Drains surveyed | Real - `COMPLETE DRAINS TILL NOV 21.shp`; 2,567 mapped segments, 497.9 km |
 | TBM | 23 points parsed from `TBM.kmz` |
 | Static points | 10 points parsed from `TBM.kmz` |
-| Survey photos | Real - 630 compressed photos from `Meerut_SWmaps_combined 1 (2).kmz` |
+| Survey photos | Real - 887 compressed photos: 630 from `Meerut_SWmaps_combined 1 (2).kmz` + 257 from `ALL_IMAGES_photos.kmz` (20-25 Nov 2026; 18 duplicate copies removed; 8 flagged CHECK) |
 | Survey points | Real - **58,268 DGPS observations** from `DGPS_clean.csv`; elevations 189.99–258.99 m (13 blank), 1,168 attribute labels, dates 04 Nov–20 Nov 2026 where recorded |
 | GCP marked | Not reported for Meerut |
 | Drone survey blocks | Not required for Meerut |
@@ -408,6 +408,7 @@ For best results, use a desktop viewport of 1280 px or wider. Below 1200 px the 
 - Meerut layers and TBM/static points: `Incoming Data/Meerut/`, `Incoming Data/Meerut/Drain_Data_Digitised/Meerut Survey Progress_Til 12th Nov.kml`, `Incoming Data/Meerut/TBM_KML/TBM.kmz`
 - Meerut catchment boundary: `Incoming Data/Meerut/Catchment Boundary/Catchment Boundary_50Ha.kml`
 - Meerut DGPS survey points: `Incoming Data/Meerut/DGPS Points/DGPS_clean.csv`
+- Meerut photos: `Incoming Data/Meerut/Photos/ALL IMAGES/ALL_IMAGES_photos.kmz`
 - Ghaziabad WPR: `Incoming Data/WPR _7to13/Ghaziabad_WPR_20261113.docx`
 - Ghaziabad layers: `Incoming Data/Ghaziabad/Boundary Shapefiles/`, `Incoming Data/Ghaziabad/Digitized Drains/`
 - Ghaziabad catchment boundary: `Incoming Data/Ghaziabad/Subcatchment_Boundary/GZB_Subcatchment_Boundary_1.shp`
