@@ -525,7 +525,11 @@
 
     if (secondaryDone != null || tertiaryDone != null) {
       const total = (secondaryDone || 0) + (tertiaryDone || 0);
-      cards.push(metricCard('Secondary &amp; Tertiary', km(total), 'km', null, '', null, '#ff7a00'));
+      const totalDecimals = Math.max(
+        c.secondary && c.secondary.decimals != null ? Number(c.secondary.decimals) : 1,
+        c.tertiary && c.tertiary.decimals != null ? Number(c.tertiary.decimals) : 1
+      );
+      cards.push(metricCard('Secondary &amp; Tertiary', formatNumber(total, totalDecimals), 'km', null, '', null, '#ff7a00'));
     } else if (combinedDone != null) {
       const decimals = c.secondaryTertiary.decimals != null ? Number(c.secondaryTertiary.decimals) : null;
       const combinedLabel = decimals != null ? formatNumber(combinedDone, decimals) : km(combinedDone);

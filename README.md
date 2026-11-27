@@ -34,7 +34,7 @@ The basemap will not load without an internet connection, but the layer controls
 |---|---|---|---|---|
 | Firozabad | 6–12 Nov 2026 | Yes | 84.3% | Real boundary, buffer, ward and control-point KMLs; real primary/secondary/tertiary drain shapefiles with tertiary up to 12 Nov; real drone flight-block KML |
 | Shahjahanpur | 6-12 Nov 2026 | Yes | 86.7% | Real outer boundary, 60 wards, classified drain KML, ortho overlay, 77 GCPs, 5 static points, 70 TBM points and 27 drone blocks; no buffer; primary drain marked 100% complete |
-| Saharanpur | 6–12 Nov 2026 | Yes | 78.3% | Real outer boundary, 70 wards, AOI buffer, 13 Nov conduits, GCP, TBM and drone blocks; no ortho supplied |
+| Saharanpur | 6-12 Nov 2026 | Yes | 78.3% | Real outer boundary, 70 wards, AOI buffer, 26 Nov conduits, GCP, TBM and drone blocks; ortho and DSM included |
 | Moradabad | 7–13 Nov 2026 | Yes | 78.8% | Real outer/ward boundaries, AOI buffer, 13 Nov primary/secondary/tertiary drains, GCP, TBM and 14 drone blocks; no ortho |
 | Meerut | 6-12 Nov 2026 | Yes | 50.5% | Real outer/ward boundaries, buffer, 5 Nov primary/secondary drains, TBM and static points from `TBM.kmz`; no GCP, drone blocks or ortho |
 | Ghaziabad | 6–12 Nov 2026 | Yes | 44.9% | Real outer boundary, 100 wards, 12 Nov drains, 22 TBM points and six static points; no buffer, drone-block or ortho layers |
@@ -97,7 +97,7 @@ The ortho overlay is generated from `ORI.tif` (5,089 × 5,942 px, 1.9 m, EPSG:32
 | Ward boundary | Real — 70 wards from `Saharanpur_Wards.kml` |
 | Buffer boundary | Real — `AOI.kml`, 100.2 sq km |
 | Catchment boundary | Real — `Catchment_Boundary_Updated.shp`, 218.52 sq km watershed area |
-| Drains surveyed | Real - `Conduits_till_Survey_23_Nov.shp`, 8,450 mapped segments, 273.0 km |
+| Drains surveyed | Real - `Conduits_till_Survey_26_Nov.shp`, 8,602 mapped segments, 278.5 km |
 | GCP marked | Real — 181 mapped points from 182 KML placemarks (WPR reports 182 completed) |
 | TBM | `SAHARANPUR_TBM.csv` — **42 points** (40 unique labels; TBM1 and TBM3 repeat); elevations from `TBM_KML.kml` where matched |
 | Static points | Real — **5 points** from `SAHARANPUR STATIC POINTS 1.csv` (UTM 43N converted to WGS84); elevations from Ortho H |
@@ -106,9 +106,9 @@ The ortho overlay is generated from `ORI.tif` (5,089 × 5,942 px, 1.9 m, EPSG:32
 | Drone survey blocks | Real — 14 merged flight-plan polygons |
 | Ortho image | Real — `SAHARANPUR_ORTHO.ecw` (9 GB) converted to a 2.09 m/px WebP overlay, reprojected to north-up WGS84 (EPSG:4326) and masked to the boundary |
 
-The WPR reports 14.58 km primary drains, 237.019 km secondary + tertiary, 173.119 / 1,298.41 km roads, 182 GCPs, 5 static points, 22.38 km river survey and 90 sq km LiDAR coverage.
+The WPR reports 14.6 km primary drains, 17.8 km secondary, 221.03 km tertiary (238.83 km combined), 173.119 / 1,298.41 km roads, 182 GCPs, 5 static points, 22.38 km river survey and 90 sq km LiDAR coverage.
 
-The 23 Nov drain SHP (`Digitalised_SHP/23rd_Nov/Conduits_till_Survey_23_Nov.shp`) contains **8,519 source segments / 274.66 km**. After removing duplicate and zero-length geometry, **8,450 segments / 273.0 km** are mapped: primary 14.2 km, secondary 191.6 km, tertiary 25.9 km, natural streams 22.7 km and unclassified 18.6 km. Classification was carried over from the 19 Nov SHP by geometry matching; 633 new segments are unclassified. Natural streams are shown in green and blanks in grey. The map primary geometry (14.19 km) matches the WPR's 14.58 km; the WPR's 237.019 km secondary + tertiary figure is reported separately from this till-23-Nov geometry.
+The 26 Nov drain SHP (`Digitalised_SHP/26th_Nov/Conduits_till_Survey_26_Nov.shp`) contains **8,671 source segments / 280.22 km**. After removing duplicate and zero-length geometry, **8,602 segments / 278.5 km** are mapped: primary 13.6 km, secondary 18.9 km, tertiary 219.4 km, natural streams 22.7 km and unclassified/canal 4.0 km. Classification comes from the SHP's `DRAIN_CLAS` field; one segment with no class is mapped as Unclassified. Natural streams are shown in green and unclassified segments in grey. The map primary geometry (13.57 km) is close to the WPR's 14.6 km; the WPR's secondary 17.8 km and tertiary 221.03 km are reported separately from this till-26-Nov geometry.
 
 ### Moradabad layers
 
@@ -394,7 +394,7 @@ For best results, use a desktop viewport of 1280 px or wider. Below 1200 px the 
 - Saharanpur photos: `Incoming Data/Saharanpur/Photos KML/Saharanpur_Combined_photos.kmz`
 - Saharanpur survey points: `Incoming Data/Saharanpur/Survey Points/Saharanpur_DGPS.kmz`
 - Saharanpur static points: `Incoming Data/Saharanpur/Static Points/SAHARANPUR STATIC POINTS 1.csv`
-- Saharanpur drains: `Incoming Data/Saharanpur/Digitalised_SHP/16th_Nov/Conduits_till_06_Nov.shp`
+- Saharanpur drains: `Incoming Data/Saharanpur/Digitalised_SHP/26th_Nov/Conduits_till_Survey_26_Nov.shp`
 - Saharanpur catchment boundary: `Incoming Data/Saharanpur/Catchment_Boundary_Updated/Catchment_Boundary_Updated.shp`
 - Saharanpur ortho: `Incoming Data/Saharanpur/ORI/SAHARANPUR_ORTHO.ecw`
 - Moradabad WPR: `Incoming Data/WPR _7to13/Moradabad_WPR_7_11_2026to13_11_2026.docx`

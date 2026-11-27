@@ -317,19 +317,27 @@ window.DASHBOARD = {
       },
       "components": {
         "primary": {
-          "done": 14.58,
-          "planned": 14.58,
+          "done": 14.6,
+          "planned": 14.6,
           "pct": 100.0,
           "unit": "km",
           "note": "Primary drains completed as per the WPR"
         },
-        "secondaryTertiary": {
-          "done": 237.019,
+        "secondary": {
+          "done": 17.8,
           "planned": null,
           "pct": null,
           "unit": "km",
-          "decimals": 3,
-          "note": "Combined secondary and tertiary drains; target not notified"
+          "decimals": 1,
+          "note": "Secondary drains; target not notified"
+        },
+        "tertiary": {
+          "done": 221.03,
+          "planned": null,
+          "pct": null,
+          "unit": "km",
+          "decimals": 2,
+          "note": "Tertiary drains; target not notified"
         },
         "road": {
           "done": 173.119,
@@ -361,13 +369,13 @@ window.DASHBOARD = {
       "notes": [
         "Source WPR: SRE_WPR_Submission_13_Nov_to_19_Nov_2026.docx (reporting period 13–19 Nov 2026).",
         "City area is 73.7 sq km as per the RFP and 80.544 sq km as per the WPR KML.",
-        "WPR cumulative survey: primary 14.58 km, secondary/tertiary 237.019 km, road 173.119 km, GCP 182 / 182, static 5 / 5, river 22.38 km.",
+        "WPR cumulative survey: primary 14.6 km, secondary 17.8 km, tertiary 221.03 km (secondary + tertiary 238.83 km), road 173.119 km, GCP 182 / 182, static 5 / 5, river 22.38 km.",
         "LiDAR acquisition covered 90 sq km; a 10 sq km jail area is excluded as a restricted area.",
-        "The map drains layer is the 23 Nov conduit SHP (Conduits_till_Survey_23_Nov.shp); primary geometry is 14.19 km, matching the WPR's 14.58 km completed.",
-        "The 23 Nov SHP contains 8,519 source segments and 274.66 km. After removing zero-length and duplicate geometry, 8,450 segments / 273.0 km are mapped: primary 14.2 km, secondary 191.6 km, tertiary 25.9 km, natural streams 22.7 km and unclassified 18.6 km. Classification was carried over from the 19 Nov SHP by geometry matching; 633 new segments remain unclassified.",
+        "The map drains layer is the 26 Nov conduit SHP (Conduits_till_Survey_26_Nov.shp); primary geometry is 13.57 km against the WPR's 14.6 km completed.",
+        "The 26 Nov SHP contains 8,671 source segments and 280.22 km. After removing zero-length and duplicate geometry, 8,602 segments / 278.5 km are mapped: primary 13.6 km, secondary 18.9 km, tertiary 219.4 km, natural streams 22.7 km and unclassified/canal 4.0 km. Classification comes from the SHP's DRAIN_CLAS field; one segment with no class is mapped as Unclassified.",
         "The GCP KML contains 182 placemarks; 181 unique name-and-location points are mapped, matching the WPR total of 182 completed GCPs within one point.",
         "The TBM CSV contains 42 rows and 40 unique labels (TBM1 and TBM3 repeat). All 42 CSV points are mapped; matching elevations come from TBM_KML.kml.",
-        "The WPR reports a combined secondary and tertiary length of 237.019 km; no separate target was notified.",
+        "The WPR reports secondary 17.8 km and tertiary 221.03 km (combined 238.83 km); no separate target was notified.",
         "The AOI KML is used as the buffer boundary."
       ],
       "layersAvailable": true,
