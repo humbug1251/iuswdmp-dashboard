@@ -98,8 +98,8 @@ The ortho overlay is generated from `ORI.tif` (5,089 × 5,942 px, 1.9 m, EPSG:32
 | Buffer boundary | Real — `AOI.kml`, 100.2 sq km |
 | Catchment boundary | Real — `Catchment_Boundary_Updated.shp`, 218.52 sq km watershed area |
 | Drains surveyed | Real - `Conduits_till_Survey_26_Nov.shp`, 8,602 mapped segments, 278.5 km |
-| Subcatchments | Real — **2,331 WDT subcatchment polygons** (1,411.17 sq km model domain); geometry simplified for display |
-| WDT channels | Real — **3,554 channel lines** (2,169.47 km); geometry simplified for display |
+| Subcatchments | Real — **480 WDT subcatchment polygons** (218.53 sq km, clipped to the catchment boundary); geometry simplified for display |
+| WDT channels | Real — **639 channel lines** (638.83 km, clipped to the catchment boundary); geometry simplified for display |
 | GCP marked | Real — 181 mapped points from 182 KML placemarks (WPR reports 182 completed) |
 | TBM | `SAHARANPUR_TBM.csv` — **42 points** (40 unique labels; TBM1 and TBM3 repeat); elevations from `TBM_KML.kml` where matched |
 | Static points | Real — **5 points** from `SAHARANPUR STATIC POINTS 1.csv` (UTM 43N converted to WGS84); elevations from Ortho H |

@@ -756,7 +756,7 @@
         ${layerRow('outer', 'Outer Boundary', `${formatNumber(outerArea, 2)} sq km`, 'poly', '#0b1f2a', '', counts.outer > 0)}
         ${counts.buffer > 0 ? layerRow('buffer', 'Buffer Area', `${formatNumber(bufferArea, 2)} sq km`, 'poly', '#c77d2a', '', true) : ''}
         ${counts.catchment > 0 ? layerRow('catchment', 'Catchment Boundary', `${formatNumber(catchmentArea, 2)} sq km`, 'poly', '#7c3aed', '', true) : ''}
-        ${counts.subcatchments > 0 ? layerRow('subcatchments', 'Subcatchments', `${formatNumber(counts.subcatchments, 0)} polygons · ${formatNumber(data.subcatchmentStats && data.subcatchmentStats.area_sqkm, 0)} sq km`, 'poly', '#0e7490', '', true) : ''}
+        ${counts.subcatchments > 0 ? layerRow('subcatchments', 'Subcatchments', `${formatNumber(counts.subcatchments, 0)} polygons · ${formatNumber(data.subcatchmentStats && data.subcatchmentStats.area_sqkm, 2)} sq km`, 'poly', '#0e7490', '', true) : ''}
       </div>
       <div class="layer-group">
         <p class="layer-group-title">Survey layers</p>
