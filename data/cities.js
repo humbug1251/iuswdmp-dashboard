@@ -48,11 +48,12 @@ window.DASHBOARD = {
       },
       "components": {
         "primary": {
-          "done": 65.414,
+          "done": 65.415,
           "planned": 40.7,
           "pct": 100.0,
           "unit": "km",
-          "note": "65.414 km surveyed; target 40.7 km (extended to outfalls)"
+          "decimals": 3,
+          "note": "65.415 km surveyed; target 40.7 km (extended to outfalls)"
         },
         "secondary": {
           "done": null,
@@ -93,11 +94,11 @@ window.DASHBOARD = {
           "note": "Acquisition complete; processing in progress (ORI received 17 Oct)"
         },
         "secondaryTertiary": {
-          "done": 413.49,
+          "done": 486.685,
           "planned": null,
           "pct": null,
           "unit": "km",
-          "decimals": 2,
+          "decimals": 3,
           "note": "Combined secondary and tertiary drains; target not notified"
         }
       },
@@ -154,10 +155,11 @@ window.DASHBOARD = {
         }
       ],
       "notes": [
-        "Source WPR: figures to 23 Nov 2026 (primary 65.414 km, secondary + tertiary 413.49 km, road 388.715 km).",
+        "Source: figures to 26 Nov 2026 (primary 65.415 km, secondary + tertiary 486.685 km, total 552.1 km; road 388.715 km).",
         "Overall progress is the simple average of primary drains, road survey, GCP marking and LiDAR acquisition percentages.",
         "The primary-drain target (40.7 km) is tentative and based on OSM; the surveyed length includes extensions to outfalls.",
-        "Secondary and tertiary drain targets have not been notified, so only completed lengths are shown. The latest cumulative length is 413.49 km combined.",
+        "Secondary and tertiary drain targets have not been notified, so only completed lengths are shown. The latest cumulative length is 486.685 km combined.",
+        "Drain progress uses the PST_Upto_26th-Nov classified layers: primary 65.415 km and secondary + tertiary 486.685 km (552.1 km total).",
         "Map drains use the 23 Nov PST SHPs: 7,892 mapped segments and 549.0 km (primary 73.7 km, secondary 31.3 km, tertiary 444.1 km).",
         "The road target is 758 km in the latest detail table; the summary table states 740 km.",
         "Ward-boundary verification by Nagar Nigam is pending.",
@@ -197,17 +199,19 @@ window.DASHBOARD = {
       },
       "components": {
         "primary": {
-          "done": 34.636,
+          "done": 34.6,
           "planned": 31.4,
           "pct": 100.0,
           "unit": "km",
+          "decimals": 1,
           "note": "45 primary drains identified and completed; 34.6 km cumulative"
         },
         "secondaryTertiary": {
-          "done": 466.4,
+          "done": 515.1,
           "planned": null,
           "pct": null,
           "unit": "km",
+          "decimals": 1,
           "note": "Combined secondary and tertiary drains; target not notified"
         },
         "road": {
@@ -274,11 +278,12 @@ window.DASHBOARD = {
         }
       ],
       "notes": [
-        "Source WPR: Weekly Report_ UP_Shahajanpur_ 13th Nov to 19th Nov.docx (reporting period 13–19 Nov 2026).",
+        "Source WPR: Weekly Report_ UP_Shahajanpur_ 13th Nov to 19th Nov.docx (reporting period 13-19 Nov 2026); drain totals updated to 27 Nov 2026.",
         "City area is 56.24 sq km as per the RFP and 40.1 sq km as per the ward KML; the supplied outer boundary measures 56.46 sq km.",
-        "WPR cumulative survey: primary 34.636 km, secondary/tertiary 466.4 km, road 367 km, GCP 77 / 77, static 5 / 5.",
-        "The classified drain SHP (SURVEY CLASSIFICATION 20.11.26) contains 4,846 mapped segments and 408.4 km: primary 34.6 km, secondary 54.6 km, tertiary 319.1 km.",
-        "The WPR reports 466.4 km of secondary/tertiary drains; the supplied SHP is a partial classified network of 373.7 km (secondary + tertiary).",
+        "Latest cumulative survey: primary 34.6 km, secondary/tertiary 515.1 km (total 549.7 km), road 367 km, GCP 77 / 77, static 5 / 5.",
+        "The SURVEY CLASSIFICATION 27.11.26 zip contains 5,385 segments and 474.4 km raw: primary 34.6 km, secondary 57.2 km, tertiary 380.7 km; 5 canal/road/other segments are unclassified.",
+        "Reported cumulative secondary/tertiary is 515.1 km; the classified SHP covers 437.9 km of secondary + tertiary, so the reported total is the reconciled survey figure.",
+        "The map drains layer has been updated to the 27.11.26 classification (5,385 segments).",
         "LiDAR acquisition covered 54.825 sq km; 1.63 sq km is excluded as Army/Jail restricted area. Ortho and DSM are received; DTM processing is expected in the 1st week of December.",
         "Static points come from SP+TBM Locations.kml; the TBM layer is built from SHAHJANPUR MERGED TBM EXCEL.xlsx (71 rows, one duplicate at TBM6 removed, 70 benchmarks with elevations).",
         "The drone-block KML contains 28 polygons including a Jail area; the Jail polygon is excluded, leaving 27 survey blocks.",
@@ -417,16 +422,18 @@ window.DASHBOARD = {
           "note": "148 km cumulative alignment; 140 km target exceeded"
         },
         "secondary": {
-          "done": 232.8,
+          "done": 82.085,
           "planned": null,
           "pct": null,
-          "unit": "km"
+          "unit": "km",
+          "decimals": 2
         },
         "tertiary": {
-          "done": null,
+          "done": 168.855,
           "planned": null,
           "pct": null,
-          "unit": "km"
+          "unit": "km",
+          "decimals": 2
         },
         "road": {
           "done": 232.54,
@@ -458,8 +465,8 @@ window.DASHBOARD = {
       "notes": [
         "Source WPR: Moradabad_WPR_13_11_2026to20_11_2026.docx (reporting period 13–20 Nov 2026).",
         "City area is 85.2 sq km as per the RFP and 64.52 sq km as per the Nagar Nigam KML.",
-        "WPR cumulative survey: primary 148 km, secondary/tertiary 232.8 km (total 380.79 km), road 232.54 km, GCP 206 / 206, static 10 / 10.",
-        "Drains are the 19 Nov primary, secondary and tertiary SHPs: 2,099 mapped segments (240 primary, 358 secondary, 1,501 tertiary), 340.9 km.",
+        "Latest cumulative survey: primary 148 km, secondary 82.09 km, tertiary 168.86 km (total 398.94 km), road 232.54 km, GCP 206 / 206, static 10 / 10.",
+        "Drain progress uses the 26 Nov classified SHPs: primary 148 km, secondary 82.09 km and tertiary 168.86 km (398.94 km total).",
         "The WPR reports 69.123 km of actual invert/desilting on primary drains.",
         "The GCP KML contains 202 unique points; the WPR reports 206 GCPs completed.",
         "The TBM layer uses 102 points from TBM.kml, replacing the photo-derived set; all points carry KML elevations (190.51–209.96 m) and three readings repeat one benchmark.",
@@ -509,11 +516,11 @@ window.DASHBOARD = {
           "decimals": 2
         },
         "secondaryTertiary": {
-          "done": 440.37,
+          "done": 476.32,
           "planned": null,
           "pct": null,
           "unit": "km",
-          "note": "Combined secondary and tertiary drains; target not notified",
+          "note": "Combined secondary and tertiary drains through 26 Nov (+106.2 km this week); target not notified",
           "decimals": 2
         },
         "static": {
@@ -538,16 +545,16 @@ window.DASHBOARD = {
       },
       "milestones": [],
       "notes": [
-        "Source WPR: Meerut_Weekly_Progress_Report_06Nov12Nov.docx (reporting period 6–12 Nov 2026).",
+        "Source WPR: Meerut_Weekly_Progress_Report_06Nov12Nov.docx (reporting period 6-12 Nov 2026); drain totals updated to 26 Nov 2026.",
         "City area is 141.94 sq km as per the RFP and 143.83 sq km as per the KML.",
-        "WPR cumulative survey: primary 80.71 km, secondary/tertiary 440.37 km, static 10 / 10.",
+        "Latest cumulative survey: primary 80.71 km (unchanged), secondary/tertiary 476.32 km (total 557.03 km), static 10 / 10; secondary addition this week is 106.2 km.",
         "Primary progress is shown against the 80 km tentative OSM plan; cumulative alignment is 80.71 km.",
         "DGPS deployment is 1 base and 6 rovers.",
         "No GCP data is reported for Meerut.",
         "No drone flight blocks are required; LiDAR is planned with a helicopter-mounted system and is not started.",
         "TBM and static points are taken from the supplied TBM.kmz.",
         "The 5 Nov primary layer contains 20 alignments and 74.7 km; the secondary/tertiary SHP has 189 secondary, 64 tertiary and 730 unclassified segments.",
-        "The 13–19 Nov SHP adds 624 new unclassified segments / 107.2 km; the map now has 1,886 segments / 443.8 km.",
+        "The 26 Nov complete drains SHP contains 3,118 segments / 560.9 km raw and is a superset of the 21 Nov map layer (2,567 segments / 497.9 km); it adds 541 new segments / 62.4 km. The map layer has not yet been rebuilt from the 26 Nov file.",
         "Outfalls identified: 5."
       ],
       "gcpAvailable": false,
@@ -606,11 +613,11 @@ window.DASHBOARD = {
           "unit": "km"
         },
         "secondaryTertiary": {
-          "done": 311.25,
+          "done": 369.55,
           "planned": null,
           "pct": null,
           "unit": "km",
-          "note": "Combined secondary + tertiary length; target not notified",
+          "note": "Combined secondary + tertiary length through 26 Nov; target not notified",
           "decimals": 2
         },
         "road": {
@@ -665,11 +672,11 @@ window.DASHBOARD = {
         "Overall progress is the simple average of the available component percentages (primary drains, road survey, static points and LiDAR).",
         "City area is 225 sq km as per the RFP and 170.97 sq km as per the supplied outer boundary.",
         "Outfalls identified: Shahberi, Raj Nagar Extension, Hindon Ghat and Hindon cut to Yamuna.",
-        "WPR cumulative survey: primary 160.5 km, road 327.88 km, secondary/tertiary 311.25 km, static 6 / 6.",
+        "Latest cumulative survey: primary 160.5 km, road 327.88 km, secondary/tertiary 369.55 km (311.25 km to 19 Nov + 31.1 km on 25 Nov + 27.2 km on 26 Nov), static 6 / 6.",
         "Primary invert-level survey added 11 km this week; cumulative with invert levels is 171.5 km.",
         "Current DGPS deployment is 3 base and 10 rovers with 11 team members.",
-        "The WPR shows previous-week secondary/tertiary as 94.8 km (the prior week's weekly addition) and cumulative 239.97 km; the reported cumulative is used.",
-        "Drains combine the 29 Oct KMZ (3,121 features / 102.6 km), the 30 Oct–5 Nov SHP (123 segments / 102.2 km), the 6–12 Nov SHP (186 segments / 59.8 km), the 13–19 Nov SHP (485 segments / 96.0 km) and the 20–23 Nov SHP (405 segments / 71.1 km); new segments are unclassified.",
+        "The WPR showed 239.97 km cumulative secondary/tertiary to 12 Nov and 311.25 km to 19 Nov; the 25 Nov (31.1 km) and 26 Nov (27.2 km) digitized additions bring the cumulative to 369.55 km.",
+        "Drain progress adds the 25 Nov (31.1 km) and 26 Nov (27.2 km) digitized lengths to the previous cumulative; new daily segments remain unclassified in the source SHPs.",
         "The supplied outer boundary and 100-ward SHP are used for the map; no buffer or AOI layer was supplied.",
         "Static points are mapped from the supplied six-point SHP, with elevations from the main control-point CSV. The KMZ contains Static Point 8 only and is included in the SHP.",
         "TBM layer contains 22 benchmarks from Ghaziabad_Most_22_TBMs.csv; TBM 6 is a CAD/grid point and the rest are RTK fixes.",
