@@ -164,6 +164,8 @@ WPR figures: primary 80.71 / 80 km (100%; the mapped alignment total is 85.59 km
 | Ward boundary | Real - 100 wards from `GZD_Wards_100.shp` |
 | Buffer boundary | Not supplied |
 | Catchment boundary | Real - `GZB_Subcatchment_Boundary_1.shp`, 780.98 sq km watershed area |
+| Subcatchments | Real — **1,515 WDT subcatchment polygons** (780.97 sq km, clipped to the catchment boundary); geometry simplified for display |
+| WDT channels | Real — **2,410 channel lines** (2,317.19 km, clipped to the catchment boundary); geometry simplified for display |
 | Drains surveyed | Real — 29 Oct KMZ plus 30 Oct–5 Nov, 6–12 Nov, 13–19 Nov, 20–23 Nov and 24 Nov SHPs; 4,403 mapped segments, 451.5 km |
 | TBM | Real — 22 points from `Ghaziabad_Most_22_TBMs.csv`; TBM 6 is a CAD/grid point, the rest are RTK fixes |
 | Static points | Real - six points from `Static Points_GZB.shp`, elevations from `GAZIABAD Main Control Points.csv`; `Static Point 8.kmz` contains ST08 |
@@ -173,7 +175,7 @@ WPR figures: primary 80.71 / 80 km (100%; the mapped alignment total is 85.59 km
 | Drone survey blocks | Not required for Ghaziabad |
 | Ortho image | Not supplied for Ghaziabad |
 
-The 29 Oct KMZ contains **3,121 source features / 102.6 km**; hierarchy was matched from the 24 Oct SHP by drain name: **1,245 primary**, **903 tertiary** and **947 unclassified** mapped segments. The 30 Oct–5 Nov SHP adds **123 segments / 102.2 km**, the 6–12 Nov SHP adds **186 segments / 59.8 km**, the 13–19 Nov SHP adds **485 segments / 96.0 km**, the 20–23 Nov SHP adds **405 segments / 71.1 km**, and the 24 Nov SHP adds **109 segments / 20.0 km**, all shown as unclassified, for a mapped total of **4,403 segments / 451.5 km**. WPR figures (13–19 Nov 2026, S/T to 23 Nov): primary 160.5 / 223 km, secondary + tertiary 369.55 km, road 327.88 / 3,450 km, static 6 / 6, LiDAR not started, outfalls 4. The mapped total remains below the WPR surveyed total because the network compilation is partial.
+The 29 Oct KMZ contains **3,121 source features / 102.6 km**; hierarchy was matched from the 24 Oct SHP by drain name: **1,245 primary**, **903 tertiary** and **947 unclassified** mapped segments. The 30 Oct–5 Nov SHP adds **123 segments / 102.2 km**, the 6–12 Nov SHP adds **186 segments / 59.8 km**, the 13–19 Nov SHP adds **485 segments / 96.0 km**, the 20–23 Nov SHP adds **405 segments / 71.1 km**, and the 24 Nov SHP adds **109 segments / 20.0 km**, all shown as unclassified, for a mapped total of **4,403 segments / 451.5 km**. WPR figures (21–27 Nov 2026): primary 160.5 / 223 km, secondary + tertiary 369.55 km, road 327.88 / 3,450 km, static 6 / 6, LiDAR not started, outfalls 4. The mapped total remains below the WPR surveyed total because the network compilation is partial.
 
 The static-point CSV also contains an older ST3 record; the six-point SHP and the WPR set use **ST01, ST02, ST05, ST06, ST07 and ST08**.
 
@@ -417,6 +419,7 @@ For best results, use a desktop viewport of 1280 px or wider. Below 1200 px the 
 - Ghaziabad WPR: `Incoming Data/WPR _7to13/Ghaziabad_WPR_20261113.docx`
 - Ghaziabad layers: `Incoming Data/Ghaziabad/Boundary Shapefiles/`, `Incoming Data/Ghaziabad/Digitized Drains/`
 - Ghaziabad catchment boundary: `Incoming Data/Ghaziabad/Subcatchment_Boundary/GZB_Subcatchment_Boundary_1.shp`
+- Ghaziabad subcatchments and WDT channels: `Incoming Data/Ghaziabad/Subcatchments_GZB/Subcatchments.shp`, `Incoming Data/Ghaziabad/WDT Channels (GZB)/WDT Channels.shp`
 - Ghaziabad photos: `Incoming Data/Ghaziabad/Photos/Photos_photos.kmz`, `Incoming Data/Ghaziabad/KMZ_Photos/KMZ_Photos/Ghaziabad_Photos_WithCoordinates.kmz`, `Incoming Data/Ghaziabad/Photos/20-22/20-22_photos.kmz`
 - Ghaziabad DGPS survey points: `Incoming Data/Ghaziabad/DGPS/GHAIZABAD_MERGED.csv`
 - Ghaziabad static points: `Incoming Data/Ghaziabad/Static Points/`
