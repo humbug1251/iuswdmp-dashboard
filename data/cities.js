@@ -3,9 +3,9 @@ window.DASHBOARD = {
     "project": "Survey, Collection of Data, Preparation of Integrated Urban Storm Water Drainage Master Plan (IUSWDMP)",
     "shortProject": "IUSWDMP Progress",
     "state": "Uttar Pradesh",
-    "generated": "2026-11-16",
-    "latestReport": "13-20 Nov 2026",
-    "latestReportDate": "2026-11-20",
+    "generated": "2026-11-27",
+    "latestReport": "21-27 Nov 2026",
+    "latestReportDate": "2026-11-27",
     "overallMethod": "Simple average of the available component percentages: primary drain, road survey, GCP or static points where reported, and LiDAR. Secondary/tertiary components are excluded where a target has not been notified.",
     "basemaps": "OSM Streets and Esri World Imagery",
     "dataNotes": [
@@ -17,7 +17,7 @@ window.DASHBOARD = {
       "Meerut GIS layers are derived from the supplied boundaries, wards, drains and TBM.kmz; no GCP points or drone blocks are reported.",
       "Ghaziabad GIS layers are derived from the supplied outer boundary, 100-ward SHP, 29 Oct drain KMZ with the 5 Nov weekly SHP, six-point static SHP and 22-point TBM CSV; no buffer or drone-block layers were supplied.",
       "Shahjahanpur GIS layers are derived from the supplied boundary, 60-ward KML, drain KML, GCP KML, SP+TBM KML and drone-block KML.",
-      "Progress numbers are taken from the latest available weekly progress reports: Firozabad, Shahjahanpur, Saharanpur and Ghaziabad 6-12 Nov 2026, Moradabad 7-13 Nov 2026, and Meerut 30 Oct-5 Nov 2026."
+      "Progress numbers are taken from the latest WPR period, 21–27 Nov 2026."
     ]
   },
   "cities": [
@@ -32,9 +32,9 @@ window.DASHBOARD = {
       ],
       "status": "reporting",
       "statusLabel": "Reporting",
-      "reportPeriod": "13–19 Nov 2026",
-      "reportIssued": "2026-11-20",
-      "reportDate": "2026-11-20",
+      "reportPeriod": "21–27 Nov 2026",
+      "reportIssued": "2026-11-27",
+      "reportDate": "2026-11-27",
       "area": {
         "rfp": 35.49,
         "kml": 35.08,
@@ -155,7 +155,7 @@ window.DASHBOARD = {
         }
       ],
       "notes": [
-        "Source: figures to 26 Nov 2026 (primary 65.415 km, secondary + tertiary 486.685 km, total 552.1 km; road 388.715 km).",
+        "Latest WPR period: 21–27 Nov 2026 (figures to 26 Nov 2026). Primary 65.415 km, secondary + tertiary 486.685 km, total 552.1 km; road 388.715 km.",
         "Overall progress is the simple average of primary drains, road survey, GCP marking and LiDAR acquisition percentages.",
         "The primary-drain target (40.7 km) is tentative and based on OSM; the surveyed length includes extensions to outfalls.",
         "Secondary and tertiary drain targets have not been notified, so only completed lengths are shown. The latest cumulative length is 486.685 km combined.",
@@ -183,9 +183,9 @@ window.DASHBOARD = {
       ],
       "status": "reporting",
       "statusLabel": "Reporting",
-      "reportPeriod": "13–19 Nov 2026",
-      "reportIssued": "2026-11-20",
-      "reportDate": "2026-11-20",
+      "reportPeriod": "21–27 Nov 2026",
+      "reportIssued": "2026-11-27",
+      "reportDate": "2026-11-27",
       "area": {
         "rfp": 56.24,
         "kml": 56.46,
@@ -278,7 +278,7 @@ window.DASHBOARD = {
         }
       ],
       "notes": [
-        "Source WPR: Weekly Report_ UP_Shahajanpur_ 13th Nov to 19th Nov.docx (reporting period 13-19 Nov 2026); drain totals updated to 27 Nov 2026.",
+        "Latest WPR period: 21–27 Nov 2026; drain totals updated to 27 Nov 2026.",
         "City area is 56.24 sq km as per the RFP and 40.1 sq km as per the ward KML; the supplied outer boundary measures 56.46 sq km.",
         "Latest cumulative survey: primary 34.6 km, secondary/tertiary 515.1 km (total 549.7 km), road 367 km, GCP 77 / 77, static 5 / 5.",
         "The SURVEY CLASSIFICATION 27.11.26 zip contains 5,385 segments and 474.4 km raw: primary 34.6 km, secondary 57.2 km, tertiary 380.7 km; 5 canal/road/other segments are unclassified.",
@@ -306,9 +306,9 @@ window.DASHBOARD = {
       ],
       "status": "reporting",
       "statusLabel": "Reporting",
-      "reportPeriod": "13–19 Nov 2026",
-      "reportIssued": "2026-11-20",
-      "reportDate": "2026-11-20",
+      "reportPeriod": "21–27 Nov 2026",
+      "reportIssued": "2026-11-27",
+      "reportDate": "2026-11-27",
       "area": {
         "rfp": 73.7,
         "kml": 80.544,
@@ -372,7 +372,7 @@ window.DASHBOARD = {
       },
       "milestones": [],
       "notes": [
-        "Source WPR: SRE_WPR_Submission_13_Nov_to_19_Nov_2026.docx (reporting period 13–19 Nov 2026).",
+        "Latest WPR period: 21–27 Nov 2026.",
         "City area is 73.7 sq km as per the RFP and 80.544 sq km as per the WPR KML.",
         "WPR cumulative survey: primary 14.6 km, secondary 17.8 km, tertiary 221.03 km (secondary + tertiary 238.83 km), road 173.119 km, GCP 182 / 182, static 5 / 5, river 22.38 km.",
         "LiDAR acquisition covered 90 sq km; a 10 sq km jail area is excluded as a restricted area.",
@@ -398,9 +398,9 @@ window.DASHBOARD = {
       ],
       "status": "reporting",
       "statusLabel": "Reporting",
-      "reportPeriod": "13–20 Nov 2026",
-      "reportIssued": "2026-11-20",
-      "reportDate": "2026-11-20",
+      "reportPeriod": "21–27 Nov 2026",
+      "reportIssued": "2026-11-27",
+      "reportDate": "2026-11-27",
       "area": {
         "rfp": 85.2,
         "kml": 64.52,
@@ -463,7 +463,7 @@ window.DASHBOARD = {
       },
       "milestones": [],
       "notes": [
-        "Source WPR: Moradabad_WPR_13_11_2026to20_11_2026.docx (reporting period 13–20 Nov 2026).",
+        "Latest WPR period: 21–27 Nov 2026.",
         "City area is 85.2 sq km as per the RFP and 64.52 sq km as per the Nagar Nigam KML.",
         "Latest cumulative survey: primary 148 km, secondary 82.09 km, tertiary 168.86 km (total 398.94 km), road 232.54 km, GCP 206 / 206, static 10 / 10.",
         "Drain progress uses the 26 Nov classified SHPs: primary 148 km, secondary 82.09 km and tertiary 168.86 km (398.94 km total).",
@@ -489,9 +489,9 @@ window.DASHBOARD = {
       ],
       "status": "reporting",
       "statusLabel": "Reporting",
-      "reportPeriod": "6–12 Nov 2026",
-      "reportIssued": "2026-11-13",
-      "reportDate": "2026-11-12",
+      "reportPeriod": "21–27 Nov 2026",
+      "reportIssued": "2026-11-27",
+      "reportDate": "2026-11-27",
       "area": {
         "rfp": 141.94,
         "kml": 143.83,
@@ -545,7 +545,7 @@ window.DASHBOARD = {
       },
       "milestones": [],
       "notes": [
-        "Source WPR: Meerut_Weekly_Progress_Report_06Nov12Nov.docx (reporting period 6-12 Nov 2026); drain totals updated to 26 Nov 2026.",
+        "Latest WPR period: 21–27 Nov 2026; drain totals updated to 26 Nov 2026.",
         "City area is 141.94 sq km as per the RFP and 143.83 sq km as per the KML.",
         "Latest cumulative survey: primary 80.71 km (unchanged), secondary/tertiary 476.32 km (total 557.03 km), static 10 / 10; secondary addition this week is 106.2 km.",
         "Primary progress is shown against the 80 km tentative OSM plan; cumulative alignment is 80.71 km.",
@@ -575,9 +575,9 @@ window.DASHBOARD = {
       ],
       "status": "reporting",
       "statusLabel": "Reporting",
-      "reportPeriod": "13–19 Nov 2026",
-      "reportIssued": "2026-11-20",
-      "reportDate": "2026-11-20",
+      "reportPeriod": "21–27 Nov 2026",
+      "reportIssued": "2026-11-27",
+      "reportDate": "2026-11-27",
       "area": {
         "rfp": 225,
         "kml": 170.97,
@@ -668,7 +668,7 @@ window.DASHBOARD = {
         }
       ],
       "notes": [
-        "Source WPR: Ghaziabad_WPR_20261120.docx (reporting period 13–19 Nov 2026).",
+        "Latest WPR period: 21–27 Nov 2026.",
         "Overall progress is the simple average of the available component percentages (primary drains, road survey, static points and LiDAR).",
         "City area is 225 sq km as per the RFP and 170.97 sq km as per the supplied outer boundary.",
         "Outfalls identified: Shahberi, Raj Nagar Extension, Hindon Ghat and Hindon cut to Yamuna.",
