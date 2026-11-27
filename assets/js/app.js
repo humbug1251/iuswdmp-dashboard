@@ -525,7 +525,10 @@
       ? Number(c.secondaryTertiary.done)
       : null;
 
-    if (secondaryDone != null || tertiaryDone != null) {
+    if (secondaryDone != null && tertiaryDone != null) {
+      cards.push(metricCard('Secondary Drain', formatNumber(secondaryDone, 2), 'km', null, '', null, '#ff7a00'));
+      cards.push(metricCard('Tertiary Drain', formatNumber(tertiaryDone, 2), 'km', null, '', null, '#6d5aa8'));
+    } else if (secondaryDone != null || tertiaryDone != null) {
       const total = (secondaryDone || 0) + (tertiaryDone || 0);
       const totalDecimals = Math.max(
         c.secondary && c.secondary.decimals != null ? Number(c.secondary.decimals) : 1,
@@ -756,7 +759,7 @@
         ${layerRow('outer', 'Outer Boundary', `${formatNumber(outerArea, 2)} sq km`, 'poly', '#0b1f2a', '', counts.outer > 0)}
         ${counts.buffer > 0 ? layerRow('buffer', 'Buffer Area', `${formatNumber(bufferArea, 2)} sq km`, 'poly', '#c77d2a', '', true) : ''}
         ${counts.catchment > 0 ? layerRow('catchment', 'Catchment Boundary', `${formatNumber(catchmentArea, 2)} sq km`, 'poly', '#7c3aed', '', true) : ''}
-        ${counts.subcatchments > 0 ? layerRow('subcatchments', 'Subcatchments', `${formatNumber(counts.subcatchments, 0)} polygons · ${formatNumber(data.subcatchmentStats && data.subcatchmentStats.area_sqkm, 2)} sq km`, 'poly', '#0e7490', '', true) : ''}
+        ${counts.subcatchments > 0 ? layerRow('subcatchments', 'Subcatchments', `${formatNumber(counts.subcatchments, 0)} polygons · ${formatNumber(data.subcatchmentStats && data.subcatchmentStats.area_sqkm, 2)} sq km`, 'poly', '#facc15', '', true) : ''}
       </div>
       <div class="layer-group">
         <p class="layer-group-title">Survey layers</p>
@@ -1165,11 +1168,11 @@
         pane: 'subcatchmentsPane',
         renderer: L.canvas({ pane: 'subcatchmentsPane', padding: 0.5 }),
         style: {
-          color: '#0e7490',
-          weight: 0.7,
-          opacity: 0.5,
-          fillColor: '#0e7490',
-          fillOpacity: 0.025,
+          color: '#facc15',
+          weight: 1.6,
+          opacity: 0.95,
+          fillColor: '#facc15',
+          fillOpacity: 0.015,
           lineJoin: 'round'
         },
         onEachFeature: (feature, layer) => {
@@ -1298,8 +1301,9 @@
         renderer: L.canvas({ pane: 'wdtPane', padding: 0.5 }),
         style: {
           color: '#1d4ed8',
-          weight: 1.1,
-          opacity: 0.75,
+          weight: 2.6,
+          opacity: 0.95,
+          dashArray: '0.5 6',
           lineCap: 'round',
           lineJoin: 'round'
         },
