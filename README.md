@@ -52,7 +52,7 @@ The basemap will not load without an internet connection, but the layer controls
 | Catchment boundary | Real — `Subcatchment_OuterBoundary.shp`, 109.33 sq km watershed area |
 | Subcatchments | Real — **1,040 WDT subcatchment polygons** (109.31 sq km, clipped to the catchment boundary); geometry simplified for display |
 | GCP points | Real - 85 unique identifiable point geometries from `GCP_Firozabad(86_Points).kml` (WPR reports 86 completed) |
-| TBM points | Real - 18 benchmarks from `TBM_KML (1).kml`; 8 carry RL values |
+| TBM points | Real - 41 benchmarks from `TBM_27Nov.kml` (50 rows; 7 far outside Firozabad and 2 duplicate readings removed); 31 carry RL values |
 | Drains surveyed | Real - 23 Nov PST SHPs; 7,892 mapped segments, 549.0 km |
 | Ward boundary | Real - 70 ward polygons from `Firozabad_70Wardwise_Map.kml` |
 | Drone survey blocks | Real - 10 drone flight blocks from `Drone_Flight_Blocks_Firozabad.kml` |
@@ -390,7 +390,7 @@ For best results, use a desktop viewport of 1280 px or wider. Below 1200 px the 
 - Firozabad drone flight blocks: `Incoming Data/Firozabad/Drone_Survey_Flight_Blocks/Drone_Flight_Blocks_Firozabad.kml`
 - Firozabad drain shapefiles: `Incoming Data/Firozabad/Survey_Data_Digitized_Till_now/`
 - Firozabad WPR: `Incoming Data/WPR _7to13/Firozbad_WPR_6Nov_to_12Nov.docx`
-- Firozabad TBM points: `Incoming Data/Firozabad/TBM/TBM_KML (1).kml`
+- Firozabad TBM points: `Incoming Data/Firozabad/TBM/TBM_27Nov.kml`
 - Firozabad photos: `Incoming Data/Firozabad/Photos KML/FIROZABAD SITE IMAGES/Photos Firozabad/Photos_Firozabad_photos.kmz`
 - Firozabad DSM: `Incoming Data/Firozabad/DSM/Firozabad-44 N_DSM.tif`
 - Firozabad catchment boundary: `Incoming Data/Firozabad/Subcatchment_Outer Boundary_for_WatershedArea/Subcatchment_OuterBoundary.shp`
