@@ -1301,9 +1301,9 @@
         renderer: L.canvas({ pane: 'wdtPane', padding: 0.5 }),
         style: {
           color: '#1d4ed8',
-          weight: 2.6,
-          opacity: 0.95,
-          dashArray: '0.5 6',
+          weight: 4,
+          opacity: 1,
+          dashArray: '0.5 7',
           lineCap: 'round',
           lineJoin: 'round'
         },
