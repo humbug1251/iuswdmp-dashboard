@@ -83,6 +83,23 @@
     return formatNumber(value, d);
   }
 
+  const SUBCATCHMENT_TAG_COLORS = {
+    Nagdeo_River_Catchment: '#2563eb',
+    Dhamola_River_Catchment: '#16a34a',
+    Paondhoi_River_Catchment: '#f59e0b',
+    Open_Field_Catchment: '#a855f7',
+    WDT: '#facc15'
+  };
+
+  function subcatchmentTagColor(tag) {
+    return SUBCATCHMENT_TAG_COLORS[tag] || '#facc15';
+  }
+
+  function prettySubcatchmentTag(tag) {
+    if (!tag) return 'Unclassified';
+    return String(tag).replace(/_Catchment$/i, '').replace(/_/g, ' ');
+  }
+
   function formatPct(value) {
     if (value == null || Number.isNaN(Number(value))) return '—';
     const rounded = Math.round(Number(value) * 10) / 10;
@@ -747,6 +764,9 @@
     const catchmentArea = layers.catchment && layers.catchment.features[0] && layers.catchment.features[0].properties.area_sqkm;
     const wardSample = layers.wards.features.length > 0 && layers.wards.features.every((feature) => feature.properties.sample);
     const drainClasses = new Set((layers.drains.features || []).map((feature) => feature.properties.hierarchy));
+    const subcatchmentTags = new Set((layers.subcatchments && layers.subcatchments.features ? layers.subcatchments.features : [])
+      .map((feature) => feature.properties.tag)
+      .filter(Boolean));
     const wardFormat = data.wardSource === 'SHP' ? 'SHP' : 'KML';
     const gcpProgress = city.components && city.components.gcp ? city.components.gcp.done : null;
     const gcpCount = gcpProgress != null ? gcpProgress : counts.gcp;
@@ -760,6 +780,9 @@
         ${counts.buffer > 0 ? layerRow('buffer', 'Buffer Area', `${formatNumber(bufferArea, 2)} sq km`, 'poly', '#c77d2a', '', true) : ''}
         ${counts.catchment > 0 ? layerRow('catchment', 'Catchment Boundary', `${formatNumber(catchmentArea, 2)} sq km`, 'poly', '#7c3aed', '', true) : ''}
         ${counts.subcatchments > 0 ? layerRow('subcatchments', 'Subcatchments', `${formatNumber(counts.subcatchments, 0)} polygons · ${formatNumber(data.subcatchmentStats && data.subcatchmentStats.area_sqkm, 2)} sq km`, 'poly', '#facc15', '', true) : ''}
+        ${counts.subcatchments > 0 && subcatchmentTags.size > 1 ? `<div class="layer-sublegend" aria-label="Subcatchment tags">
+          ${Array.from(subcatchmentTags).sort().map((tag) => `<span><i class="line-key" style="border-top-color:${subcatchmentTagColor(tag)}"></i>${escapeHtml(prettySubcatchmentTag(tag))}</span>`).join('')}
+        </div>` : ''}
       </div>
       <div class="layer-group">
         <p class="layer-group-title">Survey layers</p>
@@ -1167,13 +1190,16 @@
       subcatchments = L.geoJSON(layers.subcatchments, {
         pane: 'subcatchmentsPane',
         renderer: L.canvas({ pane: 'subcatchmentsPane', padding: 0.5 }),
-        style: {
-          color: '#facc15',
-          weight: 1.6,
-          opacity: 0.95,
-          fillColor: '#facc15',
-          fillOpacity: 0.015,
-          lineJoin: 'round'
+        style: (feature) => {
+          const color = subcatchmentTagColor(feature.properties.tag);
+          return {
+            color,
+            weight: 1.6,
+            opacity: 0.95,
+            fillColor: color,
+            fillOpacity: 0.06,
+            lineJoin: 'round'
+          };
         },
         onEachFeature: (feature, layer) => {
           const props = feature.properties;
