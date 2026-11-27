@@ -30,14 +30,16 @@ The basemap will not load without an internet connection, but the layer controls
 
 ## 2. Current data status
 
+> Latest WPR period on the dashboard: **21–27 Nov 2026** (figures updated to 26/27 Nov 2026).
+
 | City | WPR | GIS layers | Overall progress | Notes |
 |---|---|---|---|---|
-| Firozabad | 6–12 Nov 2026 | Yes | 84.3% | Real boundary, buffer, ward and control-point KMLs; real primary/secondary/tertiary drain shapefiles with tertiary up to 12 Nov; real drone flight-block KML |
-| Shahjahanpur | 6-12 Nov 2026 | Yes | 86.7% | Real outer boundary, 60 wards, classified drain KML, ortho overlay, 77 GCPs, 5 static points, 70 TBM points and 27 drone blocks; no buffer; primary drain marked 100% complete |
-| Saharanpur | 6-12 Nov 2026 | Yes | 78.3% | Real outer boundary, 70 wards, AOI buffer, 26 Nov conduits, GCP, TBM and drone blocks; ortho and DSM included |
-| Moradabad | 7–13 Nov 2026 | Yes | 78.8% | Real outer/ward boundaries, AOI buffer, 13 Nov primary/secondary/tertiary drains, GCP, TBM and 14 drone blocks; no ortho |
-| Meerut | 6-12 Nov 2026 | Yes | 50.5% | Real outer/ward boundaries, buffer, 5 Nov primary/secondary drains, TBM and static points from `TBM.kmz`; no GCP, drone blocks or ortho |
-| Ghaziabad | 6–12 Nov 2026 | Yes | 44.9% | Real outer boundary, 100 wards, 12 Nov drains, 22 TBM points and six static points; no buffer, drone-block or ortho layers |
+| Firozabad | 21–27 Nov 2026 | Yes | 84.3% | Real boundary, buffer, ward and control-point KMLs; real primary/secondary/tertiary drain shapefiles with tertiary up to 12 Nov; real drone flight-block KML |
+| Shahjahanpur | 21–27 Nov 2026 | Yes | 86.7% | Real outer boundary, 60 wards, classified drain KML, ortho overlay, 77 GCPs, 5 static points, 70 TBM points and 27 drone blocks; no buffer; primary drain marked 100% complete |
+| Saharanpur | 21–27 Nov 2026 | Yes | 78.3% | Real outer boundary, 70 wards, AOI buffer, 26 Nov conduits, GCP, TBM and drone blocks; ortho and DSM included |
+| Moradabad | 21–27 Nov 2026 | Yes | 78.8% | Real outer/ward boundaries, AOI buffer, 13 Nov primary/secondary/tertiary drains, GCP, TBM and 14 drone blocks; no ortho |
+| Meerut | 21–27 Nov 2026 | Yes | 50.5% | Real outer/ward boundaries, buffer, 5 Nov primary/secondary drains, TBM and static points from `TBM.kmz`; no GCP, drone blocks or ortho |
+| Ghaziabad | 21–27 Nov 2026 | Yes | 44.9% | Real outer boundary, 100 wards, 12 Nov drains, 22 TBM points and six static points; no buffer, drone-block or ortho layers |
 
 > The official spelling **Shahjahanpur** is used (the source folder is also `Shahjahanpur`).
 
