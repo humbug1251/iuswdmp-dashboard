@@ -98,6 +98,8 @@ The ortho overlay is generated from `ORI.tif` (5,089 × 5,942 px, 1.9 m, EPSG:32
 | Buffer boundary | Real — `AOI.kml`, 100.2 sq km |
 | Catchment boundary | Real — `Catchment_Boundary_Updated.shp`, 218.52 sq km watershed area |
 | Drains surveyed | Real - `Conduits_till_Survey_26_Nov.shp`, 8,602 mapped segments, 278.5 km |
+| Subcatchments | Real — **2,331 WDT subcatchment polygons** (1,411.17 sq km model domain); geometry simplified for display |
+| WDT channels | Real — **3,554 channel lines** (2,169.47 km); geometry simplified for display |
 | GCP marked | Real — 181 mapped points from 182 KML placemarks (WPR reports 182 completed) |
 | TBM | `SAHARANPUR_TBM.csv` — **42 points** (40 unique labels; TBM1 and TBM3 repeat); elevations from `TBM_KML.kml` where matched |
 | Static points | Real — **5 points** from `SAHARANPUR STATIC POINTS 1.csv` (UTM 43N converted to WGS84); elevations from Ortho H |
@@ -395,6 +397,7 @@ For best results, use a desktop viewport of 1280 px or wider. Below 1200 px the 
 - Saharanpur survey points: `Incoming Data/Saharanpur/Survey Points/Saharanpur_DGPS.kmz`
 - Saharanpur static points: `Incoming Data/Saharanpur/Static Points/SAHARANPUR STATIC POINTS 1.csv`
 - Saharanpur drains: `Incoming Data/Saharanpur/Digitalised_SHP/26th_Nov/Conduits_till_Survey_26_Nov.shp`
+- Saharanpur subcatchments and WDT channels: `Incoming Data/Saharanpur/Subcatchments/Subcatchments.shp`, `Incoming Data/Saharanpur/Subcatchments/WDT Channels.shp`
 - Saharanpur catchment boundary: `Incoming Data/Saharanpur/Catchment_Boundary_Updated/Catchment_Boundary_Updated.shp`
 - Saharanpur ortho: `Incoming Data/Saharanpur/ORI/SAHARANPUR_ORTHO.ecw`
 - Moradabad WPR: `Incoming Data/WPR _7to13/Moradabad_WPR_7_11_2026to13_11_2026.docx`

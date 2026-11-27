@@ -38,6 +38,8 @@
     blocks: false,
     wards: false,
     catchment: false,
+    subcatchments: false,
+    wdtChannels: false,
     outer: true,
     buffer: false
   };
@@ -733,7 +735,9 @@
       wards: (layers.wards.features || []).length,
       outer: (layers.outer.features || []).length,
       buffer: (layers.buffer.features || []).length,
-      catchment: (layers.catchment && layers.catchment.features ? layers.catchment.features : []).length
+      catchment: (layers.catchment && layers.catchment.features ? layers.catchment.features : []).length,
+      subcatchments: (layers.subcatchments && layers.subcatchments.features ? layers.subcatchments.features : []).length,
+      wdtChannels: (layers.wdtChannels && layers.wdtChannels.features ? layers.wdtChannels.features : []).length
     };
     const outerArea = layers.outer.features[0] && layers.outer.features[0].properties.area_sqkm;
     const bufferArea = layers.buffer.features[0] && layers.buffer.features[0].properties.area_sqkm;
@@ -752,6 +756,7 @@
         ${layerRow('outer', 'Outer Boundary', `${formatNumber(outerArea, 2)} sq km`, 'poly', '#0b1f2a', '', counts.outer > 0)}
         ${counts.buffer > 0 ? layerRow('buffer', 'Buffer Area', `${formatNumber(bufferArea, 2)} sq km`, 'poly', '#c77d2a', '', true) : ''}
         ${counts.catchment > 0 ? layerRow('catchment', 'Catchment Boundary', `${formatNumber(catchmentArea, 2)} sq km`, 'poly', '#7c3aed', '', true) : ''}
+        ${counts.subcatchments > 0 ? layerRow('subcatchments', 'Subcatchments', `${formatNumber(counts.subcatchments, 0)} polygons · ${formatNumber(data.subcatchmentStats && data.subcatchmentStats.area_sqkm, 0)} sq km`, 'poly', '#0e7490', '', true) : ''}
       </div>
       <div class="layer-group">
         <p class="layer-group-title">Survey layers</p>
@@ -769,6 +774,7 @@
           ${drainClasses.has('Natural Stream') ? '<span><i class="line-key line-natural"></i>Natural Stream</span>' : ''}
           ${drainClasses.has('Unclassified') ? '<span><i class="line-key line-unclassified"></i>Unclassified</span>' : ''}
         </div>` : ''}
+        ${counts.wdtChannels > 0 ? layerRow('wdtChannels', 'WDT Channels', `${formatNumber(counts.wdtChannels, 0)} channels · ${formatNumber(data.wdtStats && data.wdtStats.length_km, 1)} km`, 'line', '#1d4ed8', '', true) : ''}
         ${counts.namedDrains > 0 ? layerRow('namedDrains', 'Primary Drains & Outfalls', `${formatNumber(data.namedDrainsStats.segments, 0)} segments · ${formatNumber(data.namedDrainsStats.points, 0)} points`, 'line', '#0f766e', '', true) : ''}
         ${counts.gcp > 0 ? layerRow('gcp', 'GCP Marked', `${formatNumber(gcpCount, 0)} points`, 'dot', '#d94f70', '', true) : ''}
         ${counts.tbm > 0 ? layerRow('tbm', 'TBM', `${formatNumber(counts.tbm, 0)} benchmark${counts.tbm === 1 ? '' : 's'}`, 'diamond', '#6d5aa8', '', true) : ''}
@@ -892,9 +898,11 @@
       orthoPane: 300,
       bufferPane: 350,
       catchmentPane: 345,
+      subcatchmentsPane: 335,
       outerPane: 360,
       blocksPane: 388,
       wardsPane: 385,
+      wdtPane: 386,
       drainsPane: 390,
       namedDrainsPane: 392,
       surveyPane: 395,
@@ -1151,6 +1159,32 @@
       });
     }
 
+    let subcatchments = null;
+    if (layers.subcatchments && layers.subcatchments.features.length) {
+      subcatchments = L.geoJSON(layers.subcatchments, {
+        pane: 'subcatchmentsPane',
+        renderer: L.canvas({ pane: 'subcatchmentsPane', padding: 0.5 }),
+        style: {
+          color: '#0e7490',
+          weight: 0.7,
+          opacity: 0.5,
+          fillColor: '#0e7490',
+          fillOpacity: 0.025,
+          lineJoin: 'round'
+        },
+        onEachFeature: (feature, layer) => {
+          const props = feature.properties;
+          layer.bindPopup(popupCard('Subcatchment', props.name, [
+            ['Area', formatNumber(props.area_sqkm != null ? props.area_sqkm * 100 : null, 1) + ' ha'],
+            ['Outlet', props.outlet || '—'],
+            ['Slope', props.slope_pct != null ? formatNumber(props.slope_pct, 2) + '%' : '—'],
+            ['Impervious', props.imperv_pct != null ? formatNumber(props.imperv_pct, 1) + '%' : '—'],
+            ['Source', props.source]
+          ], 'WDT model'));
+        }
+      });
+    }
+
     const wardLabels = L.layerGroup();
     const wards = L.geoJSON(layers.wards, {
       pane: 'wardsPane',
@@ -1256,6 +1290,31 @@
         layer.bindPopup(popupCard(title, props.name, rows, ''));
       }
     });
+
+    let wdtChannels = null;
+    if (layers.wdtChannels && layers.wdtChannels.features.length) {
+      wdtChannels = L.geoJSON(layers.wdtChannels, {
+        pane: 'wdtPane',
+        renderer: L.canvas({ pane: 'wdtPane', padding: 0.5 }),
+        style: {
+          color: '#1d4ed8',
+          weight: 1.1,
+          opacity: 0.75,
+          lineCap: 'round',
+          lineJoin: 'round'
+        },
+        onEachFeature: (feature, layer) => {
+          const props = feature.properties;
+          layer.bindPopup(popupCard('WDT channel', props.name, [
+            ['Length', props.length_m != null ? formatNumber(props.length_m, 0) + ' m' : '—'],
+            ['Width', props.width_m != null ? formatNumber(props.width_m, 1) + ' m' : '—'],
+            ['Slope', props.slope_pct != null ? formatNumber(props.slope_pct, 2) + '%' : '—'],
+            ['Type', props.tag || '—'],
+            ['Source', props.source]
+          ], 'WDT model'));
+        }
+      });
+    }
 
     let namedDrains = null;
     if (layers.namedDrains && layers.namedDrains.features.length) {
@@ -1437,6 +1496,8 @@
     state.layerGroups = { buffer, outer, wards: wardsGroup, blocks, drains, gcp, tbm };
     if (namedDrains) state.layerGroups.namedDrains = namedDrains;
     if (catchment) state.layerGroups.catchment = catchment;
+    if (subcatchments) state.layerGroups.subcatchments = subcatchments;
+    if (wdtChannels) state.layerGroups.wdtChannels = wdtChannels;
     if (staticPoints) state.layerGroups.static = staticPoints;
     if (surveyPoints) state.layerGroups.surveyPoints = L.layerGroup([surveyPoints]);
     if (photos) state.layerGroups.photos = photos;
